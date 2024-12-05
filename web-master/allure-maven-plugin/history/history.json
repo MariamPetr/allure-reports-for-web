@@ -1,20 +1,21 @@
 {
   "6f63a55223ff2b502b3f72c0c5c8bbb0" : {
     "statistic" : {
-      "failed" : 0,
+      "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "88b44401ff87b30d",
-      "status" : "passed",
+      "uid" : "6ce0cbde7996c3c3",
+      "status" : "failed",
+      "statusDetails" : "Invalid element state [span#login_name]: element click intercepted: Element <span id=\"login_name\" class=\"text is_auth hidden-sm desktop__login--name\">...</span> is not clickable at point (1361, 22). Other element would receive the click: <div class=\"flocktory-widget-overlay\" style=\"display: flex; z-index: 2147483647; position: fixed; top: 0px; left: 0px; justify-content: center; align-items: center; width: 100%; height: 100%; background: transparent; transform: none;\" data-showed-up=\"true\">...</div>\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1733396069339.2.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1733396069339.2.html\nTimeout: 10 s.\nCaused by: ElementClickInterceptedException: element click intercepted: Element <span id=\"login_name\" class=\"text is_auth hidden-sm desktop__login--name\">...</span> is not clickable at point (1361, 22). Other element would receive the click: <div class=\"flocktory-widget-overlay\" style=\"display: flex; z-index: 2147483647; position: fixed; top: 0px; left: 0px; justify-content: center; align-items: center; width: 100%; height: 100%; background: transparent; transform: none;\" data-showed-up=\"true\">...</div>",
       "time" : {
-        "start" : 1733394281834,
-        "stop" : 1733394292258,
-        "duration" : 10424
+        "start" : 1733396054544,
+        "stop" : 1733396069819,
+        "duration" : 15275
       }
     } ]
   },
@@ -28,12 +29,31 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "55cf9dbfc888edc",
+      "uid" : "5af7737503718957",
       "status" : "passed",
       "time" : {
-        "start" : 1733394190526,
-        "stop" : 1733394205360,
-        "duration" : 14834
+        "start" : 1733395993672,
+        "stop" : 1733396003278,
+        "duration" : 9606
+      }
+    } ]
+  },
+  "72e8e71b4ceeaf37c51d826eb56ea312" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7a2ab11c9ea19aa3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1733396024032,
+        "stop" : 1733396039124,
+        "duration" : 15092
       }
     } ]
   },
@@ -47,32 +67,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "a2f37bdffdd2bbbe",
+      "uid" : "c9d9467654a98e32",
       "status" : "passed",
       "time" : {
-        "start" : 1733394205408,
-        "stop" : 1733394234221,
-        "duration" : 28813
-      }
-    } ]
-  },
-  "72e8e71b4ceeaf37c51d826eb56ea312" : {
-    "statistic" : {
-      "failed" : 1,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "a105714fc846e3ad",
-      "status" : "failed",
-      "statusDetails" : "Element should be clickable: interactable and enabled {by text: Постеры}\nElement: '<a data-sub-link=\"sub-link\" href=\"https://netprint.ru/moscow/interior/pechat-na-plakatah-i-posterah\" displayed:false></a>'\nActual value: hidden, opacity=1\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1733394281245.2.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1733394281245.2.html\nTimeout: 10 s.",
-      "time" : {
-        "start" : 1733394266053,
-        "stop" : 1733394281819,
-        "duration" : 15766
+        "start" : 1733396069834,
+        "stop" : 1733396097328,
+        "duration" : 27494
       }
     } ]
   }
