@@ -1,20 +1,21 @@
 {
   "6f63a55223ff2b502b3f72c0c5c8bbb0" : {
     "statistic" : {
-      "failed" : 0,
+      "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "2fb6a55feef11bb",
-      "status" : "passed",
+      "uid" : "61c87d52e919ca41",
+      "status" : "failed",
+      "statusDetails" : "Invalid element state [span#login_name]: element click intercepted: Element <span id=\"login_name\" class=\"text is_auth hidden-sm desktop__login--name\">...</span> is not clickable at point (1361, 22). Other element would receive the click: <div class=\"flocktory-widget-overlay\" style=\"display: flex; z-index: 2147483647; position: fixed; top: 0px; left: 0px; justify-content: center; align-items: center; width: 100%; height: 100%; background: transparent; transform: none;\" data-showed-up=\"true\">...</div>\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1733988268797.1.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1733988268797.1.html\nTimeout: 10 s.\nCaused by: ElementClickInterceptedException: element click intercepted: Element <span id=\"login_name\" class=\"text is_auth hidden-sm desktop__login--name\">...</span> is not clickable at point (1361, 22). Other element would receive the click: <div class=\"flocktory-widget-overlay\" style=\"display: flex; z-index: 2147483647; position: fixed; top: 0px; left: 0px; justify-content: center; align-items: center; width: 100%; height: 100%; background: transparent; transform: none;\" data-showed-up=\"true\">...</div>",
       "time" : {
-        "start" : 1733986449975,
-        "stop" : 1733986460450,
-        "duration" : 10475
+        "start" : 1733988253473,
+        "stop" : 1733988269415,
+        "duration" : 15942
       }
     } ]
   },
@@ -28,31 +29,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "aef7afd8aee543cf",
+      "uid" : "55cd472f0b863cc3",
       "status" : "passed",
       "time" : {
-        "start" : 1733986391316,
-        "stop" : 1733986399875,
-        "duration" : 8559
-      }
-    } ]
-  },
-  "72e8e71b4ceeaf37c51d826eb56ea312" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "94c098b6f2846f8d",
-      "status" : "passed",
-      "time" : {
-        "start" : 1733986460469,
-        "stop" : 1733986469432,
-        "duration" : 8963
+        "start" : 1733988188985,
+        "stop" : 1733988197528,
+        "duration" : 8543
       }
     } ]
   },
@@ -66,12 +48,31 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "31f0efac23b67db7",
+      "uid" : "b0f7c4be726352f1",
       "status" : "passed",
       "time" : {
-        "start" : 1733986399918,
-        "stop" : 1733986431166,
-        "duration" : 31248
+        "start" : 1733988197569,
+        "stop" : 1733988228180,
+        "duration" : 30611
+      }
+    } ]
+  },
+  "72e8e71b4ceeaf37c51d826eb56ea312" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b57b35c16db86360",
+      "status" : "passed",
+      "time" : {
+        "start" : 1733988228185,
+        "stop" : 1733988237473,
+        "duration" : 9288
       }
     } ]
   }
