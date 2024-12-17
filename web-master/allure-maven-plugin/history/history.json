@@ -1,20 +1,21 @@
 {
   "6f63a55223ff2b502b3f72c0c5c8bbb0" : {
     "statistic" : {
-      "failed" : 0,
+      "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "333467719e4598de",
-      "status" : "passed",
+      "uid" : "989d9192e9fe0380",
+      "status" : "failed",
+      "statusDetails" : "Invalid element state [span#login_name]: element click intercepted: Element <span id=\"login_name\" class=\"text is_auth hidden-sm desktop__login--name\">...</span> is not clickable at point (1361, 22). Other element would receive the click: <div class=\"flocktory-widget-overlay\" style=\"display: flex; z-index: 2147483647; position: fixed; top: 0px; left: 0px; justify-content: center; align-items: center; width: 100%; height: 100%; background: transparent; transform: none;\" data-showed-up=\"true\">...</div>\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1734445482368.3.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1734445482368.3.html\nTimeout: 10 s.\nCaused by: ElementClickInterceptedException: element click intercepted: Element <span id=\"login_name\" class=\"text is_auth hidden-sm desktop__login--name\">...</span> is not clickable at point (1361, 22). Other element would receive the click: <div class=\"flocktory-widget-overlay\" style=\"display: flex; z-index: 2147483647; position: fixed; top: 0px; left: 0px; justify-content: center; align-items: center; width: 100%; height: 100%; background: transparent; transform: none;\" data-showed-up=\"true\">...</div>",
       "time" : {
-        "start" : 1734443648871,
-        "stop" : 1734443668895,
-        "duration" : 20024
+        "start" : 1734445461988,
+        "stop" : 1734445482593,
+        "duration" : 20605
       }
     } ]
   },
@@ -28,12 +29,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "796db24b5e1d15db",
+      "uid" : "d1440e25045139dc",
       "status" : "passed",
       "time" : {
-        "start" : 1734443591343,
-        "stop" : 1734443604072,
-        "duration" : 12729
+        "start" : 1734445482605,
+        "stop" : 1734445493997,
+        "duration" : 11392
       }
     } ]
   },
@@ -47,31 +48,32 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "1ac4250f696803",
+      "uid" : "939d4e24318b43c6",
       "status" : "passed",
       "time" : {
-        "start" : 1734443641294,
-        "stop" : 1734443648868,
-        "duration" : 7574
+        "start" : 1734445433975,
+        "stop" : 1734445441901,
+        "duration" : 7926
       }
     } ]
   },
   "a9f76e9f0c22a8e5ba1a14a97727300a" : {
     "statistic" : {
-      "failed" : 0,
+      "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "5390c20d8daded81",
-      "status" : "passed",
+      "uid" : "8597db51db0babc8",
+      "status" : "failed",
+      "statusDetails" : "Element should be clickable: interactable and enabled {by text: Карманный календарик}\nElement: '<a data-sub-link=\"sub-link\" href=\"https://netprint.ru/moscow/calendars/karmannye-kalendari\" displayed:false></a>'\nActual value: hidden, opacity=1\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1734445512094.4.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1734445512094.4.html\nTimeout: 10 s.",
       "time" : {
-        "start" : 1734443604114,
-        "stop" : 1734443641291,
-        "duration" : 37177
+        "start" : 1734445494001,
+        "stop" : 1734445512305,
+        "duration" : 18304
       }
     } ]
   }
