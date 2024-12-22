@@ -4,22 +4,39 @@
   "children" : [ {
     "name" : "Product defects",
     "children" : [ {
-      "name" : "Element not found {button.order-delivery-switch}\nExpected: clickable: interactable and enabled\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1734855907164.1.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1734855907164.1.html\nTimeout: 15 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"button.order-delivery-switch\"}",
+      "name" : "Invalid element state [by text: Выбрать тему оформления]: element click intercepted: Element is not clickable at point (1375, 839)\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1734857705112.2.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1734857705112.2.html\nTimeout: 15 s.\nCaused by: ElementClickInterceptedException: element click intercepted: Element is not clickable at point (1375, 839)",
       "children" : [ {
-        "name" : "Заказ карманного календарика: авторизованный юзер",
-        "uid" : "209bfc4842c13081",
-        "parentUid" : "34ac9df9a690c8670f070bf4196a9d6d",
+        "name" : "Заказ постера: неавторизованный юзер",
+        "uid" : "842285d869f2d629",
+        "parentUid" : "98e8a687c1103b5b45da1b7331062e68",
         "status" : "failed",
         "time" : {
-          "start" : 1734855868749,
-          "stop" : 1734855907548,
-          "duration" : 38799
+          "start" : 1734857684389,
+          "stop" : 1734857705651,
+          "duration" : 21262
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "34ac9df9a690c8670f070bf4196a9d6d"
+      "uid" : "98e8a687c1103b5b45da1b7331062e68"
+    }, {
+      "name" : "Element not found {button.order-delivery-switch}\nExpected: clickable: interactable and enabled\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1734857744530.3.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1734857744530.3.html\nTimeout: 15 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"button.order-delivery-switch\"}",
+      "children" : [ {
+        "name" : "Заказ карманного календарика: авторизованный юзер",
+        "uid" : "491b09c3f3b9796a",
+        "parentUid" : "282b0c90688e6ad616a5fc07e5c99fa1",
+        "status" : "failed",
+        "time" : {
+          "start" : 1734857705659,
+          "stop" : 1734857744875,
+          "duration" : 39216
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "282b0c90688e6ad616a5fc07e5c99fa1"
     } ],
     "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
   } ]
