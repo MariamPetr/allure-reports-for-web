@@ -2,45 +2,24 @@
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "name" : "categories",
   "children" : [ {
-    "name" : "Test defects",
-    "children" : [ {
-      "name" : "timeout: Timed out receiving message from renderer: -0.146\n  (Session info: chrome=131.0.6778.86)\nBuild info: version: '4.12.1', revision: '8e34639b11'\nSystem info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.3.1', java.version: '22'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [0fdbbe759b63fc0b47540a711f875a26, get {url=https://netprint.ru/}]\nselenide.url: https://netprint.ru/\nCapabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 131.0.6778.86, chrome: {chromedriverVersion: 131.0.6778.204 (52183f9e99a..., userDataDir: /var/folders/y4/1rkt9z0s363...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53916}, networkConnectionEnabled: false, pageLoadStrategy: eager, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:53916/devtoo..., se:cdpVersion: 131.0.6778.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nselenide.baseUrl: https://netprint.ru/\nSession ID: 0fdbbe759b63fc0b47540a711f875a26",
-      "children" : [ {
-        "name" : "Заказ постера: неавторизованный юзер",
-        "uid" : "ec00f52dd994c303",
-        "parentUid" : "8abaf7f0eab16ed0e38fce48f592c2a1",
-        "status" : "broken",
-        "time" : {
-          "start" : 1734850507590,
-          "stop" : 1734850539180,
-          "duration" : 31590
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "8abaf7f0eab16ed0e38fce48f592c2a1"
-    } ],
-    "uid" : "bdbf199525818fae7a8651db9eafe741"
-  }, {
     "name" : "Product defects",
     "children" : [ {
-      "name" : "Element not found {button.order-delivery-switch}\nExpected: clickable: interactable and enabled\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1734850607409.1.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1734850607409.1.html\nTimeout: 15 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"button.order-delivery-switch\"}",
+      "name" : "Element not found {button.order-delivery-switch}\nExpected: clickable: interactable and enabled\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1734852330949.2.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1734852330949.2.html\nTimeout: 15 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"button.order-delivery-switch\"}",
       "children" : [ {
         "name" : "Заказ карманного календарика: авторизованный юзер",
-        "uid" : "13c6a29dd88163e1",
-        "parentUid" : "524b61fb46cc5fceb1753f1d1cbde60a",
+        "uid" : "a3158249b8cd1650",
+        "parentUid" : "9830b366af1069cd25426335f94e4986",
         "status" : "failed",
         "time" : {
-          "start" : 1734850570213,
-          "stop" : 1734850607903,
-          "duration" : 37690
+          "start" : 1734852293231,
+          "stop" : 1734852331348,
+          "duration" : 38117
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "524b61fb46cc5fceb1753f1d1cbde60a"
+      "uid" : "9830b366af1069cd25426335f94e4986"
     } ],
     "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
   } ]
