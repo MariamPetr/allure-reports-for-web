@@ -9,12 +9,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "238a0fe5944c93f5",
+      "uid" : "ce98d7d4b7ca2300",
       "status" : "passed",
       "time" : {
-        "start" : 1734866655266,
-        "stop" : 1734866671862,
-        "duration" : 16596
+        "start" : 1734868450446,
+        "stop" : 1734868466578,
+        "duration" : 16132
       }
     } ]
   },
@@ -28,31 +28,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "84b2242d09715f65",
+      "uid" : "5dac4691e937c8cb",
       "status" : "passed",
       "time" : {
-        "start" : 1734866594657,
-        "stop" : 1734866609813,
-        "duration" : 15156
-      }
-    } ]
-  },
-  "72e8e71b4ceeaf37c51d826eb56ea312" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "33955005b55d4b8d",
-      "status" : "passed",
-      "time" : {
-        "start" : 1734866671882,
-        "stop" : 1734866680278,
-        "duration" : 8396
+        "start" : 1734868389965,
+        "stop" : 1734868404762,
+        "duration" : 14797
       }
     } ]
   },
@@ -66,13 +47,33 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "4fe31e0dd00f8f5",
+      "uid" : "a21ec07076ae32b0",
       "status" : "failed",
-      "statusDetails" : "Element not found {button.order-delivery-switch}\nExpected: clickable: interactable and enabled\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1734866719728.2.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1734866719728.2.html\nTimeout: 15 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"button.order-delivery-switch\"}",
+      "statusDetails" : "Element not found {button.order-delivery-switch}\nExpected: clickable: interactable and enabled\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1734868529758.3.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1734868529758.3.html\nTimeout: 15 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"button.order-delivery-switch\"}",
       "time" : {
-        "start" : 1734866680283,
-        "stop" : 1734866720211,
-        "duration" : 39928
+        "start" : 1734868488985,
+        "stop" : 1734868530174,
+        "duration" : 41189
+      }
+    } ]
+  },
+  "72e8e71b4ceeaf37c51d826eb56ea312" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7a8afd1c8f8721cb",
+      "status" : "failed",
+      "statusDetails" : "Invalid element state [by text: Выбрать тему оформления]: element click intercepted: Element <div class=\"btn btn-primary product-card-bottom-btn-order btn-order--js\" id=\"old-choose-theme-btn-standard\" style=\"\" ga-action-click-type=\"click.ProductPage\" ga-action=\"click\" ga-action-click-omsid=\"PRODUCTION_POSTER\">...</div> is not clickable at point (1375, 812). Other element would receive the click: <div class=\"flocktory-widget-overlay\" style=\"display: flex; z-index: 2147483647; position: fixed; top: 0px; left: 0px; justify-content: center; align-items: center; width: 100%; height: 100%; background: transparent; transform: none;\" data-showed-up=\"true\">...</div>\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1734868488614.2.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1734868488614.2.html\nTimeout: 15 s.\nCaused by: ElementClickInterceptedException: element click intercepted: Element <div class=\"btn btn-primary product-card-bottom-btn-order btn-order--js\" id=\"old-choose-theme-btn-standard\" style=\"\" ga-action-click-type=\"click.ProductPage\" ga-action=\"click\" ga-action-click-omsid=\"PRODUCTION_POSTER\">...</div> is not clickable at point (1375, 812). Other element would receive the click: <div class=\"flocktory-widget-overlay\" style=\"display: flex; z-index: 2147483647; position: fixed; top: 0px; left: 0px; justify-content: center; align-items: center; width: 100%; height: 100%; background: transparent; transform: none;\" data-showed-up=\"true\">...</div>",
+      "time" : {
+        "start" : 1734868466605,
+        "stop" : 1734868488968,
+        "duration" : 22363
       }
     } ]
   }
