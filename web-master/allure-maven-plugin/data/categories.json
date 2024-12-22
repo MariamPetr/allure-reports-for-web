@@ -4,22 +4,39 @@
   "children" : [ {
     "name" : "Product defects",
     "children" : [ {
-      "name" : "Element not found {button.order-delivery-switch}\nExpected: clickable: interactable and enabled\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1734861359243.3.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1734861359243.3.html\nTimeout: 15 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"button.order-delivery-switch\"}",
+      "name" : "Element should be clickable: interactable and enabled {span#login_name}\nElement: '<span class=\"text is_auth hidden-sm desktop__login--name\" id=\"login_name\" displayed:false></span>'\nActual value: hidden, opacity=1\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1734863098810.2.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1734863098810.2.html\nTimeout: 15 s.",
       "children" : [ {
-        "name" : "Заказ карманного календарика: авторизованный юзер",
-        "uid" : "4dbc7a6b7d84279b",
-        "parentUid" : "819ce471c503d4ab1de521eac37ad453",
+        "name" : "Пополнение лицевого счёта в личном кабинете",
+        "uid" : "6324649ba04e9fee",
+        "parentUid" : "64ff8b57e379821d9adc9872a2e3921e",
         "status" : "failed",
         "time" : {
-          "start" : 1734861321044,
-          "stop" : 1734861359713,
-          "duration" : 38669
+          "start" : 1734863075151,
+          "stop" : 1734863099416,
+          "duration" : 24265
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "819ce471c503d4ab1de521eac37ad453"
+      "uid" : "64ff8b57e379821d9adc9872a2e3921e"
+    }, {
+      "name" : "Element not found {button.order-delivery-switch}\nExpected: clickable: interactable and enabled\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1734863149050.3.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1734863149050.3.html\nTimeout: 15 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"button.order-delivery-switch\"}",
+      "children" : [ {
+        "name" : "Заказ карманного календарика: авторизованный юзер",
+        "uid" : "9e7759cf103ffa72",
+        "parentUid" : "ccddc0b2753251b9f21a9ea540f6ccc1",
+        "status" : "failed",
+        "time" : {
+          "start" : 1734863099426,
+          "stop" : 1734863149601,
+          "duration" : 50175
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ccddc0b2753251b9f21a9ea540f6ccc1"
     } ],
     "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
   } ]
