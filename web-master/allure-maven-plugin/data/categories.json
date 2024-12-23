@@ -4,56 +4,73 @@
   "children" : [ {
     "name" : "Product defects",
     "children" : [ {
-      "name" : "Element should be clickable: interactable and enabled {span#login_name}\nElement: '<span class=\"text is_auth hidden-sm desktop__login--name\" id=\"login_name\" displayed:false></span>'\nActual value: hidden, opacity=1\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1734954924848.3.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1734954924848.3.html\nTimeout: 15 s.",
+      "name" : "Invalid element state [by text: Выбрать тему оформления]: element click intercepted: Element <div class=\"btn btn-primary product-card-bottom-btn-order btn-order--js\" id=\"old-choose-theme-btn-standard\" style=\"\" ga-action-click-type=\"click.ProductPage\" ga-action=\"click\" ga-action-click-omsid=\"PRODUCTION_POSTER\">...</div> is not clickable at point (1375, 812). Other element would receive the click: <div class=\"flocktory-widget-overlay\" style=\"display: flex; z-index: 2147483647; position: fixed; top: 0px; left: 0px; justify-content: center; align-items: center; width: 100%; height: 100%; background: transparent; transform: none;\" data-showed-up=\"true\">...</div>\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1734956731640.4.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1734956731640.4.html\nTimeout: 15 s.\nCaused by: ElementClickInterceptedException: element click intercepted: Element <div class=\"btn btn-primary product-card-bottom-btn-order btn-order--js\" id=\"old-choose-theme-btn-standard\" style=\"\" ga-action-click-type=\"click.ProductPage\" ga-action=\"click\" ga-action-click-omsid=\"PRODUCTION_POSTER\">...</div> is not clickable at point (1375, 812). Other element would receive the click: <div class=\"flocktory-widget-overlay\" style=\"display: flex; z-index: 2147483647; position: fixed; top: 0px; left: 0px; justify-content: center; align-items: center; width: 100%; height: 100%; background: transparent; transform: none;\" data-showed-up=\"true\">...</div>",
+      "children" : [ {
+        "name" : "Заказ постера: неавторизованный юзер",
+        "uid" : "4f6dc885026f9e16",
+        "parentUid" : "5500dfddcb3dd91fe6120f2d602eb00a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1734956710603,
+          "stop" : 1734956731982,
+          "duration" : 21379
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5500dfddcb3dd91fe6120f2d602eb00a"
+    }, {
+      "name" : "Element should be clickable: interactable and enabled {span#login_name}\nElement: '<span class=\"text is_auth hidden-sm desktop__login--name\" id=\"login_name\" displayed:false></span>'\nActual value: hidden, opacity=1\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1734956756304.5.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1734956756304.5.html\nTimeout: 15 s.",
       "children" : [ {
         "name" : "Загрузка фото в альбом",
-        "uid" : "19d7129750ee5386",
-        "parentUid" : "c7596444fd0feacc3490cf665c8590b4",
+        "uid" : "3505463559b068b6",
+        "parentUid" : "58629a3b9c8402419bec4658867500b5",
         "status" : "failed",
         "time" : {
-          "start" : 1734954901109,
-          "stop" : 1734954925362,
-          "duration" : 24253
+          "start" : 1734956731999,
+          "stop" : 1734956756857,
+          "duration" : 24858
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "c7596444fd0feacc3490cf665c8590b4"
+      "uid" : "58629a3b9c8402419bec4658867500b5"
     }, {
-      "name" : "Element should be clickable: interactable and enabled {span#login_name}\nElement: '<span class=\"text is_auth hidden-sm desktop__login--name\" id=\"login_name\" displayed:false></span>'\nActual value: hidden, opacity=1\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1734954949646.4.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1734954949646.4.html\nTimeout: 15 s.",
+      "name" : "Element should be clickable: interactable and enabled {span#login_name}\nElement: '<span class=\"text is_auth hidden-sm desktop__login--name\" id=\"login_name\" displayed:false></span>'\nActual value: hidden, opacity=1\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1734956781101.6.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1734956781101.6.html\nTimeout: 15 s.",
       "children" : [ {
         "name" : "Пополнение лицевого счёта в личном кабинете",
-        "uid" : "492ff4b69eab8a3e",
-        "parentUid" : "c9a76628b3b3bdb525546bbb472452d4",
+        "uid" : "51d7a9cc55565e3c",
+        "parentUid" : "499a81ef51b4530590acc633d0de82f0",
         "status" : "failed",
         "time" : {
-          "start" : 1734954925537,
-          "stop" : 1734954950217,
-          "duration" : 24680
+          "start" : 1734956756869,
+          "stop" : 1734956781604,
+          "duration" : 24735
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "c9a76628b3b3bdb525546bbb472452d4"
+      "uid" : "499a81ef51b4530590acc633d0de82f0"
     }, {
-      "name" : "Invalid element state [i.material-icons[10]]: element click intercepted: Element <i class=\"material-icons\">...</i> is not clickable at point (1219, 790). Other element would receive the click: <div style=\"background: rgba(0, 0, 0, 0.4); position: fixed; z-index: 110; opacity: 0.7; left: 0px; top: 0px; width: 1920px; height: 1487px;\"></div>\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1734954982358.5.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1734954982358.5.html\nTimeout: 15 s.\nCaused by: ElementClickInterceptedException: element click intercepted: Element <i class=\"material-icons\">...</i> is not clickable at point (1219, 790). Other element would receive the click: <div style=\"background: rgba(0, 0, 0, 0.4); position: fixed; z-index: 110; opacity: 0.7; left: 0px; top: 0px; width: 1920px; height: 1487px;\"></div>",
+      "name" : "Element not found {button.order-delivery-switch}\nExpected: clickable: interactable and enabled\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1734956828937.7.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1734956828937.7.html\nTimeout: 15 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"button.order-delivery-switch\"}",
       "children" : [ {
         "name" : "Заказ карманного календарика: авторизованный юзер",
-        "uid" : "a905cc543e697115",
-        "parentUid" : "f5541ece4e8e63ac69147c00d6605d7e",
+        "uid" : "a28c66b89747a849",
+        "parentUid" : "ff9d15f151e49113e39718d2d2799e96",
         "status" : "failed",
         "time" : {
-          "start" : 1734954950236,
-          "stop" : 1734954982952,
-          "duration" : 32716
+          "start" : 1734956781609,
+          "stop" : 1734956829243,
+          "duration" : 47634
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "f5541ece4e8e63ac69147c00d6605d7e"
+      "uid" : "ff9d15f151e49113e39718d2d2799e96"
     } ],
     "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
   } ]
