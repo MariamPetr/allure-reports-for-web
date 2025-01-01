@@ -9,12 +9,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "99d2c3b1848d90fa",
+      "uid" : "568c8c7880849943",
       "status" : "passed",
       "time" : {
-        "start" : 1735714451870,
-        "stop" : 1735714466987,
-        "duration" : 15117
+        "start" : 1735716260516,
+        "stop" : 1735716275106,
+        "duration" : 14590
       }
     } ]
   },
@@ -28,31 +28,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "9b3221a7a8e4da09",
+      "uid" : "fe580c452c31284a",
       "status" : "passed",
       "time" : {
-        "start" : 1735714391325,
-        "stop" : 1735714404172,
-        "duration" : 12847
-      }
-    } ]
-  },
-  "72e8e71b4ceeaf37c51d826eb56ea312" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "8c75f643726df380",
-      "status" : "passed",
-      "time" : {
-        "start" : 1735714467001,
-        "stop" : 1735714474965,
-        "duration" : 7964
+        "start" : 1735716196389,
+        "stop" : 1735716209058,
+        "duration" : 12669
       }
     } ]
   },
@@ -66,12 +47,32 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "d6fe2c909b04380d",
+      "uid" : "a2497124bc388844",
       "status" : "passed",
       "time" : {
-        "start" : 1735714474969,
-        "stop" : 1735714517000,
-        "duration" : 42031
+        "start" : 1735716209098,
+        "stop" : 1735716240092,
+        "duration" : 30994
+      }
+    } ]
+  },
+  "72e8e71b4ceeaf37c51d826eb56ea312" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a9411bf291d50f8d",
+      "status" : "failed",
+      "statusDetails" : "Invalid element state [by text: Выбрать тему оформления]: element click intercepted: Element <div class=\"btn btn-primary product-card-bottom-btn-order btn-order--js\" id=\"old-choose-theme-btn-standard\" style=\"\" ga-action-click-type=\"click.ProductPage\" ga-action=\"click\" ga-action-click-omsid=\"PRODUCTION_POSTER\">...</div> is not clickable at point (1375, 812). Other element would receive the click: <div class=\"flocktory-widget-overlay\" style=\"display: flex; z-index: 2147483647; position: fixed; top: 0px; left: 0px; justify-content: center; align-items: center; width: 100%; height: 100%; background: transparent; transform: none;\" data-showed-up=\"true\">...</div>\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1735716296189.1.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1735716296189.1.html\nTimeout: 15 s.\nCaused by: ElementClickInterceptedException: element click intercepted: Element <div class=\"btn btn-primary product-card-bottom-btn-order btn-order--js\" id=\"old-choose-theme-btn-standard\" style=\"\" ga-action-click-type=\"click.ProductPage\" ga-action=\"click\" ga-action-click-omsid=\"PRODUCTION_POSTER\">...</div> is not clickable at point (1375, 812). Other element would receive the click: <div class=\"flocktory-widget-overlay\" style=\"display: flex; z-index: 2147483647; position: fixed; top: 0px; left: 0px; justify-content: center; align-items: center; width: 100%; height: 100%; background: transparent; transform: none;\" data-showed-up=\"true\">...</div>",
+      "time" : {
+        "start" : 1735716275119,
+        "stop" : 1735716296711,
+        "duration" : 21592
       }
     } ]
   }
