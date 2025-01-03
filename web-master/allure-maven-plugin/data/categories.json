@@ -2,25 +2,25 @@
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "name" : "categories",
   "children" : [ {
-    "name" : "Product defects",
+    "name" : "Test defects",
     "children" : [ {
-      "name" : "Invalid element state [by text: Выбрать тему оформления]: element click intercepted: Element is not clickable at point (1375, 872)\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1735878292249.1.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1735878292249.1.html\nTimeout: 15 s.\nCaused by: ElementClickInterceptedException: element click intercepted: Element is not clickable at point (1375, 872)",
+      "name" : "Could not start a new session. Response code 500. Message: session not created\nfrom chrome not reachable \nHost info: host: 'Macs-Mac-mini.local', ip: 'fe80:0:0:0:14cb:f68c:7eca:8d44%en0'\nBuild info: version: '4.12.1', revision: '8e34639b11'\nSystem info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.3.1', java.version: '22'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*, --proxy-bypass-list=<-loopb..., --disable-dev-shm-usage, --window-size=1920,1080], binary: /Applications/Google Chrome..., excludeSwitches: [enable-automation, load-extension], extensions: [], prefs: {credentials_enable_service: false, download.default_directory: /Users/tester/builds/DPBWpF..., plugins.always_open_pdf_externally: true, profile.default_content_setting_values.automatic_downloads: 1, safebrowsing.enabled: true}}, pageLoadStrategy: eager, unhandledPromptBehavior: accept}]}]\nselenide.url: https://netprint.ru/\nselenide.baseUrl: https://netprint.ru/",
       "children" : [ {
         "name" : "Заказ постера: неавторизованный юзер",
-        "uid" : "3dd71e713919412c",
-        "parentUid" : "fef9048dec4c447fdc59f63ac2d16b07",
-        "status" : "failed",
+        "uid" : "8f36ba0f95c77718",
+        "parentUid" : "a679cfc8333eab8f994ba88afc5e242c",
+        "status" : "broken",
         "time" : {
-          "start" : 1735878271217,
-          "stop" : 1735878292605,
-          "duration" : 21388
+          "start" : 1735880069142,
+          "stop" : 1735880130019,
+          "duration" : 60877
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "fef9048dec4c447fdc59f63ac2d16b07"
+      "uid" : "a679cfc8333eab8f994ba88afc5e242c"
     } ],
-    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
   } ]
 }
