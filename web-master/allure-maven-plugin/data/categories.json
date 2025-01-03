@@ -4,22 +4,39 @@
   "children" : [ {
     "name" : "Product defects",
     "children" : [ {
-      "name" : "Invalid element state [by text: Выбрать тему оформления]: element click intercepted: Element is not clickable at point (1375, 846)\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1735910693257.1.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1735910693257.1.html\nTimeout: 15 s.\nCaused by: ElementClickInterceptedException: element click intercepted: Element is not clickable at point (1375, 846)",
+      "name" : "Invalid element state [by text: Выбрать тему оформления]: element click intercepted: Element <div class=\"btn btn-primary product-card-bottom-btn-order btn-order--js\" id=\"old-choose-theme-btn-standard\" style=\"\" ga-action-click-type=\"click.ProductPage\" ga-action=\"click\" ga-action-click-omsid=\"PRODUCTION_POSTER\">...</div> is not clickable at point (1375, 812). Other element would receive the click: <div class=\"flocktory-widget-overlay\" style=\"display: flex; z-index: 2147483647; position: fixed; top: 0px; left: 0px; justify-content: center; align-items: center; width: 100%; height: 100%; background: transparent; transform: none;\" data-showed-up=\"true\">...</div>\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1735912494301.2.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1735912494301.2.html\nTimeout: 15 s.\nCaused by: ElementClickInterceptedException: element click intercepted: Element <div class=\"btn btn-primary product-card-bottom-btn-order btn-order--js\" id=\"old-choose-theme-btn-standard\" style=\"\" ga-action-click-type=\"click.ProductPage\" ga-action=\"click\" ga-action-click-omsid=\"PRODUCTION_POSTER\">...</div> is not clickable at point (1375, 812). Other element would receive the click: <div class=\"flocktory-widget-overlay\" style=\"display: flex; z-index: 2147483647; position: fixed; top: 0px; left: 0px; justify-content: center; align-items: center; width: 100%; height: 100%; background: transparent; transform: none;\" data-showed-up=\"true\">...</div>",
       "children" : [ {
         "name" : "Заказ постера: неавторизованный юзер",
-        "uid" : "ddbab18b3462fa9b",
-        "parentUid" : "205247eff8e925d2003dc1b8f7487264",
+        "uid" : "54fd96f2144ae041",
+        "parentUid" : "a64f761e3a149a81ac3e940585fb8e62",
         "status" : "failed",
         "time" : {
-          "start" : 1735910672337,
-          "stop" : 1735910693754,
-          "duration" : 21417
+          "start" : 1735912473021,
+          "stop" : 1735912494641,
+          "duration" : 21620
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "205247eff8e925d2003dc1b8f7487264"
+      "uid" : "a64f761e3a149a81ac3e940585fb8e62"
+    }, {
+      "name" : "Element not found {button.add-photo--js}\nExpected: clickable: interactable and enabled\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1735912521127.3.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1735912521127.3.html\nTimeout: 15 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"button.add-photo--js\"}",
+      "children" : [ {
+        "name" : "Заказ карманного календарика: авторизованный юзер",
+        "uid" : "bfbd7e967e19d12b",
+        "parentUid" : "90c182c835b93649b80943c4bfc464a9",
+        "status" : "failed",
+        "time" : {
+          "start" : 1735912494658,
+          "stop" : 1735912521688,
+          "duration" : 27030
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "90c182c835b93649b80943c4bfc464a9"
     } ],
     "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
   } ]

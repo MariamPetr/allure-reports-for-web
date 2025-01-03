@@ -9,12 +9,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "fc526826e8548ec0",
+      "uid" : "14cfbf83b63994c4",
       "status" : "passed",
       "time" : {
-        "start" : 1735910657672,
-        "stop" : 1735910672322,
-        "duration" : 14650
+        "start" : 1735912457769,
+        "stop" : 1735912473004,
+        "duration" : 15235
       }
     } ]
   },
@@ -28,31 +28,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "e85fc22a2125f43",
+      "uid" : "67e99630b5b6e0e4",
       "status" : "passed",
       "time" : {
-        "start" : 1735910591334,
-        "stop" : 1735910603716,
-        "duration" : 12382
-      }
-    } ]
-  },
-  "a9f76e9f0c22a8e5ba1a14a97727300a" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "cca087429f0b86c8",
-      "status" : "passed",
-      "time" : {
-        "start" : 1735910603753,
-        "stop" : 1735910636060,
-        "duration" : 32307
+        "start" : 1735912394664,
+        "stop" : 1735912406599,
+        "duration" : 11935
       }
     } ]
   },
@@ -66,13 +47,33 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "ddbab18b3462fa9b",
+      "uid" : "54fd96f2144ae041",
       "status" : "failed",
-      "statusDetails" : "Invalid element state [by text: Выбрать тему оформления]: element click intercepted: Element is not clickable at point (1375, 846)\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1735910693257.1.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1735910693257.1.html\nTimeout: 15 s.\nCaused by: ElementClickInterceptedException: element click intercepted: Element is not clickable at point (1375, 846)",
+      "statusDetails" : "Invalid element state [by text: Выбрать тему оформления]: element click intercepted: Element <div class=\"btn btn-primary product-card-bottom-btn-order btn-order--js\" id=\"old-choose-theme-btn-standard\" style=\"\" ga-action-click-type=\"click.ProductPage\" ga-action=\"click\" ga-action-click-omsid=\"PRODUCTION_POSTER\">...</div> is not clickable at point (1375, 812). Other element would receive the click: <div class=\"flocktory-widget-overlay\" style=\"display: flex; z-index: 2147483647; position: fixed; top: 0px; left: 0px; justify-content: center; align-items: center; width: 100%; height: 100%; background: transparent; transform: none;\" data-showed-up=\"true\">...</div>\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1735912494301.2.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1735912494301.2.html\nTimeout: 15 s.\nCaused by: ElementClickInterceptedException: element click intercepted: Element <div class=\"btn btn-primary product-card-bottom-btn-order btn-order--js\" id=\"old-choose-theme-btn-standard\" style=\"\" ga-action-click-type=\"click.ProductPage\" ga-action=\"click\" ga-action-click-omsid=\"PRODUCTION_POSTER\">...</div> is not clickable at point (1375, 812). Other element would receive the click: <div class=\"flocktory-widget-overlay\" style=\"display: flex; z-index: 2147483647; position: fixed; top: 0px; left: 0px; justify-content: center; align-items: center; width: 100%; height: 100%; background: transparent; transform: none;\" data-showed-up=\"true\">...</div>",
       "time" : {
-        "start" : 1735910672337,
-        "stop" : 1735910693754,
-        "duration" : 21417
+        "start" : 1735912473021,
+        "stop" : 1735912494641,
+        "duration" : 21620
+      }
+    } ]
+  },
+  "a9f76e9f0c22a8e5ba1a14a97727300a" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "bfbd7e967e19d12b",
+      "status" : "failed",
+      "statusDetails" : "Element not found {button.add-photo--js}\nExpected: clickable: interactable and enabled\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1735912521127.3.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1735912521127.3.html\nTimeout: 15 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"button.add-photo--js\"}",
+      "time" : {
+        "start" : 1735912494658,
+        "stop" : 1735912521688,
+        "duration" : 27030
       }
     } ]
   }
