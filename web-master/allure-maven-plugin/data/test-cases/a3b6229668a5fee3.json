@@ -1,0 +1,155 @@
+{
+  "uid" : "a3b6229668a5fee3",
+  "name" : "Пополнение лицевого счёта в личном кабинете",
+  "fullName" : "Test.test.DemoOrderTest.orderTopUpAccount",
+  "historyId" : "4f5f83cf19e9552f29e1229aa2f1544a",
+  "time" : {
+    "start" : 1736654083984,
+    "stop" : 1736654094072,
+    "duration" : 10088
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Авторизация по имейлу",
+      "time" : {
+        "start" : 1736654086417,
+        "stop" : 1736654091799,
+        "duration" : 5382
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Открыть личный кабинет",
+      "time" : {
+        "start" : 1736654091799,
+        "stop" : 1736654092732,
+        "duration" : 933
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Выбор раздела Мои финансы",
+      "time" : {
+        "start" : 1736654092732,
+        "stop" : 1736654093064,
+        "duration" : 332
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Заполнить данные для пополнения Лицевого счета",
+      "time" : {
+        "start" : 1736654093064,
+        "stop" : 1736654093723,
+        "duration" : 659
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "sum",
+        "value" : "11"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Закрываем браузер",
+      "time" : {
+        "start" : 1736654093723,
+        "stop" : 1736654094072,
+        "duration" : 349
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "Macs-Mac-mini.local"
+  }, {
+    "name" : "thread",
+    "value" : "80558@Macs-Mac-mini.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "Test.test.DemoOrderTest"
+  }, {
+    "name" : "testClass",
+    "value" : "Test.test.DemoOrderTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "orderTopUpAccount"
+  }, {
+    "name" : "suite",
+    "value" : "Test.test.DemoOrderTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "34c890564471922",
+      "status" : "failed",
+      "statusDetails" : "Element not found {by text: Мои финансы}\nExpected: clickable: interactable and enabled\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1736654023236.0.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1736654023236.0.html\nTimeout: 15 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\".//*/text()[normalize-space(translate(string(.), '",
+      "time" : {
+        "start" : 1736653997756,
+        "stop" : 1736654023621,
+        "duration" : 25865
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a3b6229668a5fee3.json",
+  "parameterValues" : [ ]
+}
