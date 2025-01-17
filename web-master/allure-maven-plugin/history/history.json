@@ -3,18 +3,38 @@
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b92e8bc2ed21d84",
+      "status" : "skipped",
+      "statusDetails" : "void Test.test.DemoOrderTest.uploadPhotoInAlbum() is @Disabled",
+      "time" : {
+        "start" : 1737105817107,
+        "stop" : 1737105817107,
+        "duration" : 0
+      }
+    } ]
+  },
+  "26e4a7a45816be3de7dd8338a049d35f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
       "skipped" : 0,
       "passed" : 1,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "67f853562f37c1a",
+      "uid" : "5720d7930906b112",
       "status" : "passed",
       "time" : {
-        "start" : 1737104046119,
-        "stop" : 1737104061489,
-        "duration" : 15370
+        "start" : 1737105813851,
+        "stop" : 1737105817105,
+        "duration" : 3254
       }
     } ]
   },
@@ -28,12 +48,32 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "6c383cce08524101",
+      "uid" : "63c0ce781a4b8f41",
       "status" : "passed",
       "time" : {
-        "start" : 1737103992227,
-        "stop" : 1737104004115,
-        "duration" : 11888
+        "start" : 1737105805669,
+        "stop" : 1737105813846,
+        "duration" : 8177
+      }
+    } ]
+  },
+  "7c828c0463072ac07efc4bbe655dd48a" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "da4cf844f7eae1d5",
+      "status" : "failed",
+      "statusDetails" : "Element should have text \"Новый заказ - ожидает обработки. На этом этапе заказ можно отменить.\" {div span[51]}\nElement: '<span>Заказ отменен</span>'\nActual value: text=\"Заказ отменен\"\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1737105841225.1.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1737105841225.1.html\nTimeout: 15 s.",
+      "time" : {
+        "start" : 1737105841343,
+        "stop" : 1737105841343,
+        "duration" : 0
       }
     } ]
   },
@@ -41,18 +81,19 @@
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
+      "skipped" : 1,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "6f137879283c1f87",
-      "status" : "passed",
+      "uid" : "bda73d9b9a3bea94",
+      "status" : "skipped",
+      "statusDetails" : "void Test.test.DemoOrderTest.calendOrderAuthorised() is @Disabled",
       "time" : {
-        "start" : 1737104004151,
-        "stop" : 1737104036066,
-        "duration" : 31915
+        "start" : 1737105813850,
+        "stop" : 1737105813850,
+        "duration" : 0
       }
     } ]
   },
@@ -60,18 +101,19 @@
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
+      "skipped" : 1,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "2ef702740b2a9e81",
-      "status" : "passed",
+      "uid" : "f08050a9fbf91d63",
+      "status" : "skipped",
+      "statusDetails" : "void Test.test.DemoOrderTest.posterOrderNotAuthorized() is @Disabled",
       "time" : {
-        "start" : 1737104036075,
-        "stop" : 1737104046114,
-        "duration" : 10039
+        "start" : 1737105817106,
+        "stop" : 1737105817106,
+        "duration" : 0
       }
     } ]
   }
