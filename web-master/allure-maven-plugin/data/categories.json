@@ -4,56 +4,39 @@
   "children" : [ {
     "name" : "Product defects",
     "children" : [ {
-      "name" : "Invalid element state [by text: Выбрать тему оформления]: element click intercepted: Element <div class=\"btn btn-primary product-card-bottom-btn-order btn-order--js\" id=\"old-choose-theme-btn-standard\" style=\"\" ga-action-click-type=\"click.ProductPage\" ga-action=\"click\" ga-action-click-omsid=\"PRODUCTION_POSTER\">...</div> is not clickable at point (1375, 829). Other element would receive the click: <div class=\"flocktory-widget-overlay\" style=\"display: flex; z-index: 2147483647; position: fixed; top: 0px; left: 0px; justify-content: center; align-items: center; width: 100%; height: 100%; background: transparent; transform: none;\" data-showed-up=\"true\">...</div>\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1738005723034.2.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1738005723034.2.html\nTimeout: 15 s.\nCaused by: ElementClickInterceptedException: element click intercepted: Element <div class=\"btn btn-primary product-card-bottom-btn-order btn-order--js\" id=\"old-choose-theme-btn-standard\" style=\"\" ga-action-click-type=\"click.ProductPage\" ga-action=\"click\" ga-action-click-omsid=\"PRODUCTION_POSTER\">...</div> is not clickable at point (1375, 829). Other element would receive the click: <div class=\"flocktory-widget-overlay\" style=\"display: flex; z-index: 2147483647; position: fixed; top: 0px; left: 0px; justify-content: center; align-items: center; width: 100%; height: 100%; background: transparent; transform: none;\" data-showed-up=\"true\">...</div>",
-      "children" : [ {
-        "name" : "Заказ постера: неавторизованный юзер",
-        "uid" : "7c9655136d6af6cd",
-        "parentUid" : "908d36a6ee229d0235b9a2801b49da25",
-        "status" : "failed",
-        "time" : {
-          "start" : 1738005699977,
-          "stop" : 1738005723421,
-          "duration" : 23444
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "908d36a6ee229d0235b9a2801b49da25"
-    }, {
-      "name" : "Element not found {button.order-delivery-switch}\nExpected: clickable: interactable and enabled\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1738005763353.3.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1738005763353.3.html\nTimeout: 15 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"button.order-delivery-switch\"}",
-      "children" : [ {
-        "name" : "Заказ карманного календарика: авторизованный юзер",
-        "uid" : "1c100ffadbafe117",
-        "parentUid" : "1a5d4d9cba74dc987c5a58ae644709d5",
-        "status" : "failed",
-        "time" : {
-          "start" : 1738005723443,
-          "stop" : 1738005763838,
-          "duration" : 40395
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "1a5d4d9cba74dc987c5a58ae644709d5"
-    }, {
-      "name" : "Element not found {td a[0]}\nExpected: visible\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1738005787486.4.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1738005787486.4.html\nTimeout: 15 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"td a\"}",
+      "name" : "Element not found {td a[0]}\nExpected: visible\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1738007688466.0.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1738007688466.0.html\nTimeout: 15 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"td a\"}",
       "children" : [ {
         "name" : "DemoOrderTest",
-        "uid" : "246ac914c1ec52e4",
-        "parentUid" : "47a96dc86bad6f66f0636733dfcc03a4",
+        "uid" : "467879874245cf93",
+        "parentUid" : "0e106f12d614f6b450e95028a692365a",
         "status" : "failed",
         "time" : {
-          "start" : 1738005787702,
-          "stop" : 1738005787702,
+          "start" : 1738007688721,
+          "stop" : 1738007688721,
           "duration" : 0
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "47a96dc86bad6f66f0636733dfcc03a4"
+      "uid" : "0e106f12d614f6b450e95028a692365a"
+    }, {
+      "name" : "Invalid element state [i.material-icons[10]]: element click intercepted: Element <i class=\"material-icons\">...</i> is not clickable at point (1219, 722). Other element would receive the click: <div style=\"background: rgba(0, 0, 0, 0.4); position: fixed; z-index: 110; opacity: 0.7; left: 0px; top: 0px; width: 1920px; height: 1419px;\"></div>\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1738007722431.1.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1738007722431.1.html\nTimeout: 15 s.\nCaused by: ElementClickInterceptedException: element click intercepted: Element <i class=\"material-icons\">...</i> is not clickable at point (1219, 722). Other element would receive the click: <div style=\"background: rgba(0, 0, 0, 0.4); position: fixed; z-index: 110; opacity: 0.7; left: 0px; top: 0px; width: 1920px; height: 1419px;\"></div>",
+      "children" : [ {
+        "name" : "Заказ карманного календарика: авторизованный юзер",
+        "uid" : "d3711314cbf9b501",
+        "parentUid" : "d41057bb61126355ed6d69ed598cd25c",
+        "status" : "failed",
+        "time" : {
+          "start" : 1738007688732,
+          "stop" : 1738007722819,
+          "duration" : 34087
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d41057bb61126355ed6d69ed598cd25c"
     } ],
     "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
   } ]
