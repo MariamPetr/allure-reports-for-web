@@ -9,12 +9,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "fb52afb0365bb6b3",
+      "uid" : "55ce0c1b9ddbca04",
       "status" : "passed",
       "time" : {
-        "start" : 1738004045629,
-        "stop" : 1738004062107,
-        "duration" : 16478
+        "start" : 1738005673651,
+        "stop" : 1738005689477,
+        "duration" : 15826
       }
     } ]
   },
@@ -28,50 +28,72 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "65d3fb31b298bb28",
+      "uid" : "f4180f5ba15c9127",
       "status" : "passed",
       "time" : {
-        "start" : 1738003992774,
-        "stop" : 1738004005087,
-        "duration" : 12313
+        "start" : 1738005613345,
+        "stop" : 1738005626954,
+        "duration" : 13609
       }
     } ]
   },
-  "a9f76e9f0c22a8e5ba1a14a97727300a" : {
+  "7c828c0463072ac07efc4bbe655dd48a" : {
     "statistic" : {
-      "failed" : 0,
+      "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "caa4f49318522001",
-      "status" : "passed",
+      "uid" : "246ac914c1ec52e4",
+      "status" : "failed",
+      "statusDetails" : "Element not found {td a[0]}\nExpected: visible\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1738005787486.4.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1738005787486.4.html\nTimeout: 15 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"td a\"}",
       "time" : {
-        "start" : 1738004005125,
-        "stop" : 1738004036017,
-        "duration" : 30892
+        "start" : 1738005787702,
+        "stop" : 1738005787702,
+        "duration" : 0
       }
     } ]
   },
   "72e8e71b4ceeaf37c51d826eb56ea312" : {
     "statistic" : {
-      "failed" : 0,
+      "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "b0689c40de320fae",
-      "status" : "passed",
+      "uid" : "7c9655136d6af6cd",
+      "status" : "failed",
+      "statusDetails" : "Invalid element state [by text: Выбрать тему оформления]: element click intercepted: Element <div class=\"btn btn-primary product-card-bottom-btn-order btn-order--js\" id=\"old-choose-theme-btn-standard\" style=\"\" ga-action-click-type=\"click.ProductPage\" ga-action=\"click\" ga-action-click-omsid=\"PRODUCTION_POSTER\">...</div> is not clickable at point (1375, 829). Other element would receive the click: <div class=\"flocktory-widget-overlay\" style=\"display: flex; z-index: 2147483647; position: fixed; top: 0px; left: 0px; justify-content: center; align-items: center; width: 100%; height: 100%; background: transparent; transform: none;\" data-showed-up=\"true\">...</div>\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1738005723034.2.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1738005723034.2.html\nTimeout: 15 s.\nCaused by: ElementClickInterceptedException: element click intercepted: Element <div class=\"btn btn-primary product-card-bottom-btn-order btn-order--js\" id=\"old-choose-theme-btn-standard\" style=\"\" ga-action-click-type=\"click.ProductPage\" ga-action=\"click\" ga-action-click-omsid=\"PRODUCTION_POSTER\">...</div> is not clickable at point (1375, 829). Other element would receive the click: <div class=\"flocktory-widget-overlay\" style=\"display: flex; z-index: 2147483647; position: fixed; top: 0px; left: 0px; justify-content: center; align-items: center; width: 100%; height: 100%; background: transparent; transform: none;\" data-showed-up=\"true\">...</div>",
       "time" : {
-        "start" : 1738004036022,
-        "stop" : 1738004045624,
-        "duration" : 9602
+        "start" : 1738005699977,
+        "stop" : 1738005723421,
+        "duration" : 23444
+      }
+    } ]
+  },
+  "a9f76e9f0c22a8e5ba1a14a97727300a" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1c100ffadbafe117",
+      "status" : "failed",
+      "statusDetails" : "Element not found {button.order-delivery-switch}\nExpected: clickable: interactable and enabled\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1738005763353.3.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1738005763353.3.html\nTimeout: 15 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"button.order-delivery-switch\"}",
+      "time" : {
+        "start" : 1738005723443,
+        "stop" : 1738005763838,
+        "duration" : 40395
       }
     } ]
   }
