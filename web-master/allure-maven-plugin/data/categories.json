@@ -2,25 +2,64 @@
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "name" : "categories",
   "children" : [ {
-    "name" : "Product defects",
+    "name" : "Test defects",
     "children" : [ {
-      "name" : "Element should be clickable: interactable and enabled {by text: Карманный календарик}\nElement: '<a data-sub-link=\"sub-link\" href=\"https://netprint.ru/moscow/calendars/karmannye-kalendari\" displayed:false></a>'\nActual value: hidden, opacity=1\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1738301121770.1.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1738301121770.1.html\nTimeout: 15 s.",
+      "name" : "Unable to obtain: Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*, --proxy-bypass-list=<-loopb..., --disable-dev-shm-usage, --window-size=1920,1080], excludeSwitches: [enable-automation, load-extension], extensions: [], prefs: {credentials_enable_service: false, download.default_directory: /Users/tester/builds/DPBWpF..., plugins.always_open_pdf_externally: true, profile.default_content_setting_values.automatic_downloads: 1, safebrowsing.enabled: true}}, pageLoadStrategy: eager, unhandledPromptBehavior: accept}, error Command failed with code: 65, executed: [--browser, chrome, --output, json]\nrequest or response body error: operation timed out\nBuild info: version: '4.12.1', revision: '8e34639b11'\nSystem info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.3.1', java.version: '22'\nDriver info: driver.version: SelenideDriver",
       "children" : [ {
-        "name" : "Заказ карманного календарика: авторизованный юзер",
-        "uid" : "3efa49479d26effc",
-        "parentUid" : "9848d510752f9ba475f683c38ef8d4f9",
-        "status" : "failed",
+        "name" : "DemoOrderTest",
+        "uid" : "dd23b35ea7242b2",
+        "parentUid" : "dbd985632ec292afd7e919ab58c161b1",
+        "status" : "broken",
         "time" : {
-          "start" : 1738301096745,
-          "stop" : 1738301122340,
-          "duration" : 25595
+          "start" : 1738303771451,
+          "stop" : 1738303771451,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Заказ постера: неавторизованный юзер",
+        "uid" : "db8b8c3b09083815",
+        "parentUid" : "dbd985632ec292afd7e919ab58c161b1",
+        "status" : "broken",
+        "time" : {
+          "start" : 1738303771493,
+          "stop" : 1738304071728,
+          "duration" : 300235
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Загрузка фото в альбом",
+        "uid" : "a9a0b2a20286f738",
+        "parentUid" : "dbd985632ec292afd7e919ab58c161b1",
+        "status" : "broken",
+        "time" : {
+          "start" : 1738304071864,
+          "stop" : 1738304372209,
+          "duration" : 300345
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Пополнение лицевого счёта в личном кабинете",
+        "uid" : "83e3e2741c86c148",
+        "parentUid" : "dbd985632ec292afd7e919ab58c161b1",
+        "status" : "broken",
+        "time" : {
+          "start" : 1738304372372,
+          "stop" : 1738304672552,
+          "duration" : 300180
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "9848d510752f9ba475f683c38ef8d4f9"
+      "uid" : "dbd985632ec292afd7e919ab58c161b1"
     } ],
-    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
   } ]
 }

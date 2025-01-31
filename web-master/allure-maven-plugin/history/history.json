@@ -9,89 +9,111 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "c71cb864403352e3",
+      "uid" : "3db20b9e9a13a368",
       "status" : "passed",
       "time" : {
-        "start" : 1738301032735,
-        "stop" : 1738301060403,
-        "duration" : 27668
+        "start" : 1738304727854,
+        "stop" : 1738304753155,
+        "duration" : 25301
       }
     } ]
   },
   "6f63a55223ff2b502b3f72c0c5c8bbb0" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "5dd14ecc62d32d6e",
-      "status" : "passed",
-      "time" : {
-        "start" : 1738301069801,
-        "stop" : 1738301086461,
-        "duration" : 16660
-      }
-    } ]
-  },
-  "4f5f83cf19e9552f29e1229aa2f1544a" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "5fca465126c668c7",
-      "status" : "passed",
-      "time" : {
-        "start" : 1738300992045,
-        "stop" : 1738301004560,
-        "duration" : 12515
-      }
-    } ]
-  },
-  "72e8e71b4ceeaf37c51d826eb56ea312" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "8d9b8e7cc67317c8",
-      "status" : "passed",
-      "time" : {
-        "start" : 1738301060407,
-        "stop" : 1738301069796,
-        "duration" : 9389
-      }
-    } ]
-  },
-  "a9f76e9f0c22a8e5ba1a14a97727300a" : {
-    "statistic" : {
-      "failed" : 1,
-      "broken" : 0,
+      "broken" : 1,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "3efa49479d26effc",
-      "status" : "failed",
-      "statusDetails" : "Element should be clickable: interactable and enabled {by text: Карманный календарик}\nElement: '<a data-sub-link=\"sub-link\" href=\"https://netprint.ru/moscow/calendars/karmannye-kalendari\" displayed:false></a>'\nActual value: hidden, opacity=1\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1738301121770.1.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1738301121770.1.html\nTimeout: 15 s.",
+      "uid" : "a9a0b2a20286f738",
+      "status" : "broken",
+      "statusDetails" : "Unable to obtain: Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*, --proxy-bypass-list=<-loopb..., --disable-dev-shm-usage, --window-size=1920,1080], excludeSwitches: [enable-automation, load-extension], extensions: [], prefs: {credentials_enable_service: false, download.default_directory: /Users/tester/builds/DPBWpF..., plugins.always_open_pdf_externally: true, profile.default_content_setting_values.automatic_downloads: 1, safebrowsing.enabled: true}}, pageLoadStrategy: eager, unhandledPromptBehavior: accept}, error Command failed with code: 65, executed: [--browser, chrome, --output, json]\nrequest or response body error: operation timed out\nBuild info: version: '4.12.1', revision: '8e34639b11'\nSystem info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.3.1', java.version: '22'\nDriver info: driver.version: SelenideDriver",
       "time" : {
-        "start" : 1738301096745,
-        "stop" : 1738301122340,
-        "duration" : 25595
+        "start" : 1738304071864,
+        "stop" : 1738304372209,
+        "duration" : 300345
+      }
+    } ]
+  },
+  "4f5f83cf19e9552f29e1229aa2f1544a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "83e3e2741c86c148",
+      "status" : "broken",
+      "statusDetails" : "Unable to obtain: Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*, --proxy-bypass-list=<-loopb..., --disable-dev-shm-usage, --window-size=1920,1080], excludeSwitches: [enable-automation, load-extension], extensions: [], prefs: {credentials_enable_service: false, download.default_directory: /Users/tester/builds/DPBWpF..., plugins.always_open_pdf_externally: true, profile.default_content_setting_values.automatic_downloads: 1, safebrowsing.enabled: true}}, pageLoadStrategy: eager, unhandledPromptBehavior: accept}, error Command failed with code: 65, executed: [--browser, chrome, --output, json]\nrequest or response body error: operation timed out\nBuild info: version: '4.12.1', revision: '8e34639b11'\nSystem info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.3.1', java.version: '22'\nDriver info: driver.version: SelenideDriver",
+      "time" : {
+        "start" : 1738304372372,
+        "stop" : 1738304672552,
+        "duration" : 300180
+      }
+    } ]
+  },
+  "7c828c0463072ac07efc4bbe655dd48a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "dd23b35ea7242b2",
+      "status" : "broken",
+      "statusDetails" : "Unable to obtain: Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*, --proxy-bypass-list=<-loopb..., --disable-dev-shm-usage, --window-size=1920,1080], excludeSwitches: [enable-automation, load-extension], extensions: [], prefs: {credentials_enable_service: false, download.default_directory: /Users/tester/builds/DPBWpF..., plugins.always_open_pdf_externally: true, profile.default_content_setting_values.automatic_downloads: 1, safebrowsing.enabled: true}}, pageLoadStrategy: eager, unhandledPromptBehavior: accept}, error Command failed with code: 65, executed: [--browser, chrome, --output, json]\nrequest or response body error: operation timed out\nBuild info: version: '4.12.1', revision: '8e34639b11'\nSystem info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.3.1', java.version: '22'\nDriver info: driver.version: SelenideDriver",
+      "time" : {
+        "start" : 1738303771451,
+        "stop" : 1738303771451,
+        "duration" : 0
+      }
+    } ]
+  },
+  "a9f76e9f0c22a8e5ba1a14a97727300a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "12a1fde333759b0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1738304672730,
+        "stop" : 1738304727850,
+        "duration" : 55120
+      }
+    } ]
+  },
+  "72e8e71b4ceeaf37c51d826eb56ea312" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "db8b8c3b09083815",
+      "status" : "broken",
+      "statusDetails" : "Unable to obtain: Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*, --proxy-bypass-list=<-loopb..., --disable-dev-shm-usage, --window-size=1920,1080], excludeSwitches: [enable-automation, load-extension], extensions: [], prefs: {credentials_enable_service: false, download.default_directory: /Users/tester/builds/DPBWpF..., plugins.always_open_pdf_externally: true, profile.default_content_setting_values.automatic_downloads: 1, safebrowsing.enabled: true}}, pageLoadStrategy: eager, unhandledPromptBehavior: accept}, error Command failed with code: 65, executed: [--browser, chrome, --output, json]\nrequest or response body error: operation timed out\nBuild info: version: '4.12.1', revision: '8e34639b11'\nSystem info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.3.1', java.version: '22'\nDriver info: driver.version: SelenideDriver",
+      "time" : {
+        "start" : 1738303771493,
+        "stop" : 1738304071728,
+        "duration" : 300235
       }
     } ]
   }
