@@ -9,12 +9,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "5137206ac6adede1",
+      "uid" : "1dc8112bfa4e2458",
       "status" : "passed",
       "time" : {
-        "start" : 1738418040670,
-        "stop" : 1738418066481,
-        "duration" : 25811
+        "start" : 1738419838959,
+        "stop" : 1738419871620,
+        "duration" : 32661
       }
     } ]
   },
@@ -28,12 +28,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "8b3d50eefe12ece4",
+      "uid" : "9277eb5c63392828",
       "status" : "passed",
       "time" : {
-        "start" : 1738418088508,
-        "stop" : 1738418111328,
-        "duration" : 22820
+        "start" : 1738419879962,
+        "stop" : 1738419896357,
+        "duration" : 16395
       }
     } ]
   },
@@ -47,31 +47,32 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "a61d048aec4d6354",
+      "uid" : "8a530aeac74575b1",
       "status" : "passed",
       "time" : {
-        "start" : 1738417991139,
-        "stop" : 1738418004100,
-        "duration" : 12961
+        "start" : 1738419792453,
+        "stop" : 1738419806144,
+        "duration" : 13691
       }
     } ]
   },
-  "a9f76e9f0c22a8e5ba1a14a97727300a" : {
+  "7c828c0463072ac07efc4bbe655dd48a" : {
     "statistic" : {
-      "failed" : 0,
+      "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "ebf345316bf7f54f",
-      "status" : "passed",
+      "uid" : "ff86d35bde8e2b78",
+      "status" : "failed",
+      "statusDetails" : "Element not found {td a[0]}\nExpected: visible\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1738419970080.2.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1738419970080.2.html\nTimeout: 15 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"td a\"}",
       "time" : {
-        "start" : 1738418004146,
-        "stop" : 1738418040666,
-        "duration" : 36520
+        "start" : 1738419970215,
+        "stop" : 1738419970216,
+        "duration" : 1
       }
     } ]
   },
@@ -85,12 +86,32 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "a1f014022aa28e54",
+      "uid" : "d9cdb540540a48b6",
       "status" : "passed",
       "time" : {
-        "start" : 1738418122913,
-        "stop" : 1738418130785,
-        "duration" : 7872
+        "start" : 1738419871623,
+        "stop" : 1738419879957,
+        "duration" : 8334
+      }
+    } ]
+  },
+  "a9f76e9f0c22a8e5ba1a14a97727300a" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e71d59d70805071f",
+      "status" : "failed",
+      "statusDetails" : "Element not found {button.order-delivery-switch}\nExpected: clickable: interactable and enabled\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1738419947014.1.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1738419947014.1.html\nTimeout: 15 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"button.order-delivery-switch\"}",
+      "time" : {
+        "start" : 1738419907723,
+        "stop" : 1738419947564,
+        "duration" : 39841
       }
     } ]
   }
