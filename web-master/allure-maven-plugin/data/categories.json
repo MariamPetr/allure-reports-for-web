@@ -1,5 +1,60 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "name" : "categories",
-  "children" : [ ]
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Invalid element state [by text: Создать альбом]: element click intercepted: Element <button class=\"btn btn-default btn-block\" data-ng-click=\"vm.addAlbum(vm.album_type)\">...</button> is not clickable at point (1398, 274). Other element would receive the click: <div class=\"flocktory-widget-overlay\" style=\"display: flex; z-index: 2147483647; position: fixed; top: 0px; left: 0px; justify-content: center; align-items: center; width: 100%; height: 100%; background: transparent; transform: none;\" data-showed-up=\"true\">...</div>\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1738878957355.4.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1738878957355.4.html\nTimeout: 15 s.\nCaused by: ElementClickInterceptedException: element click intercepted: Element <button class=\"btn btn-default btn-block\" data-ng-click=\"vm.addAlbum(vm.album_type)\">...</button> is not clickable at point (1398, 274). Other element would receive the click: <div class=\"flocktory-widget-overlay\" style=\"display: flex; z-index: 2147483647; position: fixed; top: 0px; left: 0px; justify-content: center; align-items: center; width: 100%; height: 100%; background: transparent; transform: none;\" data-showed-up=\"true\">...</div>",
+      "children" : [ {
+        "name" : "Загрузка фото в альбом",
+        "uid" : "6166494b77909384",
+        "parentUid" : "ebd421f2a18702473c4cf9fc53cbfe54",
+        "status" : "failed",
+        "time" : {
+          "start" : 1738878931879,
+          "stop" : 1738878957737,
+          "duration" : 25858
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ebd421f2a18702473c4cf9fc53cbfe54"
+    }, {
+      "name" : "Invalid element state [img[title='Онлайнкнига']]: element click intercepted: Element <img alt=\"\" class=\"album_cover_image image-cover ng-isolate-scope success-loaded rotate-0\" title=\"Онлайнкнига\" url=\"album.item.coverUrl\" angle=\"album.item.coverAngle\" transparent=\"album.item.isStyle\" data-ng-src=\"https://cdn.photoholding.com/RBalancerWeb/SquidStyleBalancer/add4379555d15836aa5d09b542815f8e/d250/0\" src=\"https://cdn.photoholding.com/RBalancerWeb/SquidStyleBalancer/add4379555d15836aa5d09b542815f8e/d250/0\"> is not clickable at point (820, 484). Other element would receive the click: <iframe id=\"fl-298571\" title=\"Flocktory widget\" frameborder=\"0\" scrolling=\"no\" class=\"flocktory-widget\" style=\"width: 600px; height: 388px;\"></iframe>\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1738878982665.5.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1738878982665.5.html\nTimeout: 15 s.\nCaused by: ElementClickInterceptedException: element click intercepted: Element <img alt=\"\" class=\"album_cover_image image-cover ng-isolate-scope success-loaded rotate-0\" title=\"Онлайнкнига\" url=\"album.item.coverUrl\" angle=\"album.item.coverAngle\" transparent=\"album.item.isStyle\" data-ng-src=\"https://cdn.photoholding.com/RBalancerWeb/SquidStyleBalancer/add4379555d15836aa5d09b542815f8e/d250/0\" src=\"https://cdn.photoholding.com/RBalancerWeb/SquidStyleBalancer/add4379555d15836aa5d09b542815f8e/d250/0\"> is not clickable at point (820, 484). Other element would receive the click: <iframe id=\"fl-298571\" title=\"Flocktory widget\" frameborder=\"0\" scrolling=\"no\" class=\"flocktory-widget\" style=\"width: 600px; height: 388px;\"></iframe>",
+      "children" : [ {
+        "name" : "Создание книги в онлайн-редакторе",
+        "uid" : "3851be1aef65d46d",
+        "parentUid" : "fc4acb8ea938276aa96807ca3d33db42",
+        "status" : "failed",
+        "time" : {
+          "start" : 1738878957749,
+          "stop" : 1738878983287,
+          "duration" : 25538
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "fc4acb8ea938276aa96807ca3d33db42"
+    }, {
+      "name" : "Element not found {button.add-photo--js}\nExpected: clickable: interactable and enabled\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1738879021329.6.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1738879021329.6.html\nTimeout: 15 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"button.add-photo--js\"}",
+      "children" : [ {
+        "name" : "Заказ карманного календарика: авторизованный юзер",
+        "uid" : "a7a885b9de1567bf",
+        "parentUid" : "4260daaaf059d675d9382f482b3e9458",
+        "status" : "failed",
+        "time" : {
+          "start" : 1738878983318,
+          "stop" : 1738879021693,
+          "duration" : 38375
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4260daaaf059d675d9382f482b3e9458"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
 }

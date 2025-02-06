@@ -1,39 +1,41 @@
 {
   "d511771663565490be17d66a55243c84" : {
     "statistic" : {
-      "failed" : 0,
+      "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "e13c1ff39bd68492",
-      "status" : "passed",
+      "uid" : "3851be1aef65d46d",
+      "status" : "failed",
+      "statusDetails" : "Invalid element state [img[title='Онлайнкнига']]: element click intercepted: Element <img alt=\"\" class=\"album_cover_image image-cover ng-isolate-scope success-loaded rotate-0\" title=\"Онлайнкнига\" url=\"album.item.coverUrl\" angle=\"album.item.coverAngle\" transparent=\"album.item.isStyle\" data-ng-src=\"https://cdn.photoholding.com/RBalancerWeb/SquidStyleBalancer/add4379555d15836aa5d09b542815f8e/d250/0\" src=\"https://cdn.photoholding.com/RBalancerWeb/SquidStyleBalancer/add4379555d15836aa5d09b542815f8e/d250/0\"> is not clickable at point (820, 484). Other element would receive the click: <iframe id=\"fl-298571\" title=\"Flocktory widget\" frameborder=\"0\" scrolling=\"no\" class=\"flocktory-widget\" style=\"width: 600px; height: 388px;\"></iframe>\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1738878982665.5.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1738878982665.5.html\nTimeout: 15 s.\nCaused by: ElementClickInterceptedException: element click intercepted: Element <img alt=\"\" class=\"album_cover_image image-cover ng-isolate-scope success-loaded rotate-0\" title=\"Онлайнкнига\" url=\"album.item.coverUrl\" angle=\"album.item.coverAngle\" transparent=\"album.item.isStyle\" data-ng-src=\"https://cdn.photoholding.com/RBalancerWeb/SquidStyleBalancer/add4379555d15836aa5d09b542815f8e/d250/0\" src=\"https://cdn.photoholding.com/RBalancerWeb/SquidStyleBalancer/add4379555d15836aa5d09b542815f8e/d250/0\"> is not clickable at point (820, 484). Other element would receive the click: <iframe id=\"fl-298571\" title=\"Flocktory widget\" frameborder=\"0\" scrolling=\"no\" class=\"flocktory-widget\" style=\"width: 600px; height: 388px;\"></iframe>",
       "time" : {
-        "start" : 1738877045025,
-        "stop" : 1738877070172,
-        "duration" : 25147
+        "start" : 1738878957749,
+        "stop" : 1738878983287,
+        "duration" : 25538
       }
     } ]
   },
   "6f63a55223ff2b502b3f72c0c5c8bbb0" : {
     "statistic" : {
-      "failed" : 0,
+      "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "ba6279938b9cb745",
-      "status" : "passed",
+      "uid" : "6166494b77909384",
+      "status" : "failed",
+      "statusDetails" : "Invalid element state [by text: Создать альбом]: element click intercepted: Element <button class=\"btn btn-default btn-block\" data-ng-click=\"vm.addAlbum(vm.album_type)\">...</button> is not clickable at point (1398, 274). Other element would receive the click: <div class=\"flocktory-widget-overlay\" style=\"display: flex; z-index: 2147483647; position: fixed; top: 0px; left: 0px; justify-content: center; align-items: center; width: 100%; height: 100%; background: transparent; transform: none;\" data-showed-up=\"true\">...</div>\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1738878957355.4.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1738878957355.4.html\nTimeout: 15 s.\nCaused by: ElementClickInterceptedException: element click intercepted: Element <button class=\"btn btn-default btn-block\" data-ng-click=\"vm.addAlbum(vm.album_type)\">...</button> is not clickable at point (1398, 274). Other element would receive the click: <div class=\"flocktory-widget-overlay\" style=\"display: flex; z-index: 2147483647; position: fixed; top: 0px; left: 0px; justify-content: center; align-items: center; width: 100%; height: 100%; background: transparent; transform: none;\" data-showed-up=\"true\">...</div>",
       "time" : {
-        "start" : 1738877118788,
-        "stop" : 1738877133312,
-        "duration" : 14524
+        "start" : 1738878931879,
+        "stop" : 1738878957737,
+        "duration" : 25858
       }
     } ]
   },
@@ -47,12 +49,32 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "a61b5c2d59fa0e47",
+      "uid" : "b2fe8d443b3ba2cf",
       "status" : "passed",
       "time" : {
-        "start" : 1738876994516,
-        "stop" : 1738877007811,
-        "duration" : 13295
+        "start" : 1738878791163,
+        "stop" : 1738878803423,
+        "duration" : 12260
+      }
+    } ]
+  },
+  "a9f76e9f0c22a8e5ba1a14a97727300a" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a7a885b9de1567bf",
+      "status" : "failed",
+      "statusDetails" : "Element not found {button.add-photo--js}\nExpected: clickable: interactable and enabled\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1738879021329.6.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1738879021329.6.html\nTimeout: 15 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"button.add-photo--js\"}",
+      "time" : {
+        "start" : 1738878983318,
+        "stop" : 1738879021693,
+        "duration" : 38375
       }
     } ]
   },
@@ -66,31 +88,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "2dd43cb6e6b74fe5",
+      "uid" : "10b62b63db1e0afb",
       "status" : "passed",
       "time" : {
-        "start" : 1738877070175,
-        "stop" : 1738877080348,
-        "duration" : 10173
-      }
-    } ]
-  },
-  "a9f76e9f0c22a8e5ba1a14a97727300a" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "2febea1e1e261a01",
-      "status" : "passed",
-      "time" : {
-        "start" : 1738877007855,
-        "stop" : 1738877045021,
-        "duration" : 37166
+        "start" : 1738878922578,
+        "stop" : 1738878931875,
+        "duration" : 9297
       }
     } ]
   }
