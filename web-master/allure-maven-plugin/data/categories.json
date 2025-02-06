@@ -1,5 +1,43 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "name" : "categories",
-  "children" : [ ]
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Element not found {td a[0]}\nExpected: visible\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1738832118801.1.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1738832118801.1.html\nTimeout: 15 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"td a\"}",
+      "children" : [ {
+        "name" : "DemoOrderTest",
+        "uid" : "247239cfa213c5fa",
+        "parentUid" : "6a8690b7872df98a66b3b023c2cb2570",
+        "status" : "failed",
+        "time" : {
+          "start" : 1738832119149,
+          "stop" : 1738832119150,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6a8690b7872df98a66b3b023c2cb2570"
+    }, {
+      "name" : "Invalid element state [by text: Выбрать тему оформления]: element click intercepted: Element is not clickable at point (1375, 880)\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1738832206041.2.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1738832206041.2.html\nTimeout: 15 s.\nCaused by: ElementClickInterceptedException: element click intercepted: Element is not clickable at point (1375, 880)",
+      "children" : [ {
+        "name" : "Заказ постера: неавторизованный юзер",
+        "uid" : "12ea0676d8536041",
+        "parentUid" : "0e3bca9a4d312a45e190fc95ae7248f9",
+        "status" : "failed",
+        "time" : {
+          "start" : 1738832185600,
+          "stop" : 1738832206482,
+          "duration" : 20882
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0e3bca9a4d312a45e190fc95ae7248f9"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
 }

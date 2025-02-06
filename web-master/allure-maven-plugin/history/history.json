@@ -9,12 +9,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "9856d917ede50b33",
+      "uid" : "9e842e023ee288f0",
       "status" : "passed",
       "time" : {
-        "start" : 1738830256910,
-        "stop" : 1738830283513,
-        "duration" : 26603
+        "start" : 1738832158985,
+        "stop" : 1738832185595,
+        "duration" : 26610
       }
     } ]
   },
@@ -28,12 +28,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "ae71eccfd030ecd2",
+      "uid" : "9e444c503ce8fdd4",
       "status" : "passed",
       "time" : {
-        "start" : 1738830291924,
-        "stop" : 1738830308404,
-        "duration" : 16480
+        "start" : 1738832206489,
+        "stop" : 1738832224256,
+        "duration" : 17767
       }
     } ]
   },
@@ -47,31 +47,32 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "523d84976aa86e24",
+      "uid" : "9b87568f68ae01de",
       "status" : "passed",
       "time" : {
-        "start" : 1738830320044,
-        "stop" : 1738830328989,
-        "duration" : 8945
+        "start" : 1738832148608,
+        "stop" : 1738832158974,
+        "duration" : 10366
       }
     } ]
   },
-  "72e8e71b4ceeaf37c51d826eb56ea312" : {
+  "7c828c0463072ac07efc4bbe655dd48a" : {
     "statistic" : {
-      "failed" : 0,
+      "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "9da1129e2fdb5327",
-      "status" : "passed",
+      "uid" : "247239cfa213c5fa",
+      "status" : "failed",
+      "statusDetails" : "Element not found {td a[0]}\nExpected: visible\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1738832118801.1.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1738832118801.1.html\nTimeout: 15 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"td a\"}",
       "time" : {
-        "start" : 1738830283518,
-        "stop" : 1738830291918,
-        "duration" : 8400
+        "start" : 1738832119149,
+        "stop" : 1738832119150,
+        "duration" : 1
       }
     } ]
   },
@@ -85,12 +86,32 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "b5254390f18ee322",
+      "uid" : "9bf82873030bf138",
       "status" : "passed",
       "time" : {
-        "start" : 1738830221412,
-        "stop" : 1738830256903,
-        "duration" : 35491
+        "start" : 1738832119172,
+        "stop" : 1738832148604,
+        "duration" : 29432
+      }
+    } ]
+  },
+  "72e8e71b4ceeaf37c51d826eb56ea312" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "12ea0676d8536041",
+      "status" : "failed",
+      "statusDetails" : "Invalid element state [by text: Выбрать тему оформления]: element click intercepted: Element is not clickable at point (1375, 880)\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1738832206041.2.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1738832206041.2.html\nTimeout: 15 s.\nCaused by: ElementClickInterceptedException: element click intercepted: Element is not clickable at point (1375, 880)",
+      "time" : {
+        "start" : 1738832185600,
+        "stop" : 1738832206482,
+        "duration" : 20882
       }
     } ]
   }
