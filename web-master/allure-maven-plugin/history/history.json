@@ -9,12 +9,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "3aba3b055abfb8ca",
+      "uid" : "5ff46e0aac34f2ab",
       "status" : "passed",
       "time" : {
-        "start" : 1738943650369,
-        "stop" : 1738943681727,
-        "duration" : 31358
+        "start" : 1738945600020,
+        "stop" : 1738945625425,
+        "duration" : 25405
       }
     } ]
   },
@@ -28,12 +28,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "80cc4a244fd96186",
+      "uid" : "40807fd93edb5223",
       "status" : "passed",
       "time" : {
-        "start" : 1738943691778,
-        "stop" : 1738943707798,
-        "duration" : 16020
+        "start" : 1738945625429,
+        "stop" : 1738945652596,
+        "duration" : 27167
       }
     } ]
   },
@@ -47,16 +47,16 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "669637f869ec34b9",
+      "uid" : "87b9d267e6e7826a",
       "status" : "passed",
       "time" : {
-        "start" : 1738943589768,
-        "stop" : 1738943609042,
-        "duration" : 19274
+        "start" : 1738945584208,
+        "stop" : 1738945600011,
+        "duration" : 15803
       }
     } ]
   },
-  "a9f76e9f0c22a8e5ba1a14a97727300a" : {
+  "7c828c0463072ac07efc4bbe655dd48a" : {
     "statistic" : {
       "failed" : 1,
       "broken" : 0,
@@ -66,13 +66,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "1a7dbd58df4d8578",
+      "uid" : "13dd33216311bd7c",
       "status" : "failed",
-      "statusDetails" : "Invalid element state [i.material-icons[10]]: element click intercepted: Element <i class=\"material-icons\">...</i> is not clickable at point (1219, 722). Other element would receive the click: <div style=\"background: rgba(0, 0, 0, 0.4); position: fixed; z-index: 110; opacity: 0.7; left: 0px; top: 0px; width: 1920px; height: 1419px;\"></div>\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1738943751890.1.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1738943751890.1.html\nTimeout: 15 s.\nCaused by: ElementClickInterceptedException: element click intercepted: Element <i class=\"material-icons\">...</i> is not clickable at point (1219, 722). Other element would receive the click: <div style=\"background: rgba(0, 0, 0, 0.4); position: fixed; z-index: 110; opacity: 0.7; left: 0px; top: 0px; width: 1920px; height: 1419px;\"></div>",
+      "statusDetails" : "Element not found {td a[0]}\nExpected: visible\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1738945528144.2.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1738945528144.2.html\nTimeout: 15 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"td a\"}",
       "time" : {
-        "start" : 1738943718200,
-        "stop" : 1738943752438,
-        "duration" : 34238
+        "start" : 1738945528493,
+        "stop" : 1738945528493,
+        "duration" : 0
       }
     } ]
   },
@@ -86,12 +86,31 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "a73229a4c860bb5d",
+      "uid" : "e28fa9001588b0b2",
       "status" : "passed",
       "time" : {
-        "start" : 1738943681736,
-        "stop" : 1738943691772,
-        "duration" : 10036
+        "start" : 1738945528508,
+        "stop" : 1738945543066,
+        "duration" : 14558
+      }
+    } ]
+  },
+  "a9f76e9f0c22a8e5ba1a14a97727300a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c70878ef8e703fb5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1738945543071,
+        "stop" : 1738945584205,
+        "duration" : 41134
       }
     } ]
   }
