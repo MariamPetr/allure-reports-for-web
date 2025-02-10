@@ -1,20 +1,21 @@
 {
   "d511771663565490be17d66a55243c84" : {
     "statistic" : {
-      "failed" : 0,
+      "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "b035eed92747db90",
-      "status" : "passed",
+      "uid" : "29f84816b4ac40b9",
+      "status" : "failed",
+      "statusDetails" : "Invalid element state [img[title='Онлайнкнига']]: element click intercepted: Element <img alt=\"\" class=\"album_cover_image image-cover ng-isolate-scope success-loaded rotate-0\" title=\"Онлайнкнига\" url=\"album.item.coverUrl\" angle=\"album.item.coverAngle\" transparent=\"album.item.isStyle\" data-ng-src=\"https://cdn.photoholding.com/RBalancerWeb/SquidStyleBalancer/add4379555d15836aa5d09b542815f8e/d250/0\" src=\"https://cdn.photoholding.com/RBalancerWeb/SquidStyleBalancer/add4379555d15836aa5d09b542815f8e/d250/0\"> is not clickable at point (530, 484). Other element would receive the click: <div class=\"flocktory-widget-overlay\" style=\"display: flex; z-index: 2147483647; position: fixed; top: 0px; left: 0px; justify-content: center; align-items: center; width: 100%; height: 100%; background: transparent; transform: none;\" data-showed-up=\"true\">...</div>\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1739224522695.2.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1739224522695.2.html\nTimeout: 15 s.\nCaused by: ElementClickInterceptedException: element click intercepted: Element <img alt=\"\" class=\"album_cover_image image-cover ng-isolate-scope success-loaded rotate-0\" title=\"Онлайнкнига\" url=\"album.item.coverUrl\" angle=\"album.item.coverAngle\" transparent=\"album.item.isStyle\" data-ng-src=\"https://cdn.photoholding.com/RBalancerWeb/SquidStyleBalancer/add4379555d15836aa5d09b542815f8e/d250/0\" src=\"https://cdn.photoholding.com/RBalancerWeb/SquidStyleBalancer/add4379555d15836aa5d09b542815f8e/d250/0\"> is not clickable at point (530, 484). Other element would receive the click: <div class=\"flocktory-widget-overlay\" style=\"display: flex; z-index: 2147483647; position: fixed; top: 0px; left: 0px; justify-content: center; align-items: center; width: 100%; height: 100%; background: transparent; transform: none;\" data-showed-up=\"true\">...</div>",
       "time" : {
-        "start" : 1739222709662,
-        "stop" : 1739222737031,
-        "duration" : 27369
+        "start" : 1739224497636,
+        "stop" : 1739224523069,
+        "duration" : 25433
       }
     } ]
   },
@@ -28,12 +29,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "c35a9357e3d71063",
+      "uid" : "bfd0a6c84e4169cf",
       "status" : "passed",
       "time" : {
-        "start" : 1739222680092,
-        "stop" : 1739222696403,
-        "duration" : 16311
+        "start" : 1739224469967,
+        "stop" : 1739224485991,
+        "duration" : 16024
       }
     } ]
   },
@@ -47,12 +48,32 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "7686eac08381312a",
+      "uid" : "927d12ce7fa12da9",
       "status" : "passed",
       "time" : {
-        "start" : 1739222594705,
-        "stop" : 1739222607017,
-        "duration" : 12312
+        "start" : 1739224391819,
+        "stop" : 1739224403919,
+        "duration" : 12100
+      }
+    } ]
+  },
+  "a9f76e9f0c22a8e5ba1a14a97727300a" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3e626269bd2e802b",
+      "status" : "failed",
+      "statusDetails" : "Element not found {button.add-photo--js}\nExpected: clickable: interactable and enabled\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1739224550713.3.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1739224550713.3.html\nTimeout: 15 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"button.add-photo--js\"}",
+      "time" : {
+        "start" : 1739224523307,
+        "stop" : 1739224551062,
+        "duration" : 27755
       }
     } ]
   },
@@ -66,31 +87,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "3700c5571e633760",
+      "uid" : "83fe616ea7fc94a1",
       "status" : "passed",
       "time" : {
-        "start" : 1739222669348,
-        "stop" : 1739222680088,
-        "duration" : 10740
-      }
-    } ]
-  },
-  "a9f76e9f0c22a8e5ba1a14a97727300a" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "af507fa46ef6580c",
-      "status" : "passed",
-      "time" : {
-        "start" : 1739222607065,
-        "stop" : 1739222643396,
-        "duration" : 36331
+        "start" : 1739224460142,
+        "stop" : 1739224469956,
+        "duration" : 9814
       }
     } ]
   }
