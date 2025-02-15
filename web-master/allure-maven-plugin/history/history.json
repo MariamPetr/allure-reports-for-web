@@ -1,21 +1,21 @@
 {
   "d511771663565490be17d66a55243c84" : {
     "statistic" : {
-      "failed" : 0,
-      "broken" : 1,
+      "failed" : 1,
+      "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "9fd156b7b5d771f5",
-      "status" : "broken",
-      "statusDetails" : "timeout: Timed out receiving message from renderer: -0.150\n  (Session info: chrome=131.0.6778.86)\nBuild info: version: '4.12.1', revision: '8e34639b11'\nSystem info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.3.1', java.version: '22'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [296ad33fa4ae53140577de7ff0469896, get {url=https://netprint.ru/order/profile}]\nselenide.url: https://netprint.ru/order/profile\nCapabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 131.0.6778.86, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: /var/folders/y4/1rkt9z0s363...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64951}, networkConnectionEnabled: false, pageLoadStrategy: eager, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:64951/devtoo..., se:cdpVersion: 131.0.6778.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nselenide.baseUrl: https://netprint.ru/\nSession ID: 296ad33fa4ae53140577de7ff0469896",
+      "uid" : "9f7b3a0cbbc95eee",
+      "status" : "failed",
+      "statusDetails" : "Element not found {img[title='Онлайнкнига']}\nExpected: clickable: interactable and enabled\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1739651224876.8.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1739651224876.8.html\nTimeout: 12 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"img[title='Онлайнкнига']\"}",
       "time" : {
-        "start" : 1739649395626,
-        "stop" : 1739649436320,
-        "duration" : 40694
+        "start" : 1739651200814,
+        "stop" : 1739651225164,
+        "duration" : 24350
       }
     } ]
   },
@@ -29,32 +29,33 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "a4e2a3bb54fe0705",
+      "uid" : "64f31763244adaf5",
       "status" : "failed",
-      "statusDetails" : "Element not found {by text: Мои альбомы}\nExpected: clickable: interactable and enabled\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1739649378753.7.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1739649378753.7.html\nTimeout: 12 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\".//*/text()[normalize-space(translate(string(.), '",
+      "statusDetails" : "Element not found {by text: Мои альбомы}\nExpected: clickable: interactable and enabled\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1739651176334.6.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1739651176334.6.html\nTimeout: 12 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\".//*/text()[normalize-space(translate(string(.), '",
       "time" : {
-        "start" : 1739649353474,
-        "stop" : 1739649379055,
-        "duration" : 25581
+        "start" : 1739651150419,
+        "stop" : 1739651176799,
+        "duration" : 26380
       }
     } ]
   },
   "4f5f83cf19e9552f29e1229aa2f1544a" : {
     "statistic" : {
-      "failed" : 0,
+      "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "11fea856f18c5894",
-      "status" : "passed",
+      "uid" : "542dfb10e2c4a2f6",
+      "status" : "failed",
+      "statusDetails" : "Element not found {div.payment-item}\nExpected: clickable: interactable and enabled\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1739651200478.7.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1739651200478.7.html\nTimeout: 12 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"div.payment-item\"}",
       "time" : {
-        "start" : 1739649379060,
-        "stop" : 1739649395621,
-        "duration" : 16561
+        "start" : 1739651176810,
+        "stop" : 1739651200808,
+        "duration" : 23998
       }
     } ]
   },
@@ -68,12 +69,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "e6df4137e06ed3a",
+      "uid" : "38aeb379c5a176e2",
       "status" : "failed",
-      "statusDetails" : "Element not found {td a[0]}\nExpected: visible\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1739649496415.9.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1739649496415.9.html\nTimeout: 12 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"td a\"}",
+      "statusDetails" : "Element not found {td a[0]}\nExpected: visible\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1739651337030.10.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1739651337030.10.html\nTimeout: 12 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"td a\"}",
       "time" : {
-        "start" : 1739649496613,
-        "stop" : 1739649496613,
+        "start" : 1739651337261,
+        "stop" : 1739651337261,
         "duration" : 0
       }
     } ]
@@ -88,13 +89,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "3247198deb6df76",
+      "uid" : "862a79e25ba3f22",
       "status" : "failed",
-      "statusDetails" : "Invalid element state [button.print-template--js]: element click intercepted: Element <button class=\"button button-success express-panel-right print-template--js\">...</button> is not clickable at point (1413, 216). Other element would receive the click: <div style=\"background: rgba(0, 0, 0, 0.4); position: fixed; z-index: 110; opacity: 0.7; left: 0px; top: 0px; width: 1920px; height: 892px;\"></div>\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1739649352944.6.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1739649352944.6.html\nTimeout: 12 s.\nCaused by: ElementClickInterceptedException: element click intercepted: Element <button class=\"button button-success express-panel-right print-template--js\">...</button> is not clickable at point (1413, 216). Other element would receive the click: <div style=\"background: rgba(0, 0, 0, 0.4); position: fixed; z-index: 110; opacity: 0.7; left: 0px; top: 0px; width: 1920px; height: 892px;\"></div>",
+      "statusDetails" : "Invalid element state [button.print-template--js]: element click intercepted: Element <button class=\"button button-success express-panel-right print-template--js\">...</button> is not clickable at point (1443, 216). Other element would receive the click: <div style=\"background: rgba(0, 0, 0, 0.4); position: fixed; z-index: 110; opacity: 0.7; left: 0px; top: 0px; width: 1920px; height: 892px;\"></div>\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1739651149887.5.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1739651149887.5.html\nTimeout: 12 s.\nCaused by: ElementClickInterceptedException: element click intercepted: Element <button class=\"button button-success express-panel-right print-template--js\">...</button> is not clickable at point (1443, 216). Other element would receive the click: <div style=\"background: rgba(0, 0, 0, 0.4); position: fixed; z-index: 110; opacity: 0.7; left: 0px; top: 0px; width: 1920px; height: 892px;\"></div>",
       "time" : {
-        "start" : 1739649333718,
-        "stop" : 1739649353465,
-        "duration" : 19747
+        "start" : 1739651130306,
+        "stop" : 1739651150410,
+        "duration" : 20104
       }
     } ]
   },
@@ -108,13 +109,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "d7fb4cd4d8017c4",
+      "uid" : "748e74fb47488abc",
       "status" : "failed",
-      "statusDetails" : "Element not found {button.order-delivery-switch}\nExpected: clickable: interactable and enabled\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1739649476002.8.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1739649476002.8.html\nTimeout: 12 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"button.order-delivery-switch\"}",
+      "statusDetails" : "Invalid element state [i.material-icons[10]]: element click intercepted: Element <i class=\"material-icons\">...</i> is not clickable at point (1219, 722). Other element would receive the click: <div style=\"background: rgba(0, 0, 0, 0.4); position: fixed; z-index: 110; opacity: 0.7; left: 0px; top: 0px; width: 1920px; height: 1419px;\"></div>\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1739651317473.9.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1739651317473.9.html\nTimeout: 12 s.\nCaused by: ElementClickInterceptedException: element click intercepted: Element <i class=\"material-icons\">...</i> is not clickable at point (1219, 722). Other element would receive the click: <div style=\"background: rgba(0, 0, 0, 0.4); position: fixed; z-index: 110; opacity: 0.7; left: 0px; top: 0px; width: 1920px; height: 1419px;\"></div>",
       "time" : {
-        "start" : 1739649436492,
-        "stop" : 1739649476486,
-        "duration" : 39994
+        "start" : 1739651225169,
+        "stop" : 1739651317834,
+        "duration" : 92665
       }
     } ]
   }
