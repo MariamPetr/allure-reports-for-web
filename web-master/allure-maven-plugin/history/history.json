@@ -2,42 +2,24 @@
   "d511771663565490be17d66a55243c84" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
+      "broken" : 1,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "98e3ad34d2c6a37f",
-      "status" : "passed",
+      "uid" : "1d03c96c80fae216",
+      "status" : "broken",
+      "statusDetails" : "timeout: Timed out receiving message from renderer: 30.000\n  (Session info: chrome=131.0.6778.86)\nBuild info: version: '4.12.1', revision: '8e34639b11'\nSystem info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.3.1', java.version: '22'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [462c5a79120e2aa9bdc14ff0fa838509, getTitle {}]\nselenide.url: https://netprint.ru/order/profile\nCapabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 131.0.6778.86, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: /var/folders/y4/1rkt9z0s363...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53147}, networkConnectionEnabled: false, pageLoadStrategy: eager, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:53147/devtoo..., se:cdpVersion: 131.0.6778.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nselenide.baseUrl: https://netprint.ru/\nSession ID: 462c5a79120e2aa9bdc14ff0fa838509",
       "time" : {
-        "start" : 1739638453611,
-        "stop" : 1739638482860,
-        "duration" : 29249
+        "start" : 1739640486490,
+        "stop" : 1739640525854,
+        "duration" : 39364
       }
     } ]
   },
   "6f63a55223ff2b502b3f72c0c5c8bbb0" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "f32fd5919c4983f6",
-      "status" : "passed",
-      "time" : {
-        "start" : 1739638492252,
-        "stop" : 1739638509571,
-        "duration" : 17319
-      }
-    } ]
-  },
-  "4f5f83cf19e9552f29e1229aa2f1544a" : {
     "statistic" : {
       "failed" : 1,
       "broken" : 0,
@@ -47,51 +29,92 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "f35b157850cdb628",
+      "uid" : "71434ea0f7cc62b6",
       "status" : "failed",
-      "statusDetails" : "Element not found {by text: Мои финансы}\nExpected: clickable: interactable and enabled\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1739638543481.1.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1739638543481.1.html\nTimeout: 12 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\".//*/text()[normalize-space(translate(string(.), '",
+      "statusDetails" : "Element not found {by text: Мои альбомы}\nExpected: clickable: interactable and enabled\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1739640630410.3.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1739640630410.3.html\nTimeout: 12 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\".//*/text()[normalize-space(translate(string(.), '",
       "time" : {
-        "start" : 1739638523744,
-        "stop" : 1739638543879,
-        "duration" : 20135
+        "start" : 1739640547309,
+        "stop" : 1739640630900,
+        "duration" : 83591
+      }
+    } ]
+  },
+  "4f5f83cf19e9552f29e1229aa2f1544a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d72f84a828c87dd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1739640472938,
+        "stop" : 1739640486485,
+        "duration" : 13547
+      }
+    } ]
+  },
+  "7c828c0463072ac07efc4bbe655dd48a" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b6642e9684ec5d9f",
+      "status" : "failed",
+      "statusDetails" : "Element not found {td a[0]}\nExpected: visible\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1739640656118.4.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1739640656118.4.html\nTimeout: 12 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"td a\"}",
+      "time" : {
+        "start" : 1739640656186,
+        "stop" : 1739640656186,
+        "duration" : 0
       }
     } ]
   },
   "72e8e71b4ceeaf37c51d826eb56ea312" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
+      "broken" : 1,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "43cf55f425d506c7",
-      "status" : "passed",
+      "uid" : "2e3442acd4fc97c5",
+      "status" : "broken",
+      "statusDetails" : "timeout: Timed out receiving message from renderer: -0.150\n  (Session info: chrome=131.0.6778.86)\nBuild info: version: '4.12.1', revision: '8e34639b11'\nSystem info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.3.1', java.version: '22'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [2c95046771972a779e0bf609135d5176, get {url=https://netprint.ru/}]\nselenide.url: https://netprint.ru/\nCapabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 131.0.6778.86, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: /var/folders/y4/1rkt9z0s363...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52617}, networkConnectionEnabled: false, pageLoadStrategy: eager, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:52617/devtoo..., se:cdpVersion: 131.0.6778.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nselenide.baseUrl: https://netprint.ru/\nSession ID: 2c95046771972a779e0bf609135d5176",
       "time" : {
-        "start" : 1739638482865,
-        "stop" : 1739638492248,
-        "duration" : 9383
+        "start" : 1739640442560,
+        "stop" : 1739640472933,
+        "duration" : 30373
       }
     } ]
   },
   "a9f76e9f0c22a8e5ba1a14a97727300a" : {
     "statistic" : {
-      "failed" : 0,
+      "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "8ab6ba2e839cc436",
-      "status" : "passed",
+      "uid" : "f79542908b266a27",
+      "status" : "failed",
+      "statusDetails" : "Element not found {by text: Календари}\nExpected: exist\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1739640547002.2.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1739640547002.2.html\nTimeout: 12 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\".//*/text()[normalize-space(translate(string(.), '",
       "time" : {
-        "start" : 1739638415861,
-        "stop" : 1739638453605,
-        "duration" : 37744
+        "start" : 1739640526047,
+        "stop" : 1739640547302,
+        "duration" : 21255
       }
     } ]
   }
