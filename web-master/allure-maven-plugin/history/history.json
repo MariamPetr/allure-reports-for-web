@@ -1,21 +1,21 @@
 {
   "d511771663565490be17d66a55243c84" : {
     "statistic" : {
-      "failed" : 0,
-      "broken" : 1,
+      "failed" : 1,
+      "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "1d03c96c80fae216",
-      "status" : "broken",
-      "statusDetails" : "timeout: Timed out receiving message from renderer: 30.000\n  (Session info: chrome=131.0.6778.86)\nBuild info: version: '4.12.1', revision: '8e34639b11'\nSystem info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.3.1', java.version: '22'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [462c5a79120e2aa9bdc14ff0fa838509, getTitle {}]\nselenide.url: https://netprint.ru/order/profile\nCapabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 131.0.6778.86, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: /var/folders/y4/1rkt9z0s363...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53147}, networkConnectionEnabled: false, pageLoadStrategy: eager, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:53147/devtoo..., se:cdpVersion: 131.0.6778.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nselenide.baseUrl: https://netprint.ru/\nSession ID: 462c5a79120e2aa9bdc14ff0fa838509",
+      "uid" : "47a0ac18094220a7",
+      "status" : "failed",
+      "statusDetails" : "Element not found {img[title='Онлайнкнига']}\nExpected: clickable: interactable and enabled\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1739642174865.6.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1739642174865.6.html\nTimeout: 12 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"img[title='Онлайнкнига']\"}",
       "time" : {
-        "start" : 1739640486490,
-        "stop" : 1739640525854,
-        "duration" : 39364
+        "start" : 1739642149982,
+        "stop" : 1739642175339,
+        "duration" : 25357
       }
     } ]
   },
@@ -29,13 +29,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "71434ea0f7cc62b6",
+      "uid" : "34a793b630e603c2",
       "status" : "failed",
-      "statusDetails" : "Element not found {by text: Мои альбомы}\nExpected: clickable: interactable and enabled\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1739640630410.3.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1739640630410.3.html\nTimeout: 12 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\".//*/text()[normalize-space(translate(string(.), '",
+      "statusDetails" : "Element not found {by text: Мои альбомы}\nExpected: clickable: interactable and enabled\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1739642149690.5.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1739642149690.5.html\nTimeout: 12 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\".//*/text()[normalize-space(translate(string(.), '",
       "time" : {
-        "start" : 1739640547309,
-        "stop" : 1739640630900,
-        "duration" : 83591
+        "start" : 1739642125778,
+        "stop" : 1739642149976,
+        "duration" : 24198
       }
     } ]
   },
@@ -49,16 +49,16 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "d72f84a828c87dd",
+      "uid" : "d29c3859fdbab70c",
       "status" : "passed",
       "time" : {
-        "start" : 1739640472938,
-        "stop" : 1739640486485,
-        "duration" : 13547
+        "start" : 1739641991275,
+        "stop" : 1739642003899,
+        "duration" : 12624
       }
     } ]
   },
-  "7c828c0463072ac07efc4bbe655dd48a" : {
+  "72e8e71b4ceeaf37c51d826eb56ea312" : {
     "statistic" : {
       "failed" : 1,
       "broken" : 0,
@@ -68,33 +68,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "b6642e9684ec5d9f",
+      "uid" : "c221bc2c19020183",
       "status" : "failed",
-      "statusDetails" : "Element not found {td a[0]}\nExpected: visible\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1739640656118.4.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1739640656118.4.html\nTimeout: 12 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"td a\"}",
+      "statusDetails" : "Element not found {by text: Фотографии}\nExpected: exist\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1739642125282.4.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1739642125282.4.html\nTimeout: 12 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\".//*/text()[normalize-space(translate(string(.), '",
       "time" : {
-        "start" : 1739640656186,
-        "stop" : 1739640656186,
-        "duration" : 0
-      }
-    } ]
-  },
-  "72e8e71b4ceeaf37c51d826eb56ea312" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 1,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "2e3442acd4fc97c5",
-      "status" : "broken",
-      "statusDetails" : "timeout: Timed out receiving message from renderer: -0.150\n  (Session info: chrome=131.0.6778.86)\nBuild info: version: '4.12.1', revision: '8e34639b11'\nSystem info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.3.1', java.version: '22'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [2c95046771972a779e0bf609135d5176, get {url=https://netprint.ru/}]\nselenide.url: https://netprint.ru/\nCapabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 131.0.6778.86, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: /var/folders/y4/1rkt9z0s363...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52617}, networkConnectionEnabled: false, pageLoadStrategy: eager, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:52617/devtoo..., se:cdpVersion: 131.0.6778.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nselenide.baseUrl: https://netprint.ru/\nSession ID: 2c95046771972a779e0bf609135d5176",
-      "time" : {
-        "start" : 1739640442560,
-        "stop" : 1739640472933,
-        "duration" : 30373
+        "start" : 1739642108021,
+        "stop" : 1739642125762,
+        "duration" : 17741
       }
     } ]
   },
@@ -108,13 +88,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "f79542908b266a27",
+      "uid" : "7103dd316fdd7a04",
       "status" : "failed",
-      "statusDetails" : "Element not found {by text: Календари}\nExpected: exist\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1739640547002.2.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1739640547002.2.html\nTimeout: 12 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\".//*/text()[normalize-space(translate(string(.), '",
+      "statusDetails" : "Element not found {by text: Ваш стиль}\nExpected: clickable: interactable and enabled\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1739642206584.7.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1739642206584.7.html\nTimeout: 12 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\".//*/text()[normalize-space(translate(string(.), '",
       "time" : {
-        "start" : 1739640526047,
-        "stop" : 1739640547302,
-        "duration" : 21255
+        "start" : 1739642175346,
+        "stop" : 1739642206877,
+        "duration" : 31531
       }
     } ]
   }
