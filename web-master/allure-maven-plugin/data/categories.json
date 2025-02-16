@@ -2,96 +2,92 @@
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "name" : "categories",
   "children" : [ {
-    "name" : "Test defects",
+    "name" : "Product defects",
     "children" : [ {
-      "name" : "timeout: Timed out receiving message from renderer: -0.141\n  (Session info: chrome=131.0.6778.86)\nBuild info: version: '4.12.1', revision: '8e34639b11'\nSystem info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.3.1', java.version: '22'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [be043b2017dd820460b6772d37cb6433, get {url=https://netprint.ru/}]\nselenide.url: https://netprint.ru/\nCapabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 131.0.6778.86, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: /var/folders/y4/1rkt9z0s363...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61629}, networkConnectionEnabled: false, pageLoadStrategy: eager, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:61629/devtoo..., se:cdpVersion: 131.0.6778.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nselenide.baseUrl: https://netprint.ru/\nSession ID: be043b2017dd820460b6772d37cb6433",
-      "children" : [ {
-        "name" : "Заказ постера: неавторизованный юзер",
-        "uid" : "ceac755540963d26",
-        "parentUid" : "389552cfa93c3dbe610fbab9a100424d",
-        "status" : "broken",
-        "time" : {
-          "start" : 1739678192256,
-          "stop" : 1739678222812,
-          "duration" : 30556
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "389552cfa93c3dbe610fbab9a100424d"
-    }, {
-      "name" : "timeout: Timed out receiving message from renderer: -0.083\n  (Session info: chrome=131.0.6778.86)\nBuild info: version: '4.12.1', revision: '8e34639b11'\nSystem info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.3.1', java.version: '22'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [8688ee311d1563ed44731c4d65c28211, get {url=https://netprint.ru/}]\nselenide.url: https://netprint.ru/\nCapabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 131.0.6778.86, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: /var/folders/y4/1rkt9z0s363...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61919}, networkConnectionEnabled: false, pageLoadStrategy: eager, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:61919/devtoo..., se:cdpVersion: 131.0.6778.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nselenide.baseUrl: https://netprint.ru/\nSession ID: 8688ee311d1563ed44731c4d65c28211",
-      "children" : [ {
-        "name" : "Загрузка фото в альбом",
-        "uid" : "59e5d7ab9976e338",
-        "parentUid" : "6ea3a8b931661aa0e01e56df365f7a0c",
-        "status" : "broken",
-        "time" : {
-          "start" : 1739678222824,
-          "stop" : 1739678254341,
-          "duration" : 31517
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "6ea3a8b931661aa0e01e56df365f7a0c"
-    }, {
-      "name" : "timeout: Timed out receiving message from renderer: -0.087\n  (Session info: chrome=131.0.6778.86)\nBuild info: version: '4.12.1', revision: '8e34639b11'\nSystem info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.3.1', java.version: '22'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [dc9dd2f79a64e0c804f91f5b9b3ab91b, get {url=https://netprint.ru/}]\nselenide.url: https://netprint.ru/\nCapabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 131.0.6778.86, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: /var/folders/y4/1rkt9z0s363...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63007}, networkConnectionEnabled: false, pageLoadStrategy: eager, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:63007/devtoo..., se:cdpVersion: 131.0.6778.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nselenide.baseUrl: https://netprint.ru/\nSession ID: dc9dd2f79a64e0c804f91f5b9b3ab91b",
+      "name" : "Element not found {td a[0]}\nExpected: visible\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1739679942938.3.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1739679942938.3.html\nTimeout: 12 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"td a\"}",
       "children" : [ {
         "name" : "DemoOrderTest",
-        "uid" : "c86022a3f3364730",
-        "parentUid" : "5c68f606cee93d37eeea4abdea5522f0",
-        "status" : "broken",
+        "uid" : "61ff32e31a9010f",
+        "parentUid" : "2f754e95629bde716935633e6190655c",
+        "status" : "failed",
         "time" : {
-          "start" : 1739678408446,
-          "stop" : 1739678408446,
+          "start" : 1739679943013,
+          "stop" : 1739679943013,
           "duration" : 0
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "5c68f606cee93d37eeea4abdea5522f0"
-    } ],
-    "uid" : "bdbf199525818fae7a8651db9eafe741"
-  }, {
-    "name" : "Product defects",
-    "children" : [ {
-      "name" : "Element not found {img[title='Онлайнкнига']}\nExpected: clickable: interactable and enabled\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1739678349796.0.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1739678349796.0.html\nTimeout: 12 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"img[title='Онлайнкнига']\"}",
+      "uid" : "2f754e95629bde716935633e6190655c"
+    }, {
+      "name" : "Element not found {by text: Мои альбомы}\nExpected: clickable: interactable and enabled\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1739679967217.4.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1739679967217.4.html\nTimeout: 12 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\".//*/text()[normalize-space(translate(string(.), '",
       "children" : [ {
-        "name" : "Создание книги в онлайн-редакторе",
-        "uid" : "2e75fa0e2bc52ab8",
-        "parentUid" : "2d20c2c80c8c94f99aedc8125e170b2a",
+        "name" : "Загрузка фото в альбом",
+        "uid" : "8844f708cd1f765d",
+        "parentUid" : "d7d78b3dacf262e09d1e1fecc1cd4c3b",
         "status" : "failed",
         "time" : {
-          "start" : 1739678324947,
-          "stop" : 1739678350255,
-          "duration" : 25308
+          "start" : 1739679943022,
+          "stop" : 1739679967699,
+          "duration" : 24677
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "2d20c2c80c8c94f99aedc8125e170b2a"
+      "uid" : "d7d78b3dacf262e09d1e1fecc1cd4c3b"
     }, {
-      "name" : "Element not found {button.add-photo--js}\nExpected: visible\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1739678377009.1.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1739678377009.1.html\nTimeout: 12 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"button.add-photo--js\"}",
+      "name" : "Element not found {by text: Календари}\nExpected: exist\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1739680002818.5.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1739680002818.5.html\nTimeout: 12 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\".//*/text()[normalize-space(translate(string(.), '",
       "children" : [ {
         "name" : "Заказ карманного календарика: авторизованный юзер",
-        "uid" : "c5cba390bc4b7507",
-        "parentUid" : "ea8598dbed0a4b4ace51b81c9d4c9f48",
+        "uid" : "ff7dd9544d7fe745",
+        "parentUid" : "cde60b87b657322759c198363444f832",
         "status" : "failed",
         "time" : {
-          "start" : 1739678350404,
-          "stop" : 1739678377310,
-          "duration" : 26906
+          "start" : 1739679982224,
+          "stop" : 1739680003295,
+          "duration" : 21071
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "ea8598dbed0a4b4ace51b81c9d4c9f48"
+      "uid" : "cde60b87b657322759c198363444f832"
+    }, {
+      "name" : "Element not found {img[title='Онлайнкнига']}\nExpected: clickable: interactable and enabled\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1739680025694.6.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1739680025694.6.html\nTimeout: 12 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"img[title='Онлайнкнига']\"}",
+      "children" : [ {
+        "name" : "Создание книги в онлайн-редакторе",
+        "uid" : "d290b8fc47f8d84d",
+        "parentUid" : "9f0c0c1d313f47293c5af4fe3f1f2851",
+        "status" : "failed",
+        "time" : {
+          "start" : 1739680003305,
+          "stop" : 1739680025990,
+          "duration" : 22685
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9f0c0c1d313f47293c5af4fe3f1f2851"
+    }, {
+      "name" : "Element not found {by text: Фотографии}\nExpected: exist\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1739680044311.7.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1739680044311.7.html\nTimeout: 12 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\".//*/text()[normalize-space(translate(string(.), '",
+      "children" : [ {
+        "name" : "Заказ постера: неавторизованный юзер",
+        "uid" : "b98bec2801540be2",
+        "parentUid" : "a8c5701eec1bdf93c25fd3b95f1acfb7",
+        "status" : "failed",
+        "time" : {
+          "start" : 1739680025995,
+          "stop" : 1739680044796,
+          "duration" : 18801
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a8c5701eec1bdf93c25fd3b95f1acfb7"
     } ],
     "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
   } ]
