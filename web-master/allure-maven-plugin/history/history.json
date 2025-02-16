@@ -1,20 +1,21 @@
 {
   "d511771663565490be17d66a55243c84" : {
     "statistic" : {
-      "failed" : 0,
+      "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "30fac1a8e63a44aa",
-      "status" : "passed",
+      "uid" : "38f9eec31dc5544c",
+      "status" : "failed",
+      "statusDetails" : "Element not found {img[title='Онлайнкнига']}\nExpected: clickable: interactable and enabled\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1739728515032.2.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1739728515032.2.html\nTimeout: 12 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"img[title='Онлайнкнига']\"}",
       "time" : {
-        "start" : 1739726646158,
-        "stop" : 1739726675880,
-        "duration" : 29722
+        "start" : 1739728492817,
+        "stop" : 1739728515323,
+        "duration" : 22506
       }
     } ]
   },
@@ -28,12 +29,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "f4922eaa772d4dd5",
+      "uid" : "63ccfe7a749af083",
       "status" : "passed",
       "time" : {
-        "start" : 1739726685831,
-        "stop" : 1739726702076,
-        "duration" : 16245
+        "start" : 1739728463434,
+        "stop" : 1739728480872,
+        "duration" : 17438
       }
     } ]
   },
@@ -47,12 +48,32 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "3215e230f7a38fd3",
+      "uid" : "241e55566919b981",
       "status" : "passed",
       "time" : {
-        "start" : 1739726594583,
-        "stop" : 1739726607565,
-        "duration" : 12982
+        "start" : 1739728393988,
+        "stop" : 1739728408021,
+        "duration" : 14033
+      }
+    } ]
+  },
+  "a9f76e9f0c22a8e5ba1a14a97727300a" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d08bfbc8e4f864d2",
+      "status" : "failed",
+      "statusDetails" : "Element should be clickable: interactable and enabled {by text: Карманный календарик}\nElement: '<a data-sub-link=\"sub-link\" href=\"https://netprint.ru/moscow/calendars/karmannye-kalendari\" displayed:false></a>'\nActual value: hidden, opacity=1\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1739728537648.3.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1739728537648.3.html\nTimeout: 12 s.",
+      "time" : {
+        "start" : 1739728515497,
+        "stop" : 1739728538029,
+        "duration" : 22532
       }
     } ]
   },
@@ -66,31 +87,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "822007a32c577ac2",
+      "uid" : "24916158130a0596",
       "status" : "passed",
       "time" : {
-        "start" : 1739726675885,
-        "stop" : 1739726685825,
-        "duration" : 9940
-      }
-    } ]
-  },
-  "a9f76e9f0c22a8e5ba1a14a97727300a" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "fd61643fb69f9858",
-      "status" : "passed",
-      "time" : {
-        "start" : 1739726607611,
-        "stop" : 1739726646149,
-        "duration" : 38538
+        "start" : 1739728454830,
+        "stop" : 1739728463429,
+        "duration" : 8599
       }
     } ]
   }
