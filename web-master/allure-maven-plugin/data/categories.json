@@ -4,90 +4,39 @@
   "children" : [ {
     "name" : "Product defects",
     "children" : [ {
-      "name" : "Element not found {td a[0]}\nExpected: visible\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1739679942938.3.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1739679942938.3.html\nTimeout: 12 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"td a\"}",
+      "name" : "Element not found {img[title='Онлайнкнига']}\nExpected: clickable: interactable and enabled\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1739681810721.4.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1739681810721.4.html\nTimeout: 12 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"img[title='Онлайнкнига']\"}",
       "children" : [ {
-        "name" : "DemoOrderTest",
-        "uid" : "61ff32e31a9010f",
-        "parentUid" : "2f754e95629bde716935633e6190655c",
+        "name" : "Создание книги в онлайн-редакторе",
+        "uid" : "d5aa70553b8c7cf2",
+        "parentUid" : "c7f48de601359127813a85286407bfbe",
         "status" : "failed",
         "time" : {
-          "start" : 1739679943013,
-          "stop" : 1739679943013,
+          "start" : 1739681789781,
+          "stop" : 1739681811048,
+          "duration" : 21267
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c7f48de601359127813a85286407bfbe"
+    }, {
+      "name" : "Element not found {td a[0]}\nExpected: visible\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1739681834785.5.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1739681834785.5.html\nTimeout: 12 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"td a\"}",
+      "children" : [ {
+        "name" : "DemoOrderTest",
+        "uid" : "3250ec23173c8dd5",
+        "parentUid" : "5055e8187d8c5f1dd397a029d733a53c",
+        "status" : "failed",
+        "time" : {
+          "start" : 1739681834850,
+          "stop" : 1739681834850,
           "duration" : 0
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "2f754e95629bde716935633e6190655c"
-    }, {
-      "name" : "Element not found {by text: Мои альбомы}\nExpected: clickable: interactable and enabled\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1739679967217.4.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1739679967217.4.html\nTimeout: 12 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\".//*/text()[normalize-space(translate(string(.), '",
-      "children" : [ {
-        "name" : "Загрузка фото в альбом",
-        "uid" : "8844f708cd1f765d",
-        "parentUid" : "d7d78b3dacf262e09d1e1fecc1cd4c3b",
-        "status" : "failed",
-        "time" : {
-          "start" : 1739679943022,
-          "stop" : 1739679967699,
-          "duration" : 24677
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "d7d78b3dacf262e09d1e1fecc1cd4c3b"
-    }, {
-      "name" : "Element not found {by text: Календари}\nExpected: exist\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1739680002818.5.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1739680002818.5.html\nTimeout: 12 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\".//*/text()[normalize-space(translate(string(.), '",
-      "children" : [ {
-        "name" : "Заказ карманного календарика: авторизованный юзер",
-        "uid" : "ff7dd9544d7fe745",
-        "parentUid" : "cde60b87b657322759c198363444f832",
-        "status" : "failed",
-        "time" : {
-          "start" : 1739679982224,
-          "stop" : 1739680003295,
-          "duration" : 21071
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "cde60b87b657322759c198363444f832"
-    }, {
-      "name" : "Element not found {img[title='Онлайнкнига']}\nExpected: clickable: interactable and enabled\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1739680025694.6.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1739680025694.6.html\nTimeout: 12 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"img[title='Онлайнкнига']\"}",
-      "children" : [ {
-        "name" : "Создание книги в онлайн-редакторе",
-        "uid" : "d290b8fc47f8d84d",
-        "parentUid" : "9f0c0c1d313f47293c5af4fe3f1f2851",
-        "status" : "failed",
-        "time" : {
-          "start" : 1739680003305,
-          "stop" : 1739680025990,
-          "duration" : 22685
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "9f0c0c1d313f47293c5af4fe3f1f2851"
-    }, {
-      "name" : "Element not found {by text: Фотографии}\nExpected: exist\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1739680044311.7.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1739680044311.7.html\nTimeout: 12 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\".//*/text()[normalize-space(translate(string(.), '",
-      "children" : [ {
-        "name" : "Заказ постера: неавторизованный юзер",
-        "uid" : "b98bec2801540be2",
-        "parentUid" : "a8c5701eec1bdf93c25fd3b95f1acfb7",
-        "status" : "failed",
-        "time" : {
-          "start" : 1739680025995,
-          "stop" : 1739680044796,
-          "duration" : 18801
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "a8c5701eec1bdf93c25fd3b95f1acfb7"
+      "uid" : "5055e8187d8c5f1dd397a029d733a53c"
     } ],
     "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
   } ]
