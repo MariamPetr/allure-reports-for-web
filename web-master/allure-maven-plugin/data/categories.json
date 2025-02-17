@@ -4,39 +4,22 @@
   "children" : [ {
     "name" : "Product defects",
     "children" : [ {
-      "name" : "Element not found {by text: Мои альбомы}\nExpected: clickable: interactable and enabled\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1739791540191.1.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1739791540191.1.html\nTimeout: 12 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\".//*/text()[normalize-space(translate(string(.), '",
+      "name" : "Element should be clickable: interactable and enabled {by text: Карманный календарик}\nElement: '<a data-sub-link=\"sub-link\" href=\"https://netprint.ru/moscow/calendars/karmannye-kalendari\" displayed:false></a>'\nActual value: hidden, opacity=1\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1739793332498.1.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1739793332498.1.html\nTimeout: 12 s.",
       "children" : [ {
-        "name" : "Загрузка фото в альбом",
-        "uid" : "8f78f186459da8d9",
-        "parentUid" : "05257e703a1323362af72db425d52be1",
+        "name" : "Заказ карманного календарика: авторизованный юзер",
+        "uid" : "e7468a75e55b25a9",
+        "parentUid" : "5cede65c0612314a253d57eb6fcedf89",
         "status" : "failed",
         "time" : {
-          "start" : 1739791520553,
-          "stop" : 1739791540718,
-          "duration" : 20165
+          "start" : 1739793310597,
+          "stop" : 1739793333029,
+          "duration" : 22432
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "05257e703a1323362af72db425d52be1"
-    }, {
-      "name" : "Element not found {td a[0]}\nExpected: visible\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1739791560615.2.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1739791560615.2.html\nTimeout: 12 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"td a\"}",
-      "children" : [ {
-        "name" : "DemoOrderTest",
-        "uid" : "5c39f0824a4c6c65",
-        "parentUid" : "b7a1054d96bc3f512d63a461c2f36015",
-        "status" : "failed",
-        "time" : {
-          "start" : 1739791560786,
-          "stop" : 1739791560786,
-          "duration" : 0
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "b7a1054d96bc3f512d63a461c2f36015"
+      "uid" : "5cede65c0612314a253d57eb6fcedf89"
     } ],
     "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
   } ]
