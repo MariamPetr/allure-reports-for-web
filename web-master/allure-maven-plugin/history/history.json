@@ -1,20 +1,21 @@
 {
   "d511771663565490be17d66a55243c84" : {
     "statistic" : {
-      "failed" : 0,
+      "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "9b741a833b6bde7",
-      "status" : "passed",
+      "uid" : "f12967e16e39c91e",
+      "status" : "failed",
+      "statusDetails" : "Element not found {img[title='Онлайнкнига']}\nExpected: clickable: interactable and enabled\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1739922974873.2.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1739922974873.2.html\nTimeout: 12 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"img[title='Онлайнкнига']\"}",
       "time" : {
-        "start" : 1739921040187,
-        "stop" : 1739921070332,
-        "duration" : 30145
+        "start" : 1739922952133,
+        "stop" : 1739922975368,
+        "duration" : 23235
       }
     } ]
   },
@@ -28,12 +29,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "b682e8e6149b4cf5",
+      "uid" : "513aee5e5bbd9c30",
       "status" : "passed",
       "time" : {
-        "start" : 1739921088696,
-        "stop" : 1739921107620,
-        "duration" : 18924
+        "start" : 1739922984932,
+        "stop" : 1739923003667,
+        "duration" : 18735
       }
     } ]
   },
@@ -47,31 +48,32 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "372a1d24c9a4f781",
+      "uid" : "cdfe236f8cf2e5ef",
       "status" : "passed",
       "time" : {
-        "start" : 1739920994627,
-        "stop" : 1739921008230,
-        "duration" : 13603
+        "start" : 1739922919716,
+        "stop" : 1739922929911,
+        "duration" : 10195
       }
     } ]
   },
-  "a9f76e9f0c22a8e5ba1a14a97727300a" : {
+  "7c828c0463072ac07efc4bbe655dd48a" : {
     "statistic" : {
-      "failed" : 0,
+      "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "1c40a0ede1dea6f6",
-      "status" : "passed",
+      "uid" : "22ed572f2c25dd6",
+      "status" : "failed",
+      "statusDetails" : "Element not found {td a[0]}\nExpected: visible\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1739922919234.0.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1739922919234.0.html\nTimeout: 12 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"td a\"}",
       "time" : {
-        "start" : 1739921131807,
-        "stop" : 1739921168713,
-        "duration" : 36906
+        "start" : 1739922919697,
+        "stop" : 1739922919697,
+        "duration" : 0
       }
     } ]
   },
@@ -85,12 +87,32 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "8627c609e13fdaca",
+      "uid" : "88ab68fb4bf538c4",
       "status" : "passed",
       "time" : {
-        "start" : 1739921120991,
-        "stop" : 1739921131802,
-        "duration" : 10811
+        "start" : 1739922975377,
+        "stop" : 1739922984928,
+        "duration" : 9551
+      }
+    } ]
+  },
+  "a9f76e9f0c22a8e5ba1a14a97727300a" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "cfc1fba460a46f2b",
+      "status" : "failed",
+      "statusDetails" : "Element should be clickable: interactable and enabled {by text: Карманный календарик}\nElement: '<a data-sub-link=\"sub-link\" href=\"https://netprint.ru/moscow/calendars/karmannye-kalendari\" displayed:false></a>'\nActual value: hidden, opacity=1\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1739922951696.1.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1739922951696.1.html\nTimeout: 12 s.",
+      "time" : {
+        "start" : 1739922929915,
+        "stop" : 1739922952128,
+        "duration" : 22213
       }
     } ]
   }
