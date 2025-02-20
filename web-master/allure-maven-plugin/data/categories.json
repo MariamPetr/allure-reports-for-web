@@ -4,22 +4,39 @@
   "children" : [ {
     "name" : "Product defects",
     "children" : [ {
-      "name" : "Element not found {a.user-menu-item-block}\nExpected: clickable: interactable and enabled\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740038168268.2.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740038168268.2.html\nTimeout: 12 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"a.user-menu-item-block\"}",
+      "name" : "Element not found {by text: Мои финансы}\nExpected: clickable: interactable and enabled\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740039964845.2.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740039964845.2.html\nTimeout: 12 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\".//*/text()[normalize-space(translate(string(.), '",
       "children" : [ {
-        "name" : "Загрузка фото в альбом",
-        "uid" : "ef3f69e307c0b32c",
-        "parentUid" : "d5c1dba474bd4e3cc1393fbaccc01f2e",
+        "name" : "Пополнение лицевого счёта в личном кабинете",
+        "uid" : "a9569686d1c8536f",
+        "parentUid" : "11b480edee6b2039f270d60dc0c9b9bd",
         "status" : "failed",
         "time" : {
-          "start" : 1740038148306,
-          "stop" : 1740038168792,
-          "duration" : 20486
+          "start" : 1740039943423,
+          "stop" : 1740039965221,
+          "duration" : 21798
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "d5c1dba474bd4e3cc1393fbaccc01f2e"
+      "uid" : "11b480edee6b2039f270d60dc0c9b9bd"
+    }, {
+      "name" : "Element not found {td a[0]}\nExpected: visible\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740040072514.3.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740040072514.3.html\nTimeout: 12 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"td a\"}",
+      "children" : [ {
+        "name" : "DemoOrderTest",
+        "uid" : "6997c6a7042a3ca",
+        "parentUid" : "cac7f81816571b6e62e220a4be0ddf1f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1740040072645,
+          "stop" : 1740040072645,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "cac7f81816571b6e62e220a4be0ddf1f"
     } ],
     "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
   } ]
