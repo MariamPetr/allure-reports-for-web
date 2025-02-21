@@ -9,31 +9,32 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "4bd084e76c42f862",
+      "uid" : "aef2c9fcbcc16a22",
       "status" : "passed",
       "time" : {
-        "start" : 1740144233246,
-        "stop" : 1740144264759,
-        "duration" : 31513
+        "start" : 1740145480010,
+        "stop" : 1740145511957,
+        "duration" : 31947
       }
     } ]
   },
   "6f63a55223ff2b502b3f72c0c5c8bbb0" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
+      "broken" : 1,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "9aca2f1108a36688",
-      "status" : "passed",
+      "uid" : "86fad4db39510ba5",
+      "status" : "broken",
+      "statusDetails" : "Index 1 out of bounds for length 0",
       "time" : {
-        "start" : 1740144273089,
-        "stop" : 1740144291568,
-        "duration" : 18479
+        "start" : 1740145561524,
+        "stop" : 1740145582220,
+        "duration" : 20696
       }
     } ]
   },
@@ -47,32 +48,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "983553f9f1996817",
+      "uid" : "25d01bd3fa4a6417",
       "status" : "passed",
       "time" : {
-        "start" : 1740144187536,
-        "stop" : 1740144200863,
-        "duration" : 13327
-      }
-    } ]
-  },
-  "a9f76e9f0c22a8e5ba1a14a97727300a" : {
-    "statistic" : {
-      "failed" : 1,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "d0414d09d95f9b56",
-      "status" : "failed",
-      "statusDetails" : "Element not found {button.add-photo--js}\nExpected: visible\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740144331213.1.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740144331213.1.html\nTimeout: 12 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"button.add-photo--js\"}",
-      "time" : {
-        "start" : 1740144304168,
-        "stop" : 1740144331740,
-        "duration" : 27572
+        "start" : 1740145394038,
+        "stop" : 1740145407385,
+        "duration" : 13347
       }
     } ]
   },
@@ -86,12 +67,31 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "e37ff2332c346cf3",
+      "uid" : "518ec2b421837b2c",
       "status" : "passed",
       "time" : {
-        "start" : 1740144264763,
-        "stop" : 1740144273085,
-        "duration" : 8322
+        "start" : 1740145511961,
+        "stop" : 1740145521280,
+        "duration" : 9319
+      }
+    } ]
+  },
+  "a9f76e9f0c22a8e5ba1a14a97727300a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1802d1acadf457aa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1740145582226,
+        "stop" : 1740145619649,
+        "duration" : 37423
       }
     } ]
   }
