@@ -9,12 +9,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "260009c662709705",
+      "uid" : "93ae3d2a976eed06",
       "status" : "passed",
       "time" : {
-        "start" : 1740155041882,
-        "stop" : 1740155076828,
-        "duration" : 34946
+        "start" : 1740156385451,
+        "stop" : 1740156415917,
+        "duration" : 30466
       }
     } ]
   },
@@ -28,50 +28,52 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "3147ab6e402607f9",
+      "uid" : "980a572ea56e4271",
       "status" : "passed",
       "time" : {
-        "start" : 1740155085405,
-        "stop" : 1740155102649,
-        "duration" : 17244
+        "start" : 1740156425215,
+        "stop" : 1740156442438,
+        "duration" : 17223
       }
     } ]
   },
   "4f5f83cf19e9552f29e1229aa2f1544a" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
+      "broken" : 1,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "1a595ae92702432e",
-      "status" : "passed",
+      "uid" : "136916d391a27c4",
+      "status" : "broken",
+      "statusDetails" : "Index 4 out of bounds for length 0",
       "time" : {
-        "start" : 1740154994677,
-        "stop" : 1740155008177,
-        "duration" : 13500
+        "start" : 1740156328632,
+        "stop" : 1740156349020,
+        "duration" : 20388
       }
     } ]
   },
-  "72e8e71b4ceeaf37c51d826eb56ea312" : {
+  "7c828c0463072ac07efc4bbe655dd48a" : {
     "statistic" : {
-      "failed" : 0,
+      "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "a075044ce29ad45b",
-      "status" : "passed",
+      "uid" : "bd5a3ca64ea641a7",
+      "status" : "failed",
+      "statusDetails" : "Element not found {td a[0]}\nExpected: visible\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740156328286.1.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740156328286.1.html\nTimeout: 12 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"td a\"}",
       "time" : {
-        "start" : 1740155076831,
-        "stop" : 1740155085401,
-        "duration" : 8570
+        "start" : 1740156328620,
+        "stop" : 1740156328620,
+        "duration" : 0
       }
     } ]
   },
@@ -85,12 +87,31 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "413fd895974deca9",
+      "uid" : "d695a4fae8877922",
       "status" : "passed",
       "time" : {
-        "start" : 1740155008218,
-        "stop" : 1740155041878,
-        "duration" : 33660
+        "start" : 1740156349029,
+        "stop" : 1740156385448,
+        "duration" : 36419
+      }
+    } ]
+  },
+  "72e8e71b4ceeaf37c51d826eb56ea312" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8a17d398909df666",
+      "status" : "passed",
+      "time" : {
+        "start" : 1740156415922,
+        "stop" : 1740156425209,
+        "duration" : 9287
       }
     } ]
   }
