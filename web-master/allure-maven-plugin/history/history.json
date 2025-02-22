@@ -9,31 +9,32 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "cbe6f638138c9f0b",
+      "uid" : "21fa8e2215f73d40",
       "status" : "passed",
       "time" : {
-        "start" : 1740255246572,
-        "stop" : 1740255277322,
-        "duration" : 30750
+        "start" : 1740255982609,
+        "stop" : 1740256015778,
+        "duration" : 33169
       }
     } ]
   },
   "6f63a55223ff2b502b3f72c0c5c8bbb0" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
+      "broken" : 1,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "5548163e9f5b951b",
-      "status" : "passed",
+      "uid" : "8ec05ec40d69492a",
+      "status" : "broken",
+      "statusDetails" : "timeout: Timed out receiving message from renderer: -0.150\n  (Session info: chrome=131.0.6778.86)\nBuild info: version: '4.12.1', revision: '8e34639b11'\nSystem info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.3.1', java.version: '22'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [4dfa362f769f291a1a19f89c6ffc16e4, get {url=https://netprint.ru/order/profile}]\nselenide.url: https://netprint.ru/order/profile\nCapabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 131.0.6778.86, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: /var/folders/y4/1rkt9z0s363...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56434}, networkConnectionEnabled: false, pageLoadStrategy: eager, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:56434/devtoo..., se:cdpVersion: 131.0.6778.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nselenide.baseUrl: https://netprint.ru/\nSession ID: 4dfa362f769f291a1a19f89c6ffc16e4",
       "time" : {
-        "start" : 1740255286227,
-        "stop" : 1740255303850,
-        "duration" : 17623
+        "start" : 1740256015781,
+        "stop" : 1740256055298,
+        "duration" : 39517
       }
     } ]
   },
@@ -47,12 +48,32 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "eaf1c503074e5975",
+      "uid" : "2e7a8b581f34dc5e",
       "status" : "passed",
       "time" : {
-        "start" : 1740255192248,
-        "stop" : 1740255205452,
-        "duration" : 13204
+        "start" : 1740255935420,
+        "stop" : 1740255947382,
+        "duration" : 11962
+      }
+    } ]
+  },
+  "7c828c0463072ac07efc4bbe655dd48a" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "87efd560389f96e7",
+      "status" : "failed",
+      "statusDetails" : "Element not found {td a[0]}\nExpected: visible\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740255927275.1.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740255927275.1.html\nTimeout: 12 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"td a\"}",
+      "time" : {
+        "start" : 1740255927493,
+        "stop" : 1740255927493,
+        "duration" : 0
       }
     } ]
   },
@@ -66,12 +87,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "39871cb85db48abd",
+      "uid" : "c99019fcdb768b5d",
       "status" : "passed",
       "time" : {
-        "start" : 1740255277325,
-        "stop" : 1740255286222,
-        "duration" : 8897
+        "start" : 1740255927501,
+        "stop" : 1740255935416,
+        "duration" : 7915
       }
     } ]
   },
@@ -85,12 +106,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "3f123fefaf78b60f",
+      "uid" : "d06ac46439a3a002",
       "status" : "passed",
       "time" : {
-        "start" : 1740255205492,
-        "stop" : 1740255246568,
-        "duration" : 41076
+        "start" : 1740255947391,
+        "stop" : 1740255982605,
+        "duration" : 35214
       }
     } ]
   }
