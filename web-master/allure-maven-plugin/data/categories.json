@@ -1,5 +1,43 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "name" : "categories",
-  "children" : [ ]
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Element not found {td a[0]}\nExpected: visible\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740311161809.0.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740311161809.0.html\nTimeout: 12 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"td a\"}",
+      "children" : [ {
+        "name" : "DemoOrderTest",
+        "uid" : "e6a0c8224b4c6264",
+        "parentUid" : "115b9a6f4a43d928d89fae99f80fb850",
+        "status" : "failed",
+        "time" : {
+          "start" : 1740311161962,
+          "stop" : 1740311161962,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "115b9a6f4a43d928d89fae99f80fb850"
+    }, {
+      "name" : "Invalid element state [i.material-icons[10]]: element click intercepted: Element <i class=\"material-icons\">...</i> is not clickable at point (1219, 722). Other element would receive the click: <div style=\"background: rgba(0, 0, 0, 0.4); position: fixed; z-index: 110; opacity: 0.7; left: 0px; top: 0px; width: 1920px; height: 1419px;\"></div>\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740311204166.1.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740311204166.1.html\nTimeout: 12 s.\nCaused by: ElementClickInterceptedException: element click intercepted: Element <i class=\"material-icons\">...</i> is not clickable at point (1219, 722). Other element would receive the click: <div style=\"background: rgba(0, 0, 0, 0.4); position: fixed; z-index: 110; opacity: 0.7; left: 0px; top: 0px; width: 1920px; height: 1419px;\"></div>",
+      "children" : [ {
+        "name" : "Заказ карманного календарика: авторизованный юзер",
+        "uid" : "b039e0e8bada54f3",
+        "parentUid" : "d132772a8b1ad2a85ab6891b9483b222",
+        "status" : "failed",
+        "time" : {
+          "start" : 1740311172566,
+          "stop" : 1740311204647,
+          "duration" : 32081
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d132772a8b1ad2a85ab6891b9483b222"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
 }
