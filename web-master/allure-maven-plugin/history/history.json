@@ -9,31 +9,32 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "9676ce1f44263ac4",
+      "uid" : "19899d2548758afb",
       "status" : "passed",
       "time" : {
-        "start" : 1740336842271,
-        "stop" : 1740336877480,
-        "duration" : 35209
+        "start" : 1740337860741,
+        "stop" : 1740337894910,
+        "duration" : 34169
       }
     } ]
   },
   "6f63a55223ff2b502b3f72c0c5c8bbb0" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
+      "broken" : 1,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "999ffcef70fb107d",
-      "status" : "passed",
+      "uid" : "92110c0e8833b2ab",
+      "status" : "broken",
+      "statusDetails" : "Index 1 out of bounds for length 0",
       "time" : {
-        "start" : 1740336885946,
-        "stop" : 1740336904245,
-        "duration" : 18299
+        "start" : 1740337941847,
+        "stop" : 1740337962515,
+        "duration" : 20668
       }
     } ]
   },
@@ -47,12 +48,32 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "c071b8aab7d08edc",
+      "uid" : "518e658e5e6bb0d3",
       "status" : "passed",
       "time" : {
-        "start" : 1740336792710,
-        "stop" : 1740336806685,
-        "duration" : 13975
+        "start" : 1740337811309,
+        "stop" : 1740337825369,
+        "duration" : 14060
+      }
+    } ]
+  },
+  "7c828c0463072ac07efc4bbe655dd48a" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3da40680460d2909",
+      "status" : "failed",
+      "statusDetails" : "Element not found {td a[0]}\nExpected: visible\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740337982654.0.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740337982654.0.html\nTimeout: 12 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"td a\"}",
+      "time" : {
+        "start" : 1740337982893,
+        "stop" : 1740337982893,
+        "duration" : 0
       }
     } ]
   },
@@ -66,12 +87,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "6e3d93022de2338e",
+      "uid" : "6f5feb7e322fc8ad",
       "status" : "passed",
       "time" : {
-        "start" : 1740336877485,
-        "stop" : 1740336885941,
-        "duration" : 8456
+        "start" : 1740337894913,
+        "stop" : 1740337904088,
+        "duration" : 9175
       }
     } ]
   },
@@ -85,12 +106,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "5eb528203434888a",
+      "uid" : "46168a2b91f0d4c7",
       "status" : "passed",
       "time" : {
-        "start" : 1740336806731,
-        "stop" : 1740336842266,
-        "duration" : 35535
+        "start" : 1740337825416,
+        "stop" : 1740337860736,
+        "duration" : 35320
       }
     } ]
   }
