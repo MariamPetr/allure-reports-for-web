@@ -1,20 +1,21 @@
 {
   "d511771663565490be17d66a55243c84" : {
     "statistic" : {
-      "failed" : 0,
+      "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "5378ade34099f10a",
-      "status" : "passed",
+      "uid" : "65c470bcff343bca",
+      "status" : "failed",
+      "statusDetails" : "Element not found {img[title='Онлайнкнига']}\nExpected: clickable: interactable and enabled\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740379525374.2.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740379525374.2.html\nTimeout: 12 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"img[title='Онлайнкнига']\"}",
       "time" : {
-        "start" : 1740378237534,
-        "stop" : 1740378268712,
-        "duration" : 31178
+        "start" : 1740379501953,
+        "stop" : 1740379525609,
+        "duration" : 23656
       }
     } ]
   },
@@ -28,12 +29,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "4831e13ee430631e",
+      "uid" : "74060858e77210f1",
       "status" : "passed",
       "time" : {
-        "start" : 1740378288471,
-        "stop" : 1740378306212,
-        "duration" : 17741
+        "start" : 1740379458964,
+        "stop" : 1740379476019,
+        "duration" : 17055
       }
     } ]
   },
@@ -47,51 +48,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "a400a1468b766a56",
+      "uid" : "a34b90203851a81b",
       "status" : "passed",
       "time" : {
-        "start" : 1740378187499,
-        "stop" : 1740378200542,
-        "duration" : 13043
-      }
-    } ]
-  },
-  "7c828c0463072ac07efc4bbe655dd48a" : {
-    "statistic" : {
-      "failed" : 1,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "db6407776dfb4678",
-      "status" : "failed",
-      "statusDetails" : "Element not found {td a[0]}\nExpected: visible\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740378347909.1.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740378347909.1.html\nTimeout: 12 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"td a\"}",
-      "time" : {
-        "start" : 1740378348050,
-        "stop" : 1740378348050,
-        "duration" : 0
-      }
-    } ]
-  },
-  "72e8e71b4ceeaf37c51d826eb56ea312" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "9bcccd5e6c5d5676",
-      "status" : "passed",
-      "time" : {
-        "start" : 1740378320904,
-        "stop" : 1740378328128,
-        "duration" : 7224
+        "start" : 1740379489678,
+        "stop" : 1740379501950,
+        "duration" : 12272
       }
     } ]
   },
@@ -105,12 +67,31 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "bba7d689c9d28457",
+      "uid" : "808df50ba3dd56e1",
       "status" : "passed",
       "time" : {
-        "start" : 1740378200578,
-        "stop" : 1740378237528,
-        "duration" : 36950
+        "start" : 1740379525871,
+        "stop" : 1740379561864,
+        "duration" : 35993
+      }
+    } ]
+  },
+  "72e8e71b4ceeaf37c51d826eb56ea312" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5387a21e89a1f52b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1740379449334,
+        "stop" : 1740379458961,
+        "duration" : 9627
       }
     } ]
   }
