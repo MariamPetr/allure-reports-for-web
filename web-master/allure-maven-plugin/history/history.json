@@ -1,20 +1,21 @@
 {
   "d511771663565490be17d66a55243c84" : {
     "statistic" : {
-      "failed" : 0,
+      "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "7d0224cb34c49122",
-      "status" : "passed",
+      "uid" : "fa6bafeeaca69c8b",
+      "status" : "failed",
+      "statusDetails" : "Element should be clickable: interactable and enabled {span.porch-home-tile-title[5]}\nElement: '<span class=\"porch-home-tile-title\" displayed:false></span>'\nActual value: hidden, opacity=1\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740478440787.4.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740478440787.4.html\nTimeout: 12 s.",
       "time" : {
-        "start" : 1740381845343,
-        "stop" : 1740381875422,
-        "duration" : 30079
+        "start" : 1740478377273,
+        "stop" : 1740478441936,
+        "duration" : 64663
       }
     } ]
   },
@@ -28,12 +29,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "2af44bed5669eac5",
+      "uid" : "7e039673386d0dbd",
       "status" : "passed",
       "time" : {
-        "start" : 1740381884547,
-        "stop" : 1740381901376,
-        "duration" : 16829
+        "start" : 1740478287301,
+        "stop" : 1740478330558,
+        "duration" : 43257
       }
     } ]
   },
@@ -47,31 +48,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "bb22aea49c3cd4d0",
+      "uid" : "cb58912bf898e224",
       "status" : "passed",
       "time" : {
-        "start" : 1740381788627,
-        "stop" : 1740381801454,
-        "duration" : 12827
-      }
-    } ]
-  },
-  "72e8e71b4ceeaf37c51d826eb56ea312" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "12d09f266377ebf4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1740381875427,
-        "stop" : 1740381884542,
-        "duration" : 9115
+        "start" : 1740478175703,
+        "stop" : 1740478190759,
+        "duration" : 15056
       }
     } ]
   },
@@ -85,13 +67,33 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "bc500c1e27052ecc",
+      "uid" : "32c92014adf73818",
       "status" : "failed",
-      "statusDetails" : "Element not found {button.order-delivery-switch}\nExpected: clickable: interactable and enabled\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740381955305.1.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740381955305.1.html\nTimeout: 12 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"button.order-delivery-switch\"}",
+      "statusDetails" : "Element should be visible {button.add-photo--js}\nElement: '<button class=\"button button-small button-success action-panel-action--js add-photo--js\" type=\"submit\" displayed:false></button>'\nActual value: hidden\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740478478233.5.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740478478233.5.html\nTimeout: 12 s.",
       "time" : {
-        "start" : 1740381915219,
-        "stop" : 1740381955619,
-        "duration" : 40400
+        "start" : 1740478441949,
+        "stop" : 1740478478851,
+        "duration" : 36902
+      }
+    } ]
+  },
+  "72e8e71b4ceeaf37c51d826eb56ea312" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "26e488f9d8b7b033",
+      "status" : "failed",
+      "statusDetails" : "Element should be clickable: interactable and enabled {button.print-template--js}\nElement: '<button class=\"button button-success express-panel-right print-template--js\" type=\"submit\" displayed:false></button>'\nActual value: hidden, opacity=1\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740478376847.3.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740478376847.3.html\nTimeout: 12 s.",
+      "time" : {
+        "start" : 1740478348150,
+        "stop" : 1740478377268,
+        "duration" : 29118
       }
     } ]
   }
