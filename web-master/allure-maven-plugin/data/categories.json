@@ -4,56 +4,73 @@
   "children" : [ {
     "name" : "Product defects",
     "children" : [ {
-      "name" : "Element should be clickable: interactable and enabled {button.print-template--js}\nElement: '<button class=\"button button-success express-panel-right print-template--js\" type=\"submit\" displayed:false></button>'\nActual value: hidden, opacity=1\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740478836126.5.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740478836126.5.html\nTimeout: 12 s.",
+      "name" : "Element not found {td a[0]}\nExpected: visible\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740479414917.4.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740479414917.4.html\nTimeout: 12 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"td a\"}",
+      "children" : [ {
+        "name" : "DemoOrderTest",
+        "uid" : "5c46b219d7517f30",
+        "parentUid" : "20f24bce3772e23ed6d8231991ab05e3",
+        "status" : "failed",
+        "time" : {
+          "start" : 1740479415264,
+          "stop" : 1740479415264,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "20f24bce3772e23ed6d8231991ab05e3"
+    }, {
+      "name" : "Element should be clickable: interactable and enabled {button.print-template--js}\nElement: '<button class=\"button button-success express-panel-right print-template--js\" type=\"submit\" displayed:false></button>'\nActual value: hidden, opacity=1\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740479442244.5.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740479442244.5.html\nTimeout: 12 s.",
       "children" : [ {
         "name" : "Заказ постера: неавторизованный юзер",
-        "uid" : "4b066b1c87ca5ea4",
-        "parentUid" : "17896008dee7e4e2555697796902819a",
+        "uid" : "fd055c48d83435b6",
+        "parentUid" : "93affaa1d55f89ced1619fcd1dac390d",
         "status" : "failed",
         "time" : {
-          "start" : 1740478808998,
-          "stop" : 1740478836444,
-          "duration" : 27446
+          "start" : 1740479415306,
+          "stop" : 1740479442653,
+          "duration" : 27347
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "17896008dee7e4e2555697796902819a"
+      "uid" : "93affaa1d55f89ced1619fcd1dac390d"
     }, {
-      "name" : "Element should be clickable: interactable and enabled {span.porch-home-tile-title[5]}\nElement: '<span class=\"porch-home-tile-title\" displayed:false></span>'\nActual value: hidden, opacity=1\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740478956955.6.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740478956955.6.html\nTimeout: 12 s.",
+      "name" : "Invalid element state [img[title='Онлайнкнига']]: element click intercepted: Element <img alt=\"\" class=\"album_cover_image image-cover ng-isolate-scope success-loaded rotate-0\" title=\"Онлайнкнига\" url=\"album.item.coverUrl\" angle=\"album.item.coverAngle\" transparent=\"album.item.isStyle\" data-ng-src=\"https://cdn.photoholding.com/RBalancerWeb/SquidStyleBalancer/add4379555d15836aa5d09b542815f8e/d250/0\" src=\"https://cdn.photoholding.com/RBalancerWeb/SquidStyleBalancer/add4379555d15836aa5d09b542815f8e/d250/0\"> is not clickable at point (530, 484). Other element would receive the click: <div class=\"flocktory-widget-overlay\" style=\"display: flex; z-index: 2147483647; position: fixed; top: 0px; left: 0px; justify-content: center; align-items: center; width: 100%; height: 100%; background: transparent; transform: none;\" data-showed-up=\"true\">...</div>\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740479501429.6.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740479501429.6.html\nTimeout: 12 s.\nCaused by: ElementClickInterceptedException: element click intercepted: Element <img alt=\"\" class=\"album_cover_image image-cover ng-isolate-scope success-loaded rotate-0\" title=\"Онлайнкнига\" url=\"album.item.coverUrl\" angle=\"album.item.coverAngle\" transparent=\"album.item.isStyle\" data-ng-src=\"https://cdn.photoholding.com/RBalancerWeb/SquidStyleBalancer/add4379555d15836aa5d09b542815f8e/d250/0\" src=\"https://cdn.photoholding.com/RBalancerWeb/SquidStyleBalancer/add4379555d15836aa5d09b542815f8e/d250/0\"> is not clickable at point (530, 484). Other element would receive the click: <div class=\"flocktory-widget-overlay\" style=\"display: flex; z-index: 2147483647; position: fixed; top: 0px; left: 0px; justify-content: center; align-items: center; width: 100%; height: 100%; background: transparent; transform: none;\" data-showed-up=\"true\">...</div>",
       "children" : [ {
         "name" : "Создание книги в онлайн-редакторе",
-        "uid" : "8c139eb7cf000a6d",
-        "parentUid" : "0b08dc00555d49866f2175fb7ff5346b",
+        "uid" : "1023e3d57c257575",
+        "parentUid" : "5ec8aa1587a2c183810f48d9becf30b4",
         "status" : "failed",
         "time" : {
-          "start" : 1740478897287,
-          "stop" : 1740478957806,
-          "duration" : 60519
+          "start" : 1740479475814,
+          "stop" : 1740479503044,
+          "duration" : 27230
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "0b08dc00555d49866f2175fb7ff5346b"
+      "uid" : "5ec8aa1587a2c183810f48d9becf30b4"
     }, {
-      "name" : "Element should be visible {button.add-photo--js}\nElement: '<button class=\"button button-small button-success action-panel-action--js add-photo--js\" type=\"submit\" displayed:false></button>'\nActual value: hidden\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740478992751.7.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740478992751.7.html\nTimeout: 12 s.",
+      "name" : "Element should be visible {button.add-photo--js}\nElement: '<button class=\"button button-small button-success action-panel-action--js add-photo--js\" type=\"submit\" displayed:false></button>'\nActual value: hidden\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740479538427.7.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740479538427.7.html\nTimeout: 12 s.",
       "children" : [ {
         "name" : "Заказ карманного календарика: авторизованный юзер",
-        "uid" : "c07499c68a592250",
-        "parentUid" : "61aa399384f5cdcf33d4b20bc1ce913e",
+        "uid" : "261da5841b1f6ce6",
+        "parentUid" : "7c26ce8502f89bf6b54ac975d6cdcc0f",
         "status" : "failed",
         "time" : {
-          "start" : 1740478957969,
-          "stop" : 1740478993313,
-          "duration" : 35344
+          "start" : 1740479503074,
+          "stop" : 1740479538814,
+          "duration" : 35740
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "61aa399384f5cdcf33d4b20bc1ce913e"
+      "uid" : "7c26ce8502f89bf6b54ac975d6cdcc0f"
     } ],
     "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
   } ]
