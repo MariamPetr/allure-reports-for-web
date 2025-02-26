@@ -1,20 +1,21 @@
 {
   "d511771663565490be17d66a55243c84" : {
     "statistic" : {
-      "failed" : 0,
+      "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "5485053dafa0e2a4",
-      "status" : "passed",
+      "uid" : "f5a00356c959e33a",
+      "status" : "failed",
+      "statusDetails" : "Element not found {span.porch-home-tile-title[5]}\nExpected: clickable: interactable and enabled\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740599909249.4.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740599909249.4.html\nTimeout: 12 s.\nCaused by: java.lang.IndexOutOfBoundsException: Index 5 out of bounds for length 0",
       "time" : {
-        "start" : 1740598513371,
-        "stop" : 1740598544626,
-        "duration" : 31255
+        "start" : 1740599839654,
+        "stop" : 1740599910247,
+        "duration" : 70593
       }
     } ]
   },
@@ -28,12 +29,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "b1dee1c177e58224",
+      "uid" : "9be38fbc19cfd0fa",
       "status" : "passed",
       "time" : {
-        "start" : 1740598553827,
-        "stop" : 1740598571948,
-        "duration" : 18121
+        "start" : 1740599746416,
+        "stop" : 1740599795323,
+        "duration" : 48907
       }
     } ]
   },
@@ -47,50 +48,52 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "57f2b3ad9c1fb8b2",
+      "uid" : "10dfc285ff760cb2",
       "status" : "passed",
       "time" : {
-        "start" : 1740598454511,
-        "stop" : 1740598467661,
-        "duration" : 13150
+        "start" : 1740599590036,
+        "stop" : 1740599614238,
+        "duration" : 24202
       }
     } ]
   },
   "a9f76e9f0c22a8e5ba1a14a97727300a" : {
     "statistic" : {
-      "failed" : 0,
+      "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "ec1520aa259bb19b",
-      "status" : "passed",
+      "uid" : "953e337a7e6d6530",
+      "status" : "failed",
+      "statusDetails" : "Element should be visible {button.add-photo--js}\nElement: '<button class=\"button button-small button-success action-panel-action--js add-photo--js\" type=\"submit\" displayed:false></button>'\nActual value: hidden\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740599944189.5.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740599944189.5.html\nTimeout: 12 s.",
       "time" : {
-        "start" : 1740598467696,
-        "stop" : 1740598513367,
-        "duration" : 45671
+        "start" : 1740599910254,
+        "stop" : 1740599944834,
+        "duration" : 34580
       }
     } ]
   },
   "72e8e71b4ceeaf37c51d826eb56ea312" : {
     "statistic" : {
-      "failed" : 0,
+      "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "253bd854cd767dd0",
-      "status" : "passed",
+      "uid" : "1bed3dcb192860f6",
+      "status" : "failed",
+      "statusDetails" : "Invalid element state [by text: Выбрать тему оформления]: element click intercepted: Element <div class=\"btn btn-primary product-card-bottom-btn-order btn-order--js\" id=\"old-choose-theme-btn-standard\" style=\"\" ga-action-click-type=\"click.ProductPage\" ga-action=\"click\" ga-action-click-omsid=\"PRODUCTION_POSTER\">...</div> is not clickable at point (1375, 812). Other element would receive the click: <div class=\"flocktory-widget-overlay\" style=\"display: flex; z-index: 2147483647; position: fixed; top: 0px; left: 0px; justify-content: center; align-items: center; width: 100%; height: 100%; background: transparent; transform: none;\" data-showed-up=\"true\">...</div>\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740599838132.3.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740599838132.3.html\nTimeout: 12 s.\nCaused by: ElementClickInterceptedException: element click intercepted: Element <div class=\"btn btn-primary product-card-bottom-btn-order btn-order--js\" id=\"old-choose-theme-btn-standard\" style=\"\" ga-action-click-type=\"click.ProductPage\" ga-action=\"click\" ga-action-click-omsid=\"PRODUCTION_POSTER\">...</div> is not clickable at point (1375, 812). Other element would receive the click: <div class=\"flocktory-widget-overlay\" style=\"display: flex; z-index: 2147483647; position: fixed; top: 0px; left: 0px; justify-content: center; align-items: center; width: 100%; height: 100%; background: transparent; transform: none;\" data-showed-up=\"true\">...</div>",
       "time" : {
-        "start" : 1740598544630,
-        "stop" : 1740598553821,
-        "duration" : 9191
+        "start" : 1740599813357,
+        "stop" : 1740599839624,
+        "duration" : 26267
       }
     } ]
   }
