@@ -4,39 +4,56 @@
   "children" : [ {
     "name" : "Product defects",
     "children" : [ {
-      "name" : "Element not found {img[title='Онлайнкнига']}\nExpected: clickable: interactable and enabled\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740569158428.2.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740569158428.2.html\nTimeout: 12 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"img[title='Онлайнкнига']\"}",
+      "name" : "Element should be clickable: interactable and enabled {button.print-template--js}\nElement: '<button class=\"button button-success express-panel-right print-template--js\" type=\"submit\" displayed:false></button>'\nActual value: hidden, opacity=1\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740569858828.3.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740569858828.3.html\nTimeout: 12 s.",
+      "children" : [ {
+        "name" : "Заказ постера: неавторизованный юзер",
+        "uid" : "5cbe8f61f3197dfb",
+        "parentUid" : "8be3f7bfc131b89a1708927e75d3cdc2",
+        "status" : "failed",
+        "time" : {
+          "start" : 1740569831370,
+          "stop" : 1740569859238,
+          "duration" : 27868
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8be3f7bfc131b89a1708927e75d3cdc2"
+    }, {
+      "name" : "Element not found {img[title='Онлайнкнига']}\nExpected: clickable: interactable and enabled\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740569888476.4.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740569888476.4.html\nTimeout: 12 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"img[title='Онлайнкнига']\"}",
       "children" : [ {
         "name" : "Создание книги в онлайн-редакторе",
-        "uid" : "6bd4385fbd0f39ae",
-        "parentUid" : "1dbf4c8628f1b06baad40792b5bf9f64",
+        "uid" : "c1b7ebb9c573d0f1",
+        "parentUid" : "4653b82e822ac322e1f57d0d4d257ccf",
         "status" : "failed",
         "time" : {
-          "start" : 1740569136582,
-          "stop" : 1740569158788,
-          "duration" : 22206
+          "start" : 1740569859243,
+          "stop" : 1740569890479,
+          "duration" : 31236
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "1dbf4c8628f1b06baad40792b5bf9f64"
+      "uid" : "4653b82e822ac322e1f57d0d4d257ccf"
     }, {
-      "name" : "Element not found {button.order-delivery-switch}\nExpected: clickable: interactable and enabled\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740569206477.3.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740569206477.3.html\nTimeout: 12 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"button.order-delivery-switch\"}",
+      "name" : "Element should be visible {button.add-photo--js}\nElement: '<button class=\"button button-small button-success action-panel-action--js add-photo--js\" type=\"submit\" displayed:false></button>'\nActual value: hidden\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740569929537.5.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740569929537.5.html\nTimeout: 12 s.",
       "children" : [ {
         "name" : "Заказ карманного календарика: авторизованный юзер",
-        "uid" : "5cbe13e900956d68",
-        "parentUid" : "ab1818cd6901916e5885a416d5a77ab1",
+        "uid" : "abc323b1b1259007",
+        "parentUid" : "e3354b73ec63084e1db95cc700500315",
         "status" : "failed",
         "time" : {
-          "start" : 1740569158793,
-          "stop" : 1740569206815,
-          "duration" : 48022
+          "start" : 1740569890486,
+          "stop" : 1740569930117,
+          "duration" : 39631
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "ab1818cd6901916e5885a416d5a77ab1"
+      "uid" : "e3354b73ec63084e1db95cc700500315"
     } ],
     "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
   } ]
