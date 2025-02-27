@@ -1,21 +1,21 @@
 {
   "d511771663565490be17d66a55243c84" : {
     "statistic" : {
-      "failed" : 1,
-      "broken" : 0,
+      "failed" : 0,
+      "broken" : 1,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "ea312c7e27184678",
-      "status" : "failed",
-      "statusDetails" : "Element not found {a.sly-tabs-list-item-title[9]}\nExpected: clickable: interactable and enabled\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740688025437.4.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740688025437.4.html\nTimeout: 14 s.\nCaused by: java.lang.IndexOutOfBoundsException: Index 9 out of bounds for length 0",
+      "uid" : "4fe762e3e3c4862e",
+      "status" : "broken",
+      "statusDetails" : "Index 1 out of bounds for length 0",
       "time" : {
-        "start" : 1740687944040,
-        "stop" : 1740688026032,
-        "duration" : 81992
+        "start" : 1740689341051,
+        "stop" : 1740689379565,
+        "duration" : 38514
       }
     } ]
   },
@@ -29,12 +29,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "34bdc5cde062310",
+      "uid" : "a24fe39e2ebcd590",
       "status" : "passed",
       "time" : {
-        "start" : 1740687849635,
-        "stop" : 1740687896336,
-        "duration" : 46701
+        "start" : 1740689293875,
+        "stop" : 1740689341047,
+        "duration" : 47172
       }
     } ]
   },
@@ -48,31 +48,52 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "211a9b12f8cf1677",
+      "uid" : "9ce56f7c7e66a35",
       "status" : "passed",
       "time" : {
-        "start" : 1740687672134,
-        "stop" : 1740687694769,
-        "duration" : 22635
+        "start" : 1740689418505,
+        "stop" : 1740689440500,
+        "duration" : 21995
+      }
+    } ]
+  },
+  "7c828c0463072ac07efc4bbe655dd48a" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5f794019acf64e60",
+      "status" : "failed",
+      "statusDetails" : "Element not found {td a[0]}\nExpected: visible\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740689464559.6.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740689464559.6.html\nTimeout: 14 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"td a\"}",
+      "time" : {
+        "start" : 1740689464871,
+        "stop" : 1740689464871,
+        "duration" : 0
       }
     } ]
   },
   "a9f76e9f0c22a8e5ba1a14a97727300a" : {
     "statistic" : {
-      "failed" : 0,
+      "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "725ea850be220631",
-      "status" : "passed",
+      "uid" : "f906e55ebb618167",
+      "status" : "failed",
+      "statusDetails" : "Element should be clickable: interactable and enabled {button.add-photo--js}\nElement: '<button class=\"button button-small button-success action-panel-action--js add-photo--js\" type=\"submit\"> Добавить фотографию</button>'\nActual value: hidden, opacity=1\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740689417708.5.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740689417708.5.html\nTimeout: 14 s.",
       "time" : {
-        "start" : 1740688026035,
-        "stop" : 1740688061533,
-        "duration" : 35498
+        "start" : 1740689379570,
+        "stop" : 1740689418499,
+        "duration" : 38929
       }
     } ]
   },
@@ -86,13 +107,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "23f606afa67cd88a",
+      "uid" : "31310e0b851a4836",
       "status" : "failed",
-      "statusDetails" : "Invalid element state [button.print-template--js]: element not interactable: [object HTMLButtonElement] has no size and location\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740687943346.3.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740687943346.3.html\nTimeout: 14 s.\nCaused by: ElementNotInteractableException: element not interactable: [object HTMLButtonElement] has no size and location",
+      "statusDetails" : "Element should be clickable: interactable and enabled {by text: Постеры}\nElement: '<a data-sub-link=\"sub-link\" href=\"https://netprint.ru/moscow/interior/pechat-na-plakatah-i-posterah\" displayed:false></a>'\nActual value: hidden, opacity=1\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740689293010.4.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740689293010.4.html\nTimeout: 14 s.",
       "time" : {
-        "start" : 1740687913273,
-        "stop" : 1740687944033,
-        "duration" : 30760
+        "start" : 1740689268680,
+        "stop" : 1740689293868,
+        "duration" : 25188
       }
     } ]
   }
