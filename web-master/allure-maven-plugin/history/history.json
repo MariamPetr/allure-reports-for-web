@@ -9,13 +9,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "c3589cd1e2253bab",
+      "uid" : "eb51693acddce279",
       "status" : "failed",
-      "statusDetails" : "Element should be clickable: interactable and enabled {span.porch-home-tile-title[5]}\nElement: '<span class=\"porch-home-tile-title\" displayed:false></span>'\nActual value: hidden, opacity=1\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740620367667.4.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740620367667.4.html\nTimeout: 12 s.",
+      "statusDetails" : "Element not found {span.porch-home-tile-title[5]}\nExpected: clickable: interactable and enabled\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740621487628.4.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740621487628.4.html\nTimeout: 12 s.\nCaused by: java.lang.IndexOutOfBoundsException: Index 5 out of bounds for length 0",
       "time" : {
-        "start" : 1740620305048,
-        "stop" : 1740620368613,
-        "duration" : 63565
+        "start" : 1740621441292,
+        "stop" : 1740621488281,
+        "duration" : 46989
       }
     } ]
   },
@@ -29,12 +29,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "a142c84aecd341a",
+      "uid" : "ffd11b23cf716743",
       "status" : "passed",
       "time" : {
-        "start" : 1740620212308,
-        "stop" : 1740620257593,
-        "duration" : 45285
+        "start" : 1740621342829,
+        "stop" : 1740621391332,
+        "duration" : 48503
       }
     } ]
   },
@@ -48,32 +48,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "dd21f7229584265e",
+      "uid" : "b6a9446e926896c",
       "status" : "passed",
       "time" : {
-        "start" : 1740620058965,
-        "stop" : 1740620083178,
-        "duration" : 24213
-      }
-    } ]
-  },
-  "72e8e71b4ceeaf37c51d826eb56ea312" : {
-    "statistic" : {
-      "failed" : 1,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "75467002cf337ec7",
-      "status" : "failed",
-      "statusDetails" : "Invalid element state [button.print-template--js]: element not interactable: [object HTMLButtonElement] has no size and location\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740620304454.3.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740620304454.3.html\nTimeout: 12 s.\nCaused by: ElementNotInteractableException: element not interactable: [object HTMLButtonElement] has no size and location",
-      "time" : {
-        "start" : 1740620276558,
-        "stop" : 1740620305040,
-        "duration" : 28482
+        "start" : 1740621186619,
+        "stop" : 1740621207262,
+        "duration" : 20643
       }
     } ]
   },
@@ -87,13 +67,33 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "ffd8a3c8c444509d",
+      "uid" : "c19e747abb4a077e",
       "status" : "failed",
-      "statusDetails" : "Element should be visible {button.add-photo--js}\nElement: '<button class=\"button button-small button-success action-panel-action--js add-photo--js\" type=\"submit\" displayed:false></button>'\nActual value: hidden\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740620404467.5.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740620404467.5.html\nTimeout: 12 s.",
+      "statusDetails" : "Element should be visible {button.add-photo--js}\nElement: '<button class=\"button button-small button-success action-panel-action--js add-photo--js\" type=\"submit\" displayed:false></button>'\nActual value: hidden\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740621523788.5.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740621523788.5.html\nTimeout: 12 s.",
       "time" : {
-        "start" : 1740620368619,
-        "stop" : 1740620405065,
-        "duration" : 36446
+        "start" : 1740621488286,
+        "stop" : 1740621524478,
+        "duration" : 36192
+      }
+    } ]
+  },
+  "72e8e71b4ceeaf37c51d826eb56ea312" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4fb9d95aa81e17e3",
+      "status" : "failed",
+      "statusDetails" : "Invalid element state [button.print-template--js]: element not interactable: [object HTMLButtonElement] has no size and location\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740621440250.3.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740621440250.3.html\nTimeout: 12 s.\nCaused by: ElementNotInteractableException: element not interactable: [object HTMLButtonElement] has no size and location",
+      "time" : {
+        "start" : 1740621409696,
+        "stop" : 1740621441274,
+        "duration" : 31578
       }
     } ]
   }
