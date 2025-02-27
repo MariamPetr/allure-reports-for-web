@@ -1,20 +1,21 @@
 {
   "d511771663565490be17d66a55243c84" : {
     "statistic" : {
-      "failed" : 0,
+      "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "f86c33d69aa0a6d2",
-      "status" : "passed",
+      "uid" : "dae7696fcf4e9e88",
+      "status" : "failed",
+      "statusDetails" : "Element should be clickable: interactable and enabled {img.porch-home-tile-image[5]}\nElement: '<img class=\"porch-home-tile-image\" src=\"//static.photoholding.com/images/i/albums.jpg\" displayed:false></img>'\nActual value: hidden, opacity=1\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740674406648.4.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740674406648.4.html\nTimeout: 12 s.",
       "time" : {
-        "start" : 1740672845182,
-        "stop" : 1740672878529,
-        "duration" : 33347
+        "start" : 1740674337112,
+        "stop" : 1740674407639,
+        "duration" : 70527
       }
     } ]
   },
@@ -28,12 +29,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "9821ed067a1c20bc",
+      "uid" : "39b4dc6f5bacdd57",
       "status" : "passed",
       "time" : {
-        "start" : 1740672889092,
-        "stop" : 1740672910627,
-        "duration" : 21535
+        "start" : 1740674240935,
+        "stop" : 1740674290200,
+        "duration" : 49265
       }
     } ]
   },
@@ -47,12 +48,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "f99b74bb327856aa",
+      "uid" : "dc0999c08f7ee918",
       "status" : "passed",
       "time" : {
-        "start" : 1740672786471,
-        "stop" : 1740672800937,
-        "duration" : 14466
+        "start" : 1740674080775,
+        "stop" : 1740674106077,
+        "duration" : 25302
       }
     } ]
   },
@@ -66,32 +67,33 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "35992cc0624d4ba8",
+      "uid" : "5451ea73a566cb39",
       "status" : "failed",
-      "statusDetails" : "Element not found {button.order-delivery-switch}\nExpected: clickable: interactable and enabled\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740672965772.1.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740672965772.1.html\nTimeout: 12 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"button.order-delivery-switch\"}",
+      "statusDetails" : "Element should be clickable: interactable and enabled {button.add-photo--js}\nElement: '<button class=\"button button-small button-success action-panel-action--js add-photo--js\" type=\"submit\" displayed:false></button>'\nActual value: hidden, opacity=1\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740674446528.5.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740674446528.5.html\nTimeout: 12 s.",
       "time" : {
-        "start" : 1740672923289,
-        "stop" : 1740672966298,
-        "duration" : 43009
+        "start" : 1740674407644,
+        "stop" : 1740674447014,
+        "duration" : 39370
       }
     } ]
   },
   "72e8e71b4ceeaf37c51d826eb56ea312" : {
     "statistic" : {
-      "failed" : 0,
+      "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "7f7e1d2d8766753d",
-      "status" : "passed",
+      "uid" : "c2d20c88dcf21c73",
+      "status" : "failed",
+      "statusDetails" : "Invalid element state [button.print-template--js]: element not interactable: [object HTMLButtonElement] has no size and location\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740674336373.3.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740674336373.3.html\nTimeout: 12 s.\nCaused by: ElementNotInteractableException: element not interactable: [object HTMLButtonElement] has no size and location",
       "time" : {
-        "start" : 1740672878535,
-        "stop" : 1740672889083,
-        "duration" : 10548
+        "start" : 1740674307775,
+        "stop" : 1740674337106,
+        "duration" : 29331
       }
     } ]
   }
