@@ -4,56 +4,73 @@
   "children" : [ {
     "name" : "Product defects",
     "children" : [ {
-      "name" : "Invalid element state [button.print-template--js]: element not interactable: [object HTMLButtonElement] has no size and location\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740621440250.3.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740621440250.3.html\nTimeout: 12 s.\nCaused by: ElementNotInteractableException: element not interactable: [object HTMLButtonElement] has no size and location",
+      "name" : "Invalid element state [button.print-template--js]: element not interactable: [object HTMLButtonElement] has no size and location\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740622608702.4.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740622608702.4.html\nTimeout: 12 s.\nCaused by: ElementNotInteractableException: element not interactable: [object HTMLButtonElement] has no size and location",
       "children" : [ {
         "name" : "Заказ постера: неавторизованный юзер",
-        "uid" : "4fb9d95aa81e17e3",
-        "parentUid" : "3329cd299e6a3b775a5a0e6a16161f57",
+        "uid" : "d78179c32aa06f4b",
+        "parentUid" : "ed85fdf4acda46acd785a9b1b930cb9b",
         "status" : "failed",
         "time" : {
-          "start" : 1740621409696,
-          "stop" : 1740621441274,
-          "duration" : 31578
+          "start" : 1740622581695,
+          "stop" : 1740622609254,
+          "duration" : 27559
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "3329cd299e6a3b775a5a0e6a16161f57"
+      "uid" : "ed85fdf4acda46acd785a9b1b930cb9b"
     }, {
-      "name" : "Element not found {span.porch-home-tile-title[5]}\nExpected: clickable: interactable and enabled\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740621487628.4.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740621487628.4.html\nTimeout: 12 s.\nCaused by: java.lang.IndexOutOfBoundsException: Index 5 out of bounds for length 0",
+      "name" : "Invalid element state [div.user-menu-item-title[1]]: element click intercepted: Element <div class=\"user-menu-item-title\">...</div> is not clickable at point (716, 707). Other element would receive the click: <div class=\"flocktory-widget-overlay\" style=\"display: flex; z-index: 2147483647; position: fixed; top: 0px; left: 0px; justify-content: center; align-items: center; width: 100%; height: 100%; background: transparent; transform: none;\" data-showed-up=\"true\">...</div>\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740622640256.5.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740622640256.5.html\nTimeout: 12 s.\nCaused by: ElementClickInterceptedException: element click intercepted: Element <div class=\"user-menu-item-title\">...</div> is not clickable at point (716, 707). Other element would receive the click: <div class=\"flocktory-widget-overlay\" style=\"display: flex; z-index: 2147483647; position: fixed; top: 0px; left: 0px; justify-content: center; align-items: center; width: 100%; height: 100%; background: transparent; transform: none;\" data-showed-up=\"true\">...</div>",
+      "children" : [ {
+        "name" : "Загрузка фото в альбом",
+        "uid" : "34e341aeda749857",
+        "parentUid" : "9df86978c3db6b7a9c76b5ed54028dd2",
+        "status" : "failed",
+        "time" : {
+          "start" : 1740622609261,
+          "stop" : 1740622640831,
+          "duration" : 31570
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9df86978c3db6b7a9c76b5ed54028dd2"
+    }, {
+      "name" : "Element should be clickable: interactable and enabled {span.porch-home-tile-title[5]}\nElement: '<span class=\"porch-home-tile-title\" displayed:false></span>'\nActual value: hidden, opacity=1\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740622702231.6.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740622702231.6.html\nTimeout: 12 s.",
       "children" : [ {
         "name" : "Создание книги в онлайн-редакторе",
-        "uid" : "eb51693acddce279",
-        "parentUid" : "935d8c707c8c991a624ff3faa3ef9ec3",
+        "uid" : "cdd401a96e68f43d",
+        "parentUid" : "1ceea31f48f5f71238b7455d1cb5a8b5",
         "status" : "failed",
         "time" : {
-          "start" : 1740621441292,
-          "stop" : 1740621488281,
-          "duration" : 46989
+          "start" : 1740622640853,
+          "stop" : 1740622703117,
+          "duration" : 62264
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "935d8c707c8c991a624ff3faa3ef9ec3"
+      "uid" : "1ceea31f48f5f71238b7455d1cb5a8b5"
     }, {
-      "name" : "Element should be visible {button.add-photo--js}\nElement: '<button class=\"button button-small button-success action-panel-action--js add-photo--js\" type=\"submit\" displayed:false></button>'\nActual value: hidden\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740621523788.5.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740621523788.5.html\nTimeout: 12 s.",
+      "name" : "Element should be visible {button.add-photo--js}\nElement: '<button class=\"button button-small button-success action-panel-action--js add-photo--js\" type=\"submit\" displayed:false></button>'\nActual value: hidden\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740622738199.7.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740622738199.7.html\nTimeout: 12 s.",
       "children" : [ {
         "name" : "Заказ карманного календарика: авторизованный юзер",
-        "uid" : "c19e747abb4a077e",
-        "parentUid" : "c86cd81be54e68fdd4d90c349f070c9c",
+        "uid" : "a8a9d0d2f0f3fbc9",
+        "parentUid" : "22f720ff5d7af418db9104dfe3e6ef44",
         "status" : "failed",
         "time" : {
-          "start" : 1740621488286,
-          "stop" : 1740621524478,
-          "duration" : 36192
+          "start" : 1740622703121,
+          "stop" : 1740622739095,
+          "duration" : 35974
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "c86cd81be54e68fdd4d90c349f070c9c"
+      "uid" : "22f720ff5d7af418db9104dfe3e6ef44"
     } ],
     "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
   } ]
