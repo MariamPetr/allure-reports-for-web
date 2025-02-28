@@ -4,56 +4,73 @@
   "children" : [ {
     "name" : "Product defects",
     "children" : [ {
-      "name" : "Invalid element state [button.print-template--js]: element not interactable: [object HTMLButtonElement] has no size and location\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740763102334.3.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740763102334.3.html\nTimeout: 14 s.\nCaused by: ElementNotInteractableException: element not interactable: [object HTMLButtonElement] has no size and location",
+      "name" : "Element not found {td a[0]}\nExpected: visible\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740764289914.3.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740764289914.3.html\nTimeout: 14 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"td a\"}",
+      "children" : [ {
+        "name" : "DemoOrderTest",
+        "uid" : "17fc67c8b9f56570",
+        "parentUid" : "acf258705a0a36b8c418cedf8829f1bd",
+        "status" : "failed",
+        "time" : {
+          "start" : 1740764290244,
+          "stop" : 1740764290244,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "acf258705a0a36b8c418cedf8829f1bd"
+    }, {
+      "name" : "Invalid element state [button.print-template--js]: element not interactable: [object HTMLButtonElement] has no size and location\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740764322174.4.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740764322174.4.html\nTimeout: 14 s.\nCaused by: ElementNotInteractableException: element not interactable: [object HTMLButtonElement] has no size and location",
       "children" : [ {
         "name" : "Заказ постера: неавторизованный юзер",
-        "uid" : "95b740041789f932",
-        "parentUid" : "10aad5d5761147b671fcc83404aa6c2d",
+        "uid" : "b60422a6e5195128",
+        "parentUid" : "5247234932475eba32953245df167eb0",
         "status" : "failed",
         "time" : {
-          "start" : 1740763068824,
-          "stop" : 1740763102993,
-          "duration" : 34169
+          "start" : 1740764290252,
+          "stop" : 1740764322959,
+          "duration" : 32707
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "10aad5d5761147b671fcc83404aa6c2d"
+      "uid" : "5247234932475eba32953245df167eb0"
     }, {
-      "name" : "Element not found {a.sly-tabs-list-item-title[9]}\nExpected: clickable: interactable and enabled\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740763186228.4.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740763186228.4.html\nTimeout: 14 s.\nCaused by: java.lang.IndexOutOfBoundsException: Index 9 out of bounds for length 0",
+      "name" : "Element not found {a.sly-tabs-list-item-title[9]}\nExpected: clickable: interactable and enabled\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740764408251.5.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740764408251.5.html\nTimeout: 14 s.\nCaused by: java.lang.IndexOutOfBoundsException: Index 9 out of bounds for length 0",
       "children" : [ {
         "name" : "Создание книги в онлайн-редакторе",
-        "uid" : "38c06bab972a468e",
-        "parentUid" : "65b724872dfcd2f991b473d8a45d7763",
+        "uid" : "419f14b664fb9299",
+        "parentUid" : "0134105d495f821bc1d40baf1de662e4",
         "status" : "failed",
         "time" : {
-          "start" : 1740763103000,
-          "stop" : 1740763186970,
-          "duration" : 83970
+          "start" : 1740764322965,
+          "stop" : 1740764408865,
+          "duration" : 85900
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "65b724872dfcd2f991b473d8a45d7763"
+      "uid" : "0134105d495f821bc1d40baf1de662e4"
     }, {
-      "name" : "Invalid element state [button.btn-default[1]]: element click intercepted: Element <button class=\"btn btn-default btn-block\" ng-click=\"vm.onSaveDelivery()\" ng-disabled=\"vm.saveDeliveryLoading\">...</button> is not clickable at point (1398, 34). Other element would receive the click: <a href=\"https://netprint.ru/order/profile\" class=\"top_block_item top_auth hidden-xs hover_effect desktop__login\">...</a>\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740763263030.5.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740763263030.5.html\nTimeout: 14 s.\nCaused by: ElementClickInterceptedException: element click intercepted: Element <button class=\"btn btn-default btn-block\" ng-click=\"vm.onSaveDelivery()\" ng-disabled=\"vm.saveDeliveryLoading\">...</button> is not clickable at point (1398, 34). Other element would receive the click: <a href=\"https://netprint.ru/order/profile\" class=\"top_block_item top_auth hidden-xs hover_effect desktop__login\">...</a>",
+      "name" : "Invalid element state [button.btn-default[1]]: element click intercepted: Element <button class=\"btn btn-default btn-block\" ng-click=\"vm.onSaveDelivery()\" ng-disabled=\"vm.saveDeliveryLoading\">...</button> is not clickable at point (1398, 34). Other element would receive the click: <a href=\"https://netprint.ru/order/profile\" class=\"top_block_item top_auth hidden-xs hover_effect desktop__login\">...</a>\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740764482724.6.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740764482724.6.html\nTimeout: 14 s.\nCaused by: ElementClickInterceptedException: element click intercepted: Element <button class=\"btn btn-default btn-block\" ng-click=\"vm.onSaveDelivery()\" ng-disabled=\"vm.saveDeliveryLoading\">...</button> is not clickable at point (1398, 34). Other element would receive the click: <a href=\"https://netprint.ru/order/profile\" class=\"top_block_item top_auth hidden-xs hover_effect desktop__login\">...</a>",
       "children" : [ {
         "name" : "Заказ карманного календарика: авторизованный юзер",
-        "uid" : "480d4c3590c78006",
-        "parentUid" : "f0543230db84a72a8044dbbdff51783b",
+        "uid" : "d00ca8c8d2a3cc4e",
+        "parentUid" : "db4b717e1ae41354fd41e91d1853af07",
         "status" : "failed",
         "time" : {
-          "start" : 1740763186975,
-          "stop" : 1740763263731,
-          "duration" : 76756
+          "start" : 1740764408870,
+          "stop" : 1740764483384,
+          "duration" : 74514
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "f0543230db84a72a8044dbbdff51783b"
+      "uid" : "db4b717e1ae41354fd41e91d1853af07"
     } ],
     "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
   } ]
