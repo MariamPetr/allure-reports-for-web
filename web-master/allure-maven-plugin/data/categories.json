@@ -4,56 +4,73 @@
   "children" : [ {
     "name" : "Product defects",
     "children" : [ {
-      "name" : "Invalid element state [button.print-template--js]: element not interactable: [object HTMLButtonElement] has no size and location\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740703671210.3.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740703671210.3.html\nTimeout: 14 s.\nCaused by: ElementNotInteractableException: element not interactable: [object HTMLButtonElement] has no size and location",
+      "name" : "Invalid element state [li#editor_express[1]]: element click intercepted: Element <li id=\"editor_express\" class=\"edit__list-item select_available_editor editor_express select_editor\" style=\"display: inline-block;\">...</li> is not clickable at point (951, 648). Other element would receive the click: <div class=\"flocktory-widget-overlay\" style=\"display: flex; z-index: 2147483647; position: fixed; top: 0px; left: 0px; justify-content: center; align-items: center; width: 100%; height: 100%; background: transparent; transform: none;\" data-showed-up=\"true\">...</div>\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740707245907.3.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740707245907.3.html\nTimeout: 14 s.\nCaused by: ElementClickInterceptedException: element click intercepted: Element <li id=\"editor_express\" class=\"edit__list-item select_available_editor editor_express select_editor\" style=\"display: inline-block;\">...</li> is not clickable at point (951, 648). Other element would receive the click: <div class=\"flocktory-widget-overlay\" style=\"display: flex; z-index: 2147483647; position: fixed; top: 0px; left: 0px; justify-content: center; align-items: center; width: 100%; height: 100%; background: transparent; transform: none;\" data-showed-up=\"true\">...</div>",
       "children" : [ {
         "name" : "Заказ постера: неавторизованный юзер",
-        "uid" : "568c0e59e9feff6f",
-        "parentUid" : "5b1fe441d5f59baf766ceb31cb5aee6a",
+        "uid" : "431c36cc247edba8",
+        "parentUid" : "879af953b6efe473cca4f49310ea355d",
         "status" : "failed",
         "time" : {
-          "start" : 1740703641669,
-          "stop" : 1740703672271,
-          "duration" : 30602
+          "start" : 1740707216132,
+          "stop" : 1740707246477,
+          "duration" : 30345
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "5b1fe441d5f59baf766ceb31cb5aee6a"
+      "uid" : "879af953b6efe473cca4f49310ea355d"
     }, {
-      "name" : "Element should be clickable: interactable and enabled {a.sly-tabs-list-item-title[9]}\nElement: '<a class=\"sly-tabs-list-item-title\" href=\"#tab-albums-953029\" id=\"tab-caption-albums-953029\" displayed:false></a>'\nActual value: hidden, opacity=1\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740703747814.4.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740703747814.4.html\nTimeout: 14 s.",
+      "name" : "Element not found {a.sly-tabs-list-item-title[9]}\nExpected: clickable: interactable and enabled\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740707346700.4.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740707346700.4.html\nTimeout: 14 s.\nCaused by: java.lang.IndexOutOfBoundsException: Index 9 out of bounds for length 0",
       "children" : [ {
         "name" : "Создание книги в онлайн-редакторе",
-        "uid" : "f3c70e13b8342133",
-        "parentUid" : "6d1fa21a00ef1cab962ad23931c1a979",
+        "uid" : "f6470638f39bca4c",
+        "parentUid" : "907c26d94830b8dd621c32513593c1d5",
         "status" : "failed",
         "time" : {
-          "start" : 1740703672287,
-          "stop" : 1740703748720,
-          "duration" : 76433
+          "start" : 1740707269392,
+          "stop" : 1740707347446,
+          "duration" : 78054
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "6d1fa21a00ef1cab962ad23931c1a979"
+      "uid" : "907c26d94830b8dd621c32513593c1d5"
     }, {
-      "name" : "Element not found {div.porch-album-tile-cover}\nExpected: clickable: interactable and enabled\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740703802319.5.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740703802319.5.html\nTimeout: 14 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"div.porch-album-tile-cover\"}",
+      "name" : "Invalid element state [button.btn-default[1]]: element click intercepted: Element <button class=\"btn btn-default btn-block\" ng-click=\"vm.onSaveDelivery()\" ng-disabled=\"vm.saveDeliveryLoading\">...</button> is not clickable at point (1398, 34). Other element would receive the click: <a href=\"https://netprint.ru/order/profile\" class=\"top_block_item top_auth hidden-xs hover_effect desktop__login\">...</a>\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740707419268.5.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740707419268.5.html\nTimeout: 14 s.\nCaused by: ElementClickInterceptedException: element click intercepted: Element <button class=\"btn btn-default btn-block\" ng-click=\"vm.onSaveDelivery()\" ng-disabled=\"vm.saveDeliveryLoading\">...</button> is not clickable at point (1398, 34). Other element would receive the click: <a href=\"https://netprint.ru/order/profile\" class=\"top_block_item top_auth hidden-xs hover_effect desktop__login\">...</a>",
       "children" : [ {
         "name" : "Заказ карманного календарика: авторизованный юзер",
-        "uid" : "d68769ae700847ed",
-        "parentUid" : "d2aa6f5c4ed3990b4b6c7aa7f186d7c1",
+        "uid" : "71f4064b43bc3eb9",
+        "parentUid" : "d2c78eea03556bd1fae0b9a6a12f7cc4",
         "status" : "failed",
         "time" : {
-          "start" : 1740703748725,
-          "stop" : 1740703803014,
-          "duration" : 54289
+          "start" : 1740707347451,
+          "stop" : 1740707420326,
+          "duration" : 72875
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "d2aa6f5c4ed3990b4b6c7aa7f186d7c1"
+      "uid" : "d2c78eea03556bd1fae0b9a6a12f7cc4"
+    }, {
+      "name" : "Element not found {td a[0]}\nExpected: visible\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740707444784.6.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740707444784.6.html\nTimeout: 14 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"td a\"}",
+      "children" : [ {
+        "name" : "DemoOrderTest",
+        "uid" : "2d9e9c43294b32e5",
+        "parentUid" : "e1ed92bfd9922362f2560d4ed4cf2bd7",
+        "status" : "failed",
+        "time" : {
+          "start" : 1740707445131,
+          "stop" : 1740707445131,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e1ed92bfd9922362f2560d4ed4cf2bd7"
     } ],
     "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
   } ]
