@@ -9,32 +9,33 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "d1920acce8c597bb",
+      "uid" : "4ce494acde1ba0e9",
       "status" : "failed",
-      "statusDetails" : "Element not found {a.sly-tabs-list-item-title[9]}\nExpected: clickable: interactable and enabled\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740710971403.4.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740710971403.4.html\nTimeout: 14 s.\nCaused by: java.lang.IndexOutOfBoundsException: Index 9 out of bounds for length 0",
+      "statusDetails" : "Element not found {a.sly-tabs-list-item-title[9]}\nExpected: clickable: interactable and enabled\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740714577004.4.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740714577004.4.html\nTimeout: 14 s.\nCaused by: java.lang.IndexOutOfBoundsException: Index 9 out of bounds for length 0",
       "time" : {
-        "start" : 1740710887942,
-        "stop" : 1740710972107,
-        "duration" : 84165
+        "start" : 1740714498361,
+        "stop" : 1740714577714,
+        "duration" : 79353
       }
     } ]
   },
   "6f63a55223ff2b502b3f72c0c5c8bbb0" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
+      "broken" : 1,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "fef74933c82991fa",
-      "status" : "passed",
+      "uid" : "8b8faf16d3167aa2",
+      "status" : "broken",
+      "statusDetails" : "Index 1 out of bounds for length 0",
       "time" : {
-        "start" : 1740710774244,
-        "stop" : 1740710817345,
-        "duration" : 43101
+        "start" : 1740714471554,
+        "stop" : 1740714498354,
+        "duration" : 26800
       }
     } ]
   },
@@ -48,32 +49,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "312fada050d45ce2",
+      "uid" : "b7427cc551eda56",
       "status" : "passed",
       "time" : {
-        "start" : 1740710866002,
-        "stop" : 1740710887937,
-        "duration" : 21935
-      }
-    } ]
-  },
-  "72e8e71b4ceeaf37c51d826eb56ea312" : {
-    "statistic" : {
-      "failed" : 1,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "aeb95eebc19928e0",
-      "status" : "failed",
-      "statusDetails" : "Invalid element state [button.print-template--js]: element not interactable: [object HTMLButtonElement] has no size and location\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740710865316.3.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740710865316.3.html\nTimeout: 14 s.\nCaused by: ElementNotInteractableException: element not interactable: [object HTMLButtonElement] has no size and location",
-      "time" : {
-        "start" : 1740710834974,
-        "stop" : 1740710865989,
-        "duration" : 31015
+        "start" : 1740714189857,
+        "stop" : 1740714214082,
+        "duration" : 24225
       }
     } ]
   },
@@ -87,13 +68,33 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "7887dbc7d4a2fad1",
+      "uid" : "571a4cea21343e02",
       "status" : "failed",
-      "statusDetails" : "Invalid element state [button.btn-default[1]]: element click intercepted: Element <button class=\"btn btn-default btn-block\" ng-click=\"vm.onSaveDelivery()\" ng-disabled=\"vm.saveDeliveryLoading\">...</button> is not clickable at point (1398, 34). Other element would receive the click: <a href=\"https://netprint.ru/order/profile\" class=\"top_block_item top_auth hidden-xs hover_effect desktop__login\">...</a>\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740711044185.5.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740711044185.5.html\nTimeout: 14 s.\nCaused by: ElementClickInterceptedException: element click intercepted: Element <button class=\"btn btn-default btn-block\" ng-click=\"vm.onSaveDelivery()\" ng-disabled=\"vm.saveDeliveryLoading\">...</button> is not clickable at point (1398, 34). Other element would receive the click: <a href=\"https://netprint.ru/order/profile\" class=\"top_block_item top_auth hidden-xs hover_effect desktop__login\">...</a>",
+      "statusDetails" : "Element should be clickable: interactable and enabled {button.add-photo--js}\nElement: '<button class=\"button button-small button-success action-panel-action--js add-photo--js\" type=\"submit\"> Добавить фотографию</button>'\nActual value: hidden, opacity=1\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740714617920.5.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740714617920.5.html\nTimeout: 14 s.",
       "time" : {
-        "start" : 1740710972112,
-        "stop" : 1740711044888,
-        "duration" : 72776
+        "start" : 1740714577718,
+        "stop" : 1740714618806,
+        "duration" : 41088
+      }
+    } ]
+  },
+  "72e8e71b4ceeaf37c51d826eb56ea312" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4f5256e6f39072ff",
+      "status" : "failed",
+      "statusDetails" : "Invalid element state [button.print-template--js]: element not interactable: [object HTMLButtonElement] has no size and location\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740714470802.3.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740714470802.3.html\nTimeout: 14 s.\nCaused by: ElementNotInteractableException: element not interactable: [object HTMLButtonElement] has no size and location",
+      "time" : {
+        "start" : 1740714440655,
+        "stop" : 1740714471548,
+        "duration" : 30893
       }
     } ]
   }
