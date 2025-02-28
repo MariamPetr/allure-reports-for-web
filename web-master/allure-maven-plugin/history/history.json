@@ -1,21 +1,21 @@
 {
   "d511771663565490be17d66a55243c84" : {
     "statistic" : {
-      "failed" : 1,
-      "broken" : 0,
+      "failed" : 0,
+      "broken" : 1,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "98422314af601e0a",
-      "status" : "failed",
-      "statusDetails" : "Element not found {a.sly-tabs-list-item-title[9]}\nExpected: clickable: interactable and enabled\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740721772494.4.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740721772494.4.html\nTimeout: 14 s.\nCaused by: java.lang.IndexOutOfBoundsException: Index 9 out of bounds for length 0",
+      "uid" : "9e137b06db5eb56a",
+      "status" : "broken",
+      "statusDetails" : "Index 1 out of bounds for length 0",
       "time" : {
-        "start" : 1740721688228,
-        "stop" : 1740721773376,
-        "duration" : 85148
+        "start" : 1740725333225,
+        "stop" : 1740725371526,
+        "duration" : 38301
       }
     } ]
   },
@@ -29,12 +29,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "a458a45a368269b9",
+      "uid" : "c763e721a2c0012",
       "status" : "passed",
       "time" : {
-        "start" : 1740721598070,
-        "stop" : 1740721641541,
-        "duration" : 43471
+        "start" : 1740725286546,
+        "stop" : 1740725333221,
+        "duration" : 46675
       }
     } ]
   },
@@ -48,32 +48,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "c4c0a994ca4a2a58",
+      "uid" : "6b6be6c5a6f354a9",
       "status" : "passed",
       "time" : {
-        "start" : 1740721395430,
-        "stop" : 1740721419105,
-        "duration" : 23675
-      }
-    } ]
-  },
-  "a9f76e9f0c22a8e5ba1a14a97727300a" : {
-    "statistic" : {
-      "failed" : 1,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "a0fe28d85a7761bf",
-      "status" : "failed",
-      "statusDetails" : "Element should be clickable: interactable and enabled {button.add-photo--js}\nElement: '<button class=\"button button-small button-success action-panel-action--js add-photo--js\" type=\"submit\"> Добавить фотографию</button>'\nActual value: hidden, opacity=1\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740721809796.5.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740721809796.5.html\nTimeout: 14 s.",
-      "time" : {
-        "start" : 1740721773380,
-        "stop" : 1740721810925,
-        "duration" : 37545
+        "start" : 1740724988854,
+        "stop" : 1740725012735,
+        "duration" : 23881
       }
     } ]
   },
@@ -87,13 +67,33 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "36d2dff0240349c6",
+      "uid" : "53f30b0963cfa797",
       "status" : "failed",
-      "statusDetails" : "Invalid element state [button.print-template--js]: element not interactable: [object HTMLButtonElement] has no size and location\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740721687681.3.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740721687681.3.html\nTimeout: 14 s.\nCaused by: ElementNotInteractableException: element not interactable: [object HTMLButtonElement] has no size and location",
+      "statusDetails" : "Invalid element state [button.print-template--js]: element not interactable: [object HTMLButtonElement] has no size and location\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740725286036.3.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740725286036.3.html\nTimeout: 14 s.\nCaused by: ElementNotInteractableException: element not interactable: [object HTMLButtonElement] has no size and location",
       "time" : {
-        "start" : 1740721658049,
-        "stop" : 1740721688222,
-        "duration" : 30173
+        "start" : 1740725251992,
+        "stop" : 1740725286542,
+        "duration" : 34550
+      }
+    } ]
+  },
+  "a9f76e9f0c22a8e5ba1a14a97727300a" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "27f9c276d6207cef",
+      "status" : "failed",
+      "statusDetails" : "Element should be clickable: interactable and enabled {button.add-photo--js}\nElement: '<button class=\"button button-small button-success action-panel-action--js add-photo--js\" type=\"submit\" displayed:false></button>'\nActual value: hidden, opacity=1\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740725409945.4.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740725409945.4.html\nTimeout: 14 s.",
+      "time" : {
+        "start" : 1740725371531,
+        "stop" : 1740725410448,
+        "duration" : 38917
       }
     } ]
   }
