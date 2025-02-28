@@ -4,61 +4,57 @@
   "children" : [ {
     "name" : "Product defects",
     "children" : [ {
-      "name" : "Invalid element state [button.print-template--js]: element not interactable: [object HTMLButtonElement] has no size and location\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740725286036.3.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740725286036.3.html\nTimeout: 14 s.\nCaused by: ElementNotInteractableException: element not interactable: [object HTMLButtonElement] has no size and location",
+      "name" : "Invalid element state [button.print-template--js]: element not interactable: [object HTMLButtonElement] has no size and location\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740728884344.3.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740728884344.3.html\nTimeout: 14 s.\nCaused by: ElementNotInteractableException: element not interactable: [object HTMLButtonElement] has no size and location",
       "children" : [ {
         "name" : "Заказ постера: неавторизованный юзер",
-        "uid" : "53f30b0963cfa797",
-        "parentUid" : "f08e1107b1b3cd179fd4ba740351e9f3",
+        "uid" : "7f1f5f63f91f169b",
+        "parentUid" : "96fb0b6e48bca8ecb6681494db00676d",
         "status" : "failed",
         "time" : {
-          "start" : 1740725251992,
-          "stop" : 1740725286542,
-          "duration" : 34550
+          "start" : 1740728855504,
+          "stop" : 1740728885084,
+          "duration" : 29580
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "f08e1107b1b3cd179fd4ba740351e9f3"
+      "uid" : "96fb0b6e48bca8ecb6681494db00676d"
     }, {
-      "name" : "Element should be clickable: interactable and enabled {button.add-photo--js}\nElement: '<button class=\"button button-small button-success action-panel-action--js add-photo--js\" type=\"submit\" displayed:false></button>'\nActual value: hidden, opacity=1\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740725409945.4.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740725409945.4.html\nTimeout: 14 s.",
-      "children" : [ {
-        "name" : "Заказ карманного календарика: авторизованный юзер",
-        "uid" : "27f9c276d6207cef",
-        "parentUid" : "0bcee48134db768ede17082f38987e48",
-        "status" : "failed",
-        "time" : {
-          "start" : 1740725371531,
-          "stop" : 1740725410448,
-          "duration" : 38917
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "0bcee48134db768ede17082f38987e48"
-    } ],
-    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
-  }, {
-    "name" : "Test defects",
-    "children" : [ {
-      "name" : "Index 1 out of bounds for length 0",
+      "name" : "Element not found {a.sly-tabs-list-item-title[9]}\nExpected: clickable: interactable and enabled\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740729006120.4.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740729006120.4.html\nTimeout: 14 s.\nCaused by: java.lang.IndexOutOfBoundsException: Index 9 out of bounds for length 0",
       "children" : [ {
         "name" : "Создание книги в онлайн-редакторе",
-        "uid" : "9e137b06db5eb56a",
-        "parentUid" : "47d82206d557e7edbd0d77bb385542aa",
-        "status" : "broken",
+        "uid" : "7378210f9cc817a9",
+        "parentUid" : "f5f563edff714b97e2d5cb4d37d28291",
+        "status" : "failed",
         "time" : {
-          "start" : 1740725333225,
-          "stop" : 1740725371526,
-          "duration" : 38301
+          "start" : 1740728929415,
+          "stop" : 1740729006799,
+          "duration" : 77384
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "47d82206d557e7edbd0d77bb385542aa"
+      "uid" : "f5f563edff714b97e2d5cb4d37d28291"
+    }, {
+      "name" : "Element not found {div.porch-album-tile-cover}\nExpected: clickable: interactable and enabled\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740729057056.5.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740729057056.5.html\nTimeout: 14 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"div.porch-album-tile-cover\"}",
+      "children" : [ {
+        "name" : "Заказ карманного календарика: авторизованный юзер",
+        "uid" : "7aa0179f28b9296d",
+        "parentUid" : "45a704a7cf969456586e1b59e2e3eb09",
+        "status" : "failed",
+        "time" : {
+          "start" : 1740729006803,
+          "stop" : 1740729057898,
+          "duration" : 51095
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "45a704a7cf969456586e1b59e2e3eb09"
     } ],
-    "uid" : "bdbf199525818fae7a8651db9eafe741"
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
   } ]
 }
