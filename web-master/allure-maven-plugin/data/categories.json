@@ -4,39 +4,56 @@
   "children" : [ {
     "name" : "Product defects",
     "children" : [ {
-      "name" : "Element not found {a.sly-tabs-list-item-title[9]}\nExpected: clickable: interactable and enabled\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740778760882.3.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740778760882.3.html\nTimeout: 14 s.\nCaused by: java.lang.IndexOutOfBoundsException: Index 9 out of bounds for length 0",
+      "name" : "Invalid element state [button.print-template--js]: element not interactable: [object HTMLButtonElement] has no size and location\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740779903893.3.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740779903893.3.html\nTimeout: 14 s.\nCaused by: ElementNotInteractableException: element not interactable: [object HTMLButtonElement] has no size and location",
+      "children" : [ {
+        "name" : "Заказ постера: неавторизованный юзер",
+        "uid" : "a060daa9e6c7c399",
+        "parentUid" : "99a73182ee4ae2019b6465b5d7570dc0",
+        "status" : "failed",
+        "time" : {
+          "start" : 1740779874884,
+          "stop" : 1740779904831,
+          "duration" : 29947
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "99a73182ee4ae2019b6465b5d7570dc0"
+    }, {
+      "name" : "Element not found {a.sly-tabs-list-item-title[9]}\nExpected: clickable: interactable and enabled\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740779988032.4.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740779988032.4.html\nTimeout: 14 s.\nCaused by: java.lang.IndexOutOfBoundsException: Index 9 out of bounds for length 0",
       "children" : [ {
         "name" : "Создание книги в онлайн-редакторе",
-        "uid" : "106e623f2f7a0db8",
-        "parentUid" : "f13bc6b010b212fb9aa192d0e534dd70",
+        "uid" : "55c3b68cfedec565",
+        "parentUid" : "30ff2e0d4d000fc9165e48ec71964ba9",
         "status" : "failed",
         "time" : {
-          "start" : 1740778676096,
-          "stop" : 1740778761804,
-          "duration" : 85708
+          "start" : 1740779904835,
+          "stop" : 1740779989004,
+          "duration" : 84169
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "f13bc6b010b212fb9aa192d0e534dd70"
+      "uid" : "30ff2e0d4d000fc9165e48ec71964ba9"
     }, {
-      "name" : "Element should be clickable: interactable and enabled {button.add-photo--js}\nElement: '<button class=\"button button-small button-success action-panel-action--js add-photo--js\" type=\"submit\" displayed:false> Добавить фотографию</button>'\nActual value: hidden, opacity=1\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740778800638.4.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740778800638.4.html\nTimeout: 14 s.",
+      "name" : "Invalid element state [button.btn-default[1]]: element click intercepted: Element <button class=\"btn btn-default btn-block\" ng-click=\"vm.onSaveDelivery()\" ng-disabled=\"vm.saveDeliveryLoading\">...</button> is not clickable at point (1398, 34). Other element would receive the click: <a href=\"https://netprint.ru/order/profile\" class=\"top_block_item top_auth hidden-xs hover_effect desktop__login\">...</a>\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740780066369.5.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740780066369.5.html\nTimeout: 14 s.\nCaused by: ElementClickInterceptedException: element click intercepted: Element <button class=\"btn btn-default btn-block\" ng-click=\"vm.onSaveDelivery()\" ng-disabled=\"vm.saveDeliveryLoading\">...</button> is not clickable at point (1398, 34). Other element would receive the click: <a href=\"https://netprint.ru/order/profile\" class=\"top_block_item top_auth hidden-xs hover_effect desktop__login\">...</a>",
       "children" : [ {
         "name" : "Заказ карманного календарика: авторизованный юзер",
-        "uid" : "b914bb97cc4d722b",
-        "parentUid" : "4834a20b892a21092e036f7f5c0227fe",
+        "uid" : "7edec72613508206",
+        "parentUid" : "0af6f9800d9e41f48185235b6c4616d7",
         "status" : "failed",
         "time" : {
-          "start" : 1740778761809,
-          "stop" : 1740778801346,
-          "duration" : 39537
+          "start" : 1740779989008,
+          "stop" : 1740780066972,
+          "duration" : 77964
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "4834a20b892a21092e036f7f5c0227fe"
+      "uid" : "0af6f9800d9e41f48185235b6c4616d7"
     } ],
     "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
   } ]
