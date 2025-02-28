@@ -1,21 +1,21 @@
 {
   "d511771663565490be17d66a55243c84" : {
     "statistic" : {
-      "failed" : 0,
-      "broken" : 1,
+      "failed" : 1,
+      "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "a46a484dbcd741e5",
-      "status" : "broken",
-      "statusDetails" : "Index 1 out of bounds for length 0",
+      "uid" : "d9b782db802a9a5c",
+      "status" : "failed",
+      "statusDetails" : "Element not found {a.sly-tabs-list-item-title[9]}\nExpected: clickable: interactable and enabled\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740759596130.4.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740759596130.4.html\nTimeout: 14 s.\nCaused by: java.lang.IndexOutOfBoundsException: Index 9 out of bounds for length 0",
       "time" : {
-        "start" : 1740758263735,
-        "stop" : 1740758299618,
-        "duration" : 35883
+        "start" : 1740759510563,
+        "stop" : 1740759596813,
+        "duration" : 86250
       }
     } ]
   },
@@ -29,12 +29,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "cd192b39b7ffbbf5",
+      "uid" : "eea149d0e6e27fb3",
       "status" : "passed",
       "time" : {
-        "start" : 1740758222911,
-        "stop" : 1740758263728,
-        "duration" : 40817
+        "start" : 1740759405784,
+        "stop" : 1740759460994,
+        "duration" : 55210
       }
     } ]
   },
@@ -48,12 +48,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "1e9dee464cd3f3b3",
+      "uid" : "f76409d2eae831a1",
       "status" : "passed",
       "time" : {
-        "start" : 1740757994186,
-        "stop" : 1740758019000,
-        "duration" : 24814
+        "start" : 1740759188406,
+        "stop" : 1740759213924,
+        "duration" : 25518
       }
     } ]
   },
@@ -67,13 +67,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "c509f9d46ca69f3d",
+      "uid" : "8154a0d15be458b8",
       "status" : "failed",
-      "statusDetails" : "Invalid element state [li#editor_express[1]]: element click intercepted: Element <li id=\"editor_express\" class=\"edit__list-item select_available_editor editor_express select_editor\" style=\"display: inline-block;\">...</li> is not clickable at point (951, 707). Other element would receive the click: <div class=\"flocktory-widget-overlay\" style=\"display: flex; z-index: 2147483647; position: fixed; top: 0px; left: 0px; justify-content: center; align-items: center; width: 100%; height: 100%; background: transparent; transform: none;\" data-showed-up=\"true\">...</div>\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740758222449.3.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740758222449.3.html\nTimeout: 14 s.\nCaused by: ElementClickInterceptedException: element click intercepted: Element <li id=\"editor_express\" class=\"edit__list-item select_available_editor editor_express select_editor\" style=\"display: inline-block;\">...</li> is not clickable at point (951, 707). Other element would receive the click: <div class=\"flocktory-widget-overlay\" style=\"display: flex; z-index: 2147483647; position: fixed; top: 0px; left: 0px; justify-content: center; align-items: center; width: 100%; height: 100%; background: transparent; transform: none;\" data-showed-up=\"true\">...</div>",
+      "statusDetails" : "Invalid element state [button.print-template--js]: element not interactable: [object HTMLButtonElement] has no size and location\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740759509065.3.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740759509065.3.html\nTimeout: 14 s.\nCaused by: ElementNotInteractableException: element not interactable: [object HTMLButtonElement] has no size and location",
       "time" : {
-        "start" : 1740758189811,
-        "stop" : 1740758222896,
-        "duration" : 33085
+        "start" : 1740759478475,
+        "stop" : 1740759510557,
+        "duration" : 32082
       }
     } ]
   },
@@ -87,13 +87,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "23071238c16f3a33",
+      "uid" : "1ec25074f3f8708c",
       "status" : "failed",
-      "statusDetails" : "Element should be clickable: interactable and enabled {button.add-photo--js}\nElement: '<button class=\"button button-small button-success action-panel-action--js add-photo--js\" type=\"submit\"> Добавить фотографию</button>'\nActual value: hidden, opacity=1\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740758339751.4.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740758339751.4.html\nTimeout: 14 s.",
+      "statusDetails" : "Element should be clickable: interactable and enabled {button.add-photo--js}\nElement: '<button class=\"button button-small button-success action-panel-action--js add-photo--js\" type=\"submit\"> Добавить фотографию</button>'\nActual value: hidden, opacity=1\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740759635867.5.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740759635867.5.html\nTimeout: 14 s.",
       "time" : {
-        "start" : 1740758299623,
-        "stop" : 1740758340367,
-        "duration" : 40744
+        "start" : 1740759596818,
+        "stop" : 1740759636591,
+        "duration" : 39773
       }
     } ]
   }

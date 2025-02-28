@@ -4,61 +4,57 @@
   "children" : [ {
     "name" : "Product defects",
     "children" : [ {
-      "name" : "Invalid element state [li#editor_express[1]]: element click intercepted: Element <li id=\"editor_express\" class=\"edit__list-item select_available_editor editor_express select_editor\" style=\"display: inline-block;\">...</li> is not clickable at point (951, 707). Other element would receive the click: <div class=\"flocktory-widget-overlay\" style=\"display: flex; z-index: 2147483647; position: fixed; top: 0px; left: 0px; justify-content: center; align-items: center; width: 100%; height: 100%; background: transparent; transform: none;\" data-showed-up=\"true\">...</div>\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740758222449.3.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740758222449.3.html\nTimeout: 14 s.\nCaused by: ElementClickInterceptedException: element click intercepted: Element <li id=\"editor_express\" class=\"edit__list-item select_available_editor editor_express select_editor\" style=\"display: inline-block;\">...</li> is not clickable at point (951, 707). Other element would receive the click: <div class=\"flocktory-widget-overlay\" style=\"display: flex; z-index: 2147483647; position: fixed; top: 0px; left: 0px; justify-content: center; align-items: center; width: 100%; height: 100%; background: transparent; transform: none;\" data-showed-up=\"true\">...</div>",
+      "name" : "Invalid element state [button.print-template--js]: element not interactable: [object HTMLButtonElement] has no size and location\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740759509065.3.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740759509065.3.html\nTimeout: 14 s.\nCaused by: ElementNotInteractableException: element not interactable: [object HTMLButtonElement] has no size and location",
       "children" : [ {
         "name" : "Заказ постера: неавторизованный юзер",
-        "uid" : "c509f9d46ca69f3d",
-        "parentUid" : "cec8e5abbd4008e828325bdf676f5c1e",
+        "uid" : "8154a0d15be458b8",
+        "parentUid" : "05c3b24dbc158226a2c318376b5e72c4",
         "status" : "failed",
         "time" : {
-          "start" : 1740758189811,
-          "stop" : 1740758222896,
-          "duration" : 33085
+          "start" : 1740759478475,
+          "stop" : 1740759510557,
+          "duration" : 32082
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "cec8e5abbd4008e828325bdf676f5c1e"
+      "uid" : "05c3b24dbc158226a2c318376b5e72c4"
     }, {
-      "name" : "Element should be clickable: interactable and enabled {button.add-photo--js}\nElement: '<button class=\"button button-small button-success action-panel-action--js add-photo--js\" type=\"submit\"> Добавить фотографию</button>'\nActual value: hidden, opacity=1\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740758339751.4.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740758339751.4.html\nTimeout: 14 s.",
-      "children" : [ {
-        "name" : "Заказ карманного календарика: авторизованный юзер",
-        "uid" : "23071238c16f3a33",
-        "parentUid" : "6b32766fdc92cc201be62eb126314d07",
-        "status" : "failed",
-        "time" : {
-          "start" : 1740758299623,
-          "stop" : 1740758340367,
-          "duration" : 40744
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "6b32766fdc92cc201be62eb126314d07"
-    } ],
-    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
-  }, {
-    "name" : "Test defects",
-    "children" : [ {
-      "name" : "Index 1 out of bounds for length 0",
+      "name" : "Element not found {a.sly-tabs-list-item-title[9]}\nExpected: clickable: interactable and enabled\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740759596130.4.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740759596130.4.html\nTimeout: 14 s.\nCaused by: java.lang.IndexOutOfBoundsException: Index 9 out of bounds for length 0",
       "children" : [ {
         "name" : "Создание книги в онлайн-редакторе",
-        "uid" : "a46a484dbcd741e5",
-        "parentUid" : "47d82206d557e7edbd0d77bb385542aa",
-        "status" : "broken",
+        "uid" : "d9b782db802a9a5c",
+        "parentUid" : "e08ae54e0a1168e61cc639fa5cd16299",
+        "status" : "failed",
         "time" : {
-          "start" : 1740758263735,
-          "stop" : 1740758299618,
-          "duration" : 35883
+          "start" : 1740759510563,
+          "stop" : 1740759596813,
+          "duration" : 86250
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "47d82206d557e7edbd0d77bb385542aa"
+      "uid" : "e08ae54e0a1168e61cc639fa5cd16299"
+    }, {
+      "name" : "Element should be clickable: interactable and enabled {button.add-photo--js}\nElement: '<button class=\"button button-small button-success action-panel-action--js add-photo--js\" type=\"submit\"> Добавить фотографию</button>'\nActual value: hidden, opacity=1\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740759635867.5.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740759635867.5.html\nTimeout: 14 s.",
+      "children" : [ {
+        "name" : "Заказ карманного календарика: авторизованный юзер",
+        "uid" : "1ec25074f3f8708c",
+        "parentUid" : "df207945f6eb55a71ec99739b67ab23b",
+        "status" : "failed",
+        "time" : {
+          "start" : 1740759596818,
+          "stop" : 1740759636591,
+          "duration" : 39773
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "df207945f6eb55a71ec99739b67ab23b"
     } ],
-    "uid" : "bdbf199525818fae7a8651db9eafe741"
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
   } ]
 }
