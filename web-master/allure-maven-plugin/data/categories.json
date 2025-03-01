@@ -4,56 +4,56 @@
   "children" : [ {
     "name" : "Product defects",
     "children" : [ {
-      "name" : "Element should be clickable: interactable and enabled {button.print-template--js}\nElement: '<button class=\"button button-success express-panel-right print-template--js\" disabled type=\"submit\"> В корзину за 299 руб.</button>'\nActual value: disabled\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740838780403.3.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740838780403.3.html\nTimeout: 14 s.",
+      "name" : "Element should be clickable: interactable and enabled {button.print-template--js}\nElement: '<button class=\"button button-success express-panel-right print-template--js\" type=\"submit\" displayed:false></button>'\nActual value: hidden, opacity=1\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740840219327.2.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740840219327.2.html\nTimeout: 14 s.",
       "children" : [ {
         "name" : "Заказ постера: неавторизованный юзер",
-        "uid" : "b5def0ccd8bfb233",
-        "parentUid" : "2b25e970c2519e9ea18ed96965eabdd0",
+        "uid" : "39da586bc2ef40cd",
+        "parentUid" : "cb4a3b6cc03dee93886af71094c670d5",
         "status" : "failed",
         "time" : {
-          "start" : 1740838757902,
-          "stop" : 1740838780515,
-          "duration" : 22613
+          "start" : 1740840187637,
+          "stop" : 1740840219705,
+          "duration" : 32068
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "2b25e970c2519e9ea18ed96965eabdd0"
+      "uid" : "cb4a3b6cc03dee93886af71094c670d5"
     }, {
-      "name" : "Element not found {button.order-delivery-switch}\nExpected: clickable: interactable and enabled\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740838825538.4.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740838825538.4.html\nTimeout: 14 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"button.order-delivery-switch\"}",
+      "name" : "Element should be clickable: interactable and enabled {button.add-photo--js}\nElement: '<button class=\"button button-small button-success action-panel-action--js add-photo--js\" type=\"submit\" displayed:false></button>'\nActual value: hidden, opacity=1\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740840258405.3.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740840258405.3.html\nTimeout: 14 s.",
       "children" : [ {
         "name" : "Заказ карманного календарика: авторизованный юзер",
-        "uid" : "e65cc00333d777e5",
-        "parentUid" : "47c2088c7888bd08c47b97152dab2289",
+        "uid" : "f04891b0e9416c12",
+        "parentUid" : "68909034162b22b42fd7d2044a17befd",
         "status" : "failed",
         "time" : {
-          "start" : 1740838780520,
-          "stop" : 1740838825680,
-          "duration" : 45160
+          "start" : 1740840219709,
+          "stop" : 1740840258679,
+          "duration" : 38970
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "47c2088c7888bd08c47b97152dab2289"
+      "uid" : "68909034162b22b42fd7d2044a17befd"
     }, {
-      "name" : "Invalid element state [span.photo-panel-container-text]: element click intercepted: Element <span class=\"photo-panel-container-text\">...</span> is not clickable at point (75, 740). Other element would receive the click: <div class=\"porch-popup-scroller\">...</div>\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740838864860.5.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740838864860.5.html\nTimeout: 14 s.\nCaused by: ElementClickInterceptedException: element click intercepted: Element <span class=\"photo-panel-container-text\">...</span> is not clickable at point (75, 740). Other element would receive the click: <div class=\"porch-popup-scroller\">...</div>",
+      "name" : "Invalid element state [span.photo-panel-container-text]: element click intercepted: Element <span class=\"photo-panel-container-text\">...</span> is not clickable at point (75, 731). Other element would receive the click: <div id=\"loader\">...</div>\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740840342584.4.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740840342584.4.html\nTimeout: 14 s.\nCaused by: ElementClickInterceptedException: element click intercepted: Element <span class=\"photo-panel-container-text\">...</span> is not clickable at point (75, 731). Other element would receive the click: <div id=\"loader\">...</div>",
       "children" : [ {
         "name" : "Создание книги в онлайн-редакторе",
-        "uid" : "7deaa8698fd0ce49",
-        "parentUid" : "d65a2541b759748168ddd41531e626b3",
+        "uid" : "76cf702062758ea9",
+        "parentUid" : "98ed5bb20e630902c6c79b9adb9acc9e",
         "status" : "failed",
         "time" : {
-          "start" : 1740838825685,
-          "stop" : 1740838865097,
-          "duration" : 39412
+          "start" : 1740840258682,
+          "stop" : 1740840343060,
+          "duration" : 84378
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "d65a2541b759748168ddd41531e626b3"
+      "uid" : "98ed5bb20e630902c6c79b9adb9acc9e"
     } ],
     "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
   } ]

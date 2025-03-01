@@ -1,24 +1,4 @@
 {
-  "cf6eb5a5efa26403a9de025fb9d0e285" : {
-    "statistic" : {
-      "failed" : 1,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "7deaa8698fd0ce49",
-      "status" : "failed",
-      "statusDetails" : "Invalid element state [span.photo-panel-container-text]: element click intercepted: Element <span class=\"photo-panel-container-text\">...</span> is not clickable at point (75, 740). Other element would receive the click: <div class=\"porch-popup-scroller\">...</div>\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740838864860.5.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740838864860.5.html\nTimeout: 14 s.\nCaused by: ElementClickInterceptedException: element click intercepted: Element <span class=\"photo-panel-container-text\">...</span> is not clickable at point (75, 740). Other element would receive the click: <div class=\"porch-popup-scroller\">...</div>",
-      "time" : {
-        "start" : 1740838825685,
-        "stop" : 1740838865097,
-        "duration" : 39412
-      }
-    } ]
-  },
   "514ff39a5161779d81b58d4093ad1e81" : {
     "statistic" : {
       "failed" : 1,
@@ -29,13 +9,33 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "e65cc00333d777e5",
+      "uid" : "f04891b0e9416c12",
       "status" : "failed",
-      "statusDetails" : "Element not found {button.order-delivery-switch}\nExpected: clickable: interactable and enabled\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740838825538.4.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740838825538.4.html\nTimeout: 14 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"button.order-delivery-switch\"}",
+      "statusDetails" : "Element should be clickable: interactable and enabled {button.add-photo--js}\nElement: '<button class=\"button button-small button-success action-panel-action--js add-photo--js\" type=\"submit\" displayed:false></button>'\nActual value: hidden, opacity=1\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740840258405.3.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740840258405.3.html\nTimeout: 14 s.",
       "time" : {
-        "start" : 1740838780520,
-        "stop" : 1740838825680,
-        "duration" : 45160
+        "start" : 1740840219709,
+        "stop" : 1740840258679,
+        "duration" : 38970
+      }
+    } ]
+  },
+  "cf6eb5a5efa26403a9de025fb9d0e285" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "76cf702062758ea9",
+      "status" : "failed",
+      "statusDetails" : "Invalid element state [span.photo-panel-container-text]: element click intercepted: Element <span class=\"photo-panel-container-text\">...</span> is not clickable at point (75, 731). Other element would receive the click: <div id=\"loader\">...</div>\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740840342584.4.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740840342584.4.html\nTimeout: 14 s.\nCaused by: ElementClickInterceptedException: element click intercepted: Element <span class=\"photo-panel-container-text\">...</span> is not clickable at point (75, 731). Other element would receive the click: <div id=\"loader\">...</div>",
+      "time" : {
+        "start" : 1740840258682,
+        "stop" : 1740840343060,
+        "duration" : 84378
       }
     } ]
   },
@@ -49,12 +49,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "fcc2db2d8e6476f0",
+      "uid" : "a699f044064e0104",
       "status" : "passed",
       "time" : {
-        "start" : 1740838726141,
-        "stop" : 1740838745425,
-        "duration" : 19284
+        "start" : 1740840123438,
+        "stop" : 1740840170483,
+        "duration" : 47045
       }
     } ]
   },
@@ -68,12 +68,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "9d0d688c81fde315",
+      "uid" : "9bc036495615d1c6",
       "status" : "passed",
       "time" : {
-        "start" : 1740838610799,
-        "stop" : 1740838623067,
-        "duration" : 12268
+        "start" : 1740839969960,
+        "stop" : 1740839982880,
+        "duration" : 12920
       }
     } ]
   },
@@ -87,13 +87,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "b5def0ccd8bfb233",
+      "uid" : "39da586bc2ef40cd",
       "status" : "failed",
-      "statusDetails" : "Element should be clickable: interactable and enabled {button.print-template--js}\nElement: '<button class=\"button button-success express-panel-right print-template--js\" disabled type=\"submit\"> В корзину за 299 руб.</button>'\nActual value: disabled\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740838780403.3.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740838780403.3.html\nTimeout: 14 s.",
+      "statusDetails" : "Element should be clickable: interactable and enabled {button.print-template--js}\nElement: '<button class=\"button button-success express-panel-right print-template--js\" type=\"submit\" displayed:false></button>'\nActual value: hidden, opacity=1\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740840219327.2.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740840219327.2.html\nTimeout: 14 s.",
       "time" : {
-        "start" : 1740838757902,
-        "stop" : 1740838780515,
-        "duration" : 22613
+        "start" : 1740840187637,
+        "stop" : 1740840219705,
+        "duration" : 32068
       }
     } ]
   }
