@@ -9,13 +9,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "812fa6dfe9101b92",
+      "uid" : "442c20081380bc00",
       "status" : "failed",
-      "statusDetails" : "Element not found {a.sly-tabs-list-item-title[9]}\nExpected: clickable: interactable and enabled\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740787172238.4.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740787172238.4.html\nTimeout: 14 s.\nCaused by: java.lang.IndexOutOfBoundsException: Index 9 out of bounds for length 0",
+      "statusDetails" : "Element should be clickable: interactable and enabled {a.sly-tabs-list-item-title[9]}\nElement: '<a class=\"sly-tabs-list-item-title\" href=\"#tab-albums-574535\" id=\"tab-caption-albums-574535\" displayed:false></a>'\nActual value: hidden, opacity=1\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740788378070.4.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740788378070.4.html\nTimeout: 14 s.",
       "time" : {
-        "start" : 1740787082107,
-        "stop" : 1740787173123,
-        "duration" : 91016
+        "start" : 1740788299461,
+        "stop" : 1740788379049,
+        "duration" : 79588
       }
     } ]
   },
@@ -29,12 +29,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "1923f3af5414da72",
+      "uid" : "ae0775076913f65e",
       "status" : "passed",
       "time" : {
-        "start" : 1740786976875,
-        "stop" : 1740787027423,
-        "duration" : 50548
+        "start" : 1740788208222,
+        "stop" : 1740788250027,
+        "duration" : 41805
       }
     } ]
   },
@@ -48,32 +48,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "40fbae29c555409b",
+      "uid" : "fbc611245b13778",
       "status" : "passed",
       "time" : {
-        "start" : 1740786793524,
-        "stop" : 1740786818364,
-        "duration" : 24840
-      }
-    } ]
-  },
-  "a9f76e9f0c22a8e5ba1a14a97727300a" : {
-    "statistic" : {
-      "failed" : 1,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "1f34475a1e26b61e",
-      "status" : "failed",
-      "statusDetails" : "Element should be clickable: interactable and enabled {button.add-photo--js}\nElement: '<button class=\"button button-small button-success action-panel-action--js add-photo--js\" type=\"submit\"> Добавить фотографию</button>'\nActual value: hidden, opacity=1\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740787213666.5.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740787213666.5.html\nTimeout: 14 s.",
-      "time" : {
-        "start" : 1740787173137,
-        "stop" : 1740787214254,
-        "duration" : 41117
+        "start" : 1740787988282,
+        "stop" : 1740788012608,
+        "duration" : 24326
       }
     } ]
   },
@@ -87,13 +67,33 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "d1d1878aec890e34",
+      "uid" : "b7e4e06c1b18597d",
       "status" : "failed",
-      "statusDetails" : "Invalid element state [button.print-template--js]: element not interactable: [object HTMLButtonElement] has no size and location\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740787080992.3.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740787080992.3.html\nTimeout: 14 s.\nCaused by: ElementNotInteractableException: element not interactable: [object HTMLButtonElement] has no size and location",
+      "statusDetails" : "Invalid element state [button.print-template--js]: element not interactable: [object HTMLButtonElement] has no size and location\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740788298773.3.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740788298773.3.html\nTimeout: 14 s.\nCaused by: ElementNotInteractableException: element not interactable: [object HTMLButtonElement] has no size and location",
       "time" : {
-        "start" : 1740787047450,
-        "stop" : 1740787082102,
-        "duration" : 34652
+        "start" : 1740788269185,
+        "stop" : 1740788299456,
+        "duration" : 30271
+      }
+    } ]
+  },
+  "a9f76e9f0c22a8e5ba1a14a97727300a" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "380d5791acbaaa9",
+      "status" : "failed",
+      "statusDetails" : "Invalid element state [button.btn-default[1]]: element click intercepted: Element <button class=\"btn btn-default btn-block\" ng-click=\"vm.onSaveDelivery()\" ng-disabled=\"vm.saveDeliveryLoading\">...</button> is not clickable at point (1398, 34). Other element would receive the click: <a href=\"https://netprint.ru/order/profile\" class=\"top_block_item top_auth hidden-xs hover_effect desktop__login\">...</a>\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740788455063.5.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740788455063.5.html\nTimeout: 14 s.\nCaused by: ElementClickInterceptedException: element click intercepted: Element <button class=\"btn btn-default btn-block\" ng-click=\"vm.onSaveDelivery()\" ng-disabled=\"vm.saveDeliveryLoading\">...</button> is not clickable at point (1398, 34). Other element would receive the click: <a href=\"https://netprint.ru/order/profile\" class=\"top_block_item top_auth hidden-xs hover_effect desktop__login\">...</a>",
+      "time" : {
+        "start" : 1740788379054,
+        "stop" : 1740788455712,
+        "duration" : 76658
       }
     } ]
   }
