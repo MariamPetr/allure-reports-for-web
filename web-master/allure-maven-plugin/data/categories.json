@@ -1,5 +1,60 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "name" : "categories",
-  "children" : [ ]
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Invalid element state [button.print-template--js]: element not interactable: [object HTMLButtonElement] has no size and location\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740817745371.3.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740817745371.3.html\nTimeout: 14 s.\nCaused by: ElementNotInteractableException: element not interactable: [object HTMLButtonElement] has no size and location",
+      "children" : [ {
+        "name" : "Заказ постера: неавторизованный юзер",
+        "uid" : "b985b636f5052f10",
+        "parentUid" : "e4b7351daf97214b7efd4a167537ad36",
+        "status" : "failed",
+        "time" : {
+          "start" : 1740817715213,
+          "stop" : 1740817745587,
+          "duration" : 30374
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e4b7351daf97214b7efd4a167537ad36"
+    }, {
+      "name" : "Element not found {a.sly-tabs-list-item-title[9]}\nExpected: clickable: interactable and enabled\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740817852714.4.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740817852714.4.html\nTimeout: 14 s.\nCaused by: java.lang.IndexOutOfBoundsException: Index 9 out of bounds for length 0",
+      "children" : [ {
+        "name" : "Создание книги в онлайн-редакторе",
+        "uid" : "90e8394f3e35f4a0",
+        "parentUid" : "412c83de00347da8023e4f54e58cbe19",
+        "status" : "failed",
+        "time" : {
+          "start" : 1740817768509,
+          "stop" : 1740817853146,
+          "duration" : 84637
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "412c83de00347da8023e4f54e58cbe19"
+    }, {
+      "name" : "Element should be clickable: interactable and enabled {button.add-photo--js}\nElement: '<button class=\"button button-small button-success action-panel-action--js add-photo--js\" type=\"submit\"> Добавить фотографию</button>'\nActual value: hidden, opacity=1\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740817890786.5.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740817890786.5.html\nTimeout: 14 s.",
+      "children" : [ {
+        "name" : "Заказ карманного календарика: авторизованный юзер",
+        "uid" : "9c7daafe9587b752",
+        "parentUid" : "f71eb1af145f8c5d9f9eea2b35584997",
+        "status" : "failed",
+        "time" : {
+          "start" : 1740817853149,
+          "stop" : 1740817891163,
+          "duration" : 38014
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f71eb1af145f8c5d9f9eea2b35584997"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
 }
