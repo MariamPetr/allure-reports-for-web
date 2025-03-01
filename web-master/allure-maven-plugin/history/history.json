@@ -9,13 +9,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "92beb034c1200f63",
+      "uid" : "7ad68e9d0011da03",
       "status" : "failed",
-      "statusDetails" : "Element not found {a.sly-tabs-list-item-title[9]}\nExpected: clickable: interactable and enabled\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740798005062.4.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740798005062.4.html\nTimeout: 14 s.\nCaused by: java.lang.IndexOutOfBoundsException: Index 9 out of bounds for length 0",
+      "statusDetails" : "Element not found {a.sly-tabs-list-item-title[9]}\nExpected: clickable: interactable and enabled\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740799205008.3.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740799205008.3.html\nTimeout: 14 s.\nCaused by: java.lang.IndexOutOfBoundsException: Index 9 out of bounds for length 0",
       "time" : {
-        "start" : 1740797914169,
-        "stop" : 1740798005778,
-        "duration" : 91609
+        "start" : 1740799127603,
+        "stop" : 1740799206536,
+        "duration" : 78933
       }
     } ]
   },
@@ -29,12 +29,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "c18af3e635ea141e",
+      "uid" : "e3f51ff9e42daca8",
       "status" : "passed",
       "time" : {
-        "start" : 1740797813965,
-        "stop" : 1740797863750,
-        "duration" : 49785
+        "start" : 1740799021972,
+        "stop" : 1740799070692,
+        "duration" : 48720
       }
     } ]
   },
@@ -48,12 +48,31 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "c8076c14c8f6eee6",
+      "uid" : "2fc786af853a6745",
       "status" : "passed",
       "time" : {
-        "start" : 1740797589072,
-        "stop" : 1740797614985,
-        "duration" : 25913
+        "start" : 1740798794231,
+        "stop" : 1740798818868,
+        "duration" : 24637
+      }
+    } ]
+  },
+  "72e8e71b4ceeaf37c51d826eb56ea312" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7003ebc0a830601b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1740799088487,
+        "stop" : 1740799127599,
+        "duration" : 39112
       }
     } ]
   },
@@ -67,33 +86,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "cc18957f88e8acf2",
+      "uid" : "94ef78d5701cc75e",
       "status" : "failed",
-      "statusDetails" : "Element should be clickable: interactable and enabled {button.add-photo--js}\nElement: '<button class=\"button button-small button-success action-panel-action--js add-photo--js\" type=\"submit\"> Добавить фотографию</button>'\nActual value: hidden, opacity=1\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740798045674.5.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740798045674.5.html\nTimeout: 14 s.",
+      "statusDetails" : "Invalid element state [button.btn-default[1]]: element click intercepted: Element <button class=\"btn btn-default btn-block\" ng-click=\"vm.onSaveDelivery()\" ng-disabled=\"vm.saveDeliveryLoading\">...</button> is not clickable at point (1398, 34). Other element would receive the click: <a href=\"https://netprint.ru/order/profile\" class=\"top_block_item top_auth hidden-xs hover_effect desktop__login\">...</a>\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740799283171.4.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740799283171.4.html\nTimeout: 14 s.\nCaused by: ElementClickInterceptedException: element click intercepted: Element <button class=\"btn btn-default btn-block\" ng-click=\"vm.onSaveDelivery()\" ng-disabled=\"vm.saveDeliveryLoading\">...</button> is not clickable at point (1398, 34). Other element would receive the click: <a href=\"https://netprint.ru/order/profile\" class=\"top_block_item top_auth hidden-xs hover_effect desktop__login\">...</a>",
       "time" : {
-        "start" : 1740798005783,
-        "stop" : 1740798046446,
-        "duration" : 40663
-      }
-    } ]
-  },
-  "72e8e71b4ceeaf37c51d826eb56ea312" : {
-    "statistic" : {
-      "failed" : 1,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "7a173a50e144e1c2",
-      "status" : "failed",
-      "statusDetails" : "Invalid element state [button.print-template--js]: element not interactable: [object HTMLButtonElement] has no size and location\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740797913412.3.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740797913412.3.html\nTimeout: 14 s.\nCaused by: ElementNotInteractableException: element not interactable: [object HTMLButtonElement] has no size and location",
-      "time" : {
-        "start" : 1740797883304,
-        "stop" : 1740797914165,
-        "duration" : 30861
+        "start" : 1740799206540,
+        "stop" : 1740799283840,
+        "duration" : 77300
       }
     } ]
   }
