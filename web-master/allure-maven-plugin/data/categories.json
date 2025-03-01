@@ -4,56 +4,73 @@
   "children" : [ {
     "name" : "Product defects",
     "children" : [ {
-      "name" : "Element should be clickable: interactable and enabled {button.print-template--js}\nElement: '<button class=\"button button-success express-panel-right print-template--js\" type=\"submit\" displayed:false></button>'\nActual value: hidden, opacity=1\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740840219327.2.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740840219327.2.html\nTimeout: 14 s.",
+      "name" : "Invalid element state [button.print-template--js]: element not interactable: [object HTMLButtonElement] has no size and location\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740851939657.5.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740851939657.5.html\nTimeout: 14 s.\nCaused by: ElementNotInteractableException: element not interactable: [object HTMLButtonElement] has no size and location",
       "children" : [ {
         "name" : "Заказ постера: неавторизованный юзер",
-        "uid" : "39da586bc2ef40cd",
-        "parentUid" : "cb4a3b6cc03dee93886af71094c670d5",
+        "uid" : "ae19fc8b1e128450",
+        "parentUid" : "ac4ac475c7b71dd9239a34336f2f6c77",
         "status" : "failed",
         "time" : {
-          "start" : 1740840187637,
-          "stop" : 1740840219705,
-          "duration" : 32068
+          "start" : 1740851909228,
+          "stop" : 1740851940288,
+          "duration" : 31060
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "cb4a3b6cc03dee93886af71094c670d5"
+      "uid" : "ac4ac475c7b71dd9239a34336f2f6c77"
     }, {
-      "name" : "Element should be clickable: interactable and enabled {button.add-photo--js}\nElement: '<button class=\"button button-small button-success action-panel-action--js add-photo--js\" type=\"submit\" displayed:false></button>'\nActual value: hidden, opacity=1\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740840258405.3.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740840258405.3.html\nTimeout: 14 s.",
+      "name" : "Invalid element state [div.porch-album-tile-cover]: element click intercepted: Element <div class=\"porch-album-tile-cover\">...</div> is not clickable at point (134, 182). Other element would receive the click: <div class=\"flocktory-widget-overlay\" style=\"display: flex; z-index: 2147483647; position: fixed; top: 0px; left: 0px; justify-content: center; align-items: center; width: 100%; height: 100%; background: transparent; transform: none;\" data-showed-up=\"true\">...</div>\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740851989319.6.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740851989319.6.html\nTimeout: 14 s.\nCaused by: ElementClickInterceptedException: element click intercepted: Element <div class=\"porch-album-tile-cover\">...</div> is not clickable at point (134, 182). Other element would receive the click: <div class=\"flocktory-widget-overlay\" style=\"display: flex; z-index: 2147483647; position: fixed; top: 0px; left: 0px; justify-content: center; align-items: center; width: 100%; height: 100%; background: transparent; transform: none;\" data-showed-up=\"true\">...</div>",
       "children" : [ {
         "name" : "Заказ карманного календарика: авторизованный юзер",
-        "uid" : "f04891b0e9416c12",
-        "parentUid" : "68909034162b22b42fd7d2044a17befd",
+        "uid" : "739893b2b5017842",
+        "parentUid" : "8d25e77ad4cc03e700264abf696ea612",
         "status" : "failed",
         "time" : {
-          "start" : 1740840219709,
-          "stop" : 1740840258679,
-          "duration" : 38970
+          "start" : 1740851940293,
+          "stop" : 1740851989879,
+          "duration" : 49586
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "68909034162b22b42fd7d2044a17befd"
+      "uid" : "8d25e77ad4cc03e700264abf696ea612"
     }, {
-      "name" : "Invalid element state [span.photo-panel-container-text]: element click intercepted: Element <span class=\"photo-panel-container-text\">...</span> is not clickable at point (75, 731). Other element would receive the click: <div id=\"loader\">...</div>\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740840342584.4.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740840342584.4.html\nTimeout: 14 s.\nCaused by: ElementClickInterceptedException: element click intercepted: Element <span class=\"photo-panel-container-text\">...</span> is not clickable at point (75, 731). Other element would receive the click: <div id=\"loader\">...</div>",
+      "name" : "Element not found {a.introjs-skipbutton}\nExpected: clickable: interactable and enabled\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740852074983.7.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740852074983.7.html\nTimeout: 14 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"a.introjs-skipbutton\"}",
       "children" : [ {
         "name" : "Создание книги в онлайн-редакторе",
-        "uid" : "76cf702062758ea9",
-        "parentUid" : "98ed5bb20e630902c6c79b9adb9acc9e",
+        "uid" : "b656cf7bdc44d450",
+        "parentUid" : "ec4d208805bfb7dd0f5a4524efad0b0a",
         "status" : "failed",
         "time" : {
-          "start" : 1740840258682,
-          "stop" : 1740840343060,
-          "duration" : 84378
+          "start" : 1740851989892,
+          "stop" : 1740852075623,
+          "duration" : 85731
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "98ed5bb20e630902c6c79b9adb9acc9e"
+      "uid" : "ec4d208805bfb7dd0f5a4524efad0b0a"
+    }, {
+      "name" : "Element not found {td a[0]}\nExpected: visible\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740852172466.8.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740852172466.8.html\nTimeout: 14 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"td a\"}",
+      "children" : [ {
+        "name" : "DemoOrderTest",
+        "uid" : "8fe51822b59e3956",
+        "parentUid" : "0583708d9b09802f534982ab342cbcdc",
+        "status" : "failed",
+        "time" : {
+          "start" : 1740852172925,
+          "stop" : 1740852172925,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0583708d9b09802f534982ab342cbcdc"
     } ],
     "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
   } ]
