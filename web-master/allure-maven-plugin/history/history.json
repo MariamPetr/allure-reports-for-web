@@ -1,21 +1,21 @@
 {
   "d511771663565490be17d66a55243c84" : {
     "statistic" : {
-      "failed" : 1,
-      "broken" : 0,
+      "failed" : 0,
+      "broken" : 1,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "90e8394f3e35f4a0",
-      "status" : "failed",
-      "statusDetails" : "Element not found {a.sly-tabs-list-item-title[9]}\nExpected: clickable: interactable and enabled\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740817852714.4.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740817852714.4.html\nTimeout: 14 s.\nCaused by: java.lang.IndexOutOfBoundsException: Index 9 out of bounds for length 0",
+      "uid" : "1a6faf9463e9e08b",
+      "status" : "broken",
+      "statusDetails" : "Index 1 out of bounds for length 0",
       "time" : {
-        "start" : 1740817768509,
-        "stop" : 1740817853146,
-        "duration" : 84637
+        "start" : 1740820749761,
+        "stop" : 1740820787863,
+        "duration" : 38102
       }
     } ]
   },
@@ -29,12 +29,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "8f22c4a0a1fc0ce1",
+      "uid" : "6df1ab832b16e5fa",
       "status" : "passed",
       "time" : {
-        "start" : 1740817651314,
-        "stop" : 1740817697565,
-        "duration" : 46251
+        "start" : 1740820702399,
+        "stop" : 1740820749754,
+        "duration" : 47355
       }
     } ]
   },
@@ -48,12 +48,32 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "5287fbd825d04965",
+      "uid" : "1bb77188162b2060",
       "status" : "passed",
       "time" : {
-        "start" : 1740817745592,
-        "stop" : 1740817768504,
-        "duration" : 22912
+        "start" : 1740820839529,
+        "stop" : 1740820862172,
+        "duration" : 22643
+      }
+    } ]
+  },
+  "7c828c0463072ac07efc4bbe655dd48a" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3d4cfcc1edebc8ce",
+      "status" : "failed",
+      "statusDetails" : "Element not found {td a[0]}\nExpected: visible\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740820672930.3.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740820672930.3.html\nTimeout: 14 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"td a\"}",
+      "time" : {
+        "start" : 1740820673150,
+        "stop" : 1740820673150,
+        "duration" : 0
       }
     } ]
   },
@@ -67,13 +87,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "b985b636f5052f10",
+      "uid" : "6ab74e4e6e323365",
       "status" : "failed",
-      "statusDetails" : "Invalid element state [button.print-template--js]: element not interactable: [object HTMLButtonElement] has no size and location\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740817745371.3.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740817745371.3.html\nTimeout: 14 s.\nCaused by: ElementNotInteractableException: element not interactable: [object HTMLButtonElement] has no size and location",
+      "statusDetails" : "Invalid element state [button.print-template--js]: element not interactable: [object HTMLButtonElement] has no size and location\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740820701959.4.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740820701959.4.html\nTimeout: 14 s.\nCaused by: ElementNotInteractableException: element not interactable: [object HTMLButtonElement] has no size and location",
       "time" : {
-        "start" : 1740817715213,
-        "stop" : 1740817745587,
-        "duration" : 30374
+        "start" : 1740820673158,
+        "stop" : 1740820702391,
+        "duration" : 29233
       }
     } ]
   },
@@ -87,13 +107,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "9c7daafe9587b752",
+      "uid" : "f62ff16f45ea3ef0",
       "status" : "failed",
-      "statusDetails" : "Element should be clickable: interactable and enabled {button.add-photo--js}\nElement: '<button class=\"button button-small button-success action-panel-action--js add-photo--js\" type=\"submit\"> Добавить фотографию</button>'\nActual value: hidden, opacity=1\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740817890786.5.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740817890786.5.html\nTimeout: 14 s.",
+      "statusDetails" : "Element not found {div.porch-album-tile-cover}\nExpected: clickable: interactable and enabled\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740820839070.5.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740820839070.5.html\nTimeout: 14 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"div.porch-album-tile-cover\"}",
       "time" : {
-        "start" : 1740817853149,
-        "stop" : 1740817891163,
-        "duration" : 38014
+        "start" : 1740820787872,
+        "stop" : 1740820839523,
+        "duration" : 51651
       }
     } ]
   }
