@@ -9,13 +9,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "733fd5dd6b8d746f",
+      "uid" : "d7d7b50def8ed8c",
       "status" : "failed",
-      "statusDetails" : "Element not found {a.sly-tabs-list-item-title[9]}\nExpected: clickable: interactable and enabled\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740792003620.4.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740792003620.4.html\nTimeout: 14 s.\nCaused by: java.lang.IndexOutOfBoundsException: Index 9 out of bounds for length 0",
+      "statusDetails" : "Element should be clickable: interactable and enabled {by text: Твердая обложка}\nElement: '<a data-sub-link=\"sub-link\" href=\"https://netprint.ru/moscow/photobooks/photobook-premium-hard-cover\" displayed:false></a>'\nActual value: hidden, opacity=1\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740793104972.4.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740793104972.4.html\nTimeout: 14 s.",
       "time" : {
-        "start" : 1740791917340,
-        "stop" : 1740792004605,
-        "duration" : 87265
+        "start" : 1740793072905,
+        "stop" : 1740793105791,
+        "duration" : 32886
       }
     } ]
   },
@@ -29,12 +29,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "d0e1fae62554f85a",
+      "uid" : "ec52f10e3f0bda85",
       "status" : "passed",
       "time" : {
-        "start" : 1740791814961,
-        "stop" : 1740791862185,
-        "duration" : 47224
+        "start" : 1740792973321,
+        "stop" : 1740793022431,
+        "duration" : 49110
       }
     } ]
   },
@@ -48,32 +48,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "b36a60c47627edbc",
+      "uid" : "67b493489128e819",
       "status" : "passed",
       "time" : {
-        "start" : 1740791586868,
-        "stop" : 1740791611919,
-        "duration" : 25051
-      }
-    } ]
-  },
-  "a9f76e9f0c22a8e5ba1a14a97727300a" : {
-    "statistic" : {
-      "failed" : 1,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "e3027385438dbec5",
-      "status" : "failed",
-      "statusDetails" : "Invalid element state [button.btn-default[1]]: element click intercepted: Element <button class=\"btn btn-default btn-block\" ng-click=\"vm.onSaveDelivery()\" ng-disabled=\"vm.saveDeliveryLoading\">...</button> is not clickable at point (1398, 34). Other element would receive the click: <a href=\"https://netprint.ru/order/profile\" class=\"top_block_item top_auth hidden-xs hover_effect desktop__login\">...</a>\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740792080096.5.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740792080096.5.html\nTimeout: 14 s.\nCaused by: ElementClickInterceptedException: element click intercepted: Element <button class=\"btn btn-default btn-block\" ng-click=\"vm.onSaveDelivery()\" ng-disabled=\"vm.saveDeliveryLoading\">...</button> is not clickable at point (1398, 34). Other element would receive the click: <a href=\"https://netprint.ru/order/profile\" class=\"top_block_item top_auth hidden-xs hover_effect desktop__login\">...</a>",
-      "time" : {
-        "start" : 1740792004610,
-        "stop" : 1740792080752,
-        "duration" : 76142
+        "start" : 1740792789602,
+        "stop" : 1740792814393,
+        "duration" : 24791
       }
     } ]
   },
@@ -87,13 +67,33 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "bc8b91c86f1bf88d",
+      "uid" : "43d9a544c3e69a15",
       "status" : "failed",
-      "statusDetails" : "Invalid element state [button.print-template--js]: element not interactable: [object HTMLButtonElement] has no size and location\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740791915897.3.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740791915897.3.html\nTimeout: 14 s.\nCaused by: ElementNotInteractableException: element not interactable: [object HTMLButtonElement] has no size and location",
+      "statusDetails" : "Invalid element state [button.print-template--js]: element not interactable: [object HTMLButtonElement] has no size and location\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740793071831.3.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740793071831.3.html\nTimeout: 14 s.\nCaused by: ElementNotInteractableException: element not interactable: [object HTMLButtonElement] has no size and location",
       "time" : {
-        "start" : 1740791880756,
-        "stop" : 1740791917335,
-        "duration" : 36579
+        "start" : 1740793040816,
+        "stop" : 1740793072899,
+        "duration" : 32083
+      }
+    } ]
+  },
+  "a9f76e9f0c22a8e5ba1a14a97727300a" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "968c9b75153a03d6",
+      "status" : "failed",
+      "statusDetails" : "Invalid element state [button.btn-default[1]]: element click intercepted: Element <button class=\"btn btn-default btn-block\" ng-click=\"vm.onSaveDelivery()\" ng-disabled=\"vm.saveDeliveryLoading\">...</button> is not clickable at point (1398, 34). Other element would receive the click: <a href=\"https://netprint.ru/order/profile\" class=\"top_block_item top_auth hidden-xs hover_effect desktop__login\">...</a>\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740793182251.5.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740793182251.5.html\nTimeout: 14 s.\nCaused by: ElementClickInterceptedException: element click intercepted: Element <button class=\"btn btn-default btn-block\" ng-click=\"vm.onSaveDelivery()\" ng-disabled=\"vm.saveDeliveryLoading\">...</button> is not clickable at point (1398, 34). Other element would receive the click: <a href=\"https://netprint.ru/order/profile\" class=\"top_block_item top_auth hidden-xs hover_effect desktop__login\">...</a>",
+      "time" : {
+        "start" : 1740793105806,
+        "stop" : 1740793182948,
+        "duration" : 77142
       }
     } ]
   }
