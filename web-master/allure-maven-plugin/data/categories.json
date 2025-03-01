@@ -4,57 +4,61 @@
   "children" : [ {
     "name" : "Product defects",
     "children" : [ {
-      "name" : "Invalid element state [button.print-template--js]: element not interactable: [object HTMLButtonElement] has no size and location\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740795504354.3.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740795504354.3.html\nTimeout: 14 s.\nCaused by: ElementNotInteractableException: element not interactable: [object HTMLButtonElement] has no size and location",
+      "name" : "Invalid element state [button.print-template--js]: element not interactable: [object HTMLButtonElement] has no size and location\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740796711914.3.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740796711914.3.html\nTimeout: 14 s.\nCaused by: ElementNotInteractableException: element not interactable: [object HTMLButtonElement] has no size and location",
       "children" : [ {
         "name" : "Заказ постера: неавторизованный юзер",
-        "uid" : "94e268b8d66ae45c",
-        "parentUid" : "ed99b5352ad9f5aaa5663c2666cb0be2",
+        "uid" : "ace3aaf2f9672011",
+        "parentUid" : "c53c0bc7e6492616a35bceb3a7d1adb5",
         "status" : "failed",
         "time" : {
-          "start" : 1740795472894,
-          "stop" : 1740795504936,
-          "duration" : 32042
+          "start" : 1740796681675,
+          "stop" : 1740796713079,
+          "duration" : 31404
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "ed99b5352ad9f5aaa5663c2666cb0be2"
+      "uid" : "c53c0bc7e6492616a35bceb3a7d1adb5"
     }, {
-      "name" : "Element not found {a.sly-tabs-list-item-title[9]}\nExpected: clickable: interactable and enabled\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740795591349.4.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740795591349.4.html\nTimeout: 14 s.\nCaused by: java.lang.IndexOutOfBoundsException: Index 9 out of bounds for length 0",
-      "children" : [ {
-        "name" : "Создание книги в онлайн-редакторе",
-        "uid" : "2a177a352febf0",
-        "parentUid" : "02bb721b31a49c92154e08d6e5ab731e",
-        "status" : "failed",
-        "time" : {
-          "start" : 1740795504944,
-          "stop" : 1740795592178,
-          "duration" : 87234
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "02bb721b31a49c92154e08d6e5ab731e"
-    }, {
-      "name" : "Invalid element state [button.btn-default[1]]: element click intercepted: Element <button class=\"btn btn-default btn-block\" ng-click=\"vm.onSaveDelivery()\" ng-disabled=\"vm.saveDeliveryLoading\">...</button> is not clickable at point (1398, 34). Other element would receive the click: <a href=\"https://netprint.ru/order/profile\" class=\"top_block_item top_auth hidden-xs hover_effect desktop__login\">...</a>\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740795666329.5.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740795666329.5.html\nTimeout: 14 s.\nCaused by: ElementClickInterceptedException: element click intercepted: Element <button class=\"btn btn-default btn-block\" ng-click=\"vm.onSaveDelivery()\" ng-disabled=\"vm.saveDeliveryLoading\">...</button> is not clickable at point (1398, 34). Other element would receive the click: <a href=\"https://netprint.ru/order/profile\" class=\"top_block_item top_auth hidden-xs hover_effect desktop__login\">...</a>",
+      "name" : "Element should be clickable: interactable and enabled {button.add-photo--js}\nElement: '<button class=\"button button-small button-success action-panel-action--js add-photo--js\" type=\"submit\" displayed:false></button>'\nActual value: hidden, opacity=1\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740796791093.4.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740796791093.4.html\nTimeout: 14 s.",
       "children" : [ {
         "name" : "Заказ карманного календарика: авторизованный юзер",
-        "uid" : "1369522548ee9df1",
-        "parentUid" : "aed4fe4829eef5406c63786911f7a28f",
+        "uid" : "3ae2577646f41389",
+        "parentUid" : "873f7e79acad0a66259db9d3d0927178",
         "status" : "failed",
         "time" : {
-          "start" : 1740795592181,
-          "stop" : 1740795667030,
-          "duration" : 74849
+          "start" : 1740796752452,
+          "stop" : 1740796792223,
+          "duration" : 39771
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "aed4fe4829eef5406c63786911f7a28f"
+      "uid" : "873f7e79acad0a66259db9d3d0927178"
     } ],
     "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  }, {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "Index 1 out of bounds for length 0",
+      "children" : [ {
+        "name" : "Создание книги в онлайн-редакторе",
+        "uid" : "c337510c00836dca",
+        "parentUid" : "47d82206d557e7edbd0d77bb385542aa",
+        "status" : "broken",
+        "time" : {
+          "start" : 1740796713085,
+          "stop" : 1740796752447,
+          "duration" : 39362
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "47d82206d557e7edbd0d77bb385542aa"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
   } ]
 }
