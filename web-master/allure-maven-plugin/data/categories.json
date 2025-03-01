@@ -4,78 +4,57 @@
   "children" : [ {
     "name" : "Product defects",
     "children" : [ {
-      "name" : "Element not found {td a[0]}\nExpected: visible\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740820672930.3.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740820672930.3.html\nTimeout: 14 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"td a\"}",
-      "children" : [ {
-        "name" : "DemoOrderTest",
-        "uid" : "3d4cfcc1edebc8ce",
-        "parentUid" : "172f666fd61afdd83da3b5c1e0a60b6c",
-        "status" : "failed",
-        "time" : {
-          "start" : 1740820673150,
-          "stop" : 1740820673150,
-          "duration" : 0
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "172f666fd61afdd83da3b5c1e0a60b6c"
-    }, {
-      "name" : "Invalid element state [button.print-template--js]: element not interactable: [object HTMLButtonElement] has no size and location\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740820701959.4.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740820701959.4.html\nTimeout: 14 s.\nCaused by: ElementNotInteractableException: element not interactable: [object HTMLButtonElement] has no size and location",
+      "name" : "Element should be clickable: interactable and enabled {button.print-template--js}\nElement: '<button class=\"button button-success express-panel-right print-template--js\" type=\"submit\" displayed:false></button>'\nActual value: hidden, opacity=1\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740836647601.3.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740836647601.3.html\nTimeout: 14 s.",
       "children" : [ {
         "name" : "Заказ постера: неавторизованный юзер",
-        "uid" : "6ab74e4e6e323365",
-        "parentUid" : "f5e1c6cfc4795869993694b409d74aa7",
+        "uid" : "56e2c89e146b157",
+        "parentUid" : "5cd1319cd52a3e3252673c35736181ee",
         "status" : "failed",
         "time" : {
-          "start" : 1740820673158,
-          "stop" : 1740820702391,
-          "duration" : 29233
+          "start" : 1740836617291,
+          "stop" : 1740836647997,
+          "duration" : 30706
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "f5e1c6cfc4795869993694b409d74aa7"
+      "uid" : "5cd1319cd52a3e3252673c35736181ee"
     }, {
-      "name" : "Element not found {div.porch-album-tile-cover}\nExpected: clickable: interactable and enabled\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740820839070.5.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740820839070.5.html\nTimeout: 14 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"div.porch-album-tile-cover\"}",
+      "name" : "Element not found {div.porch-album-tile-cover}\nExpected: clickable: interactable and enabled\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740836698980.4.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740836698980.4.html\nTimeout: 14 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"div.porch-album-tile-cover\"}",
       "children" : [ {
         "name" : "Заказ карманного календарика: авторизованный юзер",
-        "uid" : "f62ff16f45ea3ef0",
-        "parentUid" : "48b240fb863a553a01625925cb70bbda",
+        "uid" : "d634aa6c8a96f33e",
+        "parentUid" : "5c3587a1fdeb3cda1fc49f76ed8c9c2e",
         "status" : "failed",
         "time" : {
-          "start" : 1740820787872,
-          "stop" : 1740820839523,
-          "duration" : 51651
+          "start" : 1740836648002,
+          "stop" : 1740836699602,
+          "duration" : 51600
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "48b240fb863a553a01625925cb70bbda"
-    } ],
-    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
-  }, {
-    "name" : "Test defects",
-    "children" : [ {
-      "name" : "Index 1 out of bounds for length 0",
+      "uid" : "5c3587a1fdeb3cda1fc49f76ed8c9c2e"
+    }, {
+      "name" : "Invalid element state [button.add-to-pull--js]: element click intercepted: Element <button class=\"add-to-pull--js photo-panel-container-button btn btn-icon\" data-tooltip=\"right\">...</button> is not clickable at point (54, 731). Other element would receive the click: <div id=\"loader\">...</div>\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740836775537.5.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740836775537.5.html\nTimeout: 14 s.\nCaused by: ElementClickInterceptedException: element click intercepted: Element <button class=\"add-to-pull--js photo-panel-container-button btn btn-icon\" data-tooltip=\"right\">...</button> is not clickable at point (54, 731). Other element would receive the click: <div id=\"loader\">...</div>",
       "children" : [ {
         "name" : "Создание книги в онлайн-редакторе",
-        "uid" : "1a6faf9463e9e08b",
-        "parentUid" : "47d82206d557e7edbd0d77bb385542aa",
-        "status" : "broken",
+        "uid" : "e34631f731ff05a7",
+        "parentUid" : "848ae9ff9e54faa84212dd33a1f5252e",
+        "status" : "failed",
         "time" : {
-          "start" : 1740820749761,
-          "stop" : 1740820787863,
-          "duration" : 38102
+          "start" : 1740836699607,
+          "stop" : 1740836775834,
+          "duration" : 76227
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "47d82206d557e7edbd0d77bb385542aa"
+      "uid" : "848ae9ff9e54faa84212dd33a1f5252e"
     } ],
-    "uid" : "bdbf199525818fae7a8651db9eafe741"
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
   } ]
 }
