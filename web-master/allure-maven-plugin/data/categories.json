@@ -4,95 +4,57 @@
   "children" : [ {
     "name" : "Product defects",
     "children" : [ {
-      "name" : "Element not found {td a[0]}\nExpected: visible\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740837064111.3.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740837064111.3.html\nTimeout: 14 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"td a\"}",
-      "children" : [ {
-        "name" : "DemoOrderTest",
-        "uid" : "b492cc5d32b10999",
-        "parentUid" : "056370f797ed27b4cebe8fc3581cd39e",
-        "status" : "failed",
-        "time" : {
-          "start" : 1740837064372,
-          "stop" : 1740837064372,
-          "duration" : 0
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "056370f797ed27b4cebe8fc3581cd39e"
-    }, {
-      "name" : "Element should be clickable: interactable and enabled {button.print-template--js}\nElement: '<button class=\"button button-success express-panel-right print-template--js\" type=\"submit\" displayed:false></button>'\nActual value: hidden, opacity=1\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740837093487.4.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740837093487.4.html\nTimeout: 14 s.",
+      "name" : "Element should be clickable: interactable and enabled {button.print-template--js}\nElement: '<button class=\"button button-success express-panel-right print-template--js\" disabled type=\"submit\"> В корзину за 299 руб.</button>'\nActual value: disabled\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740838780403.3.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740838780403.3.html\nTimeout: 14 s.",
       "children" : [ {
         "name" : "Заказ постера: неавторизованный юзер",
-        "uid" : "1c7754c996f87128",
-        "parentUid" : "3810512cdb85e33a1c949231e06d1ac4",
+        "uid" : "b5def0ccd8bfb233",
+        "parentUid" : "2b25e970c2519e9ea18ed96965eabdd0",
         "status" : "failed",
         "time" : {
-          "start" : 1740837064382,
-          "stop" : 1740837093952,
-          "duration" : 29570
+          "start" : 1740838757902,
+          "stop" : 1740838780515,
+          "duration" : 22613
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "3810512cdb85e33a1c949231e06d1ac4"
+      "uid" : "2b25e970c2519e9ea18ed96965eabdd0"
     }, {
-      "name" : "Element should be clickable: interactable and enabled {button.add-photo--js}\nElement: '<button class=\"button button-small button-success action-panel-action--js add-photo--js\" type=\"submit\"> Добавить фотографию</button>'\nActual value: hidden, opacity=1\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740837162430.5.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740837162430.5.html\nTimeout: 14 s.",
+      "name" : "Element not found {button.order-delivery-switch}\nExpected: clickable: interactable and enabled\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740838825538.4.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740838825538.4.html\nTimeout: 14 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"button.order-delivery-switch\"}",
       "children" : [ {
         "name" : "Заказ карманного календарика: авторизованный юзер",
-        "uid" : "d7a6d2462279bb8",
-        "parentUid" : "f13d795c7d5bbb79e5d81618598dc272",
+        "uid" : "e65cc00333d777e5",
+        "parentUid" : "47c2088c7888bd08c47b97152dab2289",
         "status" : "failed",
         "time" : {
-          "start" : 1740837123044,
-          "stop" : 1740837163061,
-          "duration" : 40017
+          "start" : 1740838780520,
+          "stop" : 1740838825680,
+          "duration" : 45160
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "f13d795c7d5bbb79e5d81618598dc272"
+      "uid" : "47c2088c7888bd08c47b97152dab2289"
     }, {
-      "name" : "Invalid element state [button.add-to-pull--js]: element click intercepted: Element <button class=\"add-to-pull--js photo-panel-container-button btn btn-icon\" data-tooltip=\"right\" data-title=\"Добавить Фото\">...</button> is not clickable at point (54, 731). Other element would receive the click: <div class=\"porch-popup-scroller\">...</div>\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740837217233.6.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740837217233.6.html\nTimeout: 14 s.\nCaused by: ElementClickInterceptedException: element click intercepted: Element <button class=\"add-to-pull--js photo-panel-container-button btn btn-icon\" data-tooltip=\"right\" data-title=\"Добавить Фото\">...</button> is not clickable at point (54, 731). Other element would receive the click: <div class=\"porch-popup-scroller\">...</div>",
+      "name" : "Invalid element state [span.photo-panel-container-text]: element click intercepted: Element <span class=\"photo-panel-container-text\">...</span> is not clickable at point (75, 740). Other element would receive the click: <div class=\"porch-popup-scroller\">...</div>\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740838864860.5.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740838864860.5.html\nTimeout: 14 s.\nCaused by: ElementClickInterceptedException: element click intercepted: Element <span class=\"photo-panel-container-text\">...</span> is not clickable at point (75, 740). Other element would receive the click: <div class=\"porch-popup-scroller\">...</div>",
       "children" : [ {
         "name" : "Создание книги в онлайн-редакторе",
-        "uid" : "fa3a5a72400534b5",
-        "parentUid" : "1c95f54c6c647be19e9ee6a07a864226",
+        "uid" : "7deaa8698fd0ce49",
+        "parentUid" : "d65a2541b759748168ddd41531e626b3",
         "status" : "failed",
         "time" : {
-          "start" : 1740837163067,
-          "stop" : 1740837217434,
-          "duration" : 54367
+          "start" : 1740838825685,
+          "stop" : 1740838865097,
+          "duration" : 39412
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "1c95f54c6c647be19e9ee6a07a864226"
+      "uid" : "d65a2541b759748168ddd41531e626b3"
     } ],
     "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
-  }, {
-    "name" : "Test defects",
-    "children" : [ {
-      "name" : "Index 4 out of bounds for length 0",
-      "children" : [ {
-        "name" : "Пополнение лицевого счёта в личном кабинете",
-        "uid" : "b1f9e4141cc951f5",
-        "parentUid" : "b925684ae1dfbaf473032b0b7a685063",
-        "status" : "broken",
-        "time" : {
-          "start" : 1740837093956,
-          "stop" : 1740837123033,
-          "duration" : 29077
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "b925684ae1dfbaf473032b0b7a685063"
-    } ],
-    "uid" : "bdbf199525818fae7a8651db9eafe741"
   } ]
 }

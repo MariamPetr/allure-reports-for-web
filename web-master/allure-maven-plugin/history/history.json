@@ -1,24 +1,4 @@
 {
-  "514ff39a5161779d81b58d4093ad1e81" : {
-    "statistic" : {
-      "failed" : 1,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "d7a6d2462279bb8",
-      "status" : "failed",
-      "statusDetails" : "Element should be clickable: interactable and enabled {button.add-photo--js}\nElement: '<button class=\"button button-small button-success action-panel-action--js add-photo--js\" type=\"submit\"> Добавить фотографию</button>'\nActual value: hidden, opacity=1\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740837162430.5.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740837162430.5.html\nTimeout: 14 s.",
-      "time" : {
-        "start" : 1740837123044,
-        "stop" : 1740837163061,
-        "duration" : 40017
-      }
-    } ]
-  },
   "cf6eb5a5efa26403a9de025fb9d0e285" : {
     "statistic" : {
       "failed" : 1,
@@ -29,13 +9,33 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "fa3a5a72400534b5",
+      "uid" : "7deaa8698fd0ce49",
       "status" : "failed",
-      "statusDetails" : "Invalid element state [button.add-to-pull--js]: element click intercepted: Element <button class=\"add-to-pull--js photo-panel-container-button btn btn-icon\" data-tooltip=\"right\" data-title=\"Добавить Фото\">...</button> is not clickable at point (54, 731). Other element would receive the click: <div class=\"porch-popup-scroller\">...</div>\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740837217233.6.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740837217233.6.html\nTimeout: 14 s.\nCaused by: ElementClickInterceptedException: element click intercepted: Element <button class=\"add-to-pull--js photo-panel-container-button btn btn-icon\" data-tooltip=\"right\" data-title=\"Добавить Фото\">...</button> is not clickable at point (54, 731). Other element would receive the click: <div class=\"porch-popup-scroller\">...</div>",
+      "statusDetails" : "Invalid element state [span.photo-panel-container-text]: element click intercepted: Element <span class=\"photo-panel-container-text\">...</span> is not clickable at point (75, 740). Other element would receive the click: <div class=\"porch-popup-scroller\">...</div>\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740838864860.5.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740838864860.5.html\nTimeout: 14 s.\nCaused by: ElementClickInterceptedException: element click intercepted: Element <span class=\"photo-panel-container-text\">...</span> is not clickable at point (75, 740). Other element would receive the click: <div class=\"porch-popup-scroller\">...</div>",
       "time" : {
-        "start" : 1740837163067,
-        "stop" : 1740837217434,
-        "duration" : 54367
+        "start" : 1740838825685,
+        "stop" : 1740838865097,
+        "duration" : 39412
+      }
+    } ]
+  },
+  "514ff39a5161779d81b58d4093ad1e81" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e65cc00333d777e5",
+      "status" : "failed",
+      "statusDetails" : "Element not found {button.order-delivery-switch}\nExpected: clickable: interactable and enabled\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740838825538.4.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740838825538.4.html\nTimeout: 14 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"button.order-delivery-switch\"}",
+      "time" : {
+        "start" : 1740838780520,
+        "stop" : 1740838825680,
+        "duration" : 45160
       }
     } ]
   },
@@ -49,52 +49,31 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "6e5d6dac708720eb",
+      "uid" : "fcc2db2d8e6476f0",
       "status" : "passed",
       "time" : {
-        "start" : 1740837217445,
-        "stop" : 1740837236445,
-        "duration" : 19000
-      }
-    } ]
-  },
-  "755a3a699490e269aab4f1d6fe1dbddd" : {
-    "statistic" : {
-      "failed" : 1,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "b492cc5d32b10999",
-      "status" : "failed",
-      "statusDetails" : "Element not found {td a[0]}\nExpected: visible\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740837064111.3.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740837064111.3.html\nTimeout: 14 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"td a\"}",
-      "time" : {
-        "start" : 1740837064372,
-        "stop" : 1740837064372,
-        "duration" : 0
+        "start" : 1740838726141,
+        "stop" : 1740838745425,
+        "duration" : 19284
       }
     } ]
   },
   "efa837afbc6d92b790a3a92ca90d555c" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 1,
+      "broken" : 0,
       "skipped" : 0,
-      "passed" : 0,
+      "passed" : 1,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "b1f9e4141cc951f5",
-      "status" : "broken",
-      "statusDetails" : "Index 4 out of bounds for length 0",
+      "uid" : "9d0d688c81fde315",
+      "status" : "passed",
       "time" : {
-        "start" : 1740837093956,
-        "stop" : 1740837123033,
-        "duration" : 29077
+        "start" : 1740838610799,
+        "stop" : 1740838623067,
+        "duration" : 12268
       }
     } ]
   },
@@ -108,13 +87,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "1c7754c996f87128",
+      "uid" : "b5def0ccd8bfb233",
       "status" : "failed",
-      "statusDetails" : "Element should be clickable: interactable and enabled {button.print-template--js}\nElement: '<button class=\"button button-success express-panel-right print-template--js\" type=\"submit\" displayed:false></button>'\nActual value: hidden, opacity=1\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740837093487.4.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740837093487.4.html\nTimeout: 14 s.",
+      "statusDetails" : "Element should be clickable: interactable and enabled {button.print-template--js}\nElement: '<button class=\"button button-success express-panel-right print-template--js\" disabled type=\"submit\"> В корзину за 299 руб.</button>'\nActual value: disabled\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740838780403.3.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1740838780403.3.html\nTimeout: 14 s.",
       "time" : {
-        "start" : 1740837064382,
-        "stop" : 1740837093952,
-        "duration" : 29570
+        "start" : 1740838757902,
+        "stop" : 1740838780515,
+        "duration" : 22613
       }
     } ]
   }
