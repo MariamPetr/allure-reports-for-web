@@ -4,22 +4,56 @@
   "children" : [ {
     "name" : "Product defects",
     "children" : [ {
-      "name" : "Element not found {td a[0]}\nExpected: visible\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1741018373439.0.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1741018373439.0.html\nTimeout: 14 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"td a\"}",
+      "name" : "Invalid element state [button.print-template--js]: element not interactable: [object HTMLButtonElement] has no size and location\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1741025768268.2.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1741025768268.2.html\nTimeout: 14 s.\nCaused by: ElementNotInteractableException: element not interactable: [object HTMLButtonElement] has no size and location",
       "children" : [ {
-        "name" : "DemoOrderTest",
-        "uid" : "22a4718cdabcec5",
-        "parentUid" : "2e432c38675d265471a4361fd7db480f",
+        "name" : "Заказ постера: неавторизованный юзер",
+        "uid" : "64cedabe6bbfda48",
+        "parentUid" : "0ac2c2dcec05bd5f7fd64c0264a6b6e6",
         "status" : "failed",
         "time" : {
-          "start" : 1741018373676,
-          "stop" : 1741018373676,
+          "start" : 1741025718619,
+          "stop" : 1741025768802,
+          "duration" : 50183
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0ac2c2dcec05bd5f7fd64c0264a6b6e6"
+    }, {
+      "name" : "Invalid element state [button.btn-default[1]]: element click intercepted: Element <button class=\"btn btn-default btn-block\" ng-click=\"vm.onSaveDelivery()\" ng-disabled=\"vm.saveDeliveryLoading\">...</button> is not clickable at point (1560, 34). Other element would receive the click: <a href=\"https://netprint.ru/order/profile\" class=\"top_block_item top_auth hidden-xs hover_effect desktop__login\">...</a>\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1741026188287.3.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1741026188287.3.html\nTimeout: 14 s.\nCaused by: ElementClickInterceptedException: element click intercepted: Element <button class=\"btn btn-default btn-block\" ng-click=\"vm.onSaveDelivery()\" ng-disabled=\"vm.saveDeliveryLoading\">...</button> is not clickable at point (1560, 34). Other element would receive the click: <a href=\"https://netprint.ru/order/profile\" class=\"top_block_item top_auth hidden-xs hover_effect desktop__login\">...</a>",
+      "children" : [ {
+        "name" : "Заказ карманного календарика: авторизованный юзер",
+        "uid" : "9ec3351898a6104c",
+        "parentUid" : "48d6f5f5f2d0ac14f0f6d33dd1d62f0e",
+        "status" : "failed",
+        "time" : {
+          "start" : 1741025768808,
+          "stop" : 1741026188862,
+          "duration" : 420054
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "48d6f5f5f2d0ac14f0f6d33dd1d62f0e"
+    }, {
+      "name" : "Element not found {td a[0]}\nExpected: visible\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1741027765777.4.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1741027765777.4.html\nTimeout: 14 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"td a\"}",
+      "children" : [ {
+        "name" : "DemoOrderTest",
+        "uid" : "549055546fe80bc8",
+        "parentUid" : "6581dd5e240efb885b645bc6f290abdd",
+        "status" : "failed",
+        "time" : {
+          "start" : 1741027766129,
+          "stop" : 1741027766129,
           "duration" : 0
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "2e432c38675d265471a4361fd7db480f"
+      "uid" : "6581dd5e240efb885b645bc6f290abdd"
     } ],
     "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
   } ]
