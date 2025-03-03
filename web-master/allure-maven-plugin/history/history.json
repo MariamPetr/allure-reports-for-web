@@ -9,33 +9,33 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "4db74feba0cb2998",
+      "uid" : "ea8b4dbbdd347d81",
       "status" : "failed",
-      "statusDetails" : "Element should be clickable: interactable and enabled {button.add-photo--js}\nElement: '<button class=\"button button-small button-success action-panel-action--js add-photo--js\" type=\"submit\"> Добавить фотографию</button>'\nActual value: hidden, opacity=1\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1741012726969.3.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1741012726969.3.html\nTimeout: 14 s.",
+      "statusDetails" : "Element should be clickable: interactable and enabled {button.add-photo--js}\nElement: '<button class=\"button button-small button-success action-panel-action--js add-photo--js\" type=\"submit\" displayed:false></button>'\nActual value: hidden, opacity=1\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1741014523476.5.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1741014523476.5.html\nTimeout: 14 s.",
       "time" : {
-        "start" : 1741012685359,
-        "stop" : 1741012727718,
-        "duration" : 42359
+        "start" : 1741014480941,
+        "stop" : 1741014524781,
+        "duration" : 43840
       }
     } ]
   },
   "cf6eb5a5efa26403a9de025fb9d0e285" : {
     "statistic" : {
-      "failed" : 1,
-      "broken" : 0,
+      "failed" : 0,
+      "broken" : 1,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "8f44bfb3d17a2add",
-      "status" : "failed",
-      "statusDetails" : "Element not found {a.sly-tabs-list-item-title[9]}\nExpected: clickable: interactable and enabled\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1741012825278.4.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1741012825278.4.html\nTimeout: 14 s.\nCaused by: java.lang.IndexOutOfBoundsException: Index 9 out of bounds for length 0",
+      "uid" : "2a88cae450db3329",
+      "status" : "broken",
+      "statusDetails" : "Index 1 out of bounds for length 0",
       "time" : {
-        "start" : 1741012727730,
-        "stop" : 1741012826056,
-        "duration" : 98326
+        "start" : 1741014524785,
+        "stop" : 1741014568213,
+        "duration" : 43428
       }
     } ]
   },
@@ -49,31 +49,52 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "6e41ce6a6cddefcd",
+      "uid" : "d4496250f1d1f105",
       "status" : "passed",
       "time" : {
-        "start" : 1741012590022,
-        "stop" : 1741012631973,
-        "duration" : 41951
+        "start" : 1741014594301,
+        "stop" : 1741014642146,
+        "duration" : 47845
+      }
+    } ]
+  },
+  "755a3a699490e269aab4f1d6fe1dbddd" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f4a6abd0cdf20b93",
+      "status" : "failed",
+      "statusDetails" : "Element not found {td a[0]}\nExpected: visible\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1741014446366.3.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1741014446366.3.html\nTimeout: 14 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"td a\"}",
+      "time" : {
+        "start" : 1741014446819,
+        "stop" : 1741014446819,
+        "duration" : 0
       }
     } ]
   },
   "efa837afbc6d92b790a3a92ca90d555c" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
+      "broken" : 1,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "303d15138b00e322",
-      "status" : "passed",
+      "uid" : "233e826c16cee4fb",
+      "status" : "broken",
+      "statusDetails" : "Index 4 out of bounds for length 0",
       "time" : {
-        "start" : 1741012394928,
-        "stop" : 1741012419435,
-        "duration" : 24507
+        "start" : 1741014568220,
+        "stop" : 1741014594296,
+        "duration" : 26076
       }
     } ]
   },
@@ -87,13 +108,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "5bdb5e695d8b5c56",
+      "uid" : "926bf714be845aec",
       "status" : "failed",
-      "statusDetails" : "Invalid element state [button.print-template--js]: element not interactable: [object HTMLButtonElement] has no size and location\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1741012684621.2.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1741012684621.2.html\nTimeout: 14 s.\nCaused by: ElementNotInteractableException: element not interactable: [object HTMLButtonElement] has no size and location",
+      "statusDetails" : "Invalid element state [button.print-template--js]: element not interactable: [object HTMLButtonElement] has no size and location\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1741014479560.4.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1741014479560.4.html\nTimeout: 14 s.\nCaused by: ElementNotInteractableException: element not interactable: [object HTMLButtonElement] has no size and location",
       "time" : {
-        "start" : 1741012650558,
-        "stop" : 1741012685352,
-        "duration" : 34794
+        "start" : 1741014446827,
+        "stop" : 1741014480934,
+        "duration" : 34107
       }
     } ]
   }
