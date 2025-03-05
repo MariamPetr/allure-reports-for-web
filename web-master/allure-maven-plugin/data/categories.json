@@ -1,5 +1,64 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "name" : "categories",
-  "children" : [ ]
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Element not found {img.porch-home-tile-image[5]}\nExpected: clickable: interactable and enabled\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1741193083883.1.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1741193083883.1.html\nTimeout: 14 s.\nCaused by: java.lang.IndexOutOfBoundsException: Index 5 out of bounds for length 0",
+      "children" : [ {
+        "name" : "Заказ карманного календарика: авторизованный юзер",
+        "uid" : "5063968de30a85a6",
+        "parentUid" : "5051f1f6b79ea55c33111b91cc4a35e1",
+        "status" : "failed",
+        "time" : {
+          "start" : 1741192104266,
+          "stop" : 1741193084327,
+          "duration" : 980061
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5051f1f6b79ea55c33111b91cc4a35e1"
+    }, {
+      "name" : "Element not found {by text: Создать альбом}\nExpected: clickable: interactable and enabled\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1741195018295.2.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1741195018295.2.html\nTimeout: 14 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\".//*/text()[normalize-space(translate(string(.), '",
+      "children" : [ {
+        "name" : "Загрузка фото в альбом",
+        "uid" : "1400507b1715f624",
+        "parentUid" : "6be0b7d32860cfec8f0b4f33480609ea",
+        "status" : "failed",
+        "time" : {
+          "start" : 1741194121850,
+          "stop" : 1741195018646,
+          "duration" : 896796
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6be0b7d32860cfec8f0b4f33480609ea"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  }, {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "timeout: Timed out receiving message from renderer: 12.171\n  (Session info: chrome=133.0.6943.142)\nBuild info: version: '4.12.1', revision: '8e34639b11'\nSystem info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.3.1', java.version: '22'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [995fa4444d77cb6409ebc6047811465a, refresh {}]\nCapabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 133.0.6943.142, chrome: {chromedriverVersion: 133.0.6943.141 (2a5d6da0d61..., userDataDir: /var/folders/y4/1rkt9z0s363...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55233}, networkConnectionEnabled: false, pageLoadStrategy: eager, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:55233/devtoo..., se:cdpVersion: 133.0.6943.142, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 995fa4444d77cb6409ebc6047811465a",
+      "children" : [ {
+        "name" : "Создание книги в онлайн-редакторе",
+        "uid" : "65b443571aacc8a4",
+        "parentUid" : "870b299f1803cef7c8830256effb3b15",
+        "status" : "broken",
+        "time" : {
+          "start" : 1741193084332,
+          "stop" : 1741194116843,
+          "duration" : 1032511
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "870b299f1803cef7c8830256effb3b15"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
 }

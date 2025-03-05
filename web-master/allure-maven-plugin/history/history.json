@@ -1,58 +1,61 @@
 {
-  "514ff39a5161779d81b58d4093ad1e81" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "862ba8c285d338a4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1741188282748,
-        "stop" : 1741188340452,
-        "duration" : 57704
-      }
-    } ]
-  },
   "cf6eb5a5efa26403a9de025fb9d0e285" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
+      "broken" : 1,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "6e382e1d5864f7d2",
-      "status" : "passed",
+      "uid" : "65b443571aacc8a4",
+      "status" : "broken",
+      "statusDetails" : "timeout: Timed out receiving message from renderer: 12.171\n  (Session info: chrome=133.0.6943.142)\nBuild info: version: '4.12.1', revision: '8e34639b11'\nSystem info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.3.1', java.version: '22'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [995fa4444d77cb6409ebc6047811465a, refresh {}]\nCapabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 133.0.6943.142, chrome: {chromedriverVersion: 133.0.6943.141 (2a5d6da0d61..., userDataDir: /var/folders/y4/1rkt9z0s363...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55233}, networkConnectionEnabled: false, pageLoadStrategy: eager, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:55233/devtoo..., se:cdpVersion: 133.0.6943.142, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 995fa4444d77cb6409ebc6047811465a",
       "time" : {
-        "start" : 1741188340457,
-        "stop" : 1741188400643,
-        "duration" : 60186
+        "start" : 1741193084332,
+        "stop" : 1741194116843,
+        "duration" : 1032511
+      }
+    } ]
+  },
+  "514ff39a5161779d81b58d4093ad1e81" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5063968de30a85a6",
+      "status" : "failed",
+      "statusDetails" : "Element not found {img.porch-home-tile-image[5]}\nExpected: clickable: interactable and enabled\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1741193083883.1.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1741193083883.1.html\nTimeout: 14 s.\nCaused by: java.lang.IndexOutOfBoundsException: Index 5 out of bounds for length 0",
+      "time" : {
+        "start" : 1741192104266,
+        "stop" : 1741193084327,
+        "duration" : 980061
       }
     } ]
   },
   "a7519d805367d6283d9556065d9c18b2" : {
     "statistic" : {
-      "failed" : 0,
+      "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "1532bacf7c84398d",
-      "status" : "passed",
+      "uid" : "1400507b1715f624",
+      "status" : "failed",
+      "statusDetails" : "Element not found {by text: Создать альбом}\nExpected: clickable: interactable and enabled\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1741195018295.2.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1741195018295.2.html\nTimeout: 14 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\".//*/text()[normalize-space(translate(string(.), '",
       "time" : {
-        "start" : 1741188412775,
-        "stop" : 1741188439624,
-        "duration" : 26849
+        "start" : 1741194121850,
+        "stop" : 1741195018646,
+        "duration" : 896796
       }
     } ]
   },
@@ -66,12 +69,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "85ce8cea02be7efd",
+      "uid" : "20cc1e0355fd2bc8",
       "status" : "passed",
       "time" : {
-        "start" : 1741188264455,
-        "stop" : 1741188282714,
-        "duration" : 18259
+        "start" : 1741189982939,
+        "stop" : 1741190006949,
+        "duration" : 24010
       }
     } ]
   },
@@ -85,12 +88,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "ca78cdf462c5746d",
+      "uid" : "ebfd2eca99c0fcad",
       "status" : "passed",
       "time" : {
-        "start" : 1741188400647,
-        "stop" : 1741188412770,
-        "duration" : 12123
+        "start" : 1741191086948,
+        "stop" : 1741191125847,
+        "duration" : 38899
       }
     } ]
   }
