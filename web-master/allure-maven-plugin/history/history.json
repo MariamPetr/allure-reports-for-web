@@ -1,24 +1,4 @@
 {
-  "514ff39a5161779d81b58d4093ad1e81" : {
-    "statistic" : {
-      "failed" : 1,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "c819d042f85b9f58",
-      "status" : "failed",
-      "statusDetails" : "Invalid element state [button.btn-default[1]]: element click intercepted: Element <button class=\"btn btn-default btn-block\" ng-click=\"vm.onSaveDelivery()\" ng-disabled=\"vm.saveDeliveryLoading\">...</button> is not clickable at point (1560, 20). Other element would receive the click: <span id=\"login_name\" class=\"text is_auth hidden-sm desktop__login--name\">...</span>\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1741151037207.2.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1741151037207.2.html\nTimeout: 14 s.\nCaused by: ElementClickInterceptedException: element click intercepted: Element <button class=\"btn btn-default btn-block\" ng-click=\"vm.onSaveDelivery()\" ng-disabled=\"vm.saveDeliveryLoading\">...</button> is not clickable at point (1560, 20). Other element would receive the click: <span id=\"login_name\" class=\"text is_auth hidden-sm desktop__login--name\">...</span>",
-      "time" : {
-        "start" : 1741150936970,
-        "stop" : 1741151039522,
-        "duration" : 102552
-      }
-    } ]
-  },
   "cf6eb5a5efa26403a9de025fb9d0e285" : {
     "statistic" : {
       "failed" : 1,
@@ -29,13 +9,33 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "b580659fe4570fdf",
+      "uid" : "bc361664745506fa",
       "status" : "failed",
-      "statusDetails" : "Element not found {a.sly-tabs-list-item-title[9]}\nExpected: clickable: interactable and enabled\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1741152059397.3.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1741152059397.3.html\nTimeout: 14 s.\nCaused by: java.lang.IndexOutOfBoundsException: Index 9 out of bounds for length 0",
+      "statusDetails" : "Element should be clickable: interactable and enabled {a.sly-tabs-list-item-title[9]}\nElement: '<a class=\"sly-tabs-list-item-title\" href=\"#tab-albums-105229\" id=\"tab-caption-albums-105229\" displayed:false></a>'\nActual value: hidden, opacity=1\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1741152659766.3.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1741152659766.3.html\nTimeout: 14 s.",
       "time" : {
-        "start" : 1741151039561,
-        "stop" : 1741152061136,
-        "duration" : 1021575
+        "start" : 1741152593481,
+        "stop" : 1741152660217,
+        "duration" : 66736
+      }
+    } ]
+  },
+  "514ff39a5161779d81b58d4093ad1e81" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f4006327585167f6",
+      "status" : "failed",
+      "statusDetails" : "Element should be clickable: interactable and enabled {a[href='https://netprint.ru/moscow/calendars/karmannye-kalendari']}\nElement: '<a data-sub-link=\"sub-link\" href=\"https://netprint.ru/moscow/calendars/karmannye-kalendari\" displayed:false></a>'\nActual value: hidden, opacity=1\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1741152592907.2.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1741152592907.2.html\nTimeout: 14 s.",
+      "time" : {
+        "start" : 1741152558629,
+        "stop" : 1741152593477,
+        "duration" : 34848
       }
     } ]
   },
@@ -49,12 +49,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "d34d49e8397aa440",
+      "uid" : "93267d79d11b3dc7",
       "status" : "passed",
       "time" : {
-        "start" : 1741150884612,
-        "stop" : 1741150917584,
-        "duration" : 32972
+        "start" : 1741152508218,
+        "stop" : 1741152539335,
+        "duration" : 31117
       }
     } ]
   },
@@ -68,12 +68,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "fdc63e5b9d074a85",
+      "uid" : "bf45352982e9a578",
       "status" : "passed",
       "time" : {
-        "start" : 1741150717296,
-        "stop" : 1741150742050,
-        "duration" : 24754
+        "start" : 1741152293246,
+        "stop" : 1741152318422,
+        "duration" : 25176
       }
     } ]
   },
@@ -87,12 +87,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "4e01e1d61106bfc4",
+      "uid" : "1a2256e0e99fb01e",
       "status" : "passed",
       "time" : {
-        "start" : 1741150845433,
-        "stop" : 1741150884608,
-        "duration" : 39175
+        "start" : 1741152467526,
+        "stop" : 1741152508213,
+        "duration" : 40687
       }
     } ]
   }
