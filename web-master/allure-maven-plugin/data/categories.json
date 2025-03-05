@@ -1,5 +1,43 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "name" : "categories",
-  "children" : [ ]
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Invalid element state [button.btn-default[1]]: element click intercepted: Element <button class=\"btn btn-default btn-block\" ng-click=\"vm.onSaveDelivery()\" ng-disabled=\"vm.saveDeliveryLoading\">...</button> is not clickable at point (1560, 20). Other element would receive the click: <span id=\"login_name\" class=\"text is_auth hidden-sm desktop__login--name\">...</span>\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1741202270109.2.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1741202270109.2.html\nTimeout: 14 s.\nCaused by: ElementClickInterceptedException: element click intercepted: Element <button class=\"btn btn-default btn-block\" ng-click=\"vm.onSaveDelivery()\" ng-disabled=\"vm.saveDeliveryLoading\">...</button> is not clickable at point (1560, 20). Other element would receive the click: <span id=\"login_name\" class=\"text is_auth hidden-sm desktop__login--name\">...</span>",
+      "children" : [ {
+        "name" : "Заказ карманного календарика: авторизованный юзер",
+        "uid" : "3eaa0b648f372e3b",
+        "parentUid" : "7511f5c79a2c307802281e222e3cf84c",
+        "status" : "failed",
+        "time" : {
+          "start" : 1741202178824,
+          "stop" : 1741202270768,
+          "duration" : 91944
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "7511f5c79a2c307802281e222e3cf84c"
+    }, {
+      "name" : "Element should be clickable: interactable and enabled {a.sly-tabs-list-item-title[9]}\nElement: '<a class=\"sly-tabs-list-item-title\" href=\"#tab-albums-106033\" id=\"tab-caption-albums-106033\" displayed:false></a>'\nActual value: hidden, opacity=1\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1741202348773.3.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1741202348773.3.html\nTimeout: 14 s.",
+      "children" : [ {
+        "name" : "Создание книги в онлайн-редакторе",
+        "uid" : "9c6d1702a73ef129",
+        "parentUid" : "09ec5aa5d585b04f60fee157ec27c2a5",
+        "status" : "failed",
+        "time" : {
+          "start" : 1741202270774,
+          "stop" : 1741202349397,
+          "duration" : 78623
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "09ec5aa5d585b04f60fee157ec27c2a5"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
 }
