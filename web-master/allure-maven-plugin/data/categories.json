@@ -4,22 +4,39 @@
   "children" : [ {
     "name" : "Product defects",
     "children" : [ {
-      "name" : "Element should be clickable: interactable and enabled {a[href='https://netprint.ru/moscow/calendars/karmannye-kalendari']}\nElement: '<a data-sub-link=\"sub-link\" href=\"https://netprint.ru/moscow/calendars/karmannye-kalendari\" displayed:false></a>'\nActual value: hidden, opacity=1\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1741177283043.2.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1741177283043.2.html\nTimeout: 14 s.",
+      "name" : "Invalid element state [button.btn-default[1]]: element click intercepted: Element <button class=\"btn btn-default btn-block\" ng-click=\"vm.onSaveDelivery()\" ng-disabled=\"vm.saveDeliveryLoading\">...</button> is not clickable at point (1560, 20). Other element would receive the click: <span id=\"login_name\" class=\"text is_auth hidden-sm desktop__login--name\">...</span>\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1741177817006.2.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1741177817006.2.html\nTimeout: 14 s.\nCaused by: ElementClickInterceptedException: element click intercepted: Element <button class=\"btn btn-default btn-block\" ng-click=\"vm.onSaveDelivery()\" ng-disabled=\"vm.saveDeliveryLoading\">...</button> is not clickable at point (1560, 20). Other element would receive the click: <span id=\"login_name\" class=\"text is_auth hidden-sm desktop__login--name\">...</span>",
       "children" : [ {
         "name" : "Заказ карманного календарика: авторизованный юзер",
-        "uid" : "2736b717945911e",
-        "parentUid" : "67ec088eae3dcf00a0ee7c916837a479",
+        "uid" : "243221c238e46349",
+        "parentUid" : "4f5389df370cea7215c34ccf7e2e8b32",
         "status" : "failed",
         "time" : {
-          "start" : 1741176305320,
-          "stop" : 1741177283694,
-          "duration" : 978374
+          "start" : 1741177734881,
+          "stop" : 1741177817536,
+          "duration" : 82655
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "67ec088eae3dcf00a0ee7c916837a479"
+      "uid" : "4f5389df370cea7215c34ccf7e2e8b32"
+    }, {
+      "name" : "Element not found {a.sly-tabs-list-item-title[9]}\nExpected: clickable: interactable and enabled\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1741177898283.3.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1741177898283.3.html\nTimeout: 14 s.\nCaused by: java.lang.IndexOutOfBoundsException: Index 9 out of bounds for length 0",
+      "children" : [ {
+        "name" : "Создание книги в онлайн-редакторе",
+        "uid" : "620fbdfaa3828d6a",
+        "parentUid" : "6d6cb7417ba02d1f6af373d37c198ab3",
+        "status" : "failed",
+        "time" : {
+          "start" : 1741177817547,
+          "stop" : 1741177898902,
+          "duration" : 81355
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6d6cb7417ba02d1f6af373d37c198ab3"
     } ],
     "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
   } ]
