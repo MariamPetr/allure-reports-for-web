@@ -4,39 +4,56 @@
   "children" : [ {
     "name" : "Product defects",
     "children" : [ {
-      "name" : "Invalid element state [button.btn-default[1]]: element click intercepted: Element <button class=\"btn btn-default btn-block\" ng-click=\"vm.onSaveDelivery()\" ng-disabled=\"vm.saveDeliveryLoading\">...</button> is not clickable at point (1560, 20). Other element would receive the click: <span id=\"login_name\" class=\"text is_auth hidden-sm desktop__login--name\">...</span>\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1741143936266.3.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1741143936266.3.html\nTimeout: 14 s.\nCaused by: ElementClickInterceptedException: element click intercepted: Element <button class=\"btn btn-default btn-block\" ng-click=\"vm.onSaveDelivery()\" ng-disabled=\"vm.saveDeliveryLoading\">...</button> is not clickable at point (1560, 20). Other element would receive the click: <span id=\"login_name\" class=\"text is_auth hidden-sm desktop__login--name\">...</span>",
+      "name" : "Invalid element state [button.print-template--js]: element click intercepted: Element <button class=\"button button-success express-panel-right print-template--js\">...</button> is not clickable at point (1413, 257). Other element would receive the click: <div class=\"flocktory-widget-overlay\" style=\"display: flex; z-index: 2147483647; position: fixed; top: 0px; left: 0px; justify-content: center; align-items: center; width: 100%; height: 100%; background: transparent; transform: none;\" data-showed-up=\"true\">...</div>\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1741144491494.3.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1741144491494.3.html\nTimeout: 14 s.\nCaused by: ElementClickInterceptedException: element click intercepted: Element <button class=\"button button-success express-panel-right print-template--js\">...</button> is not clickable at point (1413, 257). Other element would receive the click: <div class=\"flocktory-widget-overlay\" style=\"display: flex; z-index: 2147483647; position: fixed; top: 0px; left: 0px; justify-content: center; align-items: center; width: 100%; height: 100%; background: transparent; transform: none;\" data-showed-up=\"true\">...</div>",
+      "children" : [ {
+        "name" : "Заказ постера: неавторизованный юзер",
+        "uid" : "7795ee39fd06b62b",
+        "parentUid" : "8cce1316f19b8c51f13dcde56269e27e",
+        "status" : "failed",
+        "time" : {
+          "start" : 1741144443678,
+          "stop" : 1741144491968,
+          "duration" : 48290
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8cce1316f19b8c51f13dcde56269e27e"
+    }, {
+      "name" : "Invalid element state [button.btn-default[1]]: element click intercepted: Element <button class=\"btn btn-default btn-block\" ng-click=\"vm.onSaveDelivery()\" ng-disabled=\"vm.saveDeliveryLoading\">...</button> is not clickable at point (1560, 20). Other element would receive the click: <span id=\"login_name\" class=\"text is_auth hidden-sm desktop__login--name\">...</span>\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1741144574908.4.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1741144574908.4.html\nTimeout: 14 s.\nCaused by: ElementClickInterceptedException: element click intercepted: Element <button class=\"btn btn-default btn-block\" ng-click=\"vm.onSaveDelivery()\" ng-disabled=\"vm.saveDeliveryLoading\">...</button> is not clickable at point (1560, 20). Other element would receive the click: <span id=\"login_name\" class=\"text is_auth hidden-sm desktop__login--name\">...</span>",
       "children" : [ {
         "name" : "Заказ карманного календарика: авторизованный юзер",
-        "uid" : "36eadc0a248b3e39",
-        "parentUid" : "b081a5df381afcf2e50efe5bbf8d8317",
+        "uid" : "5970e8fd404cd48d",
+        "parentUid" : "36d9a4570e143a85e320352291f03371",
         "status" : "failed",
         "time" : {
-          "start" : 1741143851639,
-          "stop" : 1741143936777,
-          "duration" : 85138
+          "start" : 1741144491979,
+          "stop" : 1741144575457,
+          "duration" : 83478
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "b081a5df381afcf2e50efe5bbf8d8317"
+      "uid" : "36d9a4570e143a85e320352291f03371"
     }, {
-      "name" : "Element should be clickable: interactable and enabled {a.sly-tabs-list-item-title[9]}\nElement: '<a class=\"sly-tabs-list-item-title\" href=\"#tab-albums-679566\" id=\"tab-caption-albums-679566\" displayed:false></a>'\nActual value: hidden, opacity=1\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1741144001994.4.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1741144001994.4.html\nTimeout: 14 s.",
+      "name" : "Element should be clickable: interactable and enabled {a.sly-tabs-list-item-title[9]}\nElement: '<a class=\"sly-tabs-list-item-title\" href=\"#tab-albums-300078\" id=\"tab-caption-albums-300078\" displayed:false></a>'\nActual value: hidden, opacity=1\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1741144641134.5.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1741144641134.5.html\nTimeout: 14 s.",
       "children" : [ {
         "name" : "Создание книги в онлайн-редакторе",
-        "uid" : "77655f22b57d8a5b",
-        "parentUid" : "adb964659c5aeb17b051680a6e9c5fe6",
+        "uid" : "2a6084147ca32ebe",
+        "parentUid" : "ca595f75fc99147423ed6d4c5987b154",
         "status" : "failed",
         "time" : {
-          "start" : 1741143936788,
-          "stop" : 1741144002521,
-          "duration" : 65733
+          "start" : 1741144575467,
+          "stop" : 1741144641725,
+          "duration" : 66258
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "adb964659c5aeb17b051680a6e9c5fe6"
+      "uid" : "ca595f75fc99147423ed6d4c5987b154"
     } ],
     "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
   } ]
