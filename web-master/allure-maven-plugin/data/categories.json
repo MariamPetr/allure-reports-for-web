@@ -4,22 +4,39 @@
   "children" : [ {
     "name" : "Product defects",
     "children" : [ {
-      "name" : "Invalid element state [by text: Постеры]: element click intercepted: Element <a href=\"https://netprint.ru/moscow/interior/pechat-na-plakatah-i-posterah\" data-sub-link=\"sub-link\">...</a> is not clickable at point (430, 344). Other element would receive the click: <div class=\"flocktory-widget-overlay\" style=\"display: flex; z-index: 2147483647; position: fixed; top: 0px; left: 0px; justify-content: center; align-items: center; width: 100%; height: 100%; background: transparent; transform: none;\" data-showed-up=\"true\">...</div>\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1741348047349.2.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1741348047349.2.html\nTimeout: 14 s.\nCaused by: ElementClickInterceptedException: element click intercepted: Element <a href=\"https://netprint.ru/moscow/interior/pechat-na-plakatah-i-posterah\" data-sub-link=\"sub-link\">...</a> is not clickable at point (430, 344). Other element would receive the click: <div class=\"flocktory-widget-overlay\" style=\"display: flex; z-index: 2147483647; position: fixed; top: 0px; left: 0px; justify-content: center; align-items: center; width: 100%; height: 100%; background: transparent; transform: none;\" data-showed-up=\"true\">...</div>",
+      "name" : "Invalid element state [button.btn-default[1]]: element click intercepted: Element <button class=\"btn btn-default btn-block\" ng-click=\"vm.onSaveDelivery()\" ng-disabled=\"vm.saveDeliveryLoading\">...</button> is not clickable at point (1560, 20). Other element would receive the click: <span id=\"login_name\" class=\"text is_auth hidden-sm desktop__login--name\">...</span>\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1741348725805.1.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1741348725805.1.html\nTimeout: 14 s.\nCaused by: ElementClickInterceptedException: element click intercepted: Element <button class=\"btn btn-default btn-block\" ng-click=\"vm.onSaveDelivery()\" ng-disabled=\"vm.saveDeliveryLoading\">...</button> is not clickable at point (1560, 20). Other element would receive the click: <span id=\"login_name\" class=\"text is_auth hidden-sm desktop__login--name\">...</span>",
       "children" : [ {
-        "name" : "Заказ постера: неавторизованный юзер",
-        "uid" : "223d3e6019571631",
-        "parentUid" : "7da3d62b1c63150e9cde471a20e4312c",
+        "name" : "Заказ карманного календарика: авторизованный юзер",
+        "uid" : "50a1605a26a62d8",
+        "parentUid" : "fbb0ee404318ede1b06e377dd03d0108",
         "status" : "failed",
         "time" : {
-          "start" : 1741348027001,
-          "stop" : 1741348047964,
-          "duration" : 20963
+          "start" : 1741348640813,
+          "stop" : 1741348726247,
+          "duration" : 85434
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "7da3d62b1c63150e9cde471a20e4312c"
+      "uid" : "fbb0ee404318ede1b06e377dd03d0108"
+    }, {
+      "name" : "Element not found {td a[0]}\nExpected: visible\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1741348760498.2.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1741348760498.2.html\nTimeout: 14 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"td a\"}",
+      "children" : [ {
+        "name" : "DemoOrderTest",
+        "uid" : "5332e3bc29d4c5d0",
+        "parentUid" : "c57cee1d932a3e4470f40bad850d7849",
+        "status" : "failed",
+        "time" : {
+          "start" : 1741348760730,
+          "stop" : 1741348760731,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c57cee1d932a3e4470f40bad850d7849"
     } ],
     "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
   } ]
