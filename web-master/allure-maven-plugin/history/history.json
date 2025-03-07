@@ -1,20 +1,21 @@
 {
   "514ff39a5161779d81b58d4093ad1e81" : {
     "statistic" : {
-      "failed" : 0,
+      "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "87192d950474ba19",
-      "status" : "passed",
+      "uid" : "d8a2e960d8057555",
+      "status" : "failed",
+      "statusDetails" : "Invalid element state [button.btn-default[1]]: element click intercepted: Element <button class=\"btn btn-default btn-block\" ng-click=\"vm.onSaveDelivery()\" ng-disabled=\"vm.saveDeliveryLoading\">...</button> is not clickable at point (1560, 20). Other element would receive the click: <span id=\"login_name\" class=\"text is_auth hidden-sm desktop__login--name\">...</span>\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1741366170813.1.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1741366170813.1.html\nTimeout: 14 s.\nCaused by: ElementClickInterceptedException: element click intercepted: Element <button class=\"btn btn-default btn-block\" ng-click=\"vm.onSaveDelivery()\" ng-disabled=\"vm.saveDeliveryLoading\">...</button> is not clickable at point (1560, 20). Other element would receive the click: <span id=\"login_name\" class=\"text is_auth hidden-sm desktop__login--name\">...</span>",
       "time" : {
-        "start" : 1741364842404,
-        "stop" : 1741364925967,
-        "duration" : 83563
+        "start" : 1741366083889,
+        "stop" : 1741366171184,
+        "duration" : 87295
       }
     } ]
   },
@@ -28,12 +29,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "fd109f7f4b58222c",
+      "uid" : "dec94c5b154bbda6",
       "status" : "passed",
       "time" : {
-        "start" : 1741364675647,
-        "stop" : 1741364750688,
-        "duration" : 75041
+        "start" : 1741366171188,
+        "stop" : 1741366249530,
+        "duration" : 78342
       }
     } ]
   },
@@ -47,12 +48,32 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "ea143e989c964d49",
+      "uid" : "8400df86442347eb",
       "status" : "passed",
       "time" : {
-        "start" : 1741364784521,
-        "stop" : 1741364823471,
-        "duration" : 38950
+        "start" : 1741366283773,
+        "stop" : 1741366316207,
+        "duration" : 32434
+      }
+    } ]
+  },
+  "755a3a699490e269aab4f1d6fe1dbddd" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "297daec6aaf8ad7a",
+      "status" : "failed",
+      "statusDetails" : "Element not found {td a[0]}\nExpected: visible\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1741366061602.0.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1741366061602.0.html\nTimeout: 14 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"td a\"}",
+      "time" : {
+        "start" : 1741366061855,
+        "stop" : 1741366061855,
+        "duration" : 0
       }
     } ]
   },
@@ -66,12 +87,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "c32cd1df39ce76fd",
+      "uid" : "508c1c3ebeadd95f",
       "status" : "passed",
       "time" : {
-        "start" : 1741364589499,
-        "stop" : 1741364613893,
-        "duration" : 24394
+        "start" : 1741366061864,
+        "stop" : 1741366083885,
+        "duration" : 22021
       }
     } ]
   },
@@ -85,12 +106,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "d9b12a01c5e641c3",
+      "uid" : "f07c71989b53e95",
       "status" : "passed",
       "time" : {
-        "start" : 1741364750692,
-        "stop" : 1741364784517,
-        "duration" : 33825
+        "start" : 1741366249534,
+        "stop" : 1741366283770,
+        "duration" : 34236
       }
     } ]
   }
