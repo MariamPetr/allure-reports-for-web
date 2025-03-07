@@ -1,23 +1,4 @@
 {
-  "cf6eb5a5efa26403a9de025fb9d0e285" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "980e2059367d2c73",
-      "status" : "passed",
-      "time" : {
-        "start" : 1741383878713,
-        "stop" : 1741383950794,
-        "duration" : 72081
-      }
-    } ]
-  },
   "514ff39a5161779d81b58d4093ad1e81" : {
     "statistic" : {
       "failed" : 1,
@@ -28,13 +9,32 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "782ccefb04469d98",
+      "uid" : "b5b611a60caa9402",
       "status" : "failed",
-      "statusDetails" : "Invalid element state [button.btn-default[1]]: element click intercepted: Element <button class=\"btn btn-default btn-block\" ng-click=\"vm.onSaveDelivery()\" ng-disabled=\"vm.saveDeliveryLoading\">...</button> is not clickable at point (1560, 20). Other element would receive the click: <span id=\"login_name\" class=\"text is_auth hidden-sm desktop__login--name\">...</span>\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1741384126923.1.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1741384126923.1.html\nTimeout: 14 s.\nCaused by: ElementClickInterceptedException: element click intercepted: Element <button class=\"btn btn-default btn-block\" ng-click=\"vm.onSaveDelivery()\" ng-disabled=\"vm.saveDeliveryLoading\">...</button> is not clickable at point (1560, 20). Other element would receive the click: <span id=\"login_name\" class=\"text is_auth hidden-sm desktop__login--name\">...</span>",
+      "statusDetails" : "Element should be clickable: interactable and enabled {img.porch-home-tile-image[5]}\nElement: '<img class=\"porch-home-tile-image\" src=\"//static.photoholding.com/images/i/albums.jpg\" displayed:false></img>'\nActual value: hidden, opacity=1\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1741384690104.1.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1741384690104.1.html\nTimeout: 14 s.",
       "time" : {
-        "start" : 1741384042989,
-        "stop" : 1741384127482,
-        "duration" : 84493
+        "start" : 1741384633757,
+        "stop" : 1741384690506,
+        "duration" : 56749
+      }
+    } ]
+  },
+  "cf6eb5a5efa26403a9de025fb9d0e285" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2862cf96555cf8c6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1741384472343,
+        "stop" : 1741384546406,
+        "duration" : 74063
       }
     } ]
   },
@@ -48,12 +48,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "f3eef282841ea075",
+      "uid" : "b37415446fa60d2f",
       "status" : "passed",
       "time" : {
-        "start" : 1741383990342,
-        "stop" : 1741384023694,
-        "duration" : 33352
+        "start" : 1741384581467,
+        "stop" : 1741384613876,
+        "duration" : 32409
       }
     } ]
   },
@@ -67,12 +67,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "7949a57a9d344b9f",
+      "uid" : "2618f019b6a0d193",
       "status" : "passed",
       "time" : {
-        "start" : 1741383791910,
-        "stop" : 1741383816221,
-        "duration" : 24311
+        "start" : 1741384391563,
+        "stop" : 1741384415752,
+        "duration" : 24189
       }
     } ]
   },
@@ -86,12 +86,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "82b3172da5805f30",
+      "uid" : "7777ca22f3071c46",
       "status" : "passed",
       "time" : {
-        "start" : 1741383950798,
-        "stop" : 1741383990339,
-        "duration" : 39541
+        "start" : 1741384546410,
+        "stop" : 1741384581463,
+        "duration" : 35053
       }
     } ]
   }
