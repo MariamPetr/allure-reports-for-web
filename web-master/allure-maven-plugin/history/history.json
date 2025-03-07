@@ -2,20 +2,19 @@
   "cf6eb5a5efa26403a9de025fb9d0e285" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 1,
+      "broken" : 0,
       "skipped" : 0,
-      "passed" : 0,
+      "passed" : 1,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "6b292a010f519bbb",
-      "status" : "broken",
-      "statusDetails" : "timeout: Timed out receiving message from renderer: 30.000\n  (Session info: chrome=134.0.6998.45)\nBuild info: version: '4.29.0', revision: '5fc1ec94cb'\nSystem info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.3.1', java.version: '22'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [fc716fe348e4b7db6b93888eca68e81e, refresh {}]\nCapabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 134.0.6998.45, chrome: {chromedriverVersion: 134.0.6998.35 (ea6ef4c2ac15..., userDataDir: /var/folders/y4/1rkt9z0s363...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52121}, networkConnectionEnabled: false, pageLoadStrategy: eager, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:52121/devtoo..., se:cdpVersion: 134.0.6998.45, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: fc716fe348e4b7db6b93888eca68e81e",
+      "uid" : "5d23507015334c9c",
+      "status" : "passed",
       "time" : {
-        "start" : 1741372122325,
-        "stop" : 1741372169019,
-        "duration" : 46694
+        "start" : 1741373079587,
+        "stop" : 1741373150904,
+        "duration" : 71317
       }
     } ]
   },
@@ -29,73 +28,51 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "c8c81b057cecbf56",
+      "uid" : "4dcf37ffc62b6e28",
       "status" : "failed",
-      "statusDetails" : "Element should be clickable: interactable and enabled {img.porch-home-tile-image[5]}\nElement: '<img class=\"porch-home-tile-image\" src=\"//static.photoholding.com/images/i/albums.jpg\" displayed:false></img>'\nActual value: hidden, opacity=1\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1741372121912.3.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1741372121912.3.html\nTimeout: 14 s.",
+      "statusDetails" : "Invalid element state [button.btn-default[1]]: element click intercepted: Element <button class=\"btn btn-default btn-block\" ng-click=\"vm.onSaveDelivery()\" ng-disabled=\"vm.saveDeliveryLoading\">...</button> is not clickable at point (1560, 20). Other element would receive the click: <span id=\"login_name\" class=\"text is_auth hidden-sm desktop__login--name\">...</span>\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1741373324950.1.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1741373324950.1.html\nTimeout: 14 s.\nCaused by: ElementClickInterceptedException: element click intercepted: Element <button class=\"btn btn-default btn-block\" ng-click=\"vm.onSaveDelivery()\" ng-disabled=\"vm.saveDeliveryLoading\">...</button> is not clickable at point (1560, 20). Other element would receive the click: <span id=\"login_name\" class=\"text is_auth hidden-sm desktop__login--name\">...</span>",
       "time" : {
-        "start" : 1741372080284,
-        "stop" : 1741372122321,
-        "duration" : 42037
+        "start" : 1741373238838,
+        "stop" : 1741373325490,
+        "duration" : 86652
       }
     } ]
   },
   "a7519d805367d6283d9556065d9c18b2" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 0,
+      "passed" : 1,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "8f5c337a5fff79be",
-      "status" : "failed",
-      "statusDetails" : "TimeoutException: timeout: Timed out receiving message from renderer: 30.000\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1741372230634.4.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1741372230634.4.html\nTimeout: 14 s.\nCaused by: TimeoutException: timeout: Timed out receiving message from renderer: 30.000",
+      "uid" : "a4a635ef03e0cc5",
+      "status" : "passed",
       "time" : {
-        "start" : 1741372169024,
-        "stop" : 1741372230945,
-        "duration" : 61921
-      }
-    } ]
-  },
-  "755a3a699490e269aab4f1d6fe1dbddd" : {
-    "statistic" : {
-      "failed" : 1,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "a62b7f7b0191fbf3",
-      "status" : "failed",
-      "statusDetails" : "Element not found {td a[0]}\nExpected: visible\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1741372080029.2.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1741372080029.2.html\nTimeout: 14 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"td a\"}",
-      "time" : {
-        "start" : 1741372080276,
-        "stop" : 1741372080276,
-        "duration" : 0
+        "start" : 1741373186426,
+        "stop" : 1741373219471,
+        "duration" : 33045
       }
     } ]
   },
   "efa837afbc6d92b790a3a92ca90d555c" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 1,
+      "broken" : 0,
       "skipped" : 0,
-      "passed" : 0,
+      "passed" : 1,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "fdd3954649556f70",
-      "status" : "broken",
-      "statusDetails" : "timeout: Timed out receiving message from renderer: 29.993\n  (Session info: chrome=134.0.6998.45)\nBuild info: version: '4.29.0', revision: '5fc1ec94cb'\nSystem info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.3.1', java.version: '22'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [3456392c37e89da4719bae379669cec8, refresh {}]\nCapabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 134.0.6998.45, chrome: {chromedriverVersion: 134.0.6998.35 (ea6ef4c2ac15..., userDataDir: /var/folders/y4/1rkt9z0s363...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52352}, networkConnectionEnabled: false, pageLoadStrategy: eager, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:52352/devtoo..., se:cdpVersion: 134.0.6998.45, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 3456392c37e89da4719bae379669cec8",
+      "uid" : "2cd7806790503ddf",
+      "status" : "passed",
       "time" : {
-        "start" : 1741372230949,
-        "stop" : 1741372279190,
-        "duration" : 48241
+        "start" : 1741372993274,
+        "stop" : 1741373017048,
+        "duration" : 23774
       }
     } ]
   },
@@ -109,12 +86,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "95bc58fa75ce49f3",
+      "uid" : "b2358a3856618f26",
       "status" : "passed",
       "time" : {
-        "start" : 1741372279194,
-        "stop" : 1741372314638,
-        "duration" : 35444
+        "start" : 1741373150909,
+        "stop" : 1741373186422,
+        "duration" : 35513
       }
     } ]
   }

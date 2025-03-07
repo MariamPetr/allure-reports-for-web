@@ -4,95 +4,23 @@
   "children" : [ {
     "name" : "Product defects",
     "children" : [ {
-      "name" : "Element not found {td a[0]}\nExpected: visible\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1741372080029.2.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1741372080029.2.html\nTimeout: 14 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"td a\"}",
-      "children" : [ {
-        "name" : "DemoOrderTest",
-        "uid" : "a62b7f7b0191fbf3",
-        "parentUid" : "a768b2d95612f8e8cf6943848add8f27",
-        "status" : "failed",
-        "time" : {
-          "start" : 1741372080276,
-          "stop" : 1741372080276,
-          "duration" : 0
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "a768b2d95612f8e8cf6943848add8f27"
-    }, {
-      "name" : "Element should be clickable: interactable and enabled {img.porch-home-tile-image[5]}\nElement: '<img class=\"porch-home-tile-image\" src=\"//static.photoholding.com/images/i/albums.jpg\" displayed:false></img>'\nActual value: hidden, opacity=1\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1741372121912.3.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1741372121912.3.html\nTimeout: 14 s.",
+      "name" : "Invalid element state [button.btn-default[1]]: element click intercepted: Element <button class=\"btn btn-default btn-block\" ng-click=\"vm.onSaveDelivery()\" ng-disabled=\"vm.saveDeliveryLoading\">...</button> is not clickable at point (1560, 20). Other element would receive the click: <span id=\"login_name\" class=\"text is_auth hidden-sm desktop__login--name\">...</span>\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1741373324950.1.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1741373324950.1.html\nTimeout: 14 s.\nCaused by: ElementClickInterceptedException: element click intercepted: Element <button class=\"btn btn-default btn-block\" ng-click=\"vm.onSaveDelivery()\" ng-disabled=\"vm.saveDeliveryLoading\">...</button> is not clickable at point (1560, 20). Other element would receive the click: <span id=\"login_name\" class=\"text is_auth hidden-sm desktop__login--name\">...</span>",
       "children" : [ {
         "name" : "Заказ карманного календарика: авторизованный юзер",
-        "uid" : "c8c81b057cecbf56",
-        "parentUid" : "d0fc48f7f810aa82c3021c15fc8172dd",
+        "uid" : "4dcf37ffc62b6e28",
+        "parentUid" : "1eb635e6f6a70ea7daba0020ca654632",
         "status" : "failed",
         "time" : {
-          "start" : 1741372080284,
-          "stop" : 1741372122321,
-          "duration" : 42037
+          "start" : 1741373238838,
+          "stop" : 1741373325490,
+          "duration" : 86652
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "d0fc48f7f810aa82c3021c15fc8172dd"
-    }, {
-      "name" : "TimeoutException: timeout: Timed out receiving message from renderer: 30.000\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1741372230634.4.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1741372230634.4.html\nTimeout: 14 s.\nCaused by: TimeoutException: timeout: Timed out receiving message from renderer: 30.000",
-      "children" : [ {
-        "name" : "Загрузка фото в альбом",
-        "uid" : "8f5c337a5fff79be",
-        "parentUid" : "737ad47e06e7dccba65de7dc73e35df0",
-        "status" : "failed",
-        "time" : {
-          "start" : 1741372169024,
-          "stop" : 1741372230945,
-          "duration" : 61921
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "737ad47e06e7dccba65de7dc73e35df0"
+      "uid" : "1eb635e6f6a70ea7daba0020ca654632"
     } ],
     "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
-  }, {
-    "name" : "Test defects",
-    "children" : [ {
-      "name" : "timeout: Timed out receiving message from renderer: 30.000\n  (Session info: chrome=134.0.6998.45)\nBuild info: version: '4.29.0', revision: '5fc1ec94cb'\nSystem info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.3.1', java.version: '22'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [fc716fe348e4b7db6b93888eca68e81e, refresh {}]\nCapabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 134.0.6998.45, chrome: {chromedriverVersion: 134.0.6998.35 (ea6ef4c2ac15..., userDataDir: /var/folders/y4/1rkt9z0s363...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52121}, networkConnectionEnabled: false, pageLoadStrategy: eager, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:52121/devtoo..., se:cdpVersion: 134.0.6998.45, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: fc716fe348e4b7db6b93888eca68e81e",
-      "children" : [ {
-        "name" : "Создание книги в онлайн-редакторе",
-        "uid" : "6b292a010f519bbb",
-        "parentUid" : "c98cc74204695b93674aa5dc814650dc",
-        "status" : "broken",
-        "time" : {
-          "start" : 1741372122325,
-          "stop" : 1741372169019,
-          "duration" : 46694
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "c98cc74204695b93674aa5dc814650dc"
-    }, {
-      "name" : "timeout: Timed out receiving message from renderer: 29.993\n  (Session info: chrome=134.0.6998.45)\nBuild info: version: '4.29.0', revision: '5fc1ec94cb'\nSystem info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.3.1', java.version: '22'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [3456392c37e89da4719bae379669cec8, refresh {}]\nCapabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 134.0.6998.45, chrome: {chromedriverVersion: 134.0.6998.35 (ea6ef4c2ac15..., userDataDir: /var/folders/y4/1rkt9z0s363...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52352}, networkConnectionEnabled: false, pageLoadStrategy: eager, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:52352/devtoo..., se:cdpVersion: 134.0.6998.45, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 3456392c37e89da4719bae379669cec8",
-      "children" : [ {
-        "name" : "Пополнение лицевого счёта в личном кабинете",
-        "uid" : "fdd3954649556f70",
-        "parentUid" : "db1e4d0b12f3f68a4c2fb0761322a4b3",
-        "status" : "broken",
-        "time" : {
-          "start" : 1741372230949,
-          "stop" : 1741372279190,
-          "duration" : 48241
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "db1e4d0b12f3f68a4c2fb0761322a4b3"
-    } ],
-    "uid" : "bdbf199525818fae7a8651db9eafe741"
   } ]
 }
