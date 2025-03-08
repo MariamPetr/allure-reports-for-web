@@ -1,39 +1,41 @@
 {
-  "514ff39a5161779d81b58d4093ad1e81" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "9d6d99c940da2923",
-      "status" : "passed",
-      "time" : {
-        "start" : 1741415239461,
-        "stop" : 1741415320018,
-        "duration" : 80557
-      }
-    } ]
-  },
   "cf6eb5a5efa26403a9de025fb9d0e285" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
+      "broken" : 1,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "960b8c1d6114e66b",
-      "status" : "passed",
+      "uid" : "950df1e2865b9815",
+      "status" : "broken",
+      "statusDetails" : "Index 1 out of bounds for length 0",
       "time" : {
-        "start" : 1741415075267,
-        "stop" : 1741415147255,
-        "duration" : 71988
+        "start" : 1741416493716,
+        "stop" : 1741416535804,
+        "duration" : 42088
+      }
+    } ]
+  },
+  "514ff39a5161779d81b58d4093ad1e81" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c504d2a99757fbd1",
+      "status" : "failed",
+      "statusDetails" : "Element should be clickable: interactable and enabled {img.porch-home-tile-image[5]}\nElement: '<img class=\"porch-home-tile-image\" src=\"//static.photoholding.com/images/i/albums.jpg\" displayed:false></img>'\nActual value: hidden, opacity=1\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1741416493440.1.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1741416493440.1.html\nTimeout: 14 s.",
+      "time" : {
+        "start" : 1741416436575,
+        "stop" : 1741416493713,
+        "duration" : 57138
       }
     } ]
   },
@@ -47,12 +49,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "287bdbc70240c17b",
+      "uid" : "9596e83f0c153cb",
       "status" : "passed",
       "time" : {
-        "start" : 1741415187312,
-        "stop" : 1741415220197,
-        "duration" : 32885
+        "start" : 1741416383332,
+        "stop" : 1741416415973,
+        "duration" : 32641
       }
     } ]
   },
@@ -66,12 +68,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "144b20a49d89d009",
+      "uid" : "c5cb133811e32f31",
       "status" : "passed",
       "time" : {
-        "start" : 1741414988620,
-        "stop" : 1741415008755,
-        "duration" : 20135
+        "start" : 1741416192074,
+        "stop" : 1741416215744,
+        "duration" : 23670
       }
     } ]
   },
@@ -85,12 +87,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "9ebd6bdcef1d73e",
+      "uid" : "d799916eaf559836",
       "status" : "passed",
       "time" : {
-        "start" : 1741415147259,
-        "stop" : 1741415187308,
-        "duration" : 40049
+        "start" : 1741416348044,
+        "stop" : 1741416383329,
+        "duration" : 35285
       }
     } ]
   }
