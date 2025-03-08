@@ -4,39 +4,22 @@
   "children" : [ {
     "name" : "Product defects",
     "children" : [ {
-      "name" : "Element should be clickable: interactable and enabled {img.porch-home-tile-image[5]}\nElement: '<img class=\"porch-home-tile-image\" src=\"//static.photoholding.com/images/i/albums.jpg\" displayed:false></img>'\nActual value: hidden, opacity=1\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1741402100905.2.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1741402100905.2.html\nTimeout: 14 s.",
+      "name" : "Invalid element state [button.btn-default[1]]: element click intercepted: Element <button class=\"btn btn-default btn-block\" ng-click=\"vm.onSaveDelivery()\" ng-disabled=\"vm.saveDeliveryLoading\">...</button> is not clickable at point (1560, 20). Other element would receive the click: <span id=\"login_name\" class=\"text is_auth hidden-sm desktop__login--name\">...</span>\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1741402728758.1.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1741402728758.1.html\nTimeout: 14 s.\nCaused by: ElementClickInterceptedException: element click intercepted: Element <button class=\"btn btn-default btn-block\" ng-click=\"vm.onSaveDelivery()\" ng-disabled=\"vm.saveDeliveryLoading\">...</button> is not clickable at point (1560, 20). Other element would receive the click: <span id=\"login_name\" class=\"text is_auth hidden-sm desktop__login--name\">...</span>",
       "children" : [ {
         "name" : "Заказ карманного календарика: авторизованный юзер",
-        "uid" : "36e8bdf4920bef17",
-        "parentUid" : "afe980e121bbdf1e5c87c10201d81de1",
+        "uid" : "a36340061ada576f",
+        "parentUid" : "5fc2bbfea2c4d2ec94f5d55c8d6934ed",
         "status" : "failed",
         "time" : {
-          "start" : 1741402043534,
-          "stop" : 1741402101420,
-          "duration" : 57886
+          "start" : 1741402638723,
+          "stop" : 1741402729328,
+          "duration" : 90605
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "afe980e121bbdf1e5c87c10201d81de1"
-    }, {
-      "name" : "Element should be clickable: interactable and enabled {a.sly-tabs-list-item-title[9]}\nElement: '<a class=\"sly-tabs-list-item-title\" href=\"#tab-albums-837296\" id=\"tab-caption-albums-837296\" displayed:false></a>'\nActual value: hidden, opacity=1\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1741402181517.3.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1741402181517.3.html\nTimeout: 14 s.",
-      "children" : [ {
-        "name" : "Создание книги в онлайн-редакторе",
-        "uid" : "1a177a5575db6928",
-        "parentUid" : "34906ed4d28e9c4fd47a18797a35c556",
-        "status" : "failed",
-        "time" : {
-          "start" : 1741402101424,
-          "stop" : 1741402182079,
-          "duration" : 80655
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "34906ed4d28e9c4fd47a18797a35c556"
+      "uid" : "5fc2bbfea2c4d2ec94f5d55c8d6934ed"
     } ],
     "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
   } ]
