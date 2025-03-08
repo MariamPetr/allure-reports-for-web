@@ -1,59 +1,60 @@
 {
-  "514ff39a5161779d81b58d4093ad1e81" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "eb3ae1ed8183e250",
-      "status" : "passed",
-      "time" : {
-        "start" : 1741461632768,
-        "stop" : 1741461718739,
-        "duration" : 85971
-      }
-    } ]
-  },
   "cf6eb5a5efa26403a9de025fb9d0e285" : {
     "statistic" : {
-      "failed" : 0,
+      "failed" : 1,
       "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "e64a0a7036ede3a1",
-      "status" : "passed",
-      "time" : {
-        "start" : 1741461718743,
-        "stop" : 1741461787210,
-        "duration" : 68467
-      }
-    } ]
-  },
-  "a7519d805367d6283d9556065d9c18b2" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 1,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "de2f7a77d2ae56f8",
-      "status" : "broken",
-      "statusDetails" : "Index 1 out of bounds for length 0",
+      "uid" : "78c373bf27cbc7f7",
+      "status" : "failed",
+      "statusDetails" : "Element should be clickable: interactable and enabled {a.sly-tabs-list-item-title[9]}\nElement: '<a class=\"sly-tabs-list-item-title\" href=\"#tab-albums-643575\" id=\"tab-caption-albums-643575\" displayed:false></a>'\nActual value: hidden, opacity=1\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1741463206149.3.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1741463206149.3.html\nTimeout: 14 s.",
       "time" : {
-        "start" : 1741461875560,
-        "stop" : 1741461905626,
-        "duration" : 30066
+        "start" : 1741463126295,
+        "stop" : 1741463206628,
+        "duration" : 80333
+      }
+    } ]
+  },
+  "514ff39a5161779d81b58d4093ad1e81" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ee1e38ef2990581c",
+      "status" : "failed",
+      "statusDetails" : "Invalid element state [i.material-icons[10]]: element click intercepted: Element <i class=\"material-icons\">...</i> is not clickable at point (1219, 722). Other element would receive the click: <div style=\"position: relative; flex: 0 0 auto; height: 50000px;\">...</div>\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1741463125903.2.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1741463125903.2.html\nTimeout: 14 s.\nCaused by: ElementClickInterceptedException: element click intercepted: Element <i class=\"material-icons\">...</i> is not clickable at point (1219, 722). Other element would receive the click: <div style=\"position: relative; flex: 0 0 auto; height: 50000px;\">...</div>",
+      "time" : {
+        "start" : 1741463058919,
+        "stop" : 1741463126291,
+        "duration" : 67372
+      }
+    } ]
+  },
+  "a7519d805367d6283d9556065d9c18b2" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f7581bbe28e168c1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1741463004412,
+        "stop" : 1741463039233,
+        "duration" : 34821
       }
     } ]
   },
@@ -67,12 +68,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "aad1f667a9670e4e",
+      "uid" : "ff23e296b01a809d",
       "status" : "passed",
       "time" : {
-        "start" : 1741461608414,
-        "stop" : 1741461632727,
-        "duration" : 24313
+        "start" : 1741462803921,
+        "stop" : 1741462828044,
+        "duration" : 24123
       }
     } ]
   },
@@ -86,12 +87,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "b7ae8e3f174bdd43",
+      "uid" : "2d98a8355fb249e6",
       "status" : "passed",
       "time" : {
-        "start" : 1741461787215,
-        "stop" : 1741461822396,
-        "duration" : 35181
+        "start" : 1741462969678,
+        "stop" : 1741463004409,
+        "duration" : 34731
       }
     } ]
   }
