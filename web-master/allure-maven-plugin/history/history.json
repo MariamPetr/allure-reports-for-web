@@ -1,20 +1,21 @@
 {
   "514ff39a5161779d81b58d4093ad1e81" : {
     "statistic" : {
-      "failed" : 0,
+      "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "8abfbc6553259540",
-      "status" : "passed",
+      "uid" : "6afb353f938d3b7b",
+      "status" : "failed",
+      "statusDetails" : "Element should be clickable: interactable and enabled {img.porch-home-tile-image[5]}\nElement: '<img class=\"porch-home-tile-image\" src=\"//static.photoholding.com/images/i/albums.jpg\" displayed:false></img>'\nActual value: hidden, opacity=1\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1741472935569.3.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1741472935569.3.html\nTimeout: 14 s.",
       "time" : {
-        "start" : 1741472015686,
-        "stop" : 1741472100569,
-        "duration" : 84883
+        "start" : 1741472873951,
+        "stop" : 1741472935884,
+        "duration" : 61933
       }
     } ]
   },
@@ -28,12 +29,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "3c513d0a3713569b",
+      "uid" : "eef2b0594ead26dc",
       "status" : "passed",
       "time" : {
-        "start" : 1741472100573,
-        "stop" : 1741472163275,
-        "duration" : 62702
+        "start" : 1741472935888,
+        "stop" : 1741473002054,
+        "duration" : 66166
       }
     } ]
   },
@@ -47,12 +48,32 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "678973b0615aa7c0",
+      "uid" : "497bf4a0a6dc00f",
       "status" : "passed",
       "time" : {
-        "start" : 1741472197107,
-        "stop" : 1741472230302,
-        "duration" : 33195
+        "start" : 1741473002058,
+        "stop" : 1741473036479,
+        "duration" : 34421
+      }
+    } ]
+  },
+  "755a3a699490e269aab4f1d6fe1dbddd" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "274e29ec703a6320",
+      "status" : "failed",
+      "statusDetails" : "Element not found {td a[0]}\nExpected: visible\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1741472873637.2.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1741472873637.2.html\nTimeout: 14 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"td a\"}",
+      "time" : {
+        "start" : 1741472873943,
+        "stop" : 1741472873943,
+        "duration" : 0
       }
     } ]
   },
@@ -66,12 +87,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "65e30523b8d51566",
+      "uid" : "5a80f5ca71ba6dcb",
       "status" : "passed",
       "time" : {
-        "start" : 1741471991675,
-        "stop" : 1741472015645,
-        "duration" : 23970
+        "start" : 1741473036483,
+        "stop" : 1741473060305,
+        "duration" : 23822
       }
     } ]
   },
@@ -85,12 +106,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "1be751edb53ce036",
+      "uid" : "519c6c38737de5cb",
       "status" : "passed",
       "time" : {
-        "start" : 1741472163280,
-        "stop" : 1741472197103,
-        "duration" : 33823
+        "start" : 1741473060308,
+        "stop" : 1741473095237,
+        "duration" : 34929
       }
     } ]
   }
