@@ -1,5 +1,81 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "name" : "categories",
-  "children" : [ ]
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Element not found {td a[0]}\nExpected: visible\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1741469268486.2.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1741469268486.2.html\nTimeout: 14 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"td a\"}",
+      "children" : [ {
+        "name" : "DemoOrderTest",
+        "uid" : "1b8f378ab8cc97fc",
+        "parentUid" : "2c6e40dd50d58c8cb8eeec08c615a9bf",
+        "status" : "failed",
+        "time" : {
+          "start" : 1741469268770,
+          "stop" : 1741469268770,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "2c6e40dd50d58c8cb8eeec08c615a9bf"
+    }, {
+      "name" : "Invalid element state [button.btn-default[1]]: element click intercepted: Element <button class=\"btn btn-default btn-block\" ng-click=\"vm.onSaveDelivery()\" ng-disabled=\"vm.saveDeliveryLoading\">...</button> is not clickable at point (1560, 20). Other element would receive the click: <span id=\"login_name\" class=\"text is_auth hidden-sm desktop__login--name\">...</span>\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1741469386359.3.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1741469386359.3.html\nTimeout: 14 s.\nCaused by: ElementClickInterceptedException: element click intercepted: Element <button class=\"btn btn-default btn-block\" ng-click=\"vm.onSaveDelivery()\" ng-disabled=\"vm.saveDeliveryLoading\">...</button> is not clickable at point (1560, 20). Other element would receive the click: <span id=\"login_name\" class=\"text is_auth hidden-sm desktop__login--name\">...</span>",
+      "children" : [ {
+        "name" : "Заказ карманного календарика: авторизованный юзер",
+        "uid" : "8a64d21c4576f9d",
+        "parentUid" : "43fef54a7beda367309c391f919dee2a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1741469297356,
+          "stop" : 1741469386958,
+          "duration" : 89602
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "43fef54a7beda367309c391f919dee2a"
+    }, {
+      "name" : "Element should be clickable: interactable and enabled {a.sly-tabs-list-item-title[9]}\nElement: '<a class=\"sly-tabs-list-item-title\" href=\"#tab-albums-512947\" id=\"tab-caption-albums-512947\" displayed:false></a>'\nActual value: hidden, opacity=1\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1741469500026.4.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1741469500026.4.html\nTimeout: 14 s.",
+      "children" : [ {
+        "name" : "Создание книги в онлайн-редакторе",
+        "uid" : "1f4aadc6f3050729",
+        "parentUid" : "3f76a0deca7bd70b75158f0037105bd7",
+        "status" : "failed",
+        "time" : {
+          "start" : 1741469421208,
+          "stop" : 1741469500427,
+          "duration" : 79219
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3f76a0deca7bd70b75158f0037105bd7"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  }, {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "Index 4 out of bounds for length 0",
+      "children" : [ {
+        "name" : "Пополнение лицевого счёта в личном кабинете",
+        "uid" : "a3259769326e69aa",
+        "parentUid" : "b925684ae1dfbaf473032b0b7a685063",
+        "status" : "broken",
+        "time" : {
+          "start" : 1741469268778,
+          "stop" : 1741469297349,
+          "duration" : 28571
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b925684ae1dfbaf473032b0b7a685063"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
 }

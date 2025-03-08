@@ -1,39 +1,41 @@
 {
   "cf6eb5a5efa26403a9de025fb9d0e285" : {
     "statistic" : {
-      "failed" : 0,
+      "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "245bcfbc90b1ba5d",
-      "status" : "passed",
+      "uid" : "1f4aadc6f3050729",
+      "status" : "failed",
+      "statusDetails" : "Element should be clickable: interactable and enabled {a.sly-tabs-list-item-title[9]}\nElement: '<a class=\"sly-tabs-list-item-title\" href=\"#tab-albums-512947\" id=\"tab-caption-albums-512947\" displayed:false></a>'\nActual value: hidden, opacity=1\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1741469500026.4.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1741469500026.4.html\nTimeout: 14 s.",
       "time" : {
-        "start" : 1741468480211,
-        "stop" : 1741468558417,
-        "duration" : 78206
+        "start" : 1741469421208,
+        "stop" : 1741469500427,
+        "duration" : 79219
       }
     } ]
   },
   "514ff39a5161779d81b58d4093ad1e81" : {
     "statistic" : {
-      "failed" : 0,
+      "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "607677c1311dd296",
-      "status" : "passed",
+      "uid" : "8a64d21c4576f9d",
+      "status" : "failed",
+      "statusDetails" : "Invalid element state [button.btn-default[1]]: element click intercepted: Element <button class=\"btn btn-default btn-block\" ng-click=\"vm.onSaveDelivery()\" ng-disabled=\"vm.saveDeliveryLoading\">...</button> is not clickable at point (1560, 20). Other element would receive the click: <span id=\"login_name\" class=\"text is_auth hidden-sm desktop__login--name\">...</span>\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1741469386359.3.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1741469386359.3.html\nTimeout: 14 s.\nCaused by: ElementClickInterceptedException: element click intercepted: Element <button class=\"btn btn-default btn-block\" ng-click=\"vm.onSaveDelivery()\" ng-disabled=\"vm.saveDeliveryLoading\">...</button> is not clickable at point (1560, 20). Other element would receive the click: <span id=\"login_name\" class=\"text is_auth hidden-sm desktop__login--name\">...</span>",
       "time" : {
-        "start" : 1741468413757,
-        "stop" : 1741468480207,
-        "duration" : 66450
+        "start" : 1741469297356,
+        "stop" : 1741469386958,
+        "duration" : 89602
       }
     } ]
   },
@@ -47,31 +49,52 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "3cd09a43332b9a96",
+      "uid" : "d978963c8b1b8876",
       "status" : "passed",
       "time" : {
-        "start" : 1741468593300,
-        "stop" : 1741468627072,
-        "duration" : 33772
+        "start" : 1741469386962,
+        "stop" : 1741469421204,
+        "duration" : 34242
+      }
+    } ]
+  },
+  "755a3a699490e269aab4f1d6fe1dbddd" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1b8f378ab8cc97fc",
+      "status" : "failed",
+      "statusDetails" : "Element not found {td a[0]}\nExpected: visible\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1741469268486.2.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1741469268486.2.html\nTimeout: 14 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"td a\"}",
+      "time" : {
+        "start" : 1741469268770,
+        "stop" : 1741469268770,
+        "duration" : 0
       }
     } ]
   },
   "efa837afbc6d92b790a3a92ca90d555c" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
+      "broken" : 1,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "13a52da4903eaaac",
-      "status" : "passed",
+      "uid" : "a3259769326e69aa",
+      "status" : "broken",
+      "statusDetails" : "Index 4 out of bounds for length 0",
       "time" : {
-        "start" : 1741468389394,
-        "stop" : 1741468413718,
-        "duration" : 24324
+        "start" : 1741469268778,
+        "stop" : 1741469297349,
+        "duration" : 28571
       }
     } ]
   },
@@ -85,12 +108,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "402ec160dc733542",
+      "uid" : "81f33139f044d358",
       "status" : "passed",
       "time" : {
-        "start" : 1741468558421,
-        "stop" : 1741468593296,
-        "duration" : 34875
+        "start" : 1741469500430,
+        "stop" : 1741469536371,
+        "duration" : 35941
       }
     } ]
   }
