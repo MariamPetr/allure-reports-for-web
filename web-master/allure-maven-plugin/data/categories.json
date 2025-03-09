@@ -1,5 +1,43 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "name" : "categories",
-  "children" : [ ]
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Element should be clickable: interactable and enabled {img.porch-home-tile-image[5]}\nElement: '<img class=\"porch-home-tile-image\" src=\"//static.photoholding.com/images/i/albums.jpg\" displayed:false></img>'\nActual value: hidden, opacity=1\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1741502890799.1.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1741502890799.1.html\nTimeout: 14 s.",
+      "children" : [ {
+        "name" : "Заказ карманного календарика: авторизованный юзер",
+        "uid" : "a0e2f49760eafe91",
+        "parentUid" : "fe483d9864e00e4785c069c710d57158",
+        "status" : "failed",
+        "time" : {
+          "start" : 1741502833244,
+          "stop" : 1741502891319,
+          "duration" : 58075
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "fe483d9864e00e4785c069c710d57158"
+    }, {
+      "name" : "Element not found {td a[0]}\nExpected: visible\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1741502920635.2.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1741502920635.2.html\nTimeout: 14 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"td a\"}",
+      "children" : [ {
+        "name" : "DemoOrderTest",
+        "uid" : "92527d971f03ec4f",
+        "parentUid" : "6916cce3e73d75e03e0dd4e440de4eb2",
+        "status" : "failed",
+        "time" : {
+          "start" : 1741502920870,
+          "stop" : 1741502920870,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6916cce3e73d75e03e0dd4e440de4eb2"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
 }
