@@ -4,16 +4,33 @@
   "children" : [ {
     "name" : "Test defects",
     "children" : [ {
+      "name" : "Index 4 out of bounds for length 0",
+      "children" : [ {
+        "name" : "Пополнение лицевого счёта в личном кабинете",
+        "uid" : "1a4f1fc98d624070",
+        "parentUid" : "b925684ae1dfbaf473032b0b7a685063",
+        "status" : "broken",
+        "time" : {
+          "start" : 1741647423124,
+          "stop" : 1741647451329,
+          "duration" : 28205
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b925684ae1dfbaf473032b0b7a685063"
+    }, {
       "name" : "Index 1 out of bounds for length 0",
       "children" : [ {
         "name" : "Загрузка фото в альбом",
-        "uid" : "11ca779148c6df78",
+        "uid" : "ee6314fd334c2674",
         "parentUid" : "47d82206d557e7edbd0d77bb385542aa",
         "status" : "broken",
         "time" : {
-          "start" : 1741646798918,
-          "stop" : 1741646829162,
-          "duration" : 30244
+          "start" : 1741647451333,
+          "stop" : 1741647482291,
+          "duration" : 30958
         },
         "flaky" : false,
         "newFailed" : false,
@@ -22,26 +39,5 @@
       "uid" : "47d82206d557e7edbd0d77bb385542aa"
     } ],
     "uid" : "bdbf199525818fae7a8651db9eafe741"
-  }, {
-    "name" : "Product defects",
-    "children" : [ {
-      "name" : "Element not found {td a[0]}\nExpected: visible\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1741646858577.1.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1741646858577.1.html\nTimeout: 14 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"td a\"}",
-      "children" : [ {
-        "name" : "DemoOrderTest",
-        "uid" : "1513258b4554eeb7",
-        "parentUid" : "9c8149c362227f08049de7194d22bd30",
-        "status" : "failed",
-        "time" : {
-          "start" : 1741646858828,
-          "stop" : 1741646858828,
-          "duration" : 0
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "9c8149c362227f08049de7194d22bd30"
-    } ],
-    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
   } ]
 }
