@@ -4,44 +4,23 @@
   "children" : [ {
     "name" : "Product defects",
     "children" : [ {
-      "name" : "Invalid element state [button.btn-default[1]]: element click intercepted: Element <button class=\"btn btn-default btn-block\" ng-click=\"vm.onSaveDelivery()\" ng-disabled=\"vm.saveDeliveryLoading\">...</button> is not clickable at point (1560, 20). Other element would receive the click: <span id=\"login_name\" class=\"text is_auth hidden-sm desktop__login--name\">...</span>\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1741586314737.2.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1741586314737.2.html\nTimeout: 14 s.\nCaused by: ElementClickInterceptedException: element click intercepted: Element <button class=\"btn btn-default btn-block\" ng-click=\"vm.onSaveDelivery()\" ng-disabled=\"vm.saveDeliveryLoading\">...</button> is not clickable at point (1560, 20). Other element would receive the click: <span id=\"login_name\" class=\"text is_auth hidden-sm desktop__login--name\">...</span>",
+      "name" : "Element not found {td a[0]}\nExpected: visible\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1741587417795.1.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1741587417795.1.html\nTimeout: 14 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"td a\"}",
       "children" : [ {
-        "name" : "Заказ карманного календарика: авторизованный юзер",
-        "uid" : "de8e72a7cd05db12",
-        "parentUid" : "5316c39f850191340a0463e78599f6be",
+        "name" : "DemoOrderTest",
+        "uid" : "80e1f42b0f6f6b78",
+        "parentUid" : "5ae2bdf83a78aeb5b7d605bd31ddee30",
         "status" : "failed",
         "time" : {
-          "start" : 1741586223629,
-          "stop" : 1741586315068,
-          "duration" : 91439
+          "start" : 1741587418029,
+          "stop" : 1741587418029,
+          "duration" : 0
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "5316c39f850191340a0463e78599f6be"
+      "uid" : "5ae2bdf83a78aeb5b7d605bd31ddee30"
     } ],
     "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
-  }, {
-    "name" : "Test defects",
-    "children" : [ {
-      "name" : "Index 1 out of bounds for length 0",
-      "children" : [ {
-        "name" : "Создание книги в онлайн-редакторе",
-        "uid" : "c96957c49a0c4e42",
-        "parentUid" : "47d82206d557e7edbd0d77bb385542aa",
-        "status" : "broken",
-        "time" : {
-          "start" : 1741586315071,
-          "stop" : 1741586356345,
-          "duration" : 41274
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "47d82206d557e7edbd0d77bb385542aa"
-    } ],
-    "uid" : "bdbf199525818fae7a8651db9eafe741"
   } ]
 }
