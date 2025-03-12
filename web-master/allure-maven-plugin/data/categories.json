@@ -4,39 +4,56 @@
   "children" : [ {
     "name" : "Product defects",
     "children" : [ {
-      "name" : "Invalid element state [i.material-icons[10]]: element click intercepted: Element <i class=\"material-icons\">...</i> is not clickable at point (1219, 722). Other element would receive the click: <div style=\"position: relative; flex: 0 0 auto; height: 51300px;\">...</div>\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1741775094474.2.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1741775094474.2.html\nTimeout: 14 s.\nCaused by: ElementClickInterceptedException: element click intercepted: Element <i class=\"material-icons\">...</i> is not clickable at point (1219, 722). Other element would receive the click: <div style=\"position: relative; flex: 0 0 auto; height: 51300px;\">...</div>",
+      "name" : "Element should be clickable: interactable and enabled {img.porch-home-tile-image[5]}\nElement: '<img class=\"porch-home-tile-image\" src=\"//static.photoholding.com/images/i/albums.jpg\" displayed:false></img>'\nActual value: hidden, opacity=1\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1741775522416.2.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1741775522416.2.html\nTimeout: 14 s.",
       "children" : [ {
         "name" : "Заказ карманного календарика: авторизованный юзер",
-        "uid" : "dd41d8b9ca05408c",
-        "parentUid" : "a8cdf30ae4b86b489c9630366077b433",
+        "uid" : "c3bc63cda094e944",
+        "parentUid" : "73d277911f837c882b8bbb3129648820",
         "status" : "failed",
         "time" : {
-          "start" : 1741775030373,
-          "stop" : 1741775094820,
-          "duration" : 64447
+          "start" : 1741775463160,
+          "stop" : 1741775522705,
+          "duration" : 59545
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "a8cdf30ae4b86b489c9630366077b433"
+      "uid" : "73d277911f837c882b8bbb3129648820"
     }, {
-      "name" : "Element not found {a.sly-tabs-list-item-title[9]}\nExpected: clickable: interactable and enabled\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1741775174736.3.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1741775174736.3.html\nTimeout: 14 s.\nCaused by: java.lang.IndexOutOfBoundsException: Index 9 out of bounds for length 0",
+      "name" : "Element should be clickable: interactable and enabled {a.sly-tabs-list-item-title[9]}\nElement: '<a class=\"sly-tabs-list-item-title\" href=\"#tab-albums-96983\" id=\"tab-caption-albums-96983\" displayed:false></a>'\nActual value: hidden, opacity=1\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1741775600161.3.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1741775600161.3.html\nTimeout: 14 s.",
       "children" : [ {
         "name" : "Создание книги в онлайн-редакторе",
-        "uid" : "5067aca9462c07e2",
-        "parentUid" : "d5ce63ff651347a10e64570677a60b71",
+        "uid" : "fc009c370e3fa37",
+        "parentUid" : "b92202c843d28a31839d4e7ea19958b8",
         "status" : "failed",
         "time" : {
-          "start" : 1741775094823,
-          "stop" : 1741775175151,
-          "duration" : 80328
+          "start" : 1741775522709,
+          "stop" : 1741775600540,
+          "duration" : 77831
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "d5ce63ff651347a10e64570677a60b71"
+      "uid" : "b92202c843d28a31839d4e7ea19958b8"
+    }, {
+      "name" : "Element not found {td a[0]}\nExpected: visible\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1741775629406.4.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1741775629406.4.html\nTimeout: 14 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"td a\"}",
+      "children" : [ {
+        "name" : "DemoOrderTest",
+        "uid" : "bc1e6313ef309d16",
+        "parentUid" : "c44239a0cf1c961068e6e575342d6d84",
+        "status" : "failed",
+        "time" : {
+          "start" : 1741775629583,
+          "stop" : 1741775629583,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c44239a0cf1c961068e6e575342d6d84"
     } ],
     "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
   } ]
