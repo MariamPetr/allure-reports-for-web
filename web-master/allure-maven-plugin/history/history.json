@@ -9,13 +9,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "378b24be28b2c53f",
+      "uid" : "deefb12ebaa8cf26",
       "status" : "failed",
-      "statusDetails" : "Element not found {a.sly-tabs-list-item-title[9]}\nExpected: clickable: interactable and enabled\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1741771782338.3.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1741771782338.3.html\nTimeout: 14 s.\nCaused by: java.lang.IndexOutOfBoundsException: Index 9 out of bounds for length 0",
+      "statusDetails" : "Element not found {a.sly-tabs-list-item-title[9]}\nExpected: clickable: interactable and enabled\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1741773018971.4.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1741773018971.4.html\nTimeout: 14 s.\nCaused by: java.lang.IndexOutOfBoundsException: Index 9 out of bounds for length 0",
       "time" : {
-        "start" : 1741771701143,
-        "stop" : 1741771782871,
-        "duration" : 81728
+        "start" : 1741772939606,
+        "stop" : 1741773019537,
+        "duration" : 79931
       }
     } ]
   },
@@ -29,13 +29,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "7a2055442140b58d",
+      "uid" : "1e0fa80c0cc21494",
       "status" : "failed",
-      "statusDetails" : "Invalid element state [i.material-icons[10]]: element click intercepted: Element <i class=\"material-icons\">...</i> is not clickable at point (1219, 722). Other element would receive the click: <div style=\"position: relative; flex: 0 0 auto; height: 51300px;\">...</div>\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1741771700801.2.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1741771700801.2.html\nTimeout: 14 s.\nCaused by: ElementClickInterceptedException: element click intercepted: Element <i class=\"material-icons\">...</i> is not clickable at point (1219, 722). Other element would receive the click: <div style=\"position: relative; flex: 0 0 auto; height: 51300px;\">...</div>",
+      "statusDetails" : "Invalid element state [button.btn-default[1]]: element click intercepted: Element <button class=\"btn btn-default btn-block\" ng-click=\"vm.onSaveDelivery()\" ng-disabled=\"vm.saveDeliveryLoading\">...</button> is not clickable at point (1560, 20). Other element would receive the click: <span id=\"login_name\" class=\"text is_auth hidden-sm desktop__login--name\">...</span>\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1741772939030.3.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1741772939030.3.html\nTimeout: 14 s.\nCaused by: ElementClickInterceptedException: element click intercepted: Element <button class=\"btn btn-default btn-block\" ng-click=\"vm.onSaveDelivery()\" ng-disabled=\"vm.saveDeliveryLoading\">...</button> is not clickable at point (1560, 20). Other element would receive the click: <span id=\"login_name\" class=\"text is_auth hidden-sm desktop__login--name\">...</span>",
       "time" : {
-        "start" : 1741771639057,
-        "stop" : 1741771701138,
-        "duration" : 62081
+        "start" : 1741772850904,
+        "stop" : 1741772939602,
+        "duration" : 88698
       }
     } ]
   },
@@ -49,31 +49,52 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "5fff9d72ca888480",
+      "uid" : "4b00a4927712762c",
       "status" : "passed",
       "time" : {
-        "start" : 1741771586119,
-        "stop" : 1741771619579,
-        "duration" : 33460
+        "start" : 1741773087879,
+        "stop" : 1741773121371,
+        "duration" : 33492
+      }
+    } ]
+  },
+  "755a3a699490e269aab4f1d6fe1dbddd" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7cb587f0e5a8a471",
+      "status" : "failed",
+      "statusDetails" : "Element not found {td a[0]}\nExpected: visible\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1741772850669.2.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1741772850669.2.html\nTimeout: 14 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"td a\"}",
+      "time" : {
+        "start" : 1741772850897,
+        "stop" : 1741772850897,
+        "duration" : 0
       }
     } ]
   },
   "efa837afbc6d92b790a3a92ca90d555c" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
+      "broken" : 1,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "958c801ab11a8dcd",
-      "status" : "passed",
+      "uid" : "1d7b171a70e98e1",
+      "status" : "broken",
+      "statusDetails" : "Index 4 out of bounds for length 0",
       "time" : {
-        "start" : 1741771392576,
-        "stop" : 1741771415942,
-        "duration" : 23366
+        "start" : 1741773019541,
+        "stop" : 1741773048516,
+        "duration" : 28975
       }
     } ]
   },
@@ -87,12 +108,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "6ea1f64ca63ced67",
+      "uid" : "5e17f2764ccd2f52",
       "status" : "passed",
       "time" : {
-        "start" : 1741771552099,
-        "stop" : 1741771586115,
-        "duration" : 34016
+        "start" : 1741773048520,
+        "stop" : 1741773087876,
+        "duration" : 39356
       }
     } ]
   }
