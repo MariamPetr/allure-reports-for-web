@@ -4,39 +4,39 @@
   "children" : [ {
     "name" : "Product defects",
     "children" : [ {
-      "name" : "Element not found {div.porch-album-tile-cover}\nExpected: clickable: interactable and enabled\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1741769303034.2.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1741769303034.2.html\nTimeout: 14 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"div.porch-album-tile-cover\"}",
+      "name" : "Invalid element state [button.btn-default[1]]: element click intercepted: Element <button class=\"btn btn-default btn-block\" ng-click=\"vm.onSaveDelivery()\" ng-disabled=\"vm.saveDeliveryLoading\">...</button> is not clickable at point (1560, 20). Other element would receive the click: <span id=\"login_name\" class=\"text is_auth hidden-sm desktop__login--name\">...</span>\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1741769966269.2.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1741769966269.2.html\nTimeout: 14 s.\nCaused by: ElementClickInterceptedException: element click intercepted: Element <button class=\"btn btn-default btn-block\" ng-click=\"vm.onSaveDelivery()\" ng-disabled=\"vm.saveDeliveryLoading\">...</button> is not clickable at point (1560, 20). Other element would receive the click: <span id=\"login_name\" class=\"text is_auth hidden-sm desktop__login--name\">...</span>",
       "children" : [ {
         "name" : "Заказ карманного календарика: авторизованный юзер",
-        "uid" : "fafde2d7fce7b448",
-        "parentUid" : "02637a3c2206350b7d302e78d87670cf",
+        "uid" : "aea3fb261b5b2c2d",
+        "parentUid" : "9b055b17c3657781c4f0eebccbc64194",
         "status" : "failed",
         "time" : {
-          "start" : 1741769245733,
-          "stop" : 1741769303520,
-          "duration" : 57787
+          "start" : 1741769876960,
+          "stop" : 1741769966666,
+          "duration" : 89706
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "02637a3c2206350b7d302e78d87670cf"
+      "uid" : "9b055b17c3657781c4f0eebccbc64194"
     }, {
-      "name" : "Element not found {a.sly-tabs-list-item-title[9]}\nExpected: clickable: interactable and enabled\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1741769382040.3.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1741769382040.3.html\nTimeout: 14 s.\nCaused by: java.lang.IndexOutOfBoundsException: Index 9 out of bounds for length 0",
+      "name" : "Element should be clickable: interactable and enabled {a.sly-tabs-list-item-title[9]}\nElement: '<a class=\"sly-tabs-list-item-title\" href=\"#tab-albums-502380\" id=\"tab-caption-albums-502380\" displayed:false></a>'\nActual value: hidden, opacity=1\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1741770044635.3.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1741770044635.3.html\nTimeout: 14 s.",
       "children" : [ {
         "name" : "Создание книги в онлайн-редакторе",
-        "uid" : "99b8cccf81303e22",
-        "parentUid" : "3a7a8c174aad05e4cdff9ac828206645",
+        "uid" : "9cceb0b8dafbdf13",
+        "parentUid" : "b3f9421948e272058548abd7b01d4960",
         "status" : "failed",
         "time" : {
-          "start" : 1741769303525,
-          "stop" : 1741769382441,
-          "duration" : 78916
+          "start" : 1741769966670,
+          "stop" : 1741770045007,
+          "duration" : 78337
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "3a7a8c174aad05e4cdff9ac828206645"
+      "uid" : "b3f9421948e272058548abd7b01d4960"
     } ],
     "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
   } ]
