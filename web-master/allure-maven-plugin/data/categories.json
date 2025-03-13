@@ -4,22 +4,39 @@
   "children" : [ {
     "name" : "Product defects",
     "children" : [ {
-      "name" : "Element should be clickable: interactable and enabled {img.porch-home-tile-image[5]}\nElement: '<img class=\"porch-home-tile-image\" src=\"//static.photoholding.com/images/i/albums.jpg\" displayed:false></img>'\nActual value: hidden, opacity=1\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1741851499023.1.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1741851499023.1.html\nTimeout: 14 s.",
+      "name" : "Element not found {td a[0]}\nExpected: visible\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1741852699002.0.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1741852699002.0.html\nTimeout: 14 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"td a\"}",
       "children" : [ {
-        "name" : "Заказ карманного календарика: авторизованный юзер",
-        "uid" : "e07bae1863733e9a",
-        "parentUid" : "511d5990916b6cf6e728b23240d8de52",
+        "name" : "DemoOrderTest",
+        "uid" : "954701194bac7bbf",
+        "parentUid" : "13aab01077e5808dde8fd03a6af393c0",
         "status" : "failed",
         "time" : {
-          "start" : 1741851436984,
-          "stop" : 1741851499532,
-          "duration" : 62548
+          "start" : 1741852699210,
+          "stop" : 1741852699210,
+          "duration" : 0
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "511d5990916b6cf6e728b23240d8de52"
+      "uid" : "13aab01077e5808dde8fd03a6af393c0"
+    }, {
+      "name" : "Element not found {div.porch-album-tile-cover}\nExpected: clickable: interactable and enabled\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1741852777987.1.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1741852777987.1.html\nTimeout: 14 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"div.porch-album-tile-cover\"}",
+      "children" : [ {
+        "name" : "Заказ карманного календарика: авторизованный юзер",
+        "uid" : "28070fb84c19f580",
+        "parentUid" : "3452160699d1985f8e9a4105b40b1f60",
+        "status" : "failed",
+        "time" : {
+          "start" : 1741852716114,
+          "stop" : 1741852778304,
+          "duration" : 62190
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3452160699d1985f8e9a4105b40b1f60"
     } ],
     "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
   } ]
