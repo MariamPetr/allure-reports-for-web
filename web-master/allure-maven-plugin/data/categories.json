@@ -1,5 +1,47 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "name" : "categories",
-  "children" : [ ]
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Invalid element state [i.material-icons[10]]: element click intercepted: Element <i class=\"material-icons\">...</i> is not clickable at point (1219, 722). Other element would receive the click: <div style=\"position: relative; flex: 0 0 auto; height: 52000px;\">...</div>\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1741940273047.1.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1741940273047.1.html\nTimeout: 14 s.\nCaused by: ElementClickInterceptedException: element click intercepted: Element <i class=\"material-icons\">...</i> is not clickable at point (1219, 722). Other element would receive the click: <div style=\"position: relative; flex: 0 0 auto; height: 52000px;\">...</div>",
+      "children" : [ {
+        "name" : "Заказ карманного календарика: авторизованный юзер",
+        "uid" : "3871d0269edc31a7",
+        "parentUid" : "bde46420a061c2fe50d0306db8f8ed33",
+        "status" : "failed",
+        "time" : {
+          "start" : 1741940207574,
+          "stop" : 1741940273522,
+          "duration" : 65948
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "bde46420a061c2fe50d0306db8f8ed33"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  }, {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "Index 1 out of bounds for length 0",
+      "children" : [ {
+        "name" : "Создание книги в онлайн-редакторе",
+        "uid" : "241e8d5bd513a05a",
+        "parentUid" : "47d82206d557e7edbd0d77bb385542aa",
+        "status" : "broken",
+        "time" : {
+          "start" : 1741940273525,
+          "stop" : 1741940315129,
+          "duration" : 41604
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "47d82206d557e7edbd0d77bb385542aa"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
 }
