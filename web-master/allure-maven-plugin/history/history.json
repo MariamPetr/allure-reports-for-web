@@ -1,39 +1,41 @@
 {
   "514ff39a5161779d81b58d4093ad1e81" : {
     "statistic" : {
-      "failed" : 0,
+      "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "cf13fd7ec64ea2a8",
-      "status" : "passed",
+      "uid" : "a9bc169669504441",
+      "status" : "failed",
+      "statusDetails" : "Element should be clickable: interactable and enabled {button.add-photo--js}\nElement: '<button class=\"button button-small button-success action-panel-action--js add-photo--js\" type=\"submit\" displayed:false></button>'\nActual value: hidden, opacity=1\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1741930187195.1.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1741930187195.1.html\nTimeout: 14 s.",
       "time" : {
-        "start" : 1741929212157,
-        "stop" : 1741929297516,
-        "duration" : 85359
+        "start" : 1741930111781,
+        "stop" : 1741930187606,
+        "duration" : 75825
       }
     } ]
   },
   "cf6eb5a5efa26403a9de025fb9d0e285" : {
     "statistic" : {
-      "failed" : 0,
+      "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "25d542e9a665c9f8",
-      "status" : "passed",
+      "uid" : "9c0ec5c316093000",
+      "status" : "failed",
+      "statusDetails" : "Element not found {a.sly-tabs-list-item-title[9]}\nExpected: clickable: interactable and enabled\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1741930282269.2.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1741930282269.2.html\nTimeout: 14 s.\nCaused by: java.lang.IndexOutOfBoundsException: Index 9 out of bounds for length 0",
       "time" : {
-        "start" : 1741929297520,
-        "stop" : 1741929360732,
-        "duration" : 63212
+        "start" : 1741930187610,
+        "stop" : 1741930282644,
+        "duration" : 95034
       }
     } ]
   },
@@ -47,12 +49,32 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "47c066bf7d27f9a0",
+      "uid" : "9f5381330af00e6d",
       "status" : "passed",
       "time" : {
-        "start" : 1741929398252,
-        "stop" : 1741929432006,
-        "duration" : 33754
+        "start" : 1741930053305,
+        "stop" : 1741930086671,
+        "duration" : 33366
+      }
+    } ]
+  },
+  "755a3a699490e269aab4f1d6fe1dbddd" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1df370ffc3e99955",
+      "status" : "failed",
+      "statusDetails" : "Element not found {td a[0]}\nExpected: visible\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1741930053104.0.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1741930053104.0.html\nTimeout: 14 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"td a\"}",
+      "time" : {
+        "start" : 1741930053295,
+        "stop" : 1741930053295,
+        "duration" : 0
       }
     } ]
   },
@@ -66,12 +88,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "a54633c13c558793",
+      "uid" : "2ba6a35eb5f5a8aa",
       "status" : "passed",
       "time" : {
-        "start" : 1741929189234,
-        "stop" : 1741929212117,
-        "duration" : 22883
+        "start" : 1741930086674,
+        "stop" : 1741930111779,
+        "duration" : 25105
       }
     } ]
   },
@@ -85,12 +107,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "5856f52ff2c79ae9",
+      "uid" : "baaab7cbfd29c5e1",
       "status" : "passed",
       "time" : {
-        "start" : 1741929360737,
-        "stop" : 1741929398249,
-        "duration" : 37512
+        "start" : 1741930282650,
+        "stop" : 1741930321767,
+        "duration" : 39117
       }
     } ]
   }
