@@ -1,23 +1,4 @@
 {
-  "cf6eb5a5efa26403a9de025fb9d0e285" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "ae2f7c3eee7d038b",
-      "status" : "passed",
-      "time" : {
-        "start" : 1742065138722,
-        "stop" : 1742065200567,
-        "duration" : 61845
-      }
-    } ]
-  },
   "514ff39a5161779d81b58d4093ad1e81" : {
     "statistic" : {
       "failed" : 0,
@@ -28,16 +9,16 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "3a337862ba0f8e8c",
+      "uid" : "d83b275e7b1979b6",
       "status" : "passed",
       "time" : {
-        "start" : 1742064890656,
-        "stop" : 1742064969392,
-        "duration" : 78736
+        "start" : 1742066135279,
+        "stop" : 1742066218685,
+        "duration" : 83406
       }
     } ]
   },
-  "a7519d805367d6283d9556065d9c18b2" : {
+  "cf6eb5a5efa26403a9de025fb9d0e285" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -47,12 +28,52 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "d95c2cb685daa4f5",
+      "uid" : "39175394bea88c77",
       "status" : "passed",
       "time" : {
-        "start" : 1742065082884,
-        "stop" : 1742065117743,
-        "duration" : 34859
+        "start" : 1742066218690,
+        "stop" : 1742066290671,
+        "duration" : 71981
+      }
+    } ]
+  },
+  "a7519d805367d6283d9556065d9c18b2" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b52f3692c7af678a",
+      "status" : "broken",
+      "statusDetails" : "Index 1 out of bounds for length 0",
+      "time" : {
+        "start" : 1742066290674,
+        "stop" : 1742066323429,
+        "duration" : 32755
+      }
+    } ]
+  },
+  "755a3a699490e269aab4f1d6fe1dbddd" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3afce17818513889",
+      "status" : "broken",
+      "statusDetails" : "timeout: Timed out receiving message from renderer: -0.111\n  (Session info: chrome=134.0.6998.89)\nBuild info: version: '4.29.0', revision: '5fc1ec94cb'\nSystem info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.3.1', java.version: '22'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [13d7c6ec5bc5c1bdce2381630bdcd0ae, get {url=https://netprint.ru/}]\nselenide.url: https://netprint.ru/\nCapabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 134.0.6998.89, chrome: {chromedriverVersion: 134.0.6998.88 (7e3d5c978c6d..., userDataDir: /var/folders/y4/1rkt9z0s363...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61554}, networkConnectionEnabled: false, pageLoadStrategy: eager, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:61554/devtoo..., se:cdpVersion: 134.0.6998.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nselenide.baseUrl: https://netprint.ru/\nSession ID: 13d7c6ec5bc5c1bdce2381630bdcd0ae",
+      "time" : {
+        "start" : 1742066037109,
+        "stop" : 1742066037109,
+        "duration" : 0
       }
     } ]
   },
@@ -66,31 +87,32 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "c70c552bf58207ac",
+      "uid" : "71ac6e8ab5f781c2",
       "status" : "passed",
       "time" : {
-        "start" : 1742064868437,
-        "stop" : 1742064890618,
-        "duration" : 22181
+        "start" : 1742066091290,
+        "stop" : 1742066135276,
+        "duration" : 43986
       }
     } ]
   },
   "964a1e0b8f4c9287ac4a2678d7bd6dce" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
+      "broken" : 1,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "f358a7c38073ed82",
-      "status" : "passed",
+      "uid" : "aa0403bdffc34afe",
+      "status" : "broken",
+      "statusDetails" : "timeout: Timed out receiving message from renderer: 29.998\n  (Session info: chrome=134.0.6998.89)\nBuild info: version: '4.29.0', revision: '5fc1ec94cb'\nSystem info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.3.1', java.version: '22'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [13d7c6ec5bc5c1bdce2381630bdcd0ae, refresh {}]\nCapabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 134.0.6998.89, chrome: {chromedriverVersion: 134.0.6998.88 (7e3d5c978c6d..., userDataDir: /var/folders/y4/1rkt9z0s363...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61554}, networkConnectionEnabled: false, pageLoadStrategy: eager, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:61554/devtoo..., se:cdpVersion: 134.0.6998.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 13d7c6ec5bc5c1bdce2381630bdcd0ae",
       "time" : {
-        "start" : 1742065047097,
-        "stop" : 1742065082879,
-        "duration" : 35782
+        "start" : 1742066037124,
+        "stop" : 1742066091279,
+        "duration" : 54155
       }
     } ]
   }
