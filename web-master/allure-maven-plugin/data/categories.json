@@ -4,22 +4,39 @@
   "children" : [ {
     "name" : "Product defects",
     "children" : [ {
-      "name" : "Element not found {by text: Фотокниги}\nExpected: exist\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1742072424099.1.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1742072424099.1.html\nTimeout: 14 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\".//*/text()[normalize-space(translate(string(.), '",
+      "name" : "Element not found {td a[0]}\nExpected: visible\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1742073456975.0.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1742073456975.0.html\nTimeout: 14 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"td a\"}",
       "children" : [ {
-        "name" : "Создание книги в онлайн-редакторе",
-        "uid" : "bc3853d55d0ebe7e",
-        "parentUid" : "447054576056f5f964f8d9b3cfcfeb2d",
+        "name" : "DemoOrderTest",
+        "uid" : "4f2a138a28812feb",
+        "parentUid" : "91ac442af45bc970c0b58adab722d810",
         "status" : "failed",
         "time" : {
-          "start" : 1742072362083,
-          "stop" : 1742072424406,
-          "duration" : 62323
+          "start" : 1742073457296,
+          "stop" : 1742073457296,
+          "duration" : 0
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "447054576056f5f964f8d9b3cfcfeb2d"
+      "uid" : "91ac442af45bc970c0b58adab722d810"
+    }, {
+      "name" : "Invalid element state [button.btn-default[1]]: element click intercepted: Element <button class=\"btn btn-default btn-block\" ng-click=\"vm.onSaveDelivery()\" ng-disabled=\"vm.saveDeliveryLoading\">...</button> is not clickable at point (1560, 20). Other element would receive the click: <span id=\"login_name\" class=\"text is_auth hidden-sm desktop__login--name\">...</span>\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1742073574950.1.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1742073574950.1.html\nTimeout: 14 s.\nCaused by: ElementClickInterceptedException: element click intercepted: Element <button class=\"btn btn-default btn-block\" ng-click=\"vm.onSaveDelivery()\" ng-disabled=\"vm.saveDeliveryLoading\">...</button> is not clickable at point (1560, 20). Other element would receive the click: <span id=\"login_name\" class=\"text is_auth hidden-sm desktop__login--name\">...</span>",
+      "children" : [ {
+        "name" : "Заказ карманного календарика: авторизованный юзер",
+        "uid" : "d66b5bcea081771f",
+        "parentUid" : "f256870ee01bc34a290d47038ad6af50",
+        "status" : "failed",
+        "time" : {
+          "start" : 1742073483236,
+          "stop" : 1742073575321,
+          "duration" : 92085
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f256870ee01bc34a290d47038ad6af50"
     } ],
     "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
   } ]
