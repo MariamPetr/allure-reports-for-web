@@ -1,41 +1,39 @@
 {
   "514ff39a5161779d81b58d4093ad1e81" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 0,
+      "passed" : 1,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "2324c70da6b62359",
-      "status" : "failed",
-      "statusDetails" : "Invalid element state [button.btn-default[1]]: element click intercepted: Element <button class=\"btn btn-default btn-block\" ng-click=\"vm.onSaveDelivery()\" ng-disabled=\"vm.saveDeliveryLoading\">...</button> is not clickable at point (1560, 20). Other element would receive the click: <span id=\"login_name\" class=\"text is_auth hidden-sm desktop__login--name\">...</span>\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1742243320115.2.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1742243320115.2.html\nTimeout: 14 s.\nCaused by: ElementClickInterceptedException: element click intercepted: Element <button class=\"btn btn-default btn-block\" ng-click=\"vm.onSaveDelivery()\" ng-disabled=\"vm.saveDeliveryLoading\">...</button> is not clickable at point (1560, 20). Other element would receive the click: <span id=\"login_name\" class=\"text is_auth hidden-sm desktop__login--name\">...</span>",
+      "uid" : "47a6d1ebdf296796",
+      "status" : "passed",
       "time" : {
-        "start" : 1742243237978,
-        "stop" : 1742243320677,
-        "duration" : 82699
+        "start" : 1742244219762,
+        "stop" : 1742244313347,
+        "duration" : 93585
       }
     } ]
   },
   "cf6eb5a5efa26403a9de025fb9d0e285" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 1,
+      "broken" : 0,
       "skipped" : 0,
-      "passed" : 0,
+      "passed" : 1,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "b30015adb6eb4878",
-      "status" : "broken",
-      "statusDetails" : "Index 1 out of bounds for length 0",
+      "uid" : "3c8b1175e910c6ca",
+      "status" : "passed",
       "time" : {
-        "start" : 1742243320682,
-        "stop" : 1742243361790,
-        "duration" : 41108
+        "start" : 1742244492543,
+        "stop" : 1742244548228,
+        "duration" : 55685
       }
     } ]
   },
@@ -49,12 +47,32 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "b8c75e773e48038a",
+      "uid" : "6b784d79c4af827f",
       "status" : "passed",
       "time" : {
-        "start" : 1742243180112,
-        "stop" : 1742243217330,
-        "duration" : 37218
+        "start" : 1742244432318,
+        "stop" : 1742244469710,
+        "duration" : 37392
+      }
+    } ]
+  },
+  "755a3a699490e269aab4f1d6fe1dbddd" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "36f804edfe76d6a0",
+      "status" : "failed",
+      "statusDetails" : "Element not found {td a[0]}\nExpected: visible\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1742244578896.1.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1742244578896.1.html\nTimeout: 14 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"td a\"}",
+      "time" : {
+        "start" : 1742244579188,
+        "stop" : 1742244579188,
+        "duration" : 0
       }
     } ]
   },
@@ -68,12 +86,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "fdec2f2bfc90b2f1",
+      "uid" : "2b27d9fc6c41da16",
       "status" : "passed",
       "time" : {
-        "start" : 1742242989316,
-        "stop" : 1742243012251,
-        "duration" : 22935
+        "start" : 1742244197649,
+        "stop" : 1742244219726,
+        "duration" : 22077
       }
     } ]
   },
@@ -87,12 +105,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "6f402f7367cb397",
+      "uid" : "a020da9043724978",
       "status" : "passed",
       "time" : {
-        "start" : 1742243146787,
-        "stop" : 1742243180108,
-        "duration" : 33321
+        "start" : 1742244396701,
+        "stop" : 1742244432314,
+        "duration" : 35613
       }
     } ]
   }
