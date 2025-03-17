@@ -1,39 +1,41 @@
 {
   "514ff39a5161779d81b58d4093ad1e81" : {
     "statistic" : {
-      "failed" : 0,
+      "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "a5b5de69d7c507d0",
-      "status" : "passed",
+      "uid" : "2324c70da6b62359",
+      "status" : "failed",
+      "statusDetails" : "Invalid element state [button.btn-default[1]]: element click intercepted: Element <button class=\"btn btn-default btn-block\" ng-click=\"vm.onSaveDelivery()\" ng-disabled=\"vm.saveDeliveryLoading\">...</button> is not clickable at point (1560, 20). Other element would receive the click: <span id=\"login_name\" class=\"text is_auth hidden-sm desktop__login--name\">...</span>\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1742243320115.2.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1742243320115.2.html\nTimeout: 14 s.\nCaused by: ElementClickInterceptedException: element click intercepted: Element <button class=\"btn btn-default btn-block\" ng-click=\"vm.onSaveDelivery()\" ng-disabled=\"vm.saveDeliveryLoading\">...</button> is not clickable at point (1560, 20). Other element would receive the click: <span id=\"login_name\" class=\"text is_auth hidden-sm desktop__login--name\">...</span>",
       "time" : {
-        "start" : 1742242418578,
-        "stop" : 1742242500286,
-        "duration" : 81708
+        "start" : 1742243237978,
+        "stop" : 1742243320677,
+        "duration" : 82699
       }
     } ]
   },
   "cf6eb5a5efa26403a9de025fb9d0e285" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
+      "broken" : 1,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "a319ab9a3cb18e1a",
-      "status" : "passed",
+      "uid" : "b30015adb6eb4878",
+      "status" : "broken",
+      "statusDetails" : "Index 1 out of bounds for length 0",
       "time" : {
-        "start" : 1742242673437,
-        "stop" : 1742242738442,
-        "duration" : 65005
+        "start" : 1742243320682,
+        "stop" : 1742243361790,
+        "duration" : 41108
       }
     } ]
   },
@@ -47,12 +49,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "d4a8a43febc6e311",
+      "uid" : "b8c75e773e48038a",
       "status" : "passed",
       "time" : {
-        "start" : 1742242613910,
-        "stop" : 1742242649751,
-        "duration" : 35841
+        "start" : 1742243180112,
+        "stop" : 1742243217330,
+        "duration" : 37218
       }
     } ]
   },
@@ -66,11 +68,11 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "7cd731c4923c492f",
+      "uid" : "fdec2f2bfc90b2f1",
       "status" : "passed",
       "time" : {
-        "start" : 1742242395602,
-        "stop" : 1742242418537,
+        "start" : 1742242989316,
+        "stop" : 1742243012251,
         "duration" : 22935
       }
     } ]
@@ -85,12 +87,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "ee9300b5c24ea863",
+      "uid" : "6f402f7367cb397",
       "status" : "passed",
       "time" : {
-        "start" : 1742242578960,
-        "stop" : 1742242613906,
-        "duration" : 34946
+        "start" : 1742243146787,
+        "stop" : 1742243180108,
+        "duration" : 33321
       }
     } ]
   }
