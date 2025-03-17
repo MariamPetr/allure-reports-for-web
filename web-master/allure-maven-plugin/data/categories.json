@@ -1,5 +1,64 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "name" : "categories",
-  "children" : [ ]
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Element not found {td a[0]}\nExpected: visible\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1742200072474.0.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1742200072474.0.html\nTimeout: 14 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"td a\"}",
+      "children" : [ {
+        "name" : "DemoOrderTest",
+        "uid" : "31564b347124534a",
+        "parentUid" : "ae458ead824187aef30b7c1137f78e13",
+        "status" : "failed",
+        "time" : {
+          "start" : 1742200072669,
+          "stop" : 1742200072669,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ae458ead824187aef30b7c1137f78e13"
+    }, {
+      "name" : "Invalid element state [i.material-icons[10]]: element click intercepted: Element <i class=\"material-icons\">...</i> is not clickable at point (1219, 722). Other element would receive the click: <div style=\"position: relative; flex: 0 0 auto; height: 53600px;\">...</div>\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1742200172658.1.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1742200172658.1.html\nTimeout: 14 s.\nCaused by: ElementClickInterceptedException: element click intercepted: Element <i class=\"material-icons\">...</i> is not clickable at point (1219, 722). Other element would receive the click: <div style=\"position: relative; flex: 0 0 auto; height: 53600px;\">...</div>",
+      "children" : [ {
+        "name" : "Заказ карманного календарика: авторизованный юзер",
+        "uid" : "8ec7471f46a833e6",
+        "parentUid" : "4d7c3d2f5dfffc9bfef6a6758a5d850a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1742200107448,
+          "stop" : 1742200173133,
+          "duration" : 65685
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4d7c3d2f5dfffc9bfef6a6758a5d850a"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  }, {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "Index 4 out of bounds for length 0",
+      "children" : [ {
+        "name" : "Пополнение лицевого счёта в личном кабинете",
+        "uid" : "8ab1a9701c2b2d54",
+        "parentUid" : "b925684ae1dfbaf473032b0b7a685063",
+        "status" : "broken",
+        "time" : {
+          "start" : 1742200072679,
+          "stop" : 1742200107443,
+          "duration" : 34764
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b925684ae1dfbaf473032b0b7a685063"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
 }
