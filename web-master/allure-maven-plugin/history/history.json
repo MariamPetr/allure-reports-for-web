@@ -1,39 +1,41 @@
 {
-  "cf6eb5a5efa26403a9de025fb9d0e285" : {
+  "514ff39a5161779d81b58d4093ad1e81" : {
     "statistic" : {
-      "failed" : 0,
+      "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "9a3e830c28c92fc9",
-      "status" : "passed",
+      "uid" : "ceb7df44bce3a653",
+      "status" : "failed",
+      "statusDetails" : "Invalid element state [i.material-icons[10]]: element click intercepted: Element <i class=\"material-icons\">...</i> is not clickable at point (1219, 722). Other element would receive the click: <div style=\"position: relative; flex: 0 0 auto; height: 54000px;\">...</div>\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1742257748444.1.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1742257748444.1.html\nTimeout: 14 s.\nCaused by: ElementClickInterceptedException: element click intercepted: Element <i class=\"material-icons\">...</i> is not clickable at point (1219, 722). Other element would receive the click: <div style=\"position: relative; flex: 0 0 auto; height: 54000px;\">...</div>",
       "time" : {
-        "start" : 1742256892219,
-        "stop" : 1742256963326,
-        "duration" : 71107
+        "start" : 1742257681902,
+        "stop" : 1742257748775,
+        "duration" : 66873
       }
     } ]
   },
-  "514ff39a5161779d81b58d4093ad1e81" : {
+  "cf6eb5a5efa26403a9de025fb9d0e285" : {
     "statistic" : {
-      "failed" : 0,
+      "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "176e4ee6146bb145",
-      "status" : "passed",
+      "uid" : "db00a33f62bdf9fd",
+      "status" : "failed",
+      "statusDetails" : "Element not found {a.sly-tabs-list-item-title[9]}\nExpected: clickable: interactable and enabled\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1742257829805.2.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1742257829805.2.html\nTimeout: 14 s.\nCaused by: java.lang.IndexOutOfBoundsException: Index 9 out of bounds for length 0",
       "time" : {
-        "start" : 1742256812559,
-        "stop" : 1742256892216,
-        "duration" : 79657
+        "start" : 1742257748780,
+        "stop" : 1742257830250,
+        "duration" : 81470
       }
     } ]
   },
@@ -47,12 +49,32 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "47ef10ddfdeeaedb",
+      "uid" : "a74c28780617a9c8",
       "status" : "passed",
       "time" : {
-        "start" : 1742256997956,
-        "stop" : 1742257034021,
-        "duration" : 36065
+        "start" : 1742257863877,
+        "stop" : 1742257899522,
+        "duration" : 35645
+      }
+    } ]
+  },
+  "755a3a699490e269aab4f1d6fe1dbddd" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "788e777ea6fed96",
+      "status" : "failed",
+      "statusDetails" : "Element not found {td a[0]}\nExpected: visible\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1742257655992.0.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1742257655992.0.html\nTimeout: 14 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"td a\"}",
+      "time" : {
+        "start" : 1742257656313,
+        "stop" : 1742257656313,
+        "duration" : 0
       }
     } ]
   },
@@ -66,12 +88,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "d9a7fc3597c43cf9",
+      "uid" : "fbc748edaab5076a",
       "status" : "passed",
       "time" : {
-        "start" : 1742256790591,
-        "stop" : 1742256812519,
-        "duration" : 21928
+        "start" : 1742257656322,
+        "stop" : 1742257681899,
+        "duration" : 25577
       }
     } ]
   },
@@ -85,12 +107,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "4735cd004c68d5a8",
+      "uid" : "f001d89eb7800203",
       "status" : "passed",
       "time" : {
-        "start" : 1742256963331,
-        "stop" : 1742256997952,
-        "duration" : 34621
+        "start" : 1742257830254,
+        "stop" : 1742257863873,
+        "duration" : 33619
       }
     } ]
   }
