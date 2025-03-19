@@ -4,22 +4,39 @@
   "children" : [ {
     "name" : "Product defects",
     "children" : [ {
-      "name" : "Element should be clickable: interactable and enabled {span#login_name}\nElement: '<span class=\"text is_auth hidden-sm desktop__login--name\" id=\"login_name\" displayed:false></span>'\nActual value: hidden, opacity=1\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1742401715886.2.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1742401715886.2.html\nTimeout: 14 s.",
+      "name" : "Element should be clickable: interactable and enabled {span#login_name}\nElement: '<span class=\"text is_auth hidden-sm desktop__login--name\" id=\"login_name\" displayed:false></span>'\nActual value: hidden, opacity=1\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1742403000448.3.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1742403000448.3.html\nTimeout: 14 s.",
       "children" : [ {
-        "name" : "Пополнение лицевого счёта в личном кабинете",
-        "uid" : "73272f1a93de7382",
-        "parentUid" : "ca6b2fcb384cd618c71e045262b21480",
+        "name" : "Загрузка фото в альбом",
+        "uid" : "e350cc1f8997760b",
+        "parentUid" : "38cb4afd4d2e153d93ae9ec8d1fe6a1a",
         "status" : "failed",
         "time" : {
-          "start" : 1742401687477,
-          "stop" : 1742401716309,
-          "duration" : 28832
+          "start" : 1742402970432,
+          "stop" : 1742403001104,
+          "duration" : 30672
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "ca6b2fcb384cd618c71e045262b21480"
+      "uid" : "38cb4afd4d2e153d93ae9ec8d1fe6a1a"
+    }, {
+      "name" : "Element not found {td a[0]}\nExpected: visible\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1742403033477.4.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1742403033477.4.html\nTimeout: 14 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"td a\"}",
+      "children" : [ {
+        "name" : "DemoOrderTest",
+        "uid" : "811f4903f4285e27",
+        "parentUid" : "4a38bc5b27fe066d3e742aa3795752af",
+        "status" : "failed",
+        "time" : {
+          "start" : 1742403033719,
+          "stop" : 1742403033719,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4a38bc5b27fe066d3e742aa3795752af"
     } ],
     "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
   } ]
