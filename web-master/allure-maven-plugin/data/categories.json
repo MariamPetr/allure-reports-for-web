@@ -2,59 +2,110 @@
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "name" : "categories",
   "children" : [ {
-    "name" : "Product defects",
+    "name" : "Test defects",
     "children" : [ {
-      "name" : "Element not found {div.porch-album-tile-cover}\nExpected: clickable: interactable and enabled\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1742368723774.2.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1742368723774.2.html\nTimeout: 14 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"div.porch-album-tile-cover\"}",
+      "name" : "invalid cookie domain\n  (Session info: chrome=134.0.6998.89)\nBuild info: version: '4.29.0', revision: '5fc1ec94cb'\nSystem info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.3.1', java.version: '22'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [02e763d394d02f0c069962f8bd907a6d, addCookie {cookie=ph_ab_test_newdesign_new_design=A; path=/; domain=.netprint.ru}]\nCapabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 134.0.6998.89, chrome: {chromedriverVersion: 134.0.6998.88 (7e3d5c978c6d..., userDataDir: /var/folders/y4/1rkt9z0s363...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55002}, networkConnectionEnabled: false, pageLoadStrategy: eager, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:55002/devtoo..., se:cdpVersion: 134.0.6998.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 02e763d394d02f0c069962f8bd907a6d",
+      "children" : [ {
+        "name" : "Заказ постера: неавторизованный юзер",
+        "uid" : "6f140b8a4461bb18",
+        "parentUid" : "0d37fbf8e3ecdd017d7d7b922f347fdc",
+        "status" : "broken",
+        "time" : {
+          "start" : 1742369237179,
+          "stop" : 1742369237625,
+          "duration" : 446
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0d37fbf8e3ecdd017d7d7b922f347fdc"
+    }, {
+      "name" : "invalid cookie domain\n  (Session info: chrome=134.0.6998.89)\nBuild info: version: '4.29.0', revision: '5fc1ec94cb'\nSystem info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.3.1', java.version: '22'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [4217a8ed66e0b63ecfc9c73b6879dce6, addCookie {cookie=ph_ab_test_newdesign_new_design=A; path=/; domain=.netprint.ru}]\nCapabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 134.0.6998.89, chrome: {chromedriverVersion: 134.0.6998.88 (7e3d5c978c6d..., userDataDir: /var/folders/y4/1rkt9z0s363...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55062}, networkConnectionEnabled: false, pageLoadStrategy: eager, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:55062/devtoo..., se:cdpVersion: 134.0.6998.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 4217a8ed66e0b63ecfc9c73b6879dce6",
       "children" : [ {
         "name" : "Заказ карманного календарика: авторизованный юзер",
-        "uid" : "993981a72f62a3e0",
-        "parentUid" : "10cea75e1da9e76a138b62e03493243e",
-        "status" : "failed",
+        "uid" : "870b3469d2eb81a7",
+        "parentUid" : "12bf9aed17121f9d6f3f95e201743e1b",
+        "status" : "broken",
         "time" : {
-          "start" : 1742368667668,
-          "stop" : 1742368724172,
-          "duration" : 56504
+          "start" : 1742369237632,
+          "stop" : 1742369238993,
+          "duration" : 1361
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "10cea75e1da9e76a138b62e03493243e"
+      "uid" : "12bf9aed17121f9d6f3f95e201743e1b"
     }, {
-      "name" : "Element should be clickable: interactable and enabled {a.sly-tabs-list-item-title[9]}\nElement: '<a class=\"sly-tabs-list-item-title\" href=\"#tab-albums-456850\" id=\"tab-caption-albums-456850\" displayed:false></a>'\nActual value: hidden, opacity=1\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1742368842786.3.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1742368842786.3.html\nTimeout: 14 s.",
+      "name" : "invalid cookie domain\n  (Session info: chrome=134.0.6998.89)\nBuild info: version: '4.29.0', revision: '5fc1ec94cb'\nSystem info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.3.1', java.version: '22'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [5510acb256276e29131a6757537774bf, addCookie {cookie=ph_ab_test_newdesign_new_design=A; path=/; domain=.netprint.ru}]\nCapabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 134.0.6998.89, chrome: {chromedriverVersion: 134.0.6998.88 (7e3d5c978c6d..., userDataDir: /var/folders/y4/1rkt9z0s363...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55078}, networkConnectionEnabled: false, pageLoadStrategy: eager, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:55078/devtoo..., se:cdpVersion: 134.0.6998.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 5510acb256276e29131a6757537774bf",
       "children" : [ {
         "name" : "Создание книги в онлайн-редакторе",
-        "uid" : "87814e6a1054191b",
-        "parentUid" : "b48a63495362888cf962f41ce035a91a",
-        "status" : "failed",
+        "uid" : "cc0e99c47796630",
+        "parentUid" : "a89a518f59438af3d5fd4ff44df90d37",
+        "status" : "broken",
         "time" : {
-          "start" : 1742368752585,
-          "stop" : 1742368843177,
-          "duration" : 90592
+          "start" : 1742369238996,
+          "stop" : 1742369240346,
+          "duration" : 1350
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "b48a63495362888cf962f41ce035a91a"
+      "uid" : "a89a518f59438af3d5fd4ff44df90d37"
     }, {
-      "name" : "Element not found {div.nav-panel-item}\nExpected: exist\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1742368953794.4.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1742368953794.4.html\nTimeout: 14 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"div.nav-panel-item\"}",
+      "name" : "invalid cookie domain\n  (Session info: chrome=134.0.6998.89)\nBuild info: version: '4.29.0', revision: '5fc1ec94cb'\nSystem info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.3.1', java.version: '22'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [bea18ec0904766c5c4c1ab06bad5756f, addCookie {cookie=ph_ab_test_newdesign_new_design=A; path=/; domain=.netprint.ru}]\nCapabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 134.0.6998.89, chrome: {chromedriverVersion: 134.0.6998.88 (7e3d5c978c6d..., userDataDir: /var/folders/y4/1rkt9z0s363...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55094}, networkConnectionEnabled: false, pageLoadStrategy: eager, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:55094/devtoo..., se:cdpVersion: 134.0.6998.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: bea18ec0904766c5c4c1ab06bad5756f",
+      "children" : [ {
+        "name" : "Загрузка фото в альбом",
+        "uid" : "e72c1fa79a52fea",
+        "parentUid" : "da83ccf1314f11249d80b1d2118ec9f0",
+        "status" : "broken",
+        "time" : {
+          "start" : 1742369240353,
+          "stop" : 1742369241711,
+          "duration" : 1358
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "da83ccf1314f11249d80b1d2118ec9f0"
+    }, {
+      "name" : "invalid cookie domain\n  (Session info: chrome=134.0.6998.89)\nBuild info: version: '4.29.0', revision: '5fc1ec94cb'\nSystem info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.3.1', java.version: '22'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [82a719f896770b7345ac74f55d685e36, addCookie {cookie=ph_ab_test_newdesign_new_design=A; path=/; domain=.netprint.ru}]\nCapabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 134.0.6998.89, chrome: {chromedriverVersion: 134.0.6998.88 (7e3d5c978c6d..., userDataDir: /var/folders/y4/1rkt9z0s363...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55110}, networkConnectionEnabled: false, pageLoadStrategy: eager, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:55110/devtoo..., se:cdpVersion: 134.0.6998.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 82a719f896770b7345ac74f55d685e36",
+      "children" : [ {
+        "name" : "Пополнение лицевого счёта в личном кабинете",
+        "uid" : "63f5189eea5403e6",
+        "parentUid" : "2ed7ad79b196b05e47ca3a191339d19d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1742369241718,
+          "stop" : 1742369242993,
+          "duration" : 1275
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "2ed7ad79b196b05e47ca3a191339d19d"
+    }, {
+      "name" : "timeout: Timed out receiving message from renderer: -0.127\n  (Session info: chrome=134.0.6998.89)\nBuild info: version: '4.29.0', revision: '5fc1ec94cb'\nSystem info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.3.1', java.version: '22'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [acf9bd7abf2bbd626967125615b118da, get {url=https://netprint.ru/order/profile-order-history/}]\nselenide.url: https://netprint.ru/order/profile-order-history/\nCapabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 134.0.6998.89, chrome: {chromedriverVersion: 134.0.6998.88 (7e3d5c978c6d..., userDataDir: /var/folders/y4/1rkt9z0s363...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55124}, networkConnectionEnabled: false, pageLoadStrategy: eager, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:55124/devtoo..., se:cdpVersion: 134.0.6998.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nselenide.baseUrl: https://netprint.ru/\nSession ID: acf9bd7abf2bbd626967125615b118da",
       "children" : [ {
         "name" : "DemoOrderTest",
-        "uid" : "f93d03ed420c8515",
-        "parentUid" : "d9cbf453b4f4e10005dd656ddc972a2d",
-        "status" : "failed",
+        "uid" : "eece4c0325bc6e82",
+        "parentUid" : "b2ef657e428fdbeb5c18fd90c0932a65",
+        "status" : "broken",
         "time" : {
-          "start" : 1742368953914,
-          "stop" : 1742368953914,
+          "start" : 1742369285395,
+          "stop" : 1742369285395,
           "duration" : 0
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "d9cbf453b4f4e10005dd656ddc972a2d"
+      "uid" : "b2ef657e428fdbeb5c18fd90c0932a65"
     } ],
-    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
   } ]
 }

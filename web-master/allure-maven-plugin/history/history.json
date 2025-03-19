@@ -1,79 +1,80 @@
 {
   "cf6eb5a5efa26403a9de025fb9d0e285" : {
     "statistic" : {
-      "failed" : 1,
-      "broken" : 0,
+      "failed" : 0,
+      "broken" : 1,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "87814e6a1054191b",
-      "status" : "failed",
-      "statusDetails" : "Element should be clickable: interactable and enabled {a.sly-tabs-list-item-title[9]}\nElement: '<a class=\"sly-tabs-list-item-title\" href=\"#tab-albums-456850\" id=\"tab-caption-albums-456850\" displayed:false></a>'\nActual value: hidden, opacity=1\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1742368842786.3.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1742368842786.3.html\nTimeout: 14 s.",
+      "uid" : "cc0e99c47796630",
+      "status" : "broken",
+      "statusDetails" : "invalid cookie domain\n  (Session info: chrome=134.0.6998.89)\nBuild info: version: '4.29.0', revision: '5fc1ec94cb'\nSystem info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.3.1', java.version: '22'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [5510acb256276e29131a6757537774bf, addCookie {cookie=ph_ab_test_newdesign_new_design=A; path=/; domain=.netprint.ru}]\nCapabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 134.0.6998.89, chrome: {chromedriverVersion: 134.0.6998.88 (7e3d5c978c6d..., userDataDir: /var/folders/y4/1rkt9z0s363...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55078}, networkConnectionEnabled: false, pageLoadStrategy: eager, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:55078/devtoo..., se:cdpVersion: 134.0.6998.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 5510acb256276e29131a6757537774bf",
       "time" : {
-        "start" : 1742368752585,
-        "stop" : 1742368843177,
-        "duration" : 90592
+        "start" : 1742369238996,
+        "stop" : 1742369240346,
+        "duration" : 1350
       }
     } ]
   },
   "514ff39a5161779d81b58d4093ad1e81" : {
     "statistic" : {
-      "failed" : 1,
-      "broken" : 0,
+      "failed" : 0,
+      "broken" : 1,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "993981a72f62a3e0",
-      "status" : "failed",
-      "statusDetails" : "Element not found {div.porch-album-tile-cover}\nExpected: clickable: interactable and enabled\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1742368723774.2.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1742368723774.2.html\nTimeout: 14 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"div.porch-album-tile-cover\"}",
+      "uid" : "870b3469d2eb81a7",
+      "status" : "broken",
+      "statusDetails" : "invalid cookie domain\n  (Session info: chrome=134.0.6998.89)\nBuild info: version: '4.29.0', revision: '5fc1ec94cb'\nSystem info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.3.1', java.version: '22'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [4217a8ed66e0b63ecfc9c73b6879dce6, addCookie {cookie=ph_ab_test_newdesign_new_design=A; path=/; domain=.netprint.ru}]\nCapabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 134.0.6998.89, chrome: {chromedriverVersion: 134.0.6998.88 (7e3d5c978c6d..., userDataDir: /var/folders/y4/1rkt9z0s363...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55062}, networkConnectionEnabled: false, pageLoadStrategy: eager, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:55062/devtoo..., se:cdpVersion: 134.0.6998.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 4217a8ed66e0b63ecfc9c73b6879dce6",
       "time" : {
-        "start" : 1742368667668,
-        "stop" : 1742368724172,
-        "duration" : 56504
+        "start" : 1742369237632,
+        "stop" : 1742369238993,
+        "duration" : 1361
       }
     } ]
   },
   "a7519d805367d6283d9556065d9c18b2" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "731ac662c4bb573c",
-      "status" : "passed",
-      "time" : {
-        "start" : 1742368877778,
-        "stop" : 1742368916204,
-        "duration" : 38426
-      }
-    } ]
-  },
-  "755a3a699490e269aab4f1d6fe1dbddd" : {
-    "statistic" : {
-      "failed" : 1,
-      "broken" : 0,
+      "broken" : 1,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "f93d03ed420c8515",
-      "status" : "failed",
-      "statusDetails" : "Element not found {div.nav-panel-item}\nExpected: exist\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1742368953794.4.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1742368953794.4.html\nTimeout: 14 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"div.nav-panel-item\"}",
+      "uid" : "e72c1fa79a52fea",
+      "status" : "broken",
+      "statusDetails" : "invalid cookie domain\n  (Session info: chrome=134.0.6998.89)\nBuild info: version: '4.29.0', revision: '5fc1ec94cb'\nSystem info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.3.1', java.version: '22'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [bea18ec0904766c5c4c1ab06bad5756f, addCookie {cookie=ph_ab_test_newdesign_new_design=A; path=/; domain=.netprint.ru}]\nCapabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 134.0.6998.89, chrome: {chromedriverVersion: 134.0.6998.88 (7e3d5c978c6d..., userDataDir: /var/folders/y4/1rkt9z0s363...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55094}, networkConnectionEnabled: false, pageLoadStrategy: eager, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:55094/devtoo..., se:cdpVersion: 134.0.6998.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: bea18ec0904766c5c4c1ab06bad5756f",
       "time" : {
-        "start" : 1742368953914,
-        "stop" : 1742368953914,
+        "start" : 1742369240353,
+        "stop" : 1742369241711,
+        "duration" : 1358
+      }
+    } ]
+  },
+  "755a3a699490e269aab4f1d6fe1dbddd" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "eece4c0325bc6e82",
+      "status" : "broken",
+      "statusDetails" : "timeout: Timed out receiving message from renderer: -0.127\n  (Session info: chrome=134.0.6998.89)\nBuild info: version: '4.29.0', revision: '5fc1ec94cb'\nSystem info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.3.1', java.version: '22'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [acf9bd7abf2bbd626967125615b118da, get {url=https://netprint.ru/order/profile-order-history/}]\nselenide.url: https://netprint.ru/order/profile-order-history/\nCapabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 134.0.6998.89, chrome: {chromedriverVersion: 134.0.6998.88 (7e3d5c978c6d..., userDataDir: /var/folders/y4/1rkt9z0s363...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55124}, networkConnectionEnabled: false, pageLoadStrategy: eager, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:55124/devtoo..., se:cdpVersion: 134.0.6998.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nselenide.baseUrl: https://netprint.ru/\nSession ID: acf9bd7abf2bbd626967125615b118da",
+      "time" : {
+        "start" : 1742369285395,
+        "stop" : 1742369285395,
         "duration" : 0
       }
     } ]
@@ -81,38 +82,40 @@
   "efa837afbc6d92b790a3a92ca90d555c" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
+      "broken" : 1,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "25f335ac0a18f8e6",
-      "status" : "passed",
+      "uid" : "63f5189eea5403e6",
+      "status" : "broken",
+      "statusDetails" : "invalid cookie domain\n  (Session info: chrome=134.0.6998.89)\nBuild info: version: '4.29.0', revision: '5fc1ec94cb'\nSystem info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.3.1', java.version: '22'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [82a719f896770b7345ac74f55d685e36, addCookie {cookie=ph_ab_test_newdesign_new_design=A; path=/; domain=.netprint.ru}]\nCapabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 134.0.6998.89, chrome: {chromedriverVersion: 134.0.6998.88 (7e3d5c978c6d..., userDataDir: /var/folders/y4/1rkt9z0s363...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55110}, networkConnectionEnabled: false, pageLoadStrategy: eager, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:55110/devtoo..., se:cdpVersion: 134.0.6998.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 82a719f896770b7345ac74f55d685e36",
       "time" : {
-        "start" : 1742368724176,
-        "stop" : 1742368752583,
-        "duration" : 28407
+        "start" : 1742369241718,
+        "stop" : 1742369242993,
+        "duration" : 1275
       }
     } ]
   },
   "964a1e0b8f4c9287ac4a2678d7bd6dce" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
+      "broken" : 1,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "692950b83be2a006",
-      "status" : "passed",
+      "uid" : "6f140b8a4461bb18",
+      "status" : "broken",
+      "statusDetails" : "invalid cookie domain\n  (Session info: chrome=134.0.6998.89)\nBuild info: version: '4.29.0', revision: '5fc1ec94cb'\nSystem info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.3.1', java.version: '22'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [02e763d394d02f0c069962f8bd907a6d, addCookie {cookie=ph_ab_test_newdesign_new_design=A; path=/; domain=.netprint.ru}]\nCapabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 134.0.6998.89, chrome: {chromedriverVersion: 134.0.6998.88 (7e3d5c978c6d..., userDataDir: /var/folders/y4/1rkt9z0s363...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55002}, networkConnectionEnabled: false, pageLoadStrategy: eager, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:55002/devtoo..., se:cdpVersion: 134.0.6998.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 02e763d394d02f0c069962f8bd907a6d",
       "time" : {
-        "start" : 1742368843182,
-        "stop" : 1742368877774,
-        "duration" : 34592
+        "start" : 1742369237179,
+        "stop" : 1742369237625,
+        "duration" : 446
       }
     } ]
   }
