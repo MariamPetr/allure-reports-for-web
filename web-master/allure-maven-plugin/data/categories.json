@@ -4,22 +4,39 @@
   "children" : [ {
     "name" : "Product defects",
     "children" : [ {
-      "name" : "Element should be clickable: interactable and enabled {a.sly-tabs-list-item-title[9]}\nElement: '<a class=\"sly-tabs-list-item-title\" href=\"#tab-albums-30042\" id=\"tab-caption-albums-30042\" displayed:false></a>'\nActual value: hidden, opacity=1\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1742346045090.2.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1742346045090.2.html\nTimeout: 14 s.",
+      "name" : "Element not found {td a[0]}\nExpected: visible\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1742347056111.1.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1742347056111.1.html\nTimeout: 14 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"td a\"}",
       "children" : [ {
-        "name" : "Создание книги в онлайн-редакторе",
-        "uid" : "4c71e1f7843e60cb",
-        "parentUid" : "62ef5399321950294280614dd698f635",
+        "name" : "DemoOrderTest",
+        "uid" : "98bcdde53b884403",
+        "parentUid" : "a04de7d443fa8b87aa0c6b22d1b4a86c",
         "status" : "failed",
         "time" : {
-          "start" : 1742345956551,
-          "stop" : 1742346045433,
-          "duration" : 88882
+          "start" : 1742347056402,
+          "stop" : 1742347056403,
+          "duration" : 1
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "62ef5399321950294280614dd698f635"
+      "uid" : "a04de7d443fa8b87aa0c6b22d1b4a86c"
+    }, {
+      "name" : "Element should be clickable: interactable and enabled {a.sly-tabs-list-item-title[9]}\nElement: '<a class=\"sly-tabs-list-item-title\" href=\"#tab-albums-852773\" id=\"tab-caption-albums-852773\" displayed:false></a>'\nActual value: hidden, opacity=1\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1742347291114.2.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1742347291114.2.html\nTimeout: 14 s.",
+      "children" : [ {
+        "name" : "Создание книги в онлайн-редакторе",
+        "uid" : "11c95814c08ef562",
+        "parentUid" : "c9cbe0886359a524b86b105725b5e6ac",
+        "status" : "failed",
+        "time" : {
+          "start" : 1742347202817,
+          "stop" : 1742347291462,
+          "duration" : 88645
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c9cbe0886359a524b86b105725b5e6ac"
     } ],
     "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
   } ]
