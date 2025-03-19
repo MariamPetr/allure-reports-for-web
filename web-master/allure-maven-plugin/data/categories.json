@@ -4,22 +4,39 @@
   "children" : [ {
     "name" : "Product defects",
     "children" : [ {
-      "name" : "Element should be clickable: interactable and enabled {span#login_name}\nElement: '<span class=\"text is_auth hidden-sm desktop__login--name\" id=\"login_name\" displayed:false></span>'\nActual value: hidden, opacity=1\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1742403497531.3.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1742403497531.3.html\nTimeout: 14 s.",
+      "name" : "Element not found {td a[0]}\nExpected: visible\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1742404625719.0.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1742404625719.0.html\nTimeout: 14 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"td a\"}",
       "children" : [ {
-        "name" : "Пополнение лицевого счёта в личном кабинете",
-        "uid" : "c0c63510fdc27d03",
-        "parentUid" : "2744cf7e96440374a7a445388fcd01cf",
+        "name" : "DemoOrderTest",
+        "uid" : "4ed3374c9f6f88f2",
+        "parentUid" : "fd80c6cb09d5f15183d10f6091905b52",
         "status" : "failed",
         "time" : {
-          "start" : 1742403469236,
-          "stop" : 1742403497942,
-          "duration" : 28706
+          "start" : 1742404625946,
+          "stop" : 1742404625946,
+          "duration" : 0
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "2744cf7e96440374a7a445388fcd01cf"
+      "uid" : "fd80c6cb09d5f15183d10f6091905b52"
+    }, {
+      "name" : "Element should be clickable: interactable and enabled {span#login_name}\nElement: '<span class=\"text is_auth hidden-sm desktop__login--name\" id=\"login_name\" displayed:false></span>'\nActual value: hidden, opacity=1\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1742404653952.1.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1742404653952.1.html\nTimeout: 14 s.",
+      "children" : [ {
+        "name" : "Пополнение лицевого счёта в личном кабинете",
+        "uid" : "de760c244b81faac",
+        "parentUid" : "b5a94a46661b3b734ca31bb2c6d664d8",
+        "status" : "failed",
+        "time" : {
+          "start" : 1742404625955,
+          "stop" : 1742404654433,
+          "duration" : 28478
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b5a94a46661b3b734ca31bb2c6d664d8"
     } ],
     "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
   } ]
