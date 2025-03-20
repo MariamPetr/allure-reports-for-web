@@ -1,20 +1,21 @@
 {
   "cf6eb5a5efa26403a9de025fb9d0e285" : {
     "statistic" : {
-      "failed" : 0,
+      "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "2e175f0c65c023fa",
-      "status" : "passed",
+      "uid" : "18eaf641b4b333f3",
+      "status" : "failed",
+      "statusDetails" : "Element should be clickable: interactable and enabled {a.sly-tabs-list-item-title[9]}\nElement: '<a class=\"sly-tabs-list-item-title\" href=\"#tab-albums-943011\" id=\"tab-caption-albums-943011\" displayed:false></a>'\nActual value: hidden, opacity=1\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1742494832309.2.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1742494832309.2.html\nTimeout: 14 s.",
       "time" : {
-        "start" : 1742493292859,
-        "stop" : 1742493357941,
-        "duration" : 65082
+        "start" : 1742494755108,
+        "stop" : 1742494832865,
+        "duration" : 77757
       }
     } ]
   },
@@ -28,12 +29,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "6c309fb4f27f7a6b",
+      "uid" : "d9aab9908c85f467",
       "status" : "passed",
       "time" : {
-        "start" : 1742493212175,
-        "stop" : 1742493292855,
-        "duration" : 80680
+        "start" : 1742494678035,
+        "stop" : 1742494755104,
+        "duration" : 77069
       }
     } ]
   },
@@ -47,12 +48,32 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "be4b91bb7b520825",
+      "uid" : "bdbbbcad51d8ecba",
       "status" : "passed",
       "time" : {
-        "start" : 1742493390466,
-        "stop" : 1742493415858,
-        "duration" : 25392
+        "start" : 1742494629354,
+        "stop" : 1742494658154,
+        "duration" : 28800
+      }
+    } ]
+  },
+  "755a3a699490e269aab4f1d6fe1dbddd" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "43c59215b1ecd4a1",
+      "status" : "failed",
+      "statusDetails" : "Invalid element state [i.fa-user[1]]: element click intercepted: Element <i class=\"fa fa-user\" aria-hidden=\"true\"></i> is not clickable at point (1495, 21). Other element would receive the click: <div class=\"flocktory-widget-overlay\" style=\"display: flex; z-index: 2147483647; position: fixed; top: 0px; left: 0px; justify-content: center; align-items: center; width: 100%; height: 100%; background: transparent; transform: none;\" data-showed-up=\"true\">...</div>\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1742494890612.3.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1742494890612.3.html\nTimeout: 14 s.\nCaused by: ElementClickInterceptedException: element click intercepted: Element <i class=\"fa fa-user\" aria-hidden=\"true\"></i> is not clickable at point (1495, 21). Other element would receive the click: <div class=\"flocktory-widget-overlay\" style=\"display: flex; z-index: 2147483647; position: fixed; top: 0px; left: 0px; justify-content: center; align-items: center; width: 100%; height: 100%; background: transparent; transform: none;\" data-showed-up=\"true\">...</div>",
+      "time" : {
+        "start" : 1742494890883,
+        "stop" : 1742494890883,
+        "duration" : 0
       }
     } ]
   },
@@ -66,12 +87,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "43509d1fd6f7fd2a",
+      "uid" : "56d7ce0e50684918",
       "status" : "passed",
       "time" : {
-        "start" : 1742493194225,
-        "stop" : 1742493212135,
-        "duration" : 17910
+        "start" : 1742494658158,
+        "stop" : 1742494678032,
+        "duration" : 19874
       }
     } ]
   },
@@ -85,12 +106,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "718c16ab74a374f4",
+      "uid" : "3fe061baa544c51e",
       "status" : "passed",
       "time" : {
-        "start" : 1742493357945,
-        "stop" : 1742493390463,
-        "duration" : 32518
+        "start" : 1742494832870,
+        "stop" : 1742494871543,
+        "duration" : 38673
       }
     } ]
   }
