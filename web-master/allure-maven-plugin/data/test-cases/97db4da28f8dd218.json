@@ -1,0 +1,154 @@
+{
+  "uid" : "97db4da28f8dd218",
+  "name" : "Пополнение лицевого счёта в личном кабинете",
+  "fullName" : "test.DemoOrderTest.orderTopUpAccount",
+  "historyId" : "efa837afbc6d92b790a3a92ca90d555c",
+  "time" : {
+    "start" : 1742473104560,
+    "stop" : 1742473130143,
+    "duration" : 25583
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Авторизация по имейлу",
+      "time" : {
+        "start" : 1742473105654,
+        "stop" : 1742473119296,
+        "duration" : 13642
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Открыть личный кабинет",
+      "time" : {
+        "start" : 1742473119296,
+        "stop" : 1742473124107,
+        "duration" : 4811
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Выбор раздела Мои финансы",
+      "time" : {
+        "start" : 1742473124107,
+        "stop" : 1742473128835,
+        "duration" : 4728
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Заполнить данные для пополнения Лицевого счета",
+      "time" : {
+        "start" : 1742473128835,
+        "stop" : 1742473129975,
+        "duration" : 1140
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "sum",
+        "value" : "11"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Закрываем браузер",
+      "time" : {
+        "start" : 1742473129975,
+        "stop" : 1742473130143,
+        "duration" : 168
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 5,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "Macs-Mac-mini.local"
+  }, {
+    "name" : "thread",
+    "value" : "25339@Macs-Mac-mini.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "test.DemoOrderTest"
+  }, {
+    "name" : "testClass",
+    "value" : "test.DemoOrderTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "orderTopUpAccount"
+  }, {
+    "name" : "suite",
+    "value" : "test.DemoOrderTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "32877a86f9ccb42d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1742472792261,
+        "stop" : 1742472819098,
+        "duration" : 26837
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "97db4da28f8dd218.json",
+  "parameterValues" : [ ]
+}
