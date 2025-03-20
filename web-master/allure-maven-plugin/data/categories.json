@@ -1,5 +1,47 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "name" : "categories",
-  "children" : [ ]
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "Index 1 out of bounds for length 0",
+      "children" : [ {
+        "name" : "Загрузка фото в альбом",
+        "uid" : "bb5e14ff6801c2cf",
+        "parentUid" : "47d82206d557e7edbd0d77bb385542aa",
+        "status" : "broken",
+        "time" : {
+          "start" : 1742464238847,
+          "stop" : 1742464277616,
+          "duration" : 38769
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "47d82206d557e7edbd0d77bb385542aa"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  }, {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Element not found {td a[0]}\nExpected: visible\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1742464315938.1.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1742464315938.1.html\nTimeout: 14 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"td a\"}",
+      "children" : [ {
+        "name" : "DemoOrderTest",
+        "uid" : "339eff73bf624c76",
+        "parentUid" : "f6d92176930386511bcb78ae1a3f4544",
+        "status" : "failed",
+        "time" : {
+          "start" : 1742464316099,
+          "stop" : 1742464316099,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f6d92176930386511bcb78ae1a3f4544"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
 }
