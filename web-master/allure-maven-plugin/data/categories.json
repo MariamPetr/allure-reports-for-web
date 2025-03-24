@@ -1,5 +1,43 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "name" : "categories",
-  "children" : [ ]
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Invalid element state [button.btn-default[1]]: element click intercepted: Element <button class=\"btn btn-default btn-block\" ng-click=\"vm.onSaveDelivery()\" ng-disabled=\"vm.saveDeliveryLoading\">...</button> is not clickable at point (1560, 20). Other element would receive the click: <span id=\"login_name\" class=\"text is_auth hidden-sm desktop__login--name\">...</span>\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1742807946849.2.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1742807946849.2.html\nTimeout: 14 s.\nCaused by: ElementClickInterceptedException: element click intercepted: Element <button class=\"btn btn-default btn-block\" ng-click=\"vm.onSaveDelivery()\" ng-disabled=\"vm.saveDeliveryLoading\">...</button> is not clickable at point (1560, 20). Other element would receive the click: <span id=\"login_name\" class=\"text is_auth hidden-sm desktop__login--name\">...</span>",
+      "children" : [ {
+        "name" : "Заказ карманного календарика: авторизованный юзер",
+        "uid" : "559f5bebbebcfead",
+        "parentUid" : "b0e09163661c37a547c59039ff666c56",
+        "status" : "failed",
+        "time" : {
+          "start" : 1742807864787,
+          "stop" : 1742807947266,
+          "duration" : 82479
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b0e09163661c37a547c59039ff666c56"
+    }, {
+      "name" : "Element not found {a.sly-tabs-list-item-title[9]}\nExpected: clickable: interactable and enabled\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1742808027000.3.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1742808027000.3.html\nTimeout: 14 s.\nCaused by: java.lang.IndexOutOfBoundsException: Index 9 out of bounds for length 0",
+      "children" : [ {
+        "name" : "Создание книги в онлайн-редакторе",
+        "uid" : "48b5b129f7dc10fe",
+        "parentUid" : "a380ab723ecf5709ffd7b342097515fc",
+        "status" : "failed",
+        "time" : {
+          "start" : 1742807947272,
+          "stop" : 1742808027507,
+          "duration" : 80235
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a380ab723ecf5709ffd7b342097515fc"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
 }
