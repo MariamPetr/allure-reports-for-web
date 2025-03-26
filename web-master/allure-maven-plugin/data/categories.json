@@ -4,22 +4,39 @@
   "children" : [ {
     "name" : "Product defects",
     "children" : [ {
-      "name" : "Element should be clickable: interactable and enabled {span.Button-module_label_d7rF5}\nElement: '<span class=\"Button-module_label_d7rF5 \" displayed:false></span>'\nActual value: hidden, opacity=1\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1743004257725.2.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1743004257725.2.html\nTimeout: 14 s.",
+      "name" : "Element should be clickable: interactable and enabled {span.Button-module_label_d7rF5}\nElement: '<span class=\"Button-module_label_d7rF5 \" displayed:false></span>'\nActual value: hidden, opacity=1\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1743004795591.3.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1743004795591.3.html\nTimeout: 14 s.",
       "children" : [ {
         "name" : "Создание макета в SVG-редакторе",
-        "uid" : "ca878dbe550bb6f",
-        "parentUid" : "a64e77643ddd0de3227aca16a722692a",
+        "uid" : "f064bbb88fefb9e4",
+        "parentUid" : "6fdb9b585f02d898aa731fb10ad77cfa",
         "status" : "failed",
         "time" : {
-          "start" : 1743004189101,
-          "stop" : 1743004258658,
-          "duration" : 69557
+          "start" : 1743004734870,
+          "stop" : 1743004796162,
+          "duration" : 61292
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "a64e77643ddd0de3227aca16a722692a"
+      "uid" : "6fdb9b585f02d898aa731fb10ad77cfa"
+    }, {
+      "name" : "Invalid element state [button.btn-default[1]]: element click intercepted: Element <button class=\"btn btn-default btn-block\" ng-click=\"vm.onSaveDelivery()\" ng-disabled=\"vm.saveDeliveryLoading\">...</button> is not clickable at point (1560, 20). Other element would receive the click: <span id=\"login_name\" class=\"text is_auth hidden-sm desktop__login--name\">...</span>\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1743004885861.4.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1743004885861.4.html\nTimeout: 14 s.\nCaused by: ElementClickInterceptedException: element click intercepted: Element <button class=\"btn btn-default btn-block\" ng-click=\"vm.onSaveDelivery()\" ng-disabled=\"vm.saveDeliveryLoading\">...</button> is not clickable at point (1560, 20). Other element would receive the click: <span id=\"login_name\" class=\"text is_auth hidden-sm desktop__login--name\">...</span>",
+      "children" : [ {
+        "name" : "Заказ карманного календарика: авторизованный юзер",
+        "uid" : "d95410562f8fb462",
+        "parentUid" : "85fe86954bf7229c51584a06fc2e1c89",
+        "status" : "failed",
+        "time" : {
+          "start" : 1743004796170,
+          "stop" : 1743004886285,
+          "duration" : 90115
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "85fe86954bf7229c51584a06fc2e1c89"
     } ],
     "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
   } ]
