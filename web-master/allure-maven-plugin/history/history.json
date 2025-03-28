@@ -1,4 +1,24 @@
 {
+  "cf6eb5a5efa26403a9de025fb9d0e285" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8a007896e1a30dcb",
+      "status" : "failed",
+      "statusDetails" : "Element should be clickable: interactable and enabled {a.sly-tabs-list-item-title[9]}\nElement: '<a class=\"sly-tabs-list-item-title\" href=\"#tab-albums-990098\" id=\"tab-caption-albums-990098\" displayed:false></a>'\nActual value: hidden, opacity=1\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1743198824874.1.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1743198824874.1.html\nTimeout: 14 s.",
+      "time" : {
+        "start" : 1743198745639,
+        "stop" : 1743198825435,
+        "duration" : 79796
+      }
+    } ]
+  },
   "514ff39a5161779d81b58d4093ad1e81" : {
     "statistic" : {
       "failed" : 0,
@@ -9,50 +29,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "d41ea7f6124a9c25",
+      "uid" : "263cba0e6f02d452",
       "status" : "passed",
       "time" : {
-        "start" : 1743197014467,
-        "stop" : 1743197101692,
-        "duration" : 87225
-      }
-    } ]
-  },
-  "cf6eb5a5efa26403a9de025fb9d0e285" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "fdc0210dc457b525",
-      "status" : "passed",
-      "time" : {
-        "start" : 1743197334486,
-        "stop" : 1743197408818,
-        "duration" : 74332
-      }
-    } ]
-  },
-  "a7519d805367d6283d9556065d9c18b2" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "6c8b5b5a702c3a29",
-      "status" : "passed",
-      "time" : {
-        "start" : 1743197223368,
-        "stop" : 1743197253039,
-        "duration" : 29671
+        "start" : 1743198640443,
+        "stop" : 1743198725092,
+        "duration" : 84649
       }
     } ]
   },
@@ -66,12 +48,51 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "19dfd92aea7d4de4",
+      "uid" : "452da08b0ebdcda5",
       "status" : "passed",
       "time" : {
-        "start" : 1743197253042,
-        "stop" : 1743197309057,
-        "duration" : 56015
+        "start" : 1743198890242,
+        "stop" : 1743198937643,
+        "duration" : 47401
+      }
+    } ]
+  },
+  "a7519d805367d6283d9556065d9c18b2" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "70e8b90375a17d86",
+      "status" : "passed",
+      "time" : {
+        "start" : 1743198859993,
+        "stop" : 1743198890238,
+        "duration" : 30245
+      }
+    } ]
+  },
+  "755a3a699490e269aab4f1d6fe1dbddd" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "13e3dc4d50e04eff",
+      "status" : "broken",
+      "statusDetails" : "timeout: Timed out receiving message from renderer: -0.130\n  (Session info: chrome=134.0.6998.166)\nBuild info: version: '4.29.0', revision: '5fc1ec94cb'\nSystem info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.3.1', java.version: '22'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [1c384dceda942549a5e24f6296ada05d, get {url=https://netprint.ru/order/profile}]\nselenide.url: https://netprint.ru/order/profile\nCapabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 134.0.6998.166, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: /var/folders/y4/1rkt9z0s363...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63977}, networkConnectionEnabled: false, pageLoadStrategy: eager, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:63977/devtoo..., se:cdpVersion: 134.0.6998.166, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nselenide.baseUrl: https://netprint.ru/\nSession ID: 1c384dceda942549a5e24f6296ada05d",
+      "time" : {
+        "start" : 1743198640231,
+        "stop" : 1743198640231,
+        "duration" : 0
       }
     } ]
   },
@@ -85,12 +106,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "a18b14c7c9b2fa99",
+      "uid" : "e72d48ee87acae72",
       "status" : "passed",
       "time" : {
-        "start" : 1743196998945,
-        "stop" : 1743197014432,
-        "duration" : 15487
+        "start" : 1743198725096,
+        "stop" : 1743198745636,
+        "duration" : 20540
       }
     } ]
   },
@@ -104,12 +125,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "f6bc76708d9e149",
+      "uid" : "b7bd320dcc9e98cc",
       "status" : "passed",
       "time" : {
-        "start" : 1743197183420,
-        "stop" : 1743197223361,
-        "duration" : 39941
+        "start" : 1743198825439,
+        "stop" : 1743198859990,
+        "duration" : 34551
       }
     } ]
   }
