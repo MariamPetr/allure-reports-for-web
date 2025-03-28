@@ -1,0 +1,170 @@
+{
+  "uid" : "ac638beee4ebd3e2",
+  "name" : "Создание макета в SVG-редакторе",
+  "fullName" : "test.DemoOrderTest.SVGOrder",
+  "historyId" : "775a3d2a4e85ca9c8b290e2d0dfcf0c6",
+  "time" : {
+    "start" : 1743134312990,
+    "stop" : 1743134372128,
+    "duration" : 59138
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Авторизация по имейлу",
+      "time" : {
+        "start" : 1743134314273,
+        "stop" : 1743134332129,
+        "duration" : 17856
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Авторизация по e-token",
+      "time" : {
+        "start" : 1743134332129,
+        "stop" : 1743134333710,
+        "duration" : 1581
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Выбор категории меню",
+      "time" : {
+        "start" : 1743134333710,
+        "stop" : 1743134341320,
+        "duration" : 7610
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "menuSec",
+        "value" : "Фотокниги"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Выбор фотокниги Премиум и переход к оформлению",
+      "time" : {
+        "start" : 1743134341726,
+        "stop" : 1743134344060,
+        "duration" : 2334
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Отправка уведомления об успешном прохождении теста",
+      "time" : {
+        "start" : 1743134371567,
+        "stop" : 1743134371734,
+        "duration" : 167
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Закрываем браузер",
+      "time" : {
+        "start" : 1743134371734,
+        "stop" : 1743134372128,
+        "duration" : 394
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 6,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "Macs-Mac-mini.local"
+  }, {
+    "name" : "thread",
+    "value" : "71285@Macs-Mac-mini.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "test.DemoOrderTest"
+  }, {
+    "name" : "testClass",
+    "value" : "test.DemoOrderTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "SVGOrder"
+  }, {
+    "name" : "suite",
+    "value" : "test.DemoOrderTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "6cf36dda5f7df585",
+      "status" : "failed",
+      "statusDetails" : "Element should be clickable: interactable and enabled {button.Button-module___eSQbQ}\nElement: '<button class=\"\n        Button-module___eSQbQ\n        Button-module_light_hBIk1\n        Button-module_medium_GjSVq\n        \n        Button-module_fullWidth_aAQf2\n        \n        \n      \" type=\"submit\" displayed:false></button>'\nActual value: hidden, opacity=1\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1743134287949.0.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1743134287949.0.html\nTimeout: 14 s.",
+      "time" : {
+        "start" : 1743134222098,
+        "stop" : 1743134288947,
+        "duration" : 66849
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ac638beee4ebd3e2.json",
+  "parameterValues" : [ ]
+}
