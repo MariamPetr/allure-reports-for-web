@@ -1,58 +1,41 @@
 {
-  "514ff39a5161779d81b58d4093ad1e81" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "cbaff4bb7ae28190",
-      "status" : "passed",
-      "time" : {
-        "start" : 1743497005057,
-        "stop" : 1743497065920,
-        "duration" : 60863
-      }
-    } ]
-  },
   "cf6eb5a5efa26403a9de025fb9d0e285" : {
     "statistic" : {
-      "failed" : 0,
+      "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "6365db236a1fe063",
-      "status" : "passed",
+      "uid" : "d90574ab60b23284",
+      "status" : "failed",
+      "statusDetails" : "Element not found {a.sly-tabs-list-item-title[9]}\nExpected: clickable: interactable and enabled\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1743498058390.3.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1743498058390.3.html\nTimeout: 14 s.\nCaused by: java.lang.IndexOutOfBoundsException: Index 9 out of bounds for length 0",
       "time" : {
-        "start" : 1743497065923,
-        "stop" : 1743497127930,
-        "duration" : 62007
+        "start" : 1743497977288,
+        "stop" : 1743498058742,
+        "duration" : 81454
       }
     } ]
   },
-  "775a3d2a4e85ca9c8b290e2d0dfcf0c6" : {
+  "514ff39a5161779d81b58d4093ad1e81" : {
     "statistic" : {
-      "failed" : 0,
+      "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "3a02833da0899f7d",
-      "status" : "passed",
+      "uid" : "27ff9ea12916375f",
+      "status" : "failed",
+      "statusDetails" : "Invalid element state [button.btn-default[1]]: element click intercepted: Element <button class=\"btn btn-default btn-block\" ng-click=\"vm.onSaveDelivery()\" ng-disabled=\"vm.saveDeliveryLoading\">...</button> is not clickable at point (1541, 20). Other element would receive the click: <span id=\"login_bonuses\" class=\"text is_auth hidden desktop__bonuses desktop__bonuses--active\">...</span>\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1743497976981.2.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1743497976981.2.html\nTimeout: 14 s.\nCaused by: ElementClickInterceptedException: element click intercepted: Element <button class=\"btn btn-default btn-block\" ng-click=\"vm.onSaveDelivery()\" ng-disabled=\"vm.saveDeliveryLoading\">...</button> is not clickable at point (1541, 20). Other element would receive the click: <span id=\"login_bonuses\" class=\"text is_auth hidden desktop__bonuses desktop__bonuses--active\">...</span>",
       "time" : {
-        "start" : 1743497164096,
-        "stop" : 1743497201852,
-        "duration" : 37756
+        "start" : 1743497896837,
+        "stop" : 1743497977284,
+        "duration" : 80447
       }
     } ]
   },
@@ -66,12 +49,31 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "3f731f8a09d74a71",
+      "uid" : "f705d0930e8cd8e6",
       "status" : "passed",
       "time" : {
-        "start" : 1743497140323,
-        "stop" : 1743497164093,
-        "duration" : 23770
+        "start" : 1743497808578,
+        "stop" : 1743497838435,
+        "duration" : 29857
+      }
+    } ]
+  },
+  "775a3d2a4e85ca9c8b290e2d0dfcf0c6" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "be93fd820c163e11",
+      "status" : "passed",
+      "time" : {
+        "start" : 1743497838439,
+        "stop" : 1743497875231,
+        "duration" : 36792
       }
     } ]
   },
@@ -85,12 +87,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "34d90a44a3613cf6",
+      "uid" : "665adec40043f5ed",
       "status" : "passed",
       "time" : {
-        "start" : 1743496990048,
-        "stop" : 1743497005016,
-        "duration" : 14968
+        "start" : 1743497602390,
+        "stop" : 1743497624106,
+        "duration" : 21716
       }
     } ]
   },
@@ -104,12 +106,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "32e7170df0660fc1",
+      "uid" : "c48de438a505f2ae",
       "status" : "passed",
       "time" : {
-        "start" : 1743497127935,
-        "stop" : 1743497140318,
-        "duration" : 12383
+        "start" : 1743497784961,
+        "stop" : 1743497808575,
+        "duration" : 23614
       }
     } ]
   }
