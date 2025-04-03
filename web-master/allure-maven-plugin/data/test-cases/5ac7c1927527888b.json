@@ -1,0 +1,161 @@
+{
+  "uid" : "5ac7c1927527888b",
+  "name" : "Пополнение лицевого счёта в личном кабинете",
+  "fullName" : "test.DemoOrderTest.orderTopUpAccount",
+  "historyId" : "efa837afbc6d92b790a3a92ca90d555c",
+  "time" : {
+    "start" : 1743644608978,
+    "stop" : 1743644630804,
+    "duration" : 21826
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Авторизация по e-token",
+      "time" : {
+        "start" : 1743644611208,
+        "stop" : 1743644613666,
+        "duration" : 2458
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Открыть личный кабинет",
+      "time" : {
+        "start" : 1743644613671,
+        "stop" : 1743644618659,
+        "duration" : 4988
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Выбор раздела Мои финансы",
+      "time" : {
+        "start" : 1743644618659,
+        "stop" : 1743644629206,
+        "duration" : 10547
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Заполнить данные для пополнения Лицевого счета",
+      "time" : {
+        "start" : 1743644629206,
+        "stop" : 1743644630286,
+        "duration" : 1080
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "sum",
+        "value" : "11"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Отправка уведомления об успешном прохождении теста",
+      "time" : {
+        "start" : 1743644630286,
+        "stop" : 1743644630489,
+        "duration" : 203
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Закрываем браузер",
+      "time" : {
+        "start" : 1743644630490,
+        "stop" : 1743644630799,
+        "duration" : 309
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 6,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "Macs-Mac-mini.local"
+  }, {
+    "name" : "thread",
+    "value" : "18725@Macs-Mac-mini.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "test.DemoOrderTest"
+  }, {
+    "name" : "testClass",
+    "value" : "test.DemoOrderTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "orderTopUpAccount"
+  }, {
+    "name" : "suite",
+    "value" : "test.DemoOrderTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5ac7c1927527888b.json",
+  "parameterValues" : [ ]
+}
