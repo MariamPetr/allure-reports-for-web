@@ -1,6 +1,25 @@
 {
   "514ff39a5161779d81b58d4093ad1e81" : {
     "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4200c9f56122340c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1743767627036,
+        "stop" : 1743767712665,
+        "duration" : 85629
+      }
+    } ]
+  },
+  "cf6eb5a5efa26403a9de025fb9d0e285" : {
+    "statistic" : {
       "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
@@ -9,51 +28,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "95978da39e1f7f18",
+      "uid" : "22ab2628149b328d",
       "status" : "failed",
-      "statusDetails" : "Invalid element state [button.btn-default[1]]: element click intercepted: Element <button class=\"btn btn-default btn-block\" ng-click=\"vm.onSaveDelivery()\" ng-disabled=\"vm.saveDeliveryLoading\">...</button> is not clickable at point (1541, 20). Other element would receive the click: <span id=\"login_bonuses\" class=\"text is_auth hidden desktop__bonuses desktop__bonuses--active\">...</span>\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1743767370036.1.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1743767370036.1.html\nTimeout: 14 s.\nCaused by: ElementClickInterceptedException: element click intercepted: Element <button class=\"btn btn-default btn-block\" ng-click=\"vm.onSaveDelivery()\" ng-disabled=\"vm.saveDeliveryLoading\">...</button> is not clickable at point (1541, 20). Other element would receive the click: <span id=\"login_bonuses\" class=\"text is_auth hidden desktop__bonuses desktop__bonuses--active\">...</span>",
+      "statusDetails" : "Element should be clickable: interactable and enabled {a.sly-tabs-list-item-title[9]}\nElement: '<a class=\"sly-tabs-list-item-title\" href=\"#tab-albums-536461\" id=\"tab-caption-albums-536461\" displayed:false></a>'\nActual value: hidden, opacity=1\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1743768045803.2.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1743768045803.2.html\nTimeout: 14 s.",
       "time" : {
-        "start" : 1743767282208,
-        "stop" : 1743767370437,
-        "duration" : 88229
-      }
-    } ]
-  },
-  "cf6eb5a5efa26403a9de025fb9d0e285" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "8d130c0f572be8a8",
-      "status" : "passed",
-      "time" : {
-        "start" : 1743767080858,
-        "stop" : 1743767151521,
-        "duration" : 70663
-      }
-    } ]
-  },
-  "a7519d805367d6283d9556065d9c18b2" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "ddc079053917297a",
-      "status" : "passed",
-      "time" : {
-        "start" : 1743767185298,
-        "stop" : 1743767216965,
-        "duration" : 31667
+        "start" : 1743767966554,
+        "stop" : 1743768046367,
+        "duration" : 79813
       }
     } ]
   },
@@ -67,12 +48,31 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "c07c667eaf886514",
+      "uid" : "2445204177bfd2b6",
       "status" : "passed",
       "time" : {
-        "start" : 1743767216967,
-        "stop" : 1743767259834,
-        "duration" : 42867
+        "start" : 1743767855747,
+        "stop" : 1743767905801,
+        "duration" : 50054
+      }
+    } ]
+  },
+  "a7519d805367d6283d9556065d9c18b2" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2ff60d26247263bf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1743767824946,
+        "stop" : 1743767855744,
+        "duration" : 30798
       }
     } ]
   },
@@ -86,12 +86,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "1faf373a8471a609",
+      "uid" : "a8d88a6b7d870c25",
       "status" : "passed",
       "time" : {
-        "start" : 1743766995229,
-        "stop" : 1743767017778,
-        "duration" : 22549
+        "start" : 1743767602833,
+        "stop" : 1743767626987,
+        "duration" : 24154
       }
     } ]
   },
@@ -105,12 +105,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "5df27724c7b34a23",
+      "uid" : "c19a074e22764c19",
       "status" : "passed",
       "time" : {
-        "start" : 1743767151526,
-        "stop" : 1743767185294,
-        "duration" : 33768
+        "start" : 1743767929365,
+        "stop" : 1743767966551,
+        "duration" : 37186
       }
     } ]
   }
