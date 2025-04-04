@@ -1,5 +1,43 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "name" : "categories",
-  "children" : [ ]
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Invalid element state [by text: OK]: element click intercepted: Element <div class=\"ph-btn ph-popup-btn--js btn_default\" data-code=\"...\">OK</div> is not clickable at point (816, 490). Other element would receive the click: <iframe id=\"fl-298571\" title=\"Flocktory widget\" frameborder=\"0\" scrolling=\"no\" class=\"flocktory-widget\" style=\"width: 600px; height: 388px;\"></iframe>\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1743776919018.0.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1743776919018.0.html\nTimeout: 14 s.\nCaused by: ElementClickInterceptedException: element click intercepted: Element <div class=\"ph-btn ph-popup-btn--js btn_default\" data-code=\"...\">OK</div> is not clickable at point (816, 490). Other element would receive the click: <iframe id=\"fl-298571\" title=\"Flocktory widget\" frameborder=\"0\" scrolling=\"no\" class=\"flocktory-widget\" style=\"width: 600px; height: 388px;\"></iframe>",
+      "children" : [ {
+        "name" : "DemoOrderTest",
+        "uid" : "1437c184b3618ae3",
+        "parentUid" : "aec62cfeac1b4431c439c5912a25237d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1743776919162,
+          "stop" : 1743776919162,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "aec62cfeac1b4431c439c5912a25237d"
+    }, {
+      "name" : "Element should be clickable: interactable and enabled {a[href='https://netprint.ru/moscow/calendars/karmannye-kalendari']}\nElement: '<a data-sub-link=\"sub-link\" href=\"https://netprint.ru/moscow/calendars/karmannye-kalendari\" displayed:false></a>'\nActual value: hidden, opacity=1\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1743776953117.1.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1743776953117.1.html\nTimeout: 14 s.",
+      "children" : [ {
+        "name" : "Заказ карманного календарика: авторизованный юзер",
+        "uid" : "682318994e75588f",
+        "parentUid" : "b86b8e1f3ca8ef6fe19a143bdb0f52c0",
+        "status" : "failed",
+        "time" : {
+          "start" : 1743776932921,
+          "stop" : 1743776953586,
+          "duration" : 20665
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b86b8e1f3ca8ef6fe19a143bdb0f52c0"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
 }
