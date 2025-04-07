@@ -2,131 +2,131 @@
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "name" : "categories",
   "children" : [ {
-    "name" : "Product defects",
-    "children" : [ {
-      "name" : "Element not found {by text: Фотографии}\nExpected: exist\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1743990977750.4.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1743990977750.4.html\nTimeout: 14 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\".//*/text()[normalize-space(translate(string(.), '",
-      "children" : [ {
-        "name" : "Заказ постера: неавторизованный юзер",
-        "uid" : "a07b806fda96eb7d",
-        "parentUid" : "620e496d2898ec0fe4678a3052d9470d",
-        "status" : "failed",
-        "time" : {
-          "start" : 1743990962399,
-          "stop" : 1743990978047,
-          "duration" : 15648
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "620e496d2898ec0fe4678a3052d9470d"
-    }, {
-      "name" : "Element not found {by text: Календари}\nExpected: exist\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1743991099601.5.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1743991099601.5.html\nTimeout: 14 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\".//*/text()[normalize-space(translate(string(.), '",
-      "children" : [ {
-        "name" : "Заказ карманного календарика: авторизованный юзер",
-        "uid" : "aa353d61f09373c3",
-        "parentUid" : "05441a6afe6091d7b49ffc79d3d11797",
-        "status" : "failed",
-        "time" : {
-          "start" : 1743991053764,
-          "stop" : 1743991099875,
-          "duration" : 46111
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "05441a6afe6091d7b49ffc79d3d11797"
-    } ],
-    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
-  }, {
     "name" : "Test defects",
     "children" : [ {
-      "name" : "timeout: Timed out receiving message from renderer: 30.000\n  (Session info: chrome=134.0.6998.167)\nBuild info: version: '4.29.0', revision: '5fc1ec94cb'\nSystem info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.3.1', java.version: '22'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [0e34f33bd73fa0c492524ece677986a7, refresh {}]\nCapabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 134.0.6998.167, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: /var/folders/y4/1rkt9z0s363...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52734}, networkConnectionEnabled: false, pageLoadStrategy: eager, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:52734/devtoo..., se:cdpVersion: 134.0.6998.167, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 0e34f33bd73fa0c492524ece677986a7",
+      "name" : "timeout: Timed out receiving message from renderer: 29.997\n  (Session info: chrome=134.0.6998.167)\nBuild info: version: '4.29.0', revision: '5fc1ec94cb'\nSystem info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.3.1', java.version: '22'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [0d6aebe9a38c5970a6d857b53ecd3edf, refresh {}]\nCapabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 134.0.6998.167, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: /var/folders/y4/1rkt9z0s363...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54030}, networkConnectionEnabled: false, pageLoadStrategy: eager, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:54030/devtoo..., se:cdpVersion: 134.0.6998.167, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 0d6aebe9a38c5970a6d857b53ecd3edf",
+      "children" : [ {
+        "name" : "Заказ постера: неавторизованный юзер",
+        "uid" : "a2d6283d13753f84",
+        "parentUid" : "23bed4418a0e966b188faae17d75bf89",
+        "status" : "broken",
+        "time" : {
+          "start" : 1743992590985,
+          "stop" : 1743992687817,
+          "duration" : 96832
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "23bed4418a0e966b188faae17d75bf89"
+    }, {
+      "name" : "timeout: Timed out receiving message from renderer: -0.037\n  (Session info: chrome=134.0.6998.167)\nBuild info: version: '4.29.0', revision: '5fc1ec94cb'\nSystem info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.3.1', java.version: '22'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [5fad3841bf09e4aeb105fabb37e09c5a, get {url=https://netprint.ru/}]\nselenide.url: https://netprint.ru/\nCapabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 134.0.6998.167, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: /var/folders/y4/1rkt9z0s363...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54121}, networkConnectionEnabled: false, pageLoadStrategy: eager, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:54121/devtoo..., se:cdpVersion: 134.0.6998.167, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nselenide.baseUrl: https://netprint.ru/\nSession ID: 5fad3841bf09e4aeb105fabb37e09c5a",
       "children" : [ {
         "name" : "Создание макета в SVG-редакторе",
-        "uid" : "42a85b876ef1378f",
-        "parentUid" : "6234a650512ac5f02ea557341c49192f",
+        "uid" : "7c55ac751c8ec70d",
+        "parentUid" : "fe5a82b7a807ed54c76e2bbc49c3c02d",
         "status" : "broken",
         "time" : {
-          "start" : 1743990978054,
-          "stop" : 1743991022317,
-          "duration" : 44263
+          "start" : 1743992687825,
+          "stop" : 1743992719024,
+          "duration" : 31199
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "6234a650512ac5f02ea557341c49192f"
+      "uid" : "fe5a82b7a807ed54c76e2bbc49c3c02d"
     }, {
-      "name" : "timeout: Timed out receiving message from renderer: -0.150\n  (Session info: chrome=134.0.6998.167)\nBuild info: version: '4.29.0', revision: '5fc1ec94cb'\nSystem info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.3.1', java.version: '22'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [2d6eeeb22fcb73466ddaf7d2bafc2d83, get {url=https://netprint.ru/}]\nselenide.url: https://netprint.ru/\nCapabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 134.0.6998.167, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: /var/folders/y4/1rkt9z0s363...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52802}, networkConnectionEnabled: false, pageLoadStrategy: eager, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:52802/devtoo..., se:cdpVersion: 134.0.6998.167, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nselenide.baseUrl: https://netprint.ru/\nSession ID: 2d6eeeb22fcb73466ddaf7d2bafc2d83",
+      "name" : "timeout: Timed out receiving message from renderer: -0.150\n  (Session info: chrome=134.0.6998.167)\nBuild info: version: '4.29.0', revision: '5fc1ec94cb'\nSystem info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.3.1', java.version: '22'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [b9347f5f35579b379708b0320e37d926, get {url=https://netprint.ru/order/profile}]\nselenide.url: https://netprint.ru/order/profile\nCapabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 134.0.6998.167, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: /var/folders/y4/1rkt9z0s363...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54138}, networkConnectionEnabled: false, pageLoadStrategy: eager, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:54138/devtoo..., se:cdpVersion: 134.0.6998.167, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nselenide.baseUrl: https://netprint.ru/\nSession ID: b9347f5f35579b379708b0320e37d926",
       "children" : [ {
         "name" : "Пополнение лицевого счёта в личном кабинете",
-        "uid" : "18367f384cf5843a",
-        "parentUid" : "85df4ccf7ea7a6c3e2714d099bc77f83",
+        "uid" : "211d41bfcfe40d9b",
+        "parentUid" : "a8b8092e283e681b4677e364d81a7998",
         "status" : "broken",
         "time" : {
-          "start" : 1743991022321,
-          "stop" : 1743991053753,
-          "duration" : 31432
+          "start" : 1743992719031,
+          "stop" : 1743992751468,
+          "duration" : 32437
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "85df4ccf7ea7a6c3e2714d099bc77f83"
+      "uid" : "a8b8092e283e681b4677e364d81a7998"
     }, {
-      "name" : "timeout: Timed out receiving message from renderer: -0.105\n  (Session info: chrome=134.0.6998.167)\nBuild info: version: '4.29.0', revision: '5fc1ec94cb'\nSystem info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.3.1', java.version: '22'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [28592e2276535c44275b0996efe9b0dd, get {url=https://netprint.ru/}]\nselenide.url: https://netprint.ru/\nCapabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 134.0.6998.167, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: /var/folders/y4/1rkt9z0s363...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52907}, networkConnectionEnabled: false, pageLoadStrategy: eager, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:52907/devtoo..., se:cdpVersion: 134.0.6998.167, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nselenide.baseUrl: https://netprint.ru/\nSession ID: 28592e2276535c44275b0996efe9b0dd",
+      "name" : "timeout: Timed out receiving message from renderer: 29.995\n  (Session info: chrome=134.0.6998.167)\nBuild info: version: '4.29.0', revision: '5fc1ec94cb'\nSystem info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.3.1', java.version: '22'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [3754d3eae956e05187ffbb91c1cbf515, refresh {}]\nCapabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 134.0.6998.167, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: /var/folders/y4/1rkt9z0s363...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54245}, networkConnectionEnabled: false, pageLoadStrategy: eager, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:54245/devtoo..., se:cdpVersion: 134.0.6998.167, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 3754d3eae956e05187ffbb91c1cbf515",
       "children" : [ {
         "name" : "Создание книги в онлайн-редакторе",
-        "uid" : "463d817104930edb",
-        "parentUid" : "f21667c92322045f67011238066eb7ec",
+        "uid" : "39730f9c1368128c",
+        "parentUid" : "bbaf81be291bbad24ed264e2e3455a0e",
         "status" : "broken",
         "time" : {
-          "start" : 1743991099879,
-          "stop" : 1743991131288,
-          "duration" : 31409
+          "start" : 1743992789320,
+          "stop" : 1743992824887,
+          "duration" : 35567
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "f21667c92322045f67011238066eb7ec"
+      "uid" : "bbaf81be291bbad24ed264e2e3455a0e"
     }, {
-      "name" : "Index 1 out of bounds for length 0",
+      "name" : "timeout: Timed out receiving message from renderer: -0.067\n  (Session info: chrome=134.0.6998.167)\nBuild info: version: '4.29.0', revision: '5fc1ec94cb'\nSystem info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.3.1', java.version: '22'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [7ddc1b070ed90c3e1ee5969c9271ccce, get {url=https://netprint.ru/order/profile}]\nselenide.url: https://netprint.ru/order/profile\nCapabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 134.0.6998.167, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: /var/folders/y4/1rkt9z0s363...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54265}, networkConnectionEnabled: false, pageLoadStrategy: eager, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:54265/devtoo..., se:cdpVersion: 134.0.6998.167, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nselenide.baseUrl: https://netprint.ru/\nSession ID: 7ddc1b070ed90c3e1ee5969c9271ccce",
       "children" : [ {
         "name" : "Загрузка фото в альбом",
-        "uid" : "faf2965df5ac2aa7",
-        "parentUid" : "47d82206d557e7edbd0d77bb385542aa",
+        "uid" : "9728794d06e4966",
+        "parentUid" : "482b3786d31dd4cda4c10c8d102b044d",
         "status" : "broken",
         "time" : {
-          "start" : 1743991131298,
-          "stop" : 1743991158857,
-          "duration" : 27559
+          "start" : 1743992824894,
+          "stop" : 1743992891871,
+          "duration" : 66977
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "47d82206d557e7edbd0d77bb385542aa"
+      "uid" : "482b3786d31dd4cda4c10c8d102b044d"
     }, {
-      "name" : "timeout: Timed out receiving message from renderer: -0.150\n  (Session info: chrome=134.0.6998.167)\nBuild info: version: '4.29.0', revision: '5fc1ec94cb'\nSystem info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.3.1', java.version: '22'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [82a27f14cfe5f579e9ee75da201d23f5, get {url=https://netprint.ru/order/profile-order-history/}]\nselenide.url: https://netprint.ru/order/profile-order-history/\nCapabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 134.0.6998.167, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: /var/folders/y4/1rkt9z0s363...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52944}, networkConnectionEnabled: false, pageLoadStrategy: eager, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:52944/devtoo..., se:cdpVersion: 134.0.6998.167, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nselenide.baseUrl: https://netprint.ru/\nSession ID: 82a27f14cfe5f579e9ee75da201d23f5",
+      "name" : "timeout: Timed out receiving message from renderer: 29.994\n  (Session info: chrome=134.0.6998.167)\nBuild info: version: '4.29.0', revision: '5fc1ec94cb'\nSystem info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.3.1', java.version: '22'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [b8baa39d9b8d09606d746a93885c410b, refresh {}]\nCapabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 134.0.6998.167, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: /var/folders/y4/1rkt9z0s363...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54374}, networkConnectionEnabled: false, pageLoadStrategy: eager, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:54374/devtoo..., se:cdpVersion: 134.0.6998.167, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: b8baa39d9b8d09606d746a93885c410b",
       "children" : [ {
         "name" : "DemoOrderTest",
-        "uid" : "e14fa1e5f377ceed",
-        "parentUid" : "8e3054e3e07e78263fa376052a6e74f9",
+        "uid" : "99e893339b5ee14b",
+        "parentUid" : "d148a69dce2c5deffa156ccc88181598",
         "status" : "broken",
         "time" : {
-          "start" : 1743991201154,
-          "stop" : 1743991201154,
+          "start" : 1743992925854,
+          "stop" : 1743992925854,
           "duration" : 0
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "8e3054e3e07e78263fa376052a6e74f9"
+      "uid" : "d148a69dce2c5deffa156ccc88181598"
     } ],
     "uid" : "bdbf199525818fae7a8651db9eafe741"
+  }, {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Element not found {by text: Календари}\nExpected: exist\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1743992789027.1.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1743992789027.1.html\nTimeout: 14 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\".//*/text()[normalize-space(translate(string(.), '",
+      "children" : [ {
+        "name" : "Заказ карманного календарика: авторизованный юзер",
+        "uid" : "d4b140725ca3b32",
+        "parentUid" : "49d9e1dbf166eb702938bcebbf103115",
+        "status" : "failed",
+        "time" : {
+          "start" : 1743992751480,
+          "stop" : 1743992789315,
+          "duration" : 37835
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "49d9e1dbf166eb702938bcebbf103115"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
   } ]
 }
