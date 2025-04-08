@@ -1,5 +1,26 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "name" : "categories",
-  "children" : [ ]
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Invalid element state [button.btn-default[1]]: element click intercepted: Element <button class=\"btn btn-default btn-block\" ng-click=\"vm.onSaveDelivery()\" ng-disabled=\"vm.saveDeliveryLoading\">...</button> is not clickable at point (1541, 20). Other element would receive the click: <span id=\"login_bonuses\" class=\"text is_auth hidden desktop__bonuses desktop__bonuses--active\">...</span>\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1744120767377.2.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1744120767377.2.html\nTimeout: 14 s.\nCaused by: ElementClickInterceptedException: element click intercepted: Element <button class=\"btn btn-default btn-block\" ng-click=\"vm.onSaveDelivery()\" ng-disabled=\"vm.saveDeliveryLoading\">...</button> is not clickable at point (1541, 20). Other element would receive the click: <span id=\"login_bonuses\" class=\"text is_auth hidden desktop__bonuses desktop__bonuses--active\">...</span>",
+      "children" : [ {
+        "name" : "Заказ карманного календарика: авторизованный юзер",
+        "uid" : "f577733fcccc2c76",
+        "parentUid" : "d3f75126542febd6db32622f6d743994",
+        "status" : "failed",
+        "time" : {
+          "start" : 1744120684889,
+          "stop" : 1744120767804,
+          "duration" : 82915
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d3f75126542febd6db32622f6d743994"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
 }
