@@ -4,28 +4,67 @@
   "children" : [ {
     "name" : "Macs-Mac-mini.local",
     "children" : [ {
-      "name" : "38240@Macs-Mac-mini.local.main(1)",
+      "name" : "39708@Macs-Mac-mini.local.main(1)",
       "children" : [ {
-        "name" : "Заказ постера: неавторизованный юзер",
-        "uid" : "c5f31bfdc35c4bb5",
-        "parentUid" : "35ba31fc42b209ec0736b4d8556255f1",
+        "name" : "Пополнение лицевого счёта в личном кабинете",
+        "uid" : "7bdab173ce31da2f",
+        "parentUid" : "567a3cdd4707b608dc37a7923e38270d",
         "status" : "passed",
         "time" : {
-          "start" : 1745384151871,
-          "stop" : 1745384190695,
-          "duration" : 38824
+          "start" : 1745385795625,
+          "stop" : 1745385817375,
+          "duration" : 21750
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Заказ постера: неавторизованный юзер",
+        "uid" : "83bfd6c16f5b784d",
+        "parentUid" : "567a3cdd4707b608dc37a7923e38270d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1745385977090,
+          "stop" : 1745386012324,
+          "duration" : 35234
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Заказ карманного календарика: авторизованный юзер",
+        "uid" : "3231143acc88f1da",
+        "parentUid" : "567a3cdd4707b608dc37a7923e38270d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1745385817406,
+          "stop" : 1745385902165,
+          "duration" : 84759
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Загрузка фото в альбом",
+        "uid" : "e9fa910b6ea3fd2",
+        "parentUid" : "567a3cdd4707b608dc37a7923e38270d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1745386012328,
+          "stop" : 1745386043459,
+          "duration" : 31131
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "Создание макета в SVG-редакторе",
-        "uid" : "62cd172d8b3b5ab3",
-        "parentUid" : "35ba31fc42b209ec0736b4d8556255f1",
+        "uid" : "9043cd63de9140f2",
+        "parentUid" : "567a3cdd4707b608dc37a7923e38270d",
         "status" : "skipped",
         "time" : {
-          "start" : 1745384222186,
-          "stop" : 1745384222186,
+          "start" : 1745386043464,
+          "stop" : 1745386043464,
           "duration" : 0
         },
         "flaky" : false,
@@ -33,58 +72,32 @@
         "parameters" : [ ]
       }, {
         "name" : "Создание книги в онлайн-редакторе",
-        "uid" : "39a218731bbbef8a",
-        "parentUid" : "35ba31fc42b209ec0736b4d8556255f1",
-        "status" : "passed",
+        "uid" : "25fd0360108bd788",
+        "parentUid" : "567a3cdd4707b608dc37a7923e38270d",
+        "status" : "failed",
         "time" : {
-          "start" : 1745384087748,
-          "stop" : 1745384151866,
-          "duration" : 64118
+          "start" : 1745386074839,
+          "stop" : 1745386228579,
+          "duration" : 153740
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
-        "name" : "Загрузка фото в альбом",
-        "uid" : "ecb65c0e0d9bee7f",
-        "parentUid" : "35ba31fc42b209ec0736b4d8556255f1",
-        "status" : "passed",
+        "name" : "Создание книги в онлайн-редакторе",
+        "uid" : "aa6e838fcee8efb0",
+        "parentUid" : "567a3cdd4707b608dc37a7923e38270d",
+        "status" : "failed",
         "time" : {
-          "start" : 1745384190700,
-          "stop" : 1745384222179,
-          "duration" : 31479
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "Заказ карманного календарика: авторизованный юзер",
-        "uid" : "f68619fb254dfdc6",
-        "parentUid" : "35ba31fc42b209ec0736b4d8556255f1",
-        "status" : "passed",
-        "time" : {
-          "start" : 1745384013770,
-          "stop" : 1745384087744,
-          "duration" : 73974
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "Пополнение лицевого счёта в личном кабинете",
-        "uid" : "4ddf1af8761970aa",
-        "parentUid" : "35ba31fc42b209ec0736b4d8556255f1",
-        "status" : "passed",
-        "time" : {
-          "start" : 1745383992721,
-          "stop" : 1745384013733,
-          "duration" : 21012
+          "start" : 1745385902168,
+          "stop" : 1745385977065,
+          "duration" : 74897
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "35ba31fc42b209ec0736b4d8556255f1"
+      "uid" : "567a3cdd4707b608dc37a7923e38270d"
     } ],
     "uid" : "7f8d24ada097d96e12f97286ea47e005"
   } ]
