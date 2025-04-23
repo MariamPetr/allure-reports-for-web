@@ -1,25 +1,6 @@
 {
   "cf6eb5a5efa26403a9de025fb9d0e285" : {
     "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "294c56cb9778ddae",
-      "status" : "passed",
-      "time" : {
-        "start" : 1745412339907,
-        "stop" : 1745412403324,
-        "duration" : 63417
-      }
-    } ]
-  },
-  "514ff39a5161779d81b58d4093ad1e81" : {
-    "statistic" : {
       "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
@@ -28,33 +9,32 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "b680f3c441b66548",
+      "uid" : "85807231013886c4",
       "status" : "failed",
-      "statusDetails" : "Invalid element state [button.btn-default[1]]: element click intercepted: Element <button class=\"btn btn-default btn-block\" ng-click=\"vm.onSaveDelivery()\" ng-disabled=\"vm.saveDeliveryLoading\">...</button> is not clickable at point (1541, 20). Other element would receive the click: <span id=\"login_bonuses\" class=\"text is_auth hidden desktop__bonuses desktop__bonuses--active\">...</span>\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1745412590820.1.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1745412590820.1.html\nTimeout: 14 s.\nCaused by: ElementClickInterceptedException: element click intercepted: Element <button class=\"btn btn-default btn-block\" ng-click=\"vm.onSaveDelivery()\" ng-disabled=\"vm.saveDeliveryLoading\">...</button> is not clickable at point (1541, 20). Other element would receive the click: <span id=\"login_bonuses\" class=\"text is_auth hidden desktop__bonuses desktop__bonuses--active\">...</span>",
+      "statusDetails" : "Element should be clickable: interactable and enabled {by text: Твердая обложка}\nElement: '<a data-sub-link=\"sub-link\" href=\"https://netprint.ru/moscow/photobooks/photobook-premium-hard-cover\" displayed:false></a>'\nActual value: hidden, opacity=1\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1745413214496.2.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1745413214496.2.html\nTimeout: 14 s.",
       "time" : {
-        "start" : 1745412500979,
-        "stop" : 1745412591555,
-        "duration" : 90576
+        "start" : 1745413189204,
+        "stop" : 1745413215963,
+        "duration" : 26759
       }
     } ]
   },
-  "775a3d2a4e85ca9c8b290e2d0dfcf0c6" : {
+  "514ff39a5161779d81b58d4093ad1e81" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
-      "skipped" : 1,
-      "passed" : 0,
+      "skipped" : 0,
+      "passed" : 1,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "659e44bf70b33ec6",
-      "status" : "skipped",
-      "statusDetails" : "void test.DemoOrderTest.SVGOrder() is @Disabled",
+      "uid" : "2f2717bd1fba1246",
+      "status" : "passed",
       "time" : {
-        "start" : 1745412477056,
-        "stop" : 1745412477056,
-        "duration" : 0
+        "start" : 1745413096701,
+        "stop" : 1745413189200,
+        "duration" : 92499
       }
     } ]
   },
@@ -68,12 +48,32 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "2f3097937ddd10db",
+      "uid" : "a2727fc2261b3280",
       "status" : "passed",
       "time" : {
-        "start" : 1745412444218,
-        "stop" : 1745412477050,
-        "duration" : 32832
+        "start" : 1745413042103,
+        "stop" : 1745413075587,
+        "duration" : 33484
+      }
+    } ]
+  },
+  "775a3d2a4e85ca9c8b290e2d0dfcf0c6" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9c13c75b74056f8c",
+      "status" : "skipped",
+      "statusDetails" : "void test.DemoOrderTest.SVGOrder() is @Disabled",
+      "time" : {
+        "start" : 1745413075593,
+        "stop" : 1745413075593,
+        "duration" : 0
       }
     } ]
   },
@@ -87,12 +87,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "94176360eb24d8de",
+      "uid" : "6c1a9bfa56cb0400",
       "status" : "passed",
       "time" : {
-        "start" : 1745412223992,
-        "stop" : 1745412247106,
-        "duration" : 23114
+        "start" : 1745412793541,
+        "stop" : 1745412815538,
+        "duration" : 21997
       }
     } ]
   },
@@ -106,12 +106,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "5830a46a6c11b420",
+      "uid" : "661cb67a27252df2",
       "status" : "passed",
       "time" : {
-        "start" : 1745412403327,
-        "stop" : 1745412444214,
-        "duration" : 40887
+        "start" : 1745413001841,
+        "stop" : 1745413042098,
+        "duration" : 40257
       }
     } ]
   }
