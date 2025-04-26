@@ -1,24 +1,4 @@
 {
-  "514ff39a5161779d81b58d4093ad1e81" : {
-    "statistic" : {
-      "failed" : 1,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "10699742cb9a180f",
-      "status" : "failed",
-      "statusDetails" : "Invalid element state [button.btn-default[1]]: element click intercepted: Element <button class=\"btn btn-default btn-block\" ng-click=\"vm.onSaveDelivery()\" ng-disabled=\"vm.saveDeliveryLoading\">...</button> is not clickable at point (1541, 20). Other element would receive the click: <span id=\"login_bonuses\" class=\"text is_auth hidden desktop__bonuses desktop__bonuses--active\">...</span>\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1745671184324.1.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1745671184324.1.html\nTimeout: 14 s.\nCaused by: ElementClickInterceptedException: element click intercepted: Element <button class=\"btn btn-default btn-block\" ng-click=\"vm.onSaveDelivery()\" ng-disabled=\"vm.saveDeliveryLoading\">...</button> is not clickable at point (1541, 20). Other element would receive the click: <span id=\"login_bonuses\" class=\"text is_auth hidden desktop__bonuses desktop__bonuses--active\">...</span>",
-      "time" : {
-        "start" : 1745671100748,
-        "stop" : 1745671185164,
-        "duration" : 84416
-      }
-    } ]
-  },
   "cf6eb5a5efa26403a9de025fb9d0e285" : {
     "statistic" : {
       "failed" : 0,
@@ -29,31 +9,32 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "d5028d060f10e932",
+      "uid" : "6ecab4020f3bc5fc",
       "status" : "passed",
       "time" : {
-        "start" : 1745670815885,
-        "stop" : 1745670889167,
-        "duration" : 73282
+        "start" : 1745671483579,
+        "stop" : 1745671555798,
+        "duration" : 72219
       }
     } ]
   },
-  "775a3d2a4e85ca9c8b290e2d0dfcf0c6" : {
+  "514ff39a5161779d81b58d4093ad1e81" : {
     "statistic" : {
-      "failed" : 0,
+      "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "4d56cde1dc056ce",
-      "status" : "passed",
+      "uid" : "5ba74d8a4d10e51a",
+      "status" : "failed",
+      "statusDetails" : "Element not found {div.porch-album-tile-cover}\nExpected: clickable: interactable and enabled\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1745672884377.3.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1745672884377.3.html\nTimeout: 14 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"div.porch-album-tile-cover\"}",
       "time" : {
-        "start" : 1745670961807,
-        "stop" : 1745671078027,
-        "duration" : 116220
+        "start" : 1745672835438,
+        "stop" : 1745672885031,
+        "duration" : 49593
       }
     } ]
   },
@@ -67,12 +48,32 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "31a44a3e3415d424",
+      "uid" : "1757fd55335600f2",
       "status" : "passed",
       "time" : {
-        "start" : 1745670929393,
-        "stop" : 1745670961803,
-        "duration" : 32410
+        "start" : 1745671594270,
+        "stop" : 1745671628236,
+        "duration" : 33966
+      }
+    } ]
+  },
+  "775a3d2a4e85ca9c8b290e2d0dfcf0c6" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e02c661c94c00fc7",
+      "status" : "failed",
+      "statusDetails" : "Invalid element state [by text: Далее]: element click intercepted: Element <button type=\"button\" class=\"_btn_1ewz7_94 _main_btn_1ewz7_154 _primary_1ewz7_181\" data-testid=\"edit-template-header-submit-btn\">...</button> is not clickable at point (1832, 32). Other element would receive the click: <button type=\"button\" class=\"_btn_1ewz7_94 _main_btn_1ewz7_154 _primary_1ewz7_181 _disabled_1ewz7_185\" data-testid=\"photo-chooser-header-submit-btn\" disabled=\"\">...</button>\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1745672819397.2.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1745672819397.2.html\nTimeout: 14 s.\nCaused by: ElementClickInterceptedException: element click intercepted: Element <button type=\"button\" class=\"_btn_1ewz7_94 _main_btn_1ewz7_154 _primary_1ewz7_181\" data-testid=\"edit-template-header-submit-btn\">...</button> is not clickable at point (1832, 32). Other element would receive the click: <button type=\"button\" class=\"_btn_1ewz7_94 _main_btn_1ewz7_154 _primary_1ewz7_181 _disabled_1ewz7_185\" data-testid=\"photo-chooser-header-submit-btn\" disabled=\"\">...</button>",
+      "time" : {
+        "start" : 1745672177626,
+        "stop" : 1745672835422,
+        "duration" : 657796
       }
     } ]
   },
@@ -86,12 +87,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "1fef85cd86a2dad0",
+      "uid" : "9a821b755022335",
       "status" : "passed",
       "time" : {
-        "start" : 1745670707935,
-        "stop" : 1745670729163,
-        "duration" : 21228
+        "start" : 1745671376418,
+        "stop" : 1745671397517,
+        "duration" : 21099
       }
     } ]
   },
@@ -105,12 +106,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "f9e3d446c8c041d3",
+      "uid" : "9895b2ed99e416d3",
       "status" : "passed",
       "time" : {
-        "start" : 1745670889170,
-        "stop" : 1745670929389,
-        "duration" : 40219
+        "start" : 1745671555801,
+        "stop" : 1745671594266,
+        "duration" : 38465
       }
     } ]
   }
