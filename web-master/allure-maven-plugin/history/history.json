@@ -1,20 +1,21 @@
 {
   "514ff39a5161779d81b58d4093ad1e81" : {
     "statistic" : {
-      "failed" : 0,
+      "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "fe635b483a0d591d",
-      "status" : "passed",
+      "uid" : "6eee3ec9c6fa5473",
+      "status" : "failed",
+      "statusDetails" : "Invalid element state [button.btn-default[1]]: element click intercepted: Element <button class=\"btn btn-default btn-block\" ng-click=\"vm.onSaveDelivery()\" ng-disabled=\"vm.saveDeliveryLoading\">...</button> is not clickable at point (1541, 20). Other element would receive the click: <span id=\"login_bonuses\" class=\"text is_auth hidden desktop__bonuses desktop__bonuses--active\">...</span>\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1745967574635.1.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1745967574635.1.html\nTimeout: 14 s.\nCaused by: ElementClickInterceptedException: element click intercepted: Element <button class=\"btn btn-default btn-block\" ng-click=\"vm.onSaveDelivery()\" ng-disabled=\"vm.saveDeliveryLoading\">...</button> is not clickable at point (1541, 20). Other element would receive the click: <span id=\"login_bonuses\" class=\"text is_auth hidden desktop__bonuses desktop__bonuses--active\">...</span>",
       "time" : {
-        "start" : 1745966611928,
-        "stop" : 1745966689815,
-        "duration" : 77887
+        "start" : 1745967491990,
+        "stop" : 1745967575389,
+        "duration" : 83399
       }
     } ]
   },
@@ -28,31 +29,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "1e6057d54e914e6d",
+      "uid" : "280b29eabe9d7b5d",
       "status" : "passed",
       "time" : {
-        "start" : 1745966689819,
-        "stop" : 1745966755680,
-        "duration" : 65861
-      }
-    } ]
-  },
-  "a7519d805367d6283d9556065d9c18b2" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "f6fa32f38ef3c932",
-      "status" : "passed",
-      "time" : {
-        "start" : 1745966793962,
-        "stop" : 1745966825877,
-        "duration" : 31915
+        "start" : 1745967332422,
+        "stop" : 1745967394466,
+        "duration" : 62044
       }
     } ]
   },
@@ -66,13 +48,32 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "8fe450545af29563",
+      "uid" : "178e1a9682162c90",
       "status" : "skipped",
       "statusDetails" : "void test.DemoOrderTest.SVGOrder() is @Disabled",
       "time" : {
-        "start" : 1745966825880,
-        "stop" : 1745966825880,
+        "start" : 1745967467728,
+        "stop" : 1745967467728,
         "duration" : 0
+      }
+    } ]
+  },
+  "a7519d805367d6283d9556065d9c18b2" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ee64b1c61b5e261e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1745967429686,
+        "stop" : 1745967467722,
+        "duration" : 38036
       }
     } ]
   },
@@ -86,12 +87,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "15e7daaf583e9b75",
+      "uid" : "99b2c3173fc96347",
       "status" : "passed",
       "time" : {
-        "start" : 1745966590337,
-        "stop" : 1745966611892,
-        "duration" : 21555
+        "start" : 1745967192563,
+        "stop" : 1745967249442,
+        "duration" : 56879
       }
     } ]
   },
@@ -105,12 +106,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "39e9e75957d0c799",
+      "uid" : "dca7e3e979b2e379",
       "status" : "passed",
       "time" : {
-        "start" : 1745966755685,
-        "stop" : 1745966793958,
-        "duration" : 38273
+        "start" : 1745967394471,
+        "stop" : 1745967429684,
+        "duration" : 35213
       }
     } ]
   }
