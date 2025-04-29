@@ -1,20 +1,21 @@
 {
   "514ff39a5161779d81b58d4093ad1e81" : {
     "statistic" : {
-      "failed" : 0,
+      "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "b99f42d4940fb408",
-      "status" : "passed",
+      "uid" : "eff70d1b15404ee1",
+      "status" : "failed",
+      "statusDetails" : "Invalid element state [button.btn-default[1]]: element click intercepted: Element <button class=\"btn btn-default btn-block\" ng-click=\"vm.onSaveDelivery()\" ng-disabled=\"vm.saveDeliveryLoading\">...</button> is not clickable at point (1541, 20). Other element would receive the click: <span id=\"login_bonuses\" class=\"text is_auth hidden desktop__bonuses desktop__bonuses--active\">...</span>\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1745891972502.1.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1745891972502.1.html\nTimeout: 14 s.\nCaused by: ElementClickInterceptedException: element click intercepted: Element <button class=\"btn btn-default btn-block\" ng-click=\"vm.onSaveDelivery()\" ng-disabled=\"vm.saveDeliveryLoading\">...</button> is not clickable at point (1541, 20). Other element would receive the click: <span id=\"login_bonuses\" class=\"text is_auth hidden desktop__bonuses desktop__bonuses--active\">...</span>",
       "time" : {
-        "start" : 1745891016858,
-        "stop" : 1745891112806,
-        "duration" : 95948
+        "start" : 1745891889510,
+        "stop" : 1745891973223,
+        "duration" : 83713
       }
     } ]
   },
@@ -28,32 +29,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "5089e36cf7c403b5",
+      "uid" : "afc997d68f76e0b7",
       "status" : "passed",
       "time" : {
-        "start" : 1745891112810,
-        "stop" : 1745891180767,
-        "duration" : 67957
-      }
-    } ]
-  },
-  "775a3d2a4e85ca9c8b290e2d0dfcf0c6" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 1,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "db05cb6c8ff5ddc5",
-      "status" : "skipped",
-      "statusDetails" : "void test.DemoOrderTest.SVGOrder() is @Disabled",
-      "time" : {
-        "start" : 1745891252983,
-        "stop" : 1745891252983,
-        "duration" : 0
+        "start" : 1745891694153,
+        "stop" : 1745891761031,
+        "duration" : 66878
       }
     } ]
   },
@@ -67,12 +48,32 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "cdfe2e711becdc94",
+      "uid" : "e845b3bec96c43e",
       "status" : "passed",
       "time" : {
-        "start" : 1745891220747,
-        "stop" : 1745891252979,
-        "duration" : 32232
+        "start" : 1745891834002,
+        "stop" : 1745891865949,
+        "duration" : 31947
+      }
+    } ]
+  },
+  "775a3d2a4e85ca9c8b290e2d0dfcf0c6" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "fe9a534d5b9ec1ab",
+      "status" : "skipped",
+      "statusDetails" : "void test.DemoOrderTest.SVGOrder() is @Disabled",
+      "time" : {
+        "start" : 1745891865954,
+        "stop" : 1745891865954,
+        "duration" : 0
       }
     } ]
   },
@@ -86,12 +87,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "280a5221f31e86b7",
+      "uid" : "77dd0cc114623431",
       "status" : "passed",
       "time" : {
-        "start" : 1745890996190,
-        "stop" : 1745891016816,
-        "duration" : 20626
+        "start" : 1745891590690,
+        "stop" : 1745891611121,
+        "duration" : 20431
       }
     } ]
   },
@@ -105,12 +106,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "723af44bc89b35f3",
+      "uid" : "7a097e8085d17038",
       "status" : "passed",
       "time" : {
-        "start" : 1745891180770,
-        "stop" : 1745891220743,
-        "duration" : 39973
+        "start" : 1745891761035,
+        "stop" : 1745891833997,
+        "duration" : 72962
       }
     } ]
   }
