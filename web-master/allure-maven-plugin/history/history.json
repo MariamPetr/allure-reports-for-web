@@ -1,20 +1,21 @@
 {
   "cf6eb5a5efa26403a9de025fb9d0e285" : {
     "statistic" : {
-      "failed" : 0,
+      "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "40cdde4ca7947c0e",
-      "status" : "passed",
+      "uid" : "1edc6c6b0dad2a84",
+      "status" : "failed",
+      "statusDetails" : "Element not found {div.introjs-overlay}\nExpected: clickable: interactable and enabled\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1746344975435.3.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1746344975435.3.html\nTimeout: 14 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"div.introjs-overlay\"}",
       "time" : {
-        "start" : 1746343529524,
-        "stop" : 1746343602599,
-        "duration" : 73075
+        "start" : 1746344909949,
+        "stop" : 1746344976683,
+        "duration" : 66734
       }
     } ]
   },
@@ -28,13 +29,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "51afd9ce524feab4",
+      "uid" : "4c1bdc46b2cf2985",
       "status" : "failed",
-      "statusDetails" : "Invalid element state [i.material-icons[10]]: element click intercepted: Element <i class=\"material-icons\">...</i> is not clickable at point (1219, 722). Other element would receive the click: <div style=\"position: relative; flex: 0 0 auto; height: 413080px;\">...</div>\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1746343748382.1.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1746343748382.1.html\nTimeout: 14 s.\nCaused by: ElementClickInterceptedException: element click intercepted: Element <i class=\"material-icons\">...</i> is not clickable at point (1219, 722). Other element would receive the click: <div style=\"position: relative; flex: 0 0 auto; height: 413080px;\">...</div>",
+      "statusDetails" : "Invalid element state [button.btn-default[1]]: element click intercepted: Element <button class=\"btn btn-default btn-block\" ng-click=\"vm.onSaveDelivery()\" ng-disabled=\"vm.saveDeliveryLoading\">...</button> is not clickable at point (1541, 20). Other element would receive the click: <span id=\"login_bonuses\" class=\"text is_auth hidden desktop__bonuses desktop__bonuses--active\">...</span>\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1746344909226.2.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1746344909226.2.html\nTimeout: 14 s.\nCaused by: ElementClickInterceptedException: element click intercepted: Element <button class=\"btn btn-default btn-block\" ng-click=\"vm.onSaveDelivery()\" ng-disabled=\"vm.saveDeliveryLoading\">...</button> is not clickable at point (1541, 20). Other element would receive the click: <span id=\"login_bonuses\" class=\"text is_auth hidden desktop__bonuses desktop__bonuses--active\">...</span>",
       "time" : {
-        "start" : 1746343694915,
-        "stop" : 1746343749267,
-        "duration" : 54352
+        "start" : 1746344827988,
+        "stop" : 1746344909939,
+        "duration" : 81951
       }
     } ]
   },
@@ -48,12 +49,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "e92da40fbf0ee29d",
+      "uid" : "7aaf15cebeb8f910",
       "status" : "skipped",
       "statusDetails" : "void test.DemoOrderTest.SVGOrder() is @Disabled",
       "time" : {
-        "start" : 1746343671095,
-        "stop" : 1746343671095,
+        "start" : 1746344802800,
+        "stop" : 1746344802800,
         "duration" : 0
       }
     } ]
@@ -68,12 +69,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "49c246f7e9bf0862",
+      "uid" : "ed82ed67d4fce34e",
       "status" : "passed",
       "time" : {
-        "start" : 1746343637568,
-        "stop" : 1746343671091,
-        "duration" : 33523
+        "start" : 1746344770740,
+        "stop" : 1746344802795,
+        "duration" : 32055
       }
     } ]
   },
@@ -87,12 +88,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "4bce0579a7b40c5c",
+      "uid" : "11e781551de2805",
       "status" : "passed",
       "time" : {
-        "start" : 1746343395847,
-        "stop" : 1746343446794,
-        "duration" : 50947
+        "start" : 1746344599477,
+        "stop" : 1746344620279,
+        "duration" : 20802
       }
     } ]
   },
@@ -106,12 +107,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "e7716b2f158fa5e9",
+      "uid" : "519823abc2ba1685",
       "status" : "passed",
       "time" : {
-        "start" : 1746343602604,
-        "stop" : 1746343637564,
-        "duration" : 34960
+        "start" : 1746344735579,
+        "stop" : 1746344770737,
+        "duration" : 35158
       }
     } ]
   }
