@@ -1,23 +1,4 @@
 {
-  "cf6eb5a5efa26403a9de025fb9d0e285" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "9fcda73d43ce4195",
-      "status" : "passed",
-      "time" : {
-        "start" : 1746521699824,
-        "stop" : 1746521767372,
-        "duration" : 67548
-      }
-    } ]
-  },
   "514ff39a5161779d81b58d4093ad1e81" : {
     "statistic" : {
       "failed" : 0,
@@ -28,12 +9,31 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "7c14f1595f592df8",
+      "uid" : "5ab1de0aa0f83df5",
       "status" : "passed",
       "time" : {
-        "start" : 1746521614043,
-        "stop" : 1746521699819,
-        "duration" : 85776
+        "start" : 1746523876111,
+        "stop" : 1746523978302,
+        "duration" : 102191
+      }
+    } ]
+  },
+  "cf6eb5a5efa26403a9de025fb9d0e285" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "38a5e38d7e1d83af",
+      "status" : "passed",
+      "time" : {
+        "start" : 1746523770057,
+        "stop" : 1746523855861,
+        "duration" : 85804
       }
     } ]
   },
@@ -47,31 +47,52 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "eab88299de358b9a",
+      "uid" : "c3b1cfa36310d94b",
       "status" : "passed",
       "time" : {
-        "start" : 1746521809076,
-        "stop" : 1746521843005,
-        "duration" : 33929
+        "start" : 1746524013243,
+        "stop" : 1746524048259,
+        "duration" : 35016
       }
     } ]
   },
   "775a3d2a4e85ca9c8b290e2d0dfcf0c6" : {
     "statistic" : {
-      "failed" : 0,
+      "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "8e1922aef90bf359",
-      "status" : "passed",
+      "uid" : "89a9a09826a19f3",
+      "status" : "failed",
+      "statusDetails" : "Invalid element state [by text: Далее]: element click intercepted: Element <button type=\"button\" class=\"_btn_1ewz7_94 _main_btn_1ewz7_154 _primary_1ewz7_181\" data-testid=\"edit-template-header-submit-btn\">...</button> is not clickable at point (1832, 32). Other element would receive the click: <button type=\"button\" class=\"_btn_1ewz7_94 _main_btn_1ewz7_154 _primary_1ewz7_181 _disabled_1ewz7_185\" data-testid=\"photo-chooser-header-submit-btn\" disabled=\"\">...</button>\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1746524117845.1.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1746524117845.1.html\nTimeout: 14 s.\nCaused by: ElementClickInterceptedException: element click intercepted: Element <button type=\"button\" class=\"_btn_1ewz7_94 _main_btn_1ewz7_154 _primary_1ewz7_181\" data-testid=\"edit-template-header-submit-btn\">...</button> is not clickable at point (1832, 32). Other element would receive the click: <button type=\"button\" class=\"_btn_1ewz7_94 _main_btn_1ewz7_154 _primary_1ewz7_181 _disabled_1ewz7_185\" data-testid=\"photo-chooser-header-submit-btn\" disabled=\"\">...</button>",
       "time" : {
-        "start" : 1746521927827,
-        "stop" : 1746521982953,
-        "duration" : 55126
+        "start" : 1746524048262,
+        "stop" : 1746524122614,
+        "duration" : 74352
+      }
+    } ]
+  },
+  "755a3a699490e269aab4f1d6fe1dbddd" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "cf1917a21f6a7979",
+      "status" : "broken",
+      "statusDetails" : "timeout: Timed out receiving message from renderer: -0.090\n  (Session info: chrome=135.0.7049.115)\nBuild info: version: '4.29.0', revision: '5fc1ec94cb'\nSystem info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.3.1', java.version: '22'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [854d84e843e44d8b66dc6b3964117f52, get {url=https://netprint.ru/order/profile-order-history/}]\nselenide.url: https://netprint.ru/order/profile-order-history/\nCapabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 135.0.7049.115, chrome: {chromedriverVersion: 135.0.7049.114 (63fd8a7d9d0..., userDataDir: /var/folders/y4/1rkt9z0s363...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56859}, networkConnectionEnabled: false, pageLoadStrategy: eager, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:56859/devtoo..., se:cdpVersion: 135.0.7049.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nselenide.baseUrl: https://netprint.ru/\nSession ID: 854d84e843e44d8b66dc6b3964117f52",
+      "time" : {
+        "start" : 1746523769835,
+        "stop" : 1746523769835,
+        "duration" : 0
       }
     } ]
   },
@@ -85,31 +106,32 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "feb584af542ad96f",
+      "uid" : "5493350b4381f3fc",
       "status" : "passed",
       "time" : {
-        "start" : 1746521593614,
-        "stop" : 1746521614012,
-        "duration" : 20398
+        "start" : 1746523855865,
+        "stop" : 1746523876109,
+        "duration" : 20244
       }
     } ]
   },
   "964a1e0b8f4c9287ac4a2678d7bd6dce" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
+      "broken" : 1,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "54f0718c607e0363",
-      "status" : "passed",
+      "uid" : "ee075a35b65cebb6",
+      "status" : "broken",
+      "statusDetails" : "timeout: Timed out receiving message from renderer: 29.993\n  (Session info: chrome=135.0.7049.115)\nBuild info: version: '4.29.0', revision: '5fc1ec94cb'\nSystem info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.3.1', java.version: '22'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [a3d34636e95e9b036616a4ef07598a61, refresh {}]\nCapabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 135.0.7049.115, chrome: {chromedriverVersion: 135.0.7049.114 (63fd8a7d9d0..., userDataDir: /var/folders/y4/1rkt9z0s363...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57537}, networkConnectionEnabled: false, pageLoadStrategy: eager, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:57537/devtoo..., se:cdpVersion: 135.0.7049.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: a3d34636e95e9b036616a4ef07598a61",
       "time" : {
-        "start" : 1746521767375,
-        "stop" : 1746521809071,
-        "duration" : 41696
+        "start" : 1746523978307,
+        "stop" : 1746524013234,
+        "duration" : 34927
       }
     } ]
   }
