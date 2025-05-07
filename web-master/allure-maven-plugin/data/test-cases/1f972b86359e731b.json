@@ -1,0 +1,170 @@
+{
+  "uid" : "1f972b86359e731b",
+  "name" : "Создание макета в SVG-редакторе",
+  "fullName" : "test.DemoOrderTest.SVGOrder",
+  "historyId" : "775a3d2a4e85ca9c8b290e2d0dfcf0c6",
+  "time" : {
+    "start" : 1746611918110,
+    "stop" : 1746611980598,
+    "duration" : 62488
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Авторизация по имейлу",
+      "time" : {
+        "start" : 1746611919472,
+        "stop" : 1746611937376,
+        "duration" : 17904
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Авторизация по e-token",
+      "time" : {
+        "start" : 1746611937376,
+        "stop" : 1746611938833,
+        "duration" : 1457
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Выбор категории меню",
+      "time" : {
+        "start" : 1746611938833,
+        "stop" : 1746611948364,
+        "duration" : 9531
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "menuSec",
+        "value" : "Фотокниги"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Выбор фотокниги Премиум и переход к оформлению",
+      "time" : {
+        "start" : 1746611949205,
+        "stop" : 1746611951312,
+        "duration" : 2107
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Отправка уведомления об успешном прохождении теста",
+      "time" : {
+        "start" : 1746611979256,
+        "stop" : 1746611979547,
+        "duration" : 291
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Закрываем браузер",
+      "time" : {
+        "start" : 1746611979547,
+        "stop" : 1746611980598,
+        "duration" : 1051
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 6,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "Macs-Mac-mini.local"
+  }, {
+    "name" : "thread",
+    "value" : "37867@Macs-Mac-mini.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "test.DemoOrderTest"
+  }, {
+    "name" : "testClass",
+    "value" : "test.DemoOrderTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "SVGOrder"
+  }, {
+    "name" : "suite",
+    "value" : "test.DemoOrderTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "2bf7efcc170455a7",
+      "status" : "failed",
+      "statusDetails" : "Invalid element state [by text: Далее]: element click intercepted: Element <button type=\"button\" class=\"_btn_1ewz7_94 _main_btn_1ewz7_154 _primary_1ewz7_181\" data-testid=\"edit-template-header-submit-btn\">...</button> is not clickable at point (1832, 32). Other element would receive the click: <button type=\"button\" class=\"_btn_1ewz7_94 _main_btn_1ewz7_154 _primary_1ewz7_181 _disabled_1ewz7_185\" data-testid=\"photo-chooser-header-submit-btn\" disabled=\"\">...</button>\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1746611885749.0.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1746611885749.0.html\nTimeout: 14 s.\nCaused by: ElementClickInterceptedException: element click intercepted: Element <button type=\"button\" class=\"_btn_1ewz7_94 _main_btn_1ewz7_154 _primary_1ewz7_181\" data-testid=\"edit-template-header-submit-btn\">...</button> is not clickable at point (1832, 32). Other element would receive the click: <button type=\"button\" class=\"_btn_1ewz7_94 _main_btn_1ewz7_154 _primary_1ewz7_181 _disabled_1ewz7_185\" data-testid=\"photo-chooser-header-submit-btn\" disabled=\"\">...</button>",
+      "time" : {
+        "start" : 1746611832922,
+        "stop" : 1746611889930,
+        "duration" : 57008
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1f972b86359e731b.json",
+  "parameterValues" : [ ]
+}
