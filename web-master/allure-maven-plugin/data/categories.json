@@ -4,22 +4,39 @@
   "children" : [ {
     "name" : "Product defects",
     "children" : [ {
-      "name" : "Invalid element state [by text: Далее]: element click intercepted: Element <button type=\"button\" class=\"_btn_1ewz7_94 _main_btn_1ewz7_154 _primary_1ewz7_181\" data-testid=\"edit-template-header-submit-btn\">...</button> is not clickable at point (1832, 32). Other element would receive the click: <button type=\"button\" class=\"_btn_1ewz7_94 _main_btn_1ewz7_154 _primary_1ewz7_181 _disabled_1ewz7_185\" data-testid=\"photo-chooser-header-submit-btn\" disabled=\"\">...</button>\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1746896460087.1.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1746896460087.1.html\nTimeout: 14 s.\nCaused by: ElementClickInterceptedException: element click intercepted: Element <button type=\"button\" class=\"_btn_1ewz7_94 _main_btn_1ewz7_154 _primary_1ewz7_181\" data-testid=\"edit-template-header-submit-btn\">...</button> is not clickable at point (1832, 32). Other element would receive the click: <button type=\"button\" class=\"_btn_1ewz7_94 _main_btn_1ewz7_154 _primary_1ewz7_181 _disabled_1ewz7_185\" data-testid=\"photo-chooser-header-submit-btn\" disabled=\"\">...</button>",
+      "name" : "Element not found {td a[0]}\nExpected: visible\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1746898176558.1.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1746898176558.1.html\nTimeout: 14 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"td a\"}",
       "children" : [ {
-        "name" : "Создание макета в SVG-редакторе",
-        "uid" : "daf53e350c27a9ff",
-        "parentUid" : "d3092c3dae3200c24f69cb6b05fb00a1",
+        "name" : "DemoOrderTest",
+        "uid" : "fe0078aaa4ea5ff9",
+        "parentUid" : "27ef70d89fa550123fc360c388ae5684",
         "status" : "failed",
         "time" : {
-          "start" : 1746896402705,
-          "stop" : 1746896464712,
-          "duration" : 62007
+          "start" : 1746898176834,
+          "stop" : 1746898176834,
+          "duration" : 0
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "d3092c3dae3200c24f69cb6b05fb00a1"
+      "uid" : "27ef70d89fa550123fc360c388ae5684"
+    }, {
+      "name" : "Invalid element state [button.btn-default[1]]: element click intercepted: Element <button class=\"btn btn-default btn-block\" ng-click=\"vm.onSaveDelivery()\" ng-disabled=\"vm.saveDeliveryLoading\">...</button> is not clickable at point (1541, 20). Other element would receive the click: <span id=\"login_bonuses\" class=\"text is_auth hidden desktop__bonuses desktop__bonuses--active\">...</span>\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1746898350483.2.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1746898350483.2.html\nTimeout: 14 s.\nCaused by: ElementClickInterceptedException: element click intercepted: Element <button class=\"btn btn-default btn-block\" ng-click=\"vm.onSaveDelivery()\" ng-disabled=\"vm.saveDeliveryLoading\">...</button> is not clickable at point (1541, 20). Other element would receive the click: <span id=\"login_bonuses\" class=\"text is_auth hidden desktop__bonuses desktop__bonuses--active\">...</span>",
+      "children" : [ {
+        "name" : "Заказ карманного календарика: авторизованный юзер",
+        "uid" : "ac8e88e3ffd7ed66",
+        "parentUid" : "db5842f7237a8b1ec17d660ba71ba33e",
+        "status" : "failed",
+        "time" : {
+          "start" : 1746898267192,
+          "stop" : 1746898351302,
+          "duration" : 84110
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "db5842f7237a8b1ec17d660ba71ba33e"
     } ],
     "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
   } ]
