@@ -1,0 +1,170 @@
+{
+  "uid" : "cd348e794e1a36b5",
+  "name" : "Создание макета в SVG-редакторе",
+  "fullName" : "test.DemoOrderTest.SVGOrder",
+  "historyId" : "775a3d2a4e85ca9c8b290e2d0dfcf0c6",
+  "time" : {
+    "start" : 1748377676433,
+    "stop" : 1748377723642,
+    "duration" : 47209
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Авторизация по имейлу",
+      "time" : {
+        "start" : 1748377677393,
+        "stop" : 1748377694978,
+        "duration" : 17585
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Авторизация по e-token",
+      "time" : {
+        "start" : 1748377694978,
+        "stop" : 1748377696537,
+        "duration" : 1559
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Выбор категории меню",
+      "time" : {
+        "start" : 1748377696537,
+        "stop" : 1748377700719,
+        "duration" : 4182
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "menuSec",
+        "value" : "Фотокниги"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Выбор фотокниги Премиум и переход к оформлению",
+      "time" : {
+        "start" : 1748377701082,
+        "stop" : 1748377701645,
+        "duration" : 563
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Отправка уведомления об успешном прохождении теста",
+      "time" : {
+        "start" : 1748377723188,
+        "stop" : 1748377723393,
+        "duration" : 205
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Закрываем браузер",
+      "time" : {
+        "start" : 1748377723393,
+        "stop" : 1748377723641,
+        "duration" : 248
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 6,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "Macs-Mac-mini.local"
+  }, {
+    "name" : "thread",
+    "value" : "29822@Macs-Mac-mini.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "test.DemoOrderTest"
+  }, {
+    "name" : "testClass",
+    "value" : "test.DemoOrderTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "SVGOrder"
+  }, {
+    "name" : "suite",
+    "value" : "test.DemoOrderTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "1af94a80e9913d1c",
+      "status" : "failed",
+      "statusDetails" : "Invalid element state [div[data-testid='sortable-page'][2]]: element click intercepted: Element <div id=\"vPSJ1beiJcQrKAhG-h1oz\" role=\"button\" tabindex=\"0\" aria-disabled=\"true\" aria-roledescription=\"sortable\" aria-describedby=\"DndDescribedBy-0\" class=\"page _sortablePage_ufsud_1 _draggable_ufsud_6 _empty_ufsud_9 _edit_ufsud_12\" data-testid=\"sortable-page\" style=\"touch-action: auto;\">...</div> is not clickable at point (1367, 720). Other element would receive the click: <div class=\"_photo_1rwiw_1\" data-testid=\"timeline-album-photo\">...</div>\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1748377646186.0.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1748377646186.0.html\nTimeout: 14 s.\nCaused by: ElementClickInterceptedException: element click intercepted: Element <div id=\"vPSJ1beiJcQrKAhG-h1oz\" role=\"button\" tabindex=\"0\" aria-disabled=\"true\" aria-roledescription=\"sortable\" aria-describedby=\"DndDescribedBy-0\" class=\"page _sortablePage_ufsud_1 _draggable_ufsud_6 _empty_ufsud_9 _edit_ufsud_12\" data-testid=\"sortable-page\" style=\"touch-action: auto;\">...</div> is not clickable at point (1367, 720). Other element would receive the click: <div class=\"_photo_1rwiw_1\" data-testid=\"timeline-album-photo\">...</div>",
+      "time" : {
+        "start" : 1748377588283,
+        "stop" : 1748377651140,
+        "duration" : 62857
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "cd348e794e1a36b5.json",
+  "parameterValues" : [ ]
+}
