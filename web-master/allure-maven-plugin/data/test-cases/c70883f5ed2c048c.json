@@ -1,0 +1,161 @@
+{
+  "uid" : "c70883f5ed2c048c",
+  "name" : "Пополнение лицевого счёта в личном кабинете",
+  "fullName" : "test.DemoOrderTest.orderTopUpAccount",
+  "historyId" : "efa837afbc6d92b790a3a92ca90d555c",
+  "time" : {
+    "start" : 1748511793557,
+    "stop" : 1748511809375,
+    "duration" : 15818
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Авторизация по e-token",
+      "time" : {
+        "start" : 1748511796177,
+        "stop" : 1748511798039,
+        "duration" : 1862
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Открыть личный кабинет",
+      "time" : {
+        "start" : 1748511798044,
+        "stop" : 1748511802574,
+        "duration" : 4530
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Выбор раздела Мои финансы",
+      "time" : {
+        "start" : 1748511802575,
+        "stop" : 1748511807605,
+        "duration" : 5030
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Заполнить данные для пополнения Лицевого счета",
+      "time" : {
+        "start" : 1748511807606,
+        "stop" : 1748511808657,
+        "duration" : 1051
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "sum",
+        "value" : "11"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Отправка уведомления об успешном прохождении теста",
+      "time" : {
+        "start" : 1748511808657,
+        "stop" : 1748511808974,
+        "duration" : 317
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Закрываем браузер",
+      "time" : {
+        "start" : 1748511808976,
+        "stop" : 1748511809369,
+        "duration" : 393
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 6,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "Macs-Mac-mini-6.local"
+  }, {
+    "name" : "thread",
+    "value" : "80011@Macs-Mac-mini-6.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "test.DemoOrderTest"
+  }, {
+    "name" : "testClass",
+    "value" : "test.DemoOrderTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "orderTopUpAccount"
+  }, {
+    "name" : "suite",
+    "value" : "test.DemoOrderTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c70883f5ed2c048c.json",
+  "parameterValues" : [ ]
+}
