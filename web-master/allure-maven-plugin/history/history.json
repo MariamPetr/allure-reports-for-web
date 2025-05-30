@@ -1,4 +1,24 @@
 {
+  "cf6eb5a5efa26403a9de025fb9d0e285" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8788a4cedd10e13a",
+      "status" : "failed",
+      "statusDetails" : "Element not found {div.porch-album-tile-real-cover}\nExpected: clickable: interactable and enabled\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1748595359582.1.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1748595359582.1.html\nTimeout: 14 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"div.porch-album-tile-real-cover\"}",
+      "time" : {
+        "start" : 1748595288154,
+        "stop" : 1748595361517,
+        "duration" : 73363
+      }
+    } ]
+  },
   "514ff39a5161779d81b58d4093ad1e81" : {
     "statistic" : {
       "failed" : 0,
@@ -9,31 +29,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "2cc01657a43815c5",
+      "uid" : "1f562fa6bdb308eb",
       "status" : "passed",
       "time" : {
-        "start" : 1748593424958,
-        "stop" : 1748593519552,
-        "duration" : 94594
-      }
-    } ]
-  },
-  "cf6eb5a5efa26403a9de025fb9d0e285" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "308bd285674af414",
-      "status" : "passed",
-      "time" : {
-        "start" : 1748593519557,
-        "stop" : 1748593598474,
-        "duration" : 78917
+        "start" : 1748595189428,
+        "stop" : 1748595288151,
+        "duration" : 98723
       }
     } ]
   },
@@ -47,12 +48,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "b45f6ea589009eaa",
+      "uid" : "d2b88c3f13c7b83c",
       "status" : "passed",
       "time" : {
-        "start" : 1748593662816,
-        "stop" : 1748593720027,
-        "duration" : 57211
+        "start" : 1748594919837,
+        "stop" : 1748595040277,
+        "duration" : 120440
       }
     } ]
   },
@@ -66,31 +67,52 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "a20b4edc1d26c079",
+      "uid" : "1ebbe2a0efdc8496",
       "status" : "passed",
       "time" : {
-        "start" : 1748593626650,
-        "stop" : 1748593662813,
-        "duration" : 36163
+        "start" : 1748595040283,
+        "stop" : 1748595157448,
+        "duration" : 117165
+      }
+    } ]
+  },
+  "755a3a699490e269aab4f1d6fe1dbddd" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e8be6ce01f8e7eca",
+      "status" : "broken",
+      "statusDetails" : "timeout: Timed out receiving message from renderer: 26.312\n  (Session info: chrome=136.0.7103.114)\nBuild info: version: '4.29.0', revision: '5fc1ec94cb'\nSystem info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.3.1', java.version: '22'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [656abe89b86fad3e591ae9837b878e28, get {url=https://netprint.ru/}]\nselenide.url: https://netprint.ru/\nCapabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 136.0.7103.114, chrome: {chromedriverVersion: 136.0.7103.113 (76fa3c17824..., userDataDir: /var/folders/y4/1rkt9z0s363...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55468}, networkConnectionEnabled: false, pageLoadStrategy: eager, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:55468/devtoo..., se:cdpVersion: 136.0.7103.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nselenide.baseUrl: https://netprint.ru/\nSession ID: 656abe89b86fad3e591ae9837b878e28",
+      "time" : {
+        "start" : 1748594919419,
+        "stop" : 1748594919419,
+        "duration" : 0
       }
     } ]
   },
   "efa837afbc6d92b790a3a92ca90d555c" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
+      "broken" : 1,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "1c19f1275d62edbc",
-      "status" : "passed",
+      "uid" : "93c9453b3b625a49",
+      "status" : "broken",
+      "statusDetails" : "timeout: Timed out receiving message from renderer: -0.150\n  (Session info: chrome=136.0.7103.114)\nBuild info: version: '4.29.0', revision: '5fc1ec94cb'\nSystem info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.3.1', java.version: '22'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [315bf5fdb1ed69a8dd4264c421e6c952, get {url=https://netprint.ru/}]\nselenide.url: https://netprint.ru/\nCapabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 136.0.7103.114, chrome: {chromedriverVersion: 136.0.7103.113 (76fa3c17824..., userDataDir: /var/folders/y4/1rkt9z0s363...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56121}, networkConnectionEnabled: false, pageLoadStrategy: eager, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:56121/devtoo..., se:cdpVersion: 136.0.7103.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nselenide.baseUrl: https://netprint.ru/\nSession ID: 315bf5fdb1ed69a8dd4264c421e6c952",
       "time" : {
-        "start" : 1748593403605,
-        "stop" : 1748593424915,
-        "duration" : 21310
+        "start" : 1748595157452,
+        "stop" : 1748595189415,
+        "duration" : 31963
       }
     } ]
   },
@@ -104,12 +126,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "18fb61d99d7b174e",
+      "uid" : "30b8f96820b28031",
       "status" : "passed",
       "time" : {
-        "start" : 1748593598479,
-        "stop" : 1748593626646,
-        "duration" : 28167
+        "start" : 1748595361529,
+        "stop" : 1748595384058,
+        "duration" : 22529
       }
     } ]
   }
