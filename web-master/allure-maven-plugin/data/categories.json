@@ -2,45 +2,24 @@
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "name" : "categories",
   "children" : [ {
-    "name" : "Test defects",
-    "children" : [ {
-      "name" : "timeout: Timed out receiving message from renderer: -0.113\n  (Session info: chrome=137.0.7151.69)\nBuild info: version: '4.29.0', revision: '5fc1ec94cb'\nSystem info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.3.1', java.version: '22'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [09dc1e5054d9c4a159339a574f606117, get {url=https://netprint.ru/order/profile-order-history/}]\nselenide.url: https://netprint.ru/order/profile-order-history/\nCapabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 137.0.7151.69, chrome: {chromedriverVersion: 137.0.7151.68 (2989ffee9373..., userDataDir: /var/folders/y4/1rkt9z0s363...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63691}, networkConnectionEnabled: false, pageLoadStrategy: eager, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:63691/devtoo..., se:cdpVersion: 137.0.7151.69, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nselenide.baseUrl: https://netprint.ru/\nSession ID: 09dc1e5054d9c4a159339a574f606117",
-      "children" : [ {
-        "name" : "DemoOrderTest",
-        "uid" : "8186654300dff72c",
-        "parentUid" : "9f494421de3f409d9c8bdb120e382e25",
-        "status" : "broken",
-        "time" : {
-          "start" : 1749549470758,
-          "stop" : 1749549470758,
-          "duration" : 0
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "9f494421de3f409d9c8bdb120e382e25"
-    } ],
-    "uid" : "bdbf199525818fae7a8651db9eafe741"
-  }, {
     "name" : "Product defects",
     "children" : [ {
-      "name" : "Element not found {img[title='Онлайнкнига']}\nExpected: clickable: interactable and enabled\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1749549508476.1.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1749549508476.1.html\nTimeout: 14 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"img[title='Онлайнкнига']\"}",
+      "name" : "Element not found {div.item_picture[1]}\nExpected: clickable: interactable and enabled\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1749551299049.1.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1749551299049.1.html\nTimeout: 14 s.\nCaused by: java.lang.IndexOutOfBoundsException: Index 1 out of bounds for length 1",
       "children" : [ {
         "name" : "Создание книги в онлайн-редакторе",
-        "uid" : "8e5a2f63d43e275",
-        "parentUid" : "07851f2984e6c1f6c8cf6d10f2fe2433",
+        "uid" : "4cd730ae0a48d900",
+        "parentUid" : "edde5c144ae49099141010cc1ed8a4cf",
         "status" : "failed",
         "time" : {
-          "start" : 1749549471049,
-          "stop" : 1749549510896,
-          "duration" : 39847
+          "start" : 1749551248304,
+          "stop" : 1749551300803,
+          "duration" : 52499
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "07851f2984e6c1f6c8cf6d10f2fe2433"
+      "uid" : "edde5c144ae49099141010cc1ed8a4cf"
     } ],
     "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
   } ]
