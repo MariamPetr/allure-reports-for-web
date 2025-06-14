@@ -1,6 +1,25 @@
 {
   "cf6eb5a5efa26403a9de025fb9d0e285" : {
     "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c557627da4875a7c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1749926901700,
+        "stop" : 1749926979643,
+        "duration" : 77943
+      }
+    } ]
+  },
+  "514ff39a5161779d81b58d4093ad1e81" : {
+    "statistic" : {
       "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
@@ -9,51 +28,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "ae7341030acec70e",
+      "uid" : "e5924523abaa5f7c",
       "status" : "failed",
-      "statusDetails" : "Element not found {img[title='Онлайнкнига']}\nExpected: clickable: interactable and enabled\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1749925679697.1.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1749925679697.1.html\nTimeout: 14 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"img[title='Онлайнкнига']\"}",
+      "statusDetails" : "Element not found {div.porch-album-tile-cover[1]}\nExpected: clickable: interactable and enabled\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1749926899834.2.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1749926899834.2.html\nTimeout: 14 s.\nCaused by: java.lang.IndexOutOfBoundsException: Index 1 out of bounds for length 0",
       "time" : {
-        "start" : 1749925638293,
-        "stop" : 1749925681645,
-        "duration" : 43352
-      }
-    } ]
-  },
-  "514ff39a5161779d81b58d4093ad1e81" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "3abd334fcdceb98a",
-      "status" : "passed",
-      "time" : {
-        "start" : 1749925421443,
-        "stop" : 1749925464577,
-        "duration" : 43134
-      }
-    } ]
-  },
-  "775a3d2a4e85ca9c8b290e2d0dfcf0c6" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "91e4c49331050c47",
-      "status" : "passed",
-      "time" : {
-        "start" : 1749925554620,
-        "stop" : 1749925613215,
-        "duration" : 58595
+        "start" : 1749926857740,
+        "stop" : 1749926901686,
+        "duration" : 43946
       }
     } ]
   },
@@ -67,32 +48,31 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "6c29f9ea5f5c3b19",
+      "uid" : "6b5e6072413e6b57",
       "status" : "passed",
       "time" : {
-        "start" : 1749925520745,
-        "stop" : 1749925554615,
-        "duration" : 33870
+        "start" : 1749926739309,
+        "stop" : 1749926769631,
+        "duration" : 30322
       }
     } ]
   },
-  "755a3a699490e269aab4f1d6fe1dbddd" : {
+  "775a3d2a4e85ca9c8b290e2d0dfcf0c6" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 0,
+      "passed" : 1,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "cf2c19edced0bb6e",
-      "status" : "failed",
-      "statusDetails" : "Element not found {div.nav-panel-item}\nExpected: exist\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1749925720622.2.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1749925720622.2.html\nTimeout: 14 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"div.nav-panel-item\"}",
+      "uid" : "4cd5eee2e640d5c6",
+      "status" : "passed",
       "time" : {
-        "start" : 1749925720840,
-        "stop" : 1749925720840,
-        "duration" : 0
+        "start" : 1749926769636,
+        "stop" : 1749926827582,
+        "duration" : 57946
       }
     } ]
   },
@@ -106,12 +86,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "4e5c33dfb019c0d",
+      "uid" : "531b813c49596ebe",
       "status" : "passed",
       "time" : {
-        "start" : 1749925402443,
-        "stop" : 1749925421408,
-        "duration" : 18965
+        "start" : 1749926620778,
+        "stop" : 1749926639208,
+        "duration" : 18430
       }
     } ]
   },
@@ -125,12 +105,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "bc66d66b56db3dc1",
+      "uid" : "acfbba63c2e2e440",
       "status" : "passed",
       "time" : {
-        "start" : 1749925505993,
-        "stop" : 1749925520740,
-        "duration" : 14747
+        "start" : 1749926724269,
+        "stop" : 1749926739305,
+        "duration" : 15036
       }
     } ]
   }

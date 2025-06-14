@@ -4,39 +4,22 @@
   "children" : [ {
     "name" : "Product defects",
     "children" : [ {
-      "name" : "Element not found {img[title='Онлайнкнига']}\nExpected: clickable: interactable and enabled\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1749925679697.1.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1749925679697.1.html\nTimeout: 14 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"img[title='Онлайнкнига']\"}",
+      "name" : "Element not found {div.porch-album-tile-cover[1]}\nExpected: clickable: interactable and enabled\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1749926899834.2.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1749926899834.2.html\nTimeout: 14 s.\nCaused by: java.lang.IndexOutOfBoundsException: Index 1 out of bounds for length 0",
       "children" : [ {
-        "name" : "Создание книги в онлайн-редакторе",
-        "uid" : "ae7341030acec70e",
-        "parentUid" : "2a1204f33510a2622ac4ccabe678e38c",
+        "name" : "Добавление в корзину карманного календарика",
+        "uid" : "e5924523abaa5f7c",
+        "parentUid" : "916ca3d64c0585f2c9a6d827febb2b24",
         "status" : "failed",
         "time" : {
-          "start" : 1749925638293,
-          "stop" : 1749925681645,
-          "duration" : 43352
+          "start" : 1749926857740,
+          "stop" : 1749926901686,
+          "duration" : 43946
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "2a1204f33510a2622ac4ccabe678e38c"
-    }, {
-      "name" : "Element not found {div.nav-panel-item}\nExpected: exist\nScreenshot: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1749925720622.2.png\nPage source: file:/Users/tester/builds/DPBWpFwc/0/autotests/WebNew/build/reports/tests/1749925720622.2.html\nTimeout: 14 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"div.nav-panel-item\"}",
-      "children" : [ {
-        "name" : "DemoOrderTest",
-        "uid" : "cf2c19edced0bb6e",
-        "parentUid" : "3fb05adc63745ab52fb86e41430776b4",
-        "status" : "failed",
-        "time" : {
-          "start" : 1749925720840,
-          "stop" : 1749925720840,
-          "duration" : 0
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "3fb05adc63745ab52fb86e41430776b4"
+      "uid" : "916ca3d64c0585f2c9a6d827febb2b24"
     } ],
     "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
   } ]
